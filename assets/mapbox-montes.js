@@ -2,13 +2,13 @@
 // V5.8: corrección de render. El contenedor Mapbox NO arranca en display:none.
 // El fallback queda superpuesto hasta que comprobamos que hay canvas con tamaño real.
 
-const MAPBOX_TOKEN = 'TU_MAPBOX_ACCESS_TOKEN_AQUI';
+const MAPBOX_TOKEN = 'pk.eyJ1IjoiaWtlcml0dSIsImEiOiJjbXFjdGNpMm8wbG1tMnFxd24xNmxxOW80In0.9_4k7dTyGJPcKKsVcHnBHA';
 
 const puntosBocineros = [
-  { nombre: 'Gorbeia / Gorbea', coords: [-2.7813, 43.0339], desc: '1.482 m. Monte tradicionalmente asociado al relato bocinero del sur de Bizkaia. Su presencia en la tradición moderna no documenta por sí sola uso medieval de convocatoria.' },
+  { nombre: 'Gorbeia / Gorbea', coords: [-2.7813, 43.0339], desc: '1.482 m. Monte tradicionalmente asociado al relato bocinero del sur de Bizkaia. Su presencia en la tradición moderna no prueba por sí sola uso medieval de convocatoria.' },
   { nombre: 'Oiz', coords: [-2.5936, 43.2267], desc: '1.026 m. Cima muy visible del centro-oriente de Bizkaia, asociada en la tradición moderna al Duranguesado, Lea-Artibai y Urdaibai.' },
   { nombre: 'Sollube', coords: [-2.7639, 43.3725], desc: '686 m. Monte del entorno de Bermeo/Busturialdea, vinculado al relato popular de las bocinas y al paisaje costero.' },
-  { nombre: 'Kolitza / Colisa', coords: [-3.2239, 43.2117], desc: '897 m Monte de Las Encartaciones, uno de los cinco nombres de la lista tradicional moderna.' },
+  { nombre: 'Kolitza / Colisa', coords: [-3.2239, 43.2117], desc: '879–883 m aprox. Monte de Las Encartaciones, uno de los cinco nombres de la lista tradicional moderna.' },
   { nombre: 'Ganekogorta', coords: [-2.9292, 43.2064], desc: '998 m. Monte dominante del entorno de Bilbao, incluido en la lista tradicional moderna atribuida a la reinterpretación literaria posterior.' },
   { nombre: 'Gernika-Lumo', coords: [-2.6789, 43.3162], color: '#d35400', desc: 'Sede de las Juntas Generales. Las fuentes documentales fuertes sitúan el rito de las cinco bocinas en el contexto de la Junta de Gernika.' }
 ];
