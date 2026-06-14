@@ -1,0 +1,5 @@
+V5.44
+- Eliminado bloque textual duplicado de portada.
+- Sustituido por imagen estática generada.
+- Conservado botón "Ver Los 5 montes" debajo de la imagen.
+- Imagen guardada como assets/hero-index-estatica.png

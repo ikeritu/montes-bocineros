@@ -47,4 +47,28 @@ Actualización:
 Actualización:
 - Versión: V5.39
 - Fecha: 2026-06-14
-- Cambio: eliminado assets/analytics-hooks.js para evitar alertas de GitHub Secret Scanning.
+- Cambio: eliminado  para evitar alertas de GitHub Secret Scanning.
+
+
+Actualización:
+- Versión: V5.40
+- Fecha: 2026-06-14
+- Cambio: eliminado  por alerta de GitHub Secret Scanning.
+
+
+Actualización:
+- Versión: V5.41
+- Fecha: 2026-06-14
+- Cambio: eliminado  y assets antiguos que activaban GitHub Secret Scanning.
+
+
+Actualización:
+- Versión: V5.42
+- Fecha: 2026-06-14
+- Cambio: eliminado assets/los-5-montes-3d-ilustracion.png por alerta de GitHub Secret Scanning.
+
+
+Actualización:
+- Versión: V5.43
+- Fecha: 2026-06-14
+- Cambio: reparación CSS/rutas para GitHub Pages.
