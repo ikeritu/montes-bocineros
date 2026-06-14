@@ -1,0 +1,20 @@
+# CHANGELOG
+
+## V5.34 — Release Candidate sin dominio
+- Preparada versión candidata a publicación.
+- `sitemap.xml` y `robots.txt` quedan como plantilla hasta tener dominio.
+- Añadido `VERSION.txt`.
+- Actualizado `PUBLICACION.txt`.
+- Auditoría final de enlaces internos.
+
+## V5.33 — Auditoría final de publicación
+- Limpieza de auditorías antiguas del ZIP.
+- Revisión de menú global.
+- Revisión SEO básica de títulos y descripciones.
+- Actualización de sitemap.xml y robots.txt.
+- Inclusión de informes acústicos como anexo técnico neutral.
+- Conservación de Ko-fi y PayPal en páginas principales.
+
+## Pendientes documentales
+- Localización directa del documento de 1321.
+- Sustituir TU-DOMINIO-AQUI por el dominio real antes de publicar.

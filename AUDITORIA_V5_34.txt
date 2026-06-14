@@ -1,0 +1,23 @@
+V5.34 — Auditoría Release Candidate sin dominio
+
+Fecha: 2026-06-14
+
+Resultado:
+- Estado: Release Candidate sin dominio
+- Archivos finales: 45
+- Tamaño total descomprimido: 9.11 MB
+- Páginas HTML: 22
+- Enlaces internos rotos: 0
+- Páginas con bloque Ko-fi/PayPal: 21
+- Archivos requeridos ausentes: ninguno
+
+Configuración:
+- sitemap.xml: modo plantilla con TU-DOMINIO-AQUI
+- robots.txt: modo plantilla con TU-DOMINIO-AQUI
+- VERSION.txt: añadido
+- PUBLICACION.txt: actualizado
+- CHANGELOG.txt: actualizado
+
+Aviso:
+- No publicar el sitemap definitivo hasta sustituir TU-DOMINIO-AQUI por el dominio real.
+- Documento de 1321 permanece como pendiente documental.

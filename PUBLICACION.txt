@@ -1,0 +1,76 @@
+# PUBLICACION — V5.34 Release Candidate sin dominio
+
+## Estado actual
+La web está preparada como Release Candidate, pero todavía no tiene dominio asignado.
+
+Por eso `sitemap.xml` y `robots.txt` quedan en modo plantilla con:
+
+```text
+TU-DOMINIO-AQUI
+```
+
+No es un error. Debe sustituirse cuando exista dominio definitivo.
+
+## Prueba local recomendada
+
+Desde la carpeta del proyecto:
+
+```powershell
+python -m http.server 8000
+```
+
+Abrir:
+
+```text
+http://127.0.0.1:8000/
+```
+
+## Páginas que conviene revisar visualmente
+
+```text
+index.html
+mapa.html
+citas.html
+fuentes.html
+estado-investigacion.html
+informes.html
+informes-acusticos.html
+veredicto.html
+```
+
+## Antes de publicar con dominio
+
+Cuando exista dominio, sustituir en:
+
+```text
+sitemap.xml
+robots.txt
+```
+
+Ejemplo:
+
+```text
+https://TU-DOMINIO-AQUI/
+```
+
+por:
+
+```text
+https://tudominio.com/
+```
+
+## Plataformas recomendadas
+
+### Opción sencilla
+Netlify Drop: arrastrar la carpeta descomprimida.
+
+### Opción más ordenada
+GitHub Pages: subir el contenido a un repositorio y activar Pages.
+
+### Opción técnica
+Cloudflare Pages: conectar repositorio y desplegar.
+
+## Apoyo configurado
+
+- Ko-fi: https://ko-fi.com/ikeritu
+- PayPal: https://www.paypal.com/paypalme/ikeritus

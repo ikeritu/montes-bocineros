@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+SITEMAP EN MODO PLANTILLA.
+Antes de publicar, sustituir https://TU-DOMINIO-AQUI/ por el dominio real.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://TU-DOMINIO-AQUI/afirmaciones.html</loc></url>
+  <url><loc>https://TU-DOMINIO-AQUI/auditoria.html</loc></url>
+  <url><loc>https://TU-DOMINIO-AQUI/citas.html</loc></url>
+  <url><loc>https://TU-DOMINIO-AQUI/comparativa.html</loc></url>
+  <url><loc>https://TU-DOMINIO-AQUI/cronologia.html</loc></url>
+  <url><loc>https://TU-DOMINIO-AQUI/estado-investigacion.html</loc></url>
+  <url><loc>https://TU-DOMINIO-AQUI/fuentes-sospechosas.html</loc></url>
+  <url><loc>https://TU-DOMINIO-AQUI/fuentes.html</loc></url>
+  <url><loc>https://TU-DOMINIO-AQUI/index.html</loc></url>
+  <url><loc>https://TU-DOMINIO-AQUI/informe-nemotron.html</loc></url>
+  <url><loc>https://TU-DOMINIO-AQUI/informes-acusticos.html</loc></url>
+  <url><loc>https://TU-DOMINIO-AQUI/informes.html</loc></url>
+  <url><loc>https://TU-DOMINIO-AQUI/informes/chatgpt.html</loc></url>
+  <url><loc>https://TU-DOMINIO-AQUI/informes/copilot.html</loc></url>
+  <url><loc>https://TU-DOMINIO-AQUI/informes/minimax-m3.html</loc></url>
+  <url><loc>https://TU-DOMINIO-AQUI/informes/nemotron.html</loc></url>
+  <url><loc>https://TU-DOMINIO-AQUI/informes/perplexity.html</loc></url>
+  <url><loc>https://TU-DOMINIO-AQUI/mapa.html</loc></url>
+  <url><loc>https://TU-DOMINIO-AQUI/metodologia.html</loc></url>
+  <url><loc>https://TU-DOMINIO-AQUI/recepcion.html</loc></url>
+  <url><loc>https://TU-DOMINIO-AQUI/resumen.html</loc></url>
+  <url><loc>https://TU-DOMINIO-AQUI/veredicto.html</loc></url>
+</urlset>

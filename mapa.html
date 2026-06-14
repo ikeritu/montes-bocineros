@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Los 5 montes · Mapa 3D y análisis territorial</title>
+  <meta name="description" content="Mapa 3D, análisis territorial neutral y fichas de Gorbeia, Oiz, Sollube, Kolitza y Ganekogorta.">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#133f35">
+  <link rel="icon" href="assets/montes-logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css">
+  <link href="https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.css" rel="stylesheet">
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.js"></script>
+  <script defer src="assets/analytics-hooks.js"></script>
+  <script defer src="assets/menu.js"></script>
+  <script defer src="assets/mapbox-montes.js"></script>
+</head>
+<body class="mapbox-page">
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html"><img src="assets/montes-logo.svg" alt="" width="42" height="42"> <span>Montes Bocineros</span></a>
+    <nav class="nav-simple" aria-label="Navegación rápida">
+      <a href="index.html">Inicio</a> <a href="resumen.html">Resumen</a> <a href="citas.html">Citas</a> <a href="estado-investigacion.html">Estado</a> <a href="mapa.html" aria-current="page">Los 5 montes</a> <a href="veredicto.html">Síntesis</a>
+      <button class="menu-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="menu-global"><span>Explorar</span><span class="menu-icon" aria-hidden="true"></span></button>
+    </nav>
+    <div class="menu-panel" id="menu-global" data-menu-panel>
+      <div class="menu-panel-head"><strong>Explorar investigación</strong><span>Elige ruta de lectura</span></div>
+      <div class="menu-grid">
+        <section>
+          <h3>Lectura rápida</h3>
+          <a href="resumen.html">Resumen en 3 minutos</a>
+          <a href="citas.html">Citas clave verificadas</a>
+          <a href="estado-investigacion.html">Estado de investigación</a>
+          <a href="mapa.html">Los 5 montes</a>
+          <a href="veredicto.html">Síntesis documental</a>
+          <a href="mapa.html#fichas-montes">Fichas de los montes</a>
+        </section>
+        <section>
+          <h3>Informes y comparación</h3>
+          <a href="informes.html">Informes IA</a>
+          <a href="comparativa.html">Comparativa IA</a>
+          <a href="afirmaciones.html">Afirmaciones auditadas</a>
+          <a href="informes/nemotron.html">Informe 01 · Nemotron</a>
+          <a href="informes/chatgpt.html">Informe 02 · ChatGPT</a>
+          <a href="informes/minimax-m3.html">Informe 03 · MiniMax-M3</a>
+          <a href="informes/perplexity.html">Informe 04 · Perplexity</a>
+          <a href="informes/copilot.html">Informe 05 · Copilot</a>
+        </section>
+        <section>
+          <h3>Fuentes y método</h3>
+          <a href="fuentes.html">Fuentes</a>
+          <a href="citas.html">Citas verificadas</a>
+          <a href="recepcion.html">Recepción moderna</a>
+          <a href="estado-investigacion.html">Estado de investigación</a>
+          <a href="auditoria.html">Auditoría interna</a>
+          <a href="fuentes-sospechosas.html">Pendientes críticos</a>
+          <a href="cronologia.html">Cronología</a>
+          <a href="metodologia.html">Metodología</a>
+        </section>
+        <section>
+          <h3>Montes</h3>
+          <a href="mapa.html#gorbeia">Gorbeia / Gorbea</a>
+          <a href="mapa.html#oiz">Oiz</a>
+          <a href="mapa.html#sollube">Sollube</a>
+          <a href="mapa.html#kolitza">Kolitza / Colisa</a>
+          <a href="mapa.html#ganekogorta">Ganekogorta</a>
+        </section>
+      </div>
+    </div>
+  </div>
+</header>
+<main class="mapa-simple-main">
+  <section class="mapa-simple-wrap">
+    <header class="mapa-simple-head">
+      <h1>Los 5 montes</h1>
+    </header>
+
+
+<section class="mapa-simple-points" aria-label="Puntos incluidos en el mapa">
+      <h2>Puntos incluidos</h2>
+      <div class="mapa-chip-grid">
+        <span><strong>Gorbeia / Gorbea</strong> · sur</span>
+        <span><strong>Oiz</strong> · centro-oriente</span>
+        <span><strong>Sollube</strong> · costa / Busturialdea</span>
+        <span><strong>Kolitza / Colisa</strong> · Encartaciones</span>
+        <span><strong>Ganekogorta</strong> · Bilbao</span>
+        <span class="gernika-chip"><strong>Gernika-Lumo</strong> · Juntas</span>
+      </div>
+    </section>
+
+    <section class="mapa-simple-map" aria-label="Los 5 montes">
+      <div class="mapbox-shell mapa-shell-simple">
+        <div id="mapbox-map" class="mapbox-map" aria-label="Los 5 montes de Bizkaia con los cinco montes bocineros tradicionales y Gernika"></div>
+        <div id="mapbox-fallback" class="mapbox-fallback">
+          <img src="assets/bizkaia-3d-map.svg" alt="Los 5 montes aproximado de Bizkaia con Gernika y los cinco montes bocineros tradicionales">
+          <p class="map-caption">Mapa visual aproximado incluido en la web. El mapa 3D real se activará al configurar Mapbox.</p>
+        </div>
+        <div id="mapbox-status" class="mapbox-status" role="status" aria-hidden="true"></div>
+      </div>
+    </section>
+
+
+
+
+
+<section class="mapa-geo-section" id="analisis-territorial-neutral">
+  <header class="mapa-geo-head">
+    <h2>Análisis territorial neutral</h2>
+    <p>Lectura geográfica auxiliar de los cinco montes tradicionales. Las puntuaciones son índices orientativos de viabilidad física, no documentación histórica.</p>
+  </header>
+  <div class="table-wrap mapa-geo-table compact-territory-table">
+    <table>
+      <thead>
+        <tr>
+          <th>Monte</th>
+          <th>Altitud</th>
+          <th>Distancia a Gernika</th>
+          <th>Acústica hacia Gernika</th>
+          <th>Visual / territorial</th>
+          <th>Comentario breve</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr>
+          <td><strong>Gorbeia / Gorbea</strong></td>
+          <td>1.482 m</td>
+          <td>31–34 km</td>
+          <td><span class="score-pill score-very-low">1/5 · Muy baja</span></td>
+          <td><span class="score-pill score-high">4/5 · Alta</span></td>
+          <td>Hito territorial de gran altitud; acústica directa hacia Gernika muy limitada por distancia y relieve.</td>
+        </tr>
+        <tr>
+          <td><strong>Oiz</strong></td>
+          <td>1.026 m</td>
+          <td>14–17 km</td>
+          <td><span class="score-pill score-high">4/5 · Alta</span></td>
+          <td><span class="score-pill score-very-high">5/5 · Muy alta</span></td>
+          <td>Cumbre central-oriental con muy buena lectura visual y acústica relativamente favorable hacia Gernika.</td>
+        </tr>
+        <tr>
+          <td><strong>Sollube</strong></td>
+          <td>686 m</td>
+          <td>11–13 km</td>
+          <td><span class="score-pill score-very-high">5/5 · Muy alta</span></td>
+          <td><span class="score-pill score-high">4/5 · Alta</span></td>
+          <td>El monte con mejor plausibilidad acústica directa hacia Gernika por proximidad y relación topográfica.</td>
+        </tr>
+        <tr>
+          <td><strong>Kolitza / Colisa</strong></td>
+          <td>897 m</td>
+          <td>44–48 km</td>
+          <td><span class="score-pill score-very-low">1/5 · Muy baja</span></td>
+          <td><span class="score-pill score-medium">3/5 · Media</span></td>
+          <td>Referencia occidental de la lista; relación directa con Gernika muy limitada por distancia y orografía.</td>
+        </tr>
+        <tr>
+          <td><strong>Ganekogorta</strong></td>
+          <td>998–999 m</td>
+          <td>25–29 km</td>
+          <td><span class="score-pill score-very-low">1/5 · Muy baja</span></td>
+          <td><span class="score-pill score-high">4/5 · Alta</span></td>
+          <td>Cumbre visualmente relevante sobre Bilbao-Nervión, pero acústicamente débil hacia Gernika.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="mapa-geo-note">
+    <strong>Criterio de lectura:</strong> la puntuación acústica valora una posible transmisión sonora directa hacia Gernika; la visual valora posición territorial y visibilidad aproximada. Ninguna puntuación sustituye a la documentación histórica. La lista de cinco cumbres se trata como tradición moderna localizada en Trueba 1872, no como enumeración medieval del Capitulado de 1342.
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+<section class="mapa-fichas-section" id="fichas-montes">
+  <header class="mapa-geo-head">
+    <h2>Fichas de los cinco montes</h2>
+    <p>Fichas compactas con ubicación territorial, distancia aproximada a Gernika e indicadores acústico/visual justificados.</p>
+  </header>
+  <div class="global-doc-note">
+    <strong>Estado documental común:</strong> estos cinco montes pertenecen a la lista tradicional moderna; el Capitulado de 1342 documenta las cinco bocinas, pero no enumera estas cumbres.
+  </div>
+  <div class="monte-fichas-grid">
+
+      <article class="monte-ficha-card compact-monte-card" id="gorbeia">
+        <div class="monte-ficha-top">
+          <span class="monte-ficha-num">1</span>
+          <div>
+            <h3>Gorbeia / Gorbea</h3>
+            <p class="monte-altitud">1.482 m · 31–34 km de Gernika</p>
+          </div>
+        </div>
+        <div class="monte-meta-line">
+          <strong>Zona que domina:</strong> Arratia, Alto Nervión, límite Bizkaia-Álava.
+        </div>
+        <div class="score-grid">
+          <div class="score-card score-card-very-low">
+            <div class="score-head"><span>Acústica hacia Gernika</span><strong>1/5</strong></div>
+            <span class="score-label">Muy baja</span>
+            <p>La distancia supera claramente el rango funcional de una bocina sin apoyos intermedios. Además, los cordales entre el macizo y la cuenca de Gernika generan zonas de sombra acústica. La gran altitud no compensa la pérdida por dispersión, viento y obstáculos topográficos.</p>
+          </div>
+          <div class="score-card score-card-high">
+            <div class="score-head"><span>Visual / territorial</span><strong>4/5</strong></div>
+            <span class="score-label">Alta</span>
+            <p>La altitud y la condición de hito meridional ofrecen un alcance visual amplio. La puntuación no es máxima porque la relación visual con Gernika queda condicionada por distancia, nubosidad frecuente y relieves intermedios.</p>
+          </div>
+        </div>
+        <p class="monte-lectura"><strong>Lectura neutral:</strong> Hito territorial de gran altitud; acústica directa hacia Gernika muy limitada por distancia y relieve.</p>
+        <details class="monte-more">
+          <summary>Más información</summary>
+          <div class="monte-more-content">
+            <p><strong>Ubicación territorial:</strong> Macizo meridional de referencia, en el límite entre Bizkaia y Álava.</p><p><strong>Relación con Gernika:</strong> Distante y condicionada por relieves intermedios; su interés principal es territorial y visual de amplio alcance.</p><p><strong>Lectura comarcal:</strong> Puede entenderse como hito de borde sur del territorio vizcaíno y del entorno de Arratia.</p><p><strong>Observación práctica:</strong> Altitud, nubosidad y acceso hacen prudente diferenciar su valor como hito de una función directa de convocatoria.</p>
+          </div>
+        </details>
+      </article>
+      <article class="monte-ficha-card compact-monte-card" id="oiz">
+        <div class="monte-ficha-top">
+          <span class="monte-ficha-num">2</span>
+          <div>
+            <h3>Oiz</h3>
+            <p class="monte-altitud">1.026 m · 14–17 km de Gernika</p>
+          </div>
+        </div>
+        <div class="monte-meta-line">
+          <strong>Zona que domina:</strong> Durangaldea, Lea-Artibai y cuencas hacia Urdaibai.
+        </div>
+        <div class="score-grid">
+          <div class="score-card score-card-high">
+            <div class="score-head"><span>Acústica hacia Gernika</span><strong>4/5</strong></div>
+            <span class="score-label">Alta</span>
+            <p>La distancia es moderada y el perfil territorial hacia Urdaibai es más favorable que en los montes occidentales o meridionales. La puntuación no llega a 5 porque el sonido seguiría dependiendo de viento, humedad, hora del día y ausencia de obstáculos locales.</p>
+          </div>
+          <div class="score-card score-card-very-high">
+            <div class="score-head"><span>Visual / territorial</span><strong>5/5</strong></div>
+            <span class="score-label">Muy alta</span>
+            <p>La posición central-oriental, la altitud y la relación con las cuencas hacia Urdaibai justifican la puntuación máxima como referencia visual dentro de la lista tradicional.</p>
+          </div>
+        </div>
+        <p class="monte-lectura"><strong>Lectura neutral:</strong> Cumbre central-oriental con muy buena lectura visual y acústica relativamente favorable hacia Gernika.</p>
+        <details class="monte-more">
+          <summary>Más información</summary>
+          <div class="monte-more-content">
+            <p><strong>Ubicación territorial:</strong> Cumbre central-oriental relacionada con Durangaldea, Lea-Artibai y las cuencas que miran hacia Urdaibai.</p><p><strong>Relación con Gernika:</strong> Distancia moderada y posición elevada, con una lectura visual favorable hacia el entorno de Gernika y Urdaibai.</p><p><strong>Lectura comarcal:</strong> Sirve como punto comparativo fuerte para entender la selección territorial de las cumbres tradicionales.</p><p><strong>Observación práctica:</strong> La valoración visual alta no convierte la cumbre en fuente documental medieval; solo describe coherencia geográfica.</p>
+          </div>
+        </details>
+      </article>
+      <article class="monte-ficha-card compact-monte-card" id="sollube">
+        <div class="monte-ficha-top">
+          <span class="monte-ficha-num">3</span>
+          <div>
+            <h3>Sollube</h3>
+            <p class="monte-altitud">686 m · 11–13 km de Gernika</p>
+          </div>
+        </div>
+        <div class="monte-meta-line">
+          <strong>Zona que domina:</strong> Bermeo, Busturialdea, Urdaibai y costa occidental.
+        </div>
+        <div class="score-grid">
+          <div class="score-card score-card-very-high">
+            <div class="score-head"><span>Acústica hacia Gernika</span><strong>5/5</strong></div>
+            <span class="score-label">Muy alta</span>
+            <p>La distancia corta y la relación directa con el entorno de Busturialdea reducen la pérdida por propagación y hacen más plausible una señal sonora directa hacia Gernika en condiciones favorables. Por eso recibe la puntuación acústica más alta.</p>
+          </div>
+          <div class="score-card score-card-high">
+            <div class="score-head"><span>Visual / territorial</span><strong>4/5</strong></div>
+            <span class="score-label">Alta</span>
+            <p>La proximidad y la orientación hacia Urdaibai favorecen la visibilidad. No recibe 5 porque su menor altitud y la meteorología costera pueden limitar alcance y estabilidad visual.</p>
+          </div>
+        </div>
+        <p class="monte-lectura"><strong>Lectura neutral:</strong> El monte con mejor plausibilidad acústica directa hacia Gernika por proximidad y relación topográfica.</p>
+        <details class="monte-more">
+          <summary>Más información</summary>
+          <div class="monte-more-content">
+            <p><strong>Ubicación territorial:</strong> Monte del ámbito costero y de Busturialdea, próximo al eje Bermeo-Gernika.</p><p><strong>Relación con Gernika:</strong> Una de las relaciones territoriales más próximas dentro de la lista tradicional.</p><p><strong>Lectura comarcal:</strong> Vincula visualmente el litoral, Urdaibai y el entorno de la villa foral.</p><p><strong>Observación práctica:</strong> La menor altitud y la meteorología costera matizan su alcance, aunque la cercanía favorece su lectura territorial.</p>
+          </div>
+        </details>
+      </article>
+      <article class="monte-ficha-card compact-monte-card" id="kolitza">
+        <div class="monte-ficha-top">
+          <span class="monte-ficha-num">4</span>
+          <div>
+            <h3>Kolitza / Colisa</h3>
+            <p class="monte-altitud">897 m · 44–48 km de Gernika</p>
+          </div>
+        </div>
+        <div class="monte-meta-line">
+          <strong>Zona que domina:</strong> Enkarterri, valle de Balmaseda y extremo occidental.
+        </div>
+        <div class="score-grid">
+          <div class="score-card score-card-very-low">
+            <div class="score-head"><span>Acústica hacia Gernika</span><strong>1/5</strong></div>
+            <span class="score-label">Muy baja</span>
+            <p>La distancia con Gernika es la mayor del conjunto y la trayectoria atraviesa varios relieves intermedios. En términos físicos, la señal sonora directa hacia Gernika tendría una plausibilidad muy baja; su lectura acústica sería, como mucho, comarcal.</p>
+          </div>
+          <div class="score-card score-card-medium">
+            <div class="score-head"><span>Visual / territorial</span><strong>3/5</strong></div>
+            <span class="score-label">Media</span>
+            <p>Como hito de Enkarterri tiene valor visual local y territorial. La puntuación media refleja que su conexión visual con Gernika sería indirecta y no comparable a Oiz o Sollube.</p>
+          </div>
+        </div>
+        <p class="monte-lectura"><strong>Lectura neutral:</strong> Referencia occidental de la lista; relación directa con Gernika muy limitada por distancia y orografía.</p>
+        <details class="monte-more">
+          <summary>Más información</summary>
+          <div class="monte-more-content">
+            <p><strong>Ubicación territorial:</strong> Referencia occidental asociada a Enkarterri y al entorno de Balmaseda.</p><p><strong>Relación con Gernika:</strong> Muy distante, por lo que su lectura directa hacia Gernika es limitada.</p><p><strong>Lectura comarcal:</strong> Representa el extremo occidental de la lista tradicional moderna.</p><p><strong>Observación práctica:</strong> Su inclusión se entiende mejor como integración territorial del oeste que como comunicación directa con Gernika.</p>
+          </div>
+        </details>
+      </article>
+      <article class="monte-ficha-card compact-monte-card" id="ganekogorta">
+        <div class="monte-ficha-top">
+          <span class="monte-ficha-num">5</span>
+          <div>
+            <h3>Ganekogorta</h3>
+            <p class="monte-altitud">998–999 m · 25–29 km de Gernika</p>
+          </div>
+        </div>
+        <div class="monte-meta-line">
+          <strong>Zona que domina:</strong> Bilbao, Bajo Nervión, Arratia occidental y transición hacia Enkarterri.
+        </div>
+        <div class="score-grid">
+          <div class="score-card score-card-very-low">
+            <div class="score-head"><span>Acústica hacia Gernika</span><strong>1/5</strong></div>
+            <span class="score-label">Muy baja</span>
+            <p>Aunque la altitud favorece la emisión local, la distancia hacia Gernika y los cordales intermedios reducen de forma severa la transmisión sonora directa. La puntuación valora Gernika como receptor, no su entorno inmediato.</p>
+          </div>
+          <div class="score-card score-card-high">
+            <div class="score-head"><span>Visual / territorial</span><strong>4/5</strong></div>
+            <span class="score-label">Alta</span>
+            <p>Su dominio sobre Bilbao-Nervión y su posición occidental justifican una valoración visual alta como referencia territorial. No implica una conexión directa ni documental con Gernika.</p>
+          </div>
+        </div>
+        <p class="monte-lectura"><strong>Lectura neutral:</strong> Cumbre visualmente relevante sobre Bilbao-Nervión, pero acústicamente débil hacia Gernika.</p>
+        <details class="monte-more">
+          <summary>Más información</summary>
+          <div class="monte-more-content">
+            <p><strong>Ubicación territorial:</strong> Cumbre destacada sobre el área Bilbao-Nervión y la transición hacia Enkarterri.</p><p><strong>Relación con Gernika:</strong> Indirecta, condicionada por distancia y cordales intermedios.</p><p><strong>Lectura comarcal:</strong> Funciona como referencia occidental/interior dentro de la lectura territorial de la lista.</p><p><strong>Observación práctica:</strong> La posición visual sobre Bilbao-Nervión no implica por sí misma un papel documental en el rito medieval.</p>
+          </div>
+        </details>
+      </article>
+  </div>
+</section>
+
+
+
+
+
+
+  </section>
+</main>
+
+<section class="global-support" aria-label="Apoyar el proyecto">
+  <div class="global-support-copy">
+    <span class="support-kicker">Apoyar el proyecto</span>
+    <strong>¿Te ha servido esta investigación?</strong>
+    <span>Ayuda a mantener y ampliar este trabajo documental.</span>
+  </div>
+  <div class="support-buttons">
+    <a class="support-card kofi" href="https://ko-fi.com/ikeritu" target="_blank" rel="noopener noreferrer">
+      <span class="support-icon" aria-hidden="true">☕</span>
+      <span><strong>Ko-fi</strong><small>ko-fi.com/ikeritu</small></span>
+    </a>
+    <a class="support-card paypal" href="https://www.paypal.com/paypalme/ikeritus" target="_blank" rel="noopener noreferrer">
+      <span class="support-icon" aria-hidden="true">💙</span>
+      <span><strong>PayPal</strong><small>paypal.me/ikeritus</small></span>
+    </a>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-links"><a href="metodologia.html">Metodología</a><a href="fuentes-sospechosas.html">Pendientes críticos</a><a href="sitemap.xml">Sitemap</a></div>
+</footer>
+<!-- V5.34 Release Candidate sin dominio -->
+</body>
+</html>

@@ -1,0 +1,19 @@
+Montes Bocineros — Release Candidate
+
+Versión: V5.34
+Estado: Release Candidate sin dominio
+Fecha: 2026-06-14
+
+Contenido incluido:
+- Investigación documental sobre las cinco bocinas y los cinco montes tradicionales.
+- Página Los 5 montes con mapa, tabla territorial y fichas argumentadas.
+- Citas verificadas.
+- Fuentes.
+- Estado de investigación.
+- Anexo técnico de informes acústicos.
+- Bloque Ko-fi y PayPal.
+
+Pendiente antes de publicación final:
+- Sustituir TU-DOMINIO-AQUI por el dominio real en sitemap.xml y robots.txt.
+- Revisión visual final en móvil.
+- Decidir plataforma de publicación: Netlify, GitHub Pages o Cloudflare Pages.
