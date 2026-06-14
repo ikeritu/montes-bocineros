@@ -17,3 +17,9 @@ Pendiente antes de publicación final:
 - Sustituir TU-DOMINIO-AQUI por el dominio real en sitemap.xml y robots.txt.
 - Revisión visual final en móvil.
 - Decidir plataforma de publicación: Netlify, GitHub Pages o Cloudflare Pages.
+
+
+Actualización seguridad:
+- Versión: V5.35
+- Fecha: 2026-06-14
+- Cambio: retirada de token detectado por GitHub Secret Scanning en assets/analytics-hooks.js.

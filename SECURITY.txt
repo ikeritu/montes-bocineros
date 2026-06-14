@@ -1,0 +1,19 @@
+# SECURITY
+
+## Tokens y secretos
+
+Esta versión V5.35 se ha saneado para GitHub:
+
+- No debe incluir tokens secretos de Mapbox (`s-k...`).
+- No debe incluir claves privadas.
+- Si se usa Mapbox, debe emplearse un token público restringido por dominio, nunca un token secreto.
+- GitHub no debería mostrar aviso de secret scanning para `assets/analytics-hooks.js`.
+
+## Qué hacer si GitHub vuelve a avisar
+
+No pulses `Allow Secret`.
+
+1. Cancela la subida.
+2. Localiza el archivo indicado por GitHub.
+3. Elimina el token.
+4. Vuelve a subir el ZIP saneado.

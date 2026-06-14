@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## V5.35 — GitHub sin secretos
+- Saneado `assets/analytics-hooks.js`.
+- Eliminados posibles tokens secretos de Mapbox.
+- Añadido `SECURITY.txt`.
+- Preparada versión para subir a GitHub sin aceptar alertas de Secret Scanning.
+
 ## V5.34 — Release Candidate sin dominio
 - Preparada versión candidata a publicación.
 - `sitemap.xml` y `robots.txt` quedan como plantilla hasta tener dominio.

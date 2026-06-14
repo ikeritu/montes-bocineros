@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 760" role="img" aria-labelledby="title desc">
+<title id="title">Mapa 3D aproximado de Bizkaia y los Montes Bocineros</title>
+<desc id="desc">Representación visual con relieve 3D aproximado de Bizkaia, Gernika y los cinco montes bocineros tradicionales.</desc>
+<defs>
+  <linearGradient id="sea" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#b7d5dc"/><stop offset="1" stop-color="#e7f0ea"/></linearGradient>
+  <linearGradient id="land" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e8ddbd"/><stop offset=".45" stop-color="#cbb37e"/><stop offset="1" stop-color="#947044"/></linearGradient>
+  <linearGradient id="ridge" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#edf2d2"/><stop offset=".5" stop-color="#7ea16a"/><stop offset="1" stop-color="#285647"/></linearGradient>
+  <linearGradient id="shadow" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#173d34" stop-opacity=".55"/><stop offset="1" stop-color="#173d34" stop-opacity="0"/></linearGradient>
+  <radialGradient id="glow" cx="50%" cy="45%" r="60%"><stop offset="0" stop-color="#fff8df" stop-opacity=".95"/><stop offset="1" stop-color="#fff8df" stop-opacity="0"/></radialGradient>
+  <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="24" stdDeviation="18" flood-color="#13231d" flood-opacity=".32"/></filter>
+  <filter id="pinShadow" x="-60%" y="-60%" width="220%" height="220%"><feDropShadow dx="0" dy="10" stdDeviation="5" flood-color="#11261f" flood-opacity=".35"/></filter>
+  <style>
+    .label{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:900;font-size:28px;fill:#123f35;paint-order:stroke;stroke:#fff8ee;stroke-width:7px;stroke-linejoin:round}
+    .small{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:800;font-size:21px;fill:#315049;paint-order:stroke;stroke:#fff8ee;stroke-width:5px;stroke-linejoin:round}
+    .note{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:20px;fill:#5d675f}
+    .pin{filter:url(#pinShadow)}
+    .signal{fill:none;stroke:#c58b42;stroke-width:5;stroke-dasharray:12 13;stroke-linecap:round;opacity:.75}
+  </style>
+</defs>
+<rect width="1100" height="760" rx="42" fill="url(#sea)"/>
+<path d="M0 0H1100V210c-86-28-133-25-196-11-69 15-113 48-196 29-82-19-146-80-232-73-78 6-121 70-207 71-82 1-141-54-269-27Z" fill="#d6e6e8" opacity=".65"/>
+<g opacity=".36" fill="none" stroke="#ffffff" stroke-width="2">
+  <path d="M40 110c90 23 175 18 262-15 123-47 205 14 307 32 87 15 167-24 248-47 81-22 151-14 224 14"/>
+  <path d="M35 160c100 20 165 12 260-20 124-42 203 6 304 24 100 18 164-18 242-41 85-25 159-20 234 8"/>
+</g>
+<g filter="url(#softShadow)">
+  <path d="M124 503c-6-81 23-147 99-203 49-36 98-43 144-75 60-42 93-92 171-88 62 3 105 49 166 58 59 8 110-19 163 17 63 43 91 116 78 197-12 79-63 143-151 177-107 41-185 5-283 27-87 20-141 70-232 46-86-23-148-78-155-156Z" fill="#8b6b43" transform="translate(0 52)" opacity=".55"/>
+  <path d="M123 485c-5-82 23-147 99-203 49-36 99-43 145-75 60-42 93-92 171-88 62 3 105 49 166 58 59 8 110-19 163 17 63 43 91 116 78 197-12 79-63 143-151 177-107 41-185 5-283 27-87 20-141 70-232 46-86-23-149-78-156-156Z" fill="url(#land)"/>
+  <path d="M123 485c-5-82 23-147 99-203 49-36 99-43 145-75 60-42 93-92 171-88 62 3 105 49 166 58 59 8 110-19 163 17 63 43 91 116 78 197-12 79-63 143-151 177-107 41-185 5-283 27-87 20-141 70-232 46-86-23-149-78-156-156Z" fill="url(#glow)" opacity=".35"/>
+  <!-- ridges -->
+  <path d="M210 478c62-81 109-126 160-135 54-9 75 32 120 22 47-10 60-67 120-76 79-11 144 55 211 172-92-26-132 13-203 10-74-3-118-52-190-36-74 17-132 68-218 43Z" fill="url(#ridge)" opacity=".92"/>
+  <path d="M175 524c45-66 91-104 138-113 49-9 78 21 124 15 43-6 68-50 116-43 63 8 101 79 172 92-68 4-115 40-178 36-70-5-111-40-173-26-66 15-113 50-199 39Z" fill="#668e63" opacity=".72"/>
+  <path d="M318 314c53-70 94-106 143-113 57-8 88 35 137 32 54-3 82-40 130-29 55 13 94 72 126 137-62-25-103 3-165-8-63-11-89-49-145-43-73 8-113 56-226 24Z" fill="#93aa68" opacity=".72"/>
+  <path d="M118 421c44-43 94-62 153-58 72 5 105 50 175 42 63-7 91-49 152-48 89 1 159 66 252 62" fill="none" stroke="#fff8e9" stroke-opacity=".34" stroke-width="8"/>
+  <path d="M183 552c92-26 150-16 232 5 76 20 125-29 207-19 62 8 105 42 197 20" fill="none" stroke="#ffffff" stroke-opacity=".26" stroke-width="7"/>
+  <path d="M271 274c40 21 76 27 120 13 56-18 84-56 146-55 53 0 84 31 133 31 43 0 79-22 118-46" fill="none" stroke="#2f554a" stroke-opacity=".35" stroke-width="4"/>
+  <path d="M236 326c51 25 94 29 139 8 47-21 80-68 135-66 55 2 80 51 139 48 49-2 83-35 128-43" fill="none" stroke="#2f554a" stroke-opacity=".25" stroke-width="4"/>
+  <path d="M170 388c71 35 141 47 215 14 72-32 105-94 181-82 64 10 99 74 169 72 53-1 94-35 142-44" fill="none" stroke="#2f554a" stroke-opacity=".22" stroke-width="4"/>
+</g>
+<!-- conceptual signal network -->
+<path class="signal" d="M548 407 C488 384 421 375 340 364"/>
+<path class="signal" d="M548 407 C532 358 522 318 510 264"/>
+<path class="signal" d="M548 407 C589 348 636 295 690 240"/>
+<path class="signal" d="M548 407 C645 393 728 374 812 339"/>
+<path class="signal" d="M548 407 C512 456 486 495 462 553"/>
+<!-- pins: x y -->
+<g class="pin">
+  <path d="M340 331c-33 0-60 27-60 60 0 43 60 104 60 104s60-61 60-104c0-33-27-60-60-60z" fill="#c58b42"/>
+  <circle cx="340" cy="391" r="24" fill="#fff7df"/>
+</g>
+<text class="label" x="270" y="323">Kolitza</text>
+<g class="pin">
+  <path d="M510 231c-34 0-61 27-61 60 0 44 61 105 61 105s61-61 61-105c0-33-27-60-61-60z" fill="#c58b42"/>
+  <circle cx="510" cy="291" r="24" fill="#fff7df"/>
+</g>
+<text class="label" x="390" y="218">Ganekogorta</text>
+<g class="pin">
+  <path d="M690 207c-33 0-60 27-60 60 0 43 60 104 60 104s60-61 60-104c0-33-27-60-60-60z" fill="#c58b42"/>
+  <circle cx="690" cy="267" r="24" fill="#fff7df"/>
+</g>
+<text class="label" x="710" y="212">Oiz</text>
+<g class="pin">
+  <path d="M812 306c-33 0-60 27-60 60 0 43 60 104 60 104s60-61 60-104c0-33-27-60-60-60z" fill="#c58b42"/>
+  <circle cx="812" cy="366" r="24" fill="#fff7df"/>
+</g>
+<text class="label" x="830" y="315">Sollube</text>
+<g class="pin">
+  <path d="M462 520c-33 0-60 27-60 60 0 43 60 104 60 104s60-61 60-104c0-33-27-60-60-60z" fill="#c58b42"/>
+  <circle cx="462" cy="580" r="24" fill="#fff7df"/>
+</g>
+<text class="label" x="370" y="706">Gorbeia</text>
+<g filter="url(#pinShadow)">
+  <circle cx="548" cy="407" r="48" fill="#133f35"/>
+  <circle cx="548" cy="407" r="34" fill="#fff7df" opacity=".12"/>
+  <text x="548" y="414" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="950" font-size="24" fill="#fff7df">Gernika</text>
+</g>
+<g opacity=".9">
+  <path d="M126 111c35-15 72-13 108 5" fill="none" stroke="#c58b42" stroke-width="10" stroke-linecap="round"/>
+  <path d="M140 137c25-11 51-10 78 3" fill="none" stroke="#c58b42" stroke-width="8" stroke-linecap="round"/>
+  <path d="M154 164c15-6 30-6 46 2" fill="none" stroke="#c58b42" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="176" cy="189" r="11" fill="#c58b42"/>
+  <text class="small" x="88" y="230">cinco bocinas documentadas</text>
+  <text class="small" x="88" y="258">en torno a Gernika</text>
+</g>
+<text class="note" x="72" y="706">Relieve 3D aproximado: no es cartografía exacta. Sirve para visualizar el debate histórico.</text>
+</svg>
