@@ -114,7 +114,7 @@ Auditoría V5.20: 0 enlaces internos rotos.
 
 V5.21 — Página auditada y zip simplificado
 - mapa.html conserva toda la parte de Los 5 montes en una sola página.
-- Imagen actualizada: assets/los-5-montes-3d-ilustracion.png.
+- Imagen actualizada: .
 - Eliminadas páginas antiguas de montes y fichas individuales.
 - Auditoría de enlaces internos: 0 enlaces rotos.
 

@@ -74,3 +74,15 @@ Cloudflare Pages: conectar repositorio y desplegar.
 
 - Ko-fi: https://ko-fi.com/ikeritu
 - PayPal: https://www.paypal.com/paypalme/ikeritus
+
+
+## V5.37 — URL GitHub Pages configurada
+
+URL:
+https://ikeritu.github.io/montes-bocineros/
+
+Mapbox:
+- Se usa token público `pk.`.
+- El token debe mantenerse restringido en Mapbox a:
+  https://ikeritu.github.io/montes-bocineros/
+- No publicar ni aceptar tokens `secret token`.

@@ -1,19 +1,18 @@
 # SECURITY
 
-## Tokens y secretos
+## V5.42
 
-Esta versión V5.35 se ha saneado para GitHub:
+Se han eliminado los assets antiguos que GitHub Secret Scanning marcaba como posibles secretos:
 
-- No debe incluir tokens secretos de Mapbox (`s-k...`).
-- No debe incluir claves privadas.
-- Si se usa Mapbox, debe emplearse un token público restringido por dominio, nunca un token secreto.
-- GitHub no debería mostrar aviso de secret scanning para `assets/analytics-hooks.js`.
+- assets/analytics-hooks.js
+- assets/bizkaia-3d-map.svg
+- assets/home-visual-map.js
+- assets/los-5-montes-3d-ilustracion.png
 
-## Qué hacer si GitHub vuelve a avisar
+La web conserva Mapbox únicamente mediante:
 
-No pulses `Allow Secret`.
+- assets/mapbox-montes.js
 
-1. Cancela la subida.
-2. Localiza el archivo indicado por GitHub.
-3. Elimina el token.
-4. Vuelve a subir el ZIP saneado.
+Ese archivo contiene un token público de navegador restringido por URL en Mapbox.
+
+No se incluyen tokens privados ni credenciales de escritura.

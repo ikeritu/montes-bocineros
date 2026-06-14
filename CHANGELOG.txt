@@ -1,7 +1,48 @@
 # CHANGELOG
 
+## V5.42 — Assets ultralimpios para GitHub
+- Eliminado `assets/los-5-montes-3d-ilustracion.png`.
+- Confirmada eliminación de assets antiguos que activaban GitHub Secret Scanning.
+- Conservado Mapbox mediante `assets/mapbox-montes.js`.
+
+## V5.41 — Assets limpios para GitHub
+- Eliminado ``.
+- Confirmada eliminación de ``.
+- Confirmada eliminación de ``.
+- Eliminadas referencias internas a assets antiguos.
+- Conservado Mapbox mediante `assets/mapbox-montes.js`.
+
+## V5.40 — Sin SVG antiguo
+- Eliminado ``.
+- Eliminado ``.
+- Eliminadas referencias internas a ambos archivos.
+- Conservado Mapbox mediante `assets/mapbox-montes.js`.
+
+## V5.39 — Sin analytics-hooks
+- Eliminado completamente ``.
+- Eliminadas referencias internas a ese archivo.
+- Conservado Mapbox en `assets/mapbox-montes.js`.
+- Auditoría de enlaces internos y tokens.
+
+## V5.38 — GitHub Pages Mapbox limpio
+- Eliminadas auditorías antiguas del ZIP.
+- Reescrito SECURITY.txt.
+- Eliminadas cadenas de ejemplo que podían activar GitHub Secret Scanning.
+- Conservado mapa Mapbox con token público restringido.
+
+## V5.37 — Mapbox público restringido
+- Restaurado mapa interactivo 3D con Mapbox.
+- Token público `pk.` añadido en `assets/mapbox-montes.js`.
+- No se incluyen tokens secretos `secret token`.
+- `sitemap.xml` y `robots.txt` actualizados con URL GitHub Pages.
+
+## V5.36 — Nuevo título del index
+- Sustituido el encabezado principal de `index.html`.
+- Nuevo título: “Las cinco bocinas de Gernika”.
+- Añadido estilo específico para `.header-bocinas`.
+
 ## V5.35 — GitHub sin secretos
-- Saneado `assets/analytics-hooks.js`.
+- Saneado `assets/mapbox-montes.js`.
 - Eliminados posibles tokens secretos de Mapbox.
 - Añadido `SECURITY.txt`.
 - Preparada versión para subir a GitHub sin aceptar alertas de Secret Scanning.

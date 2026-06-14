@@ -22,4 +22,29 @@ Pendiente antes de publicación final:
 Actualización seguridad:
 - Versión: V5.35
 - Fecha: 2026-06-14
-- Cambio: retirada de token detectado por GitHub Secret Scanning en assets/analytics-hooks.js.
+- Cambio: retirada de token detectado por GitHub Secret Scanning en assets/mapbox-montes.js.
+
+
+Actualización:
+- Versión: V5.36
+- Fecha: 2026-06-14
+- Cambio: nuevo encabezado principal del index: “Las cinco bocinas de Gernika”.
+
+
+Actualización:
+- Versión: V5.37
+- Fecha: 2026-06-14
+- Cambio: restaurado mapa Mapbox con token público `pk.` restringido al sitio GitHub Pages.
+- URL pública configurada: https://ikeritu.github.io/montes-bocineros/
+
+
+Actualización:
+- Versión: V5.38
+- Fecha: 2026-06-14
+- Cambio: limpieza de archivos que activaban GitHub Secret Scanning.
+
+
+Actualización:
+- Versión: V5.39
+- Fecha: 2026-06-14
+- Cambio: eliminado assets/analytics-hooks.js para evitar alertas de GitHub Secret Scanning.

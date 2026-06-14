@@ -1,0 +1,18 @@
+V5.43 — Reparación GitHub Pages
+
+Fecha: 2026-06-14
+
+Cambios:
+- Normalizadas rutas relativas a assets/styles.css.
+- Corregidas rutas de assets en páginas dentro de /informes/.
+- Asegurado CSS principal en todas las páginas.
+- Reemplazado visual roto del index por visual CSS sin imagen antigua.
+- Mapa Mapbox mantenido en mapa.html.
+- Auditoría de enlaces y tokens.
+
+Resultado:
+- assets/styles.css existe: sí
+- assets/mapbox-montes.js existe: sí
+- Enlaces internos rotos: 0
+- Tokens privados detectados: 0
+- Tokens públicos Mapbox detectados: 1

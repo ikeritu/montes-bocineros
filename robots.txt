@@ -1,7 +1,4 @@
-# ROBOTS EN MODO PLANTILLA.
-# Antes de publicar, sustituir https://TU-DOMINIO-AQUI/ por el dominio real.
-
 User-agent: *
 Allow: /
 
-Sitemap: https://TU-DOMINIO-AQUI/sitemap.xml
+Sitemap: https://ikeritu.github.io/montes-bocineros/sitemap.xml
