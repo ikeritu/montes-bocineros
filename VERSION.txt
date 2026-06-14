@@ -72,3 +72,9 @@ Actualización:
 - Versión: V5.43
 - Fecha: 2026-06-14
 - Cambio: reparación CSS/rutas para GitHub Pages.
+
+
+Actualización:
+- Versión: V5.45
+- Fecha: 2026-06-14
+- Cambio: portada corregida sin tocar contenido interno.

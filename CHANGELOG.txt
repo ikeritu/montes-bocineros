@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## V5.45 — Portada corregida
+- Restaurado header principal “Las cinco bocinas de Gernika”.
+- Eliminado bloque textual duplicado antiguo del index.
+- Imagen estática colocada debajo del header con tamaño controlado.
+- Botón “Ver Los 5 montes” conservado debajo de la imagen.
+- Sin cambios de contenido en el resto de páginas.
+
 ## V5.42 — Assets ultralimpios para GitHub
 - Eliminado `assets/los-5-montes-3d-ilustracion.png`.
 - Confirmada eliminación de assets antiguos que activaban GitHub Secret Scanning.

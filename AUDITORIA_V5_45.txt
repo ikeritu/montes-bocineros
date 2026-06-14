@@ -1,0 +1,17 @@
+V5.45 — Auditoría portada corregida
+
+Fecha: 2026-06-14
+Base usada: montes_bocineros_web_v5_44_index_imagen_estatica.zip
+
+Cambios:
+- Restaurado header principal bonito.
+- Eliminado bloque textual duplicado antiguo del index.
+- Colocada imagen estática debajo del header.
+- Conservado botón Ver Los 5 montes.
+- No se han modificado páginas de contenido.
+
+Resultado:
+- Enlaces internos rotos: 0
+- Tokens privados detectados: 0
+- Tokens públicos Mapbox detectados: 1
+- Imagen portada existe: sí
