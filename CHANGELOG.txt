@@ -94,3 +94,10 @@
 - Corregido el centrado de imagen mediante CSS limpio.
 - Añadida ficha específica de la copia de Juan Ruiz de Anguiz de 1600.
 - Reforzada la advertencia: copia/traslado de 1600, no original físico de 1342.
+
+## V5.50 — Home CSS aislado
+- Añadido `body.home-page` al index.
+- Añadido `assets/home.css?v=5.50`.
+- Añadido cache busting a `assets/styles.css?v=5.50`.
+- Eliminado `max-height` efectivo de la imagen de portada.
+- Layout del index forzado a una columna centrada.

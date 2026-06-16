@@ -99,3 +99,8 @@ Actualización:
 - Versión: V5.49
 - Fecha: 2026-06-16
 - Cambio: index limpio con imagen centrada y ficha ampliada de la fuente de 1600.
+
+Actualización:
+- Versión: V5.50
+- Fecha: 2026-06-16
+- Cambio: home.css aislado, cache busting y centrado real de portada.
