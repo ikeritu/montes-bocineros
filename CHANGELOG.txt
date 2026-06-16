@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## V5.46 — Imagen de portada encajada
+- Se mantiene el título principal sin cambios.
+- Se corrige posición y tamaño de la imagen estática del index.
+- La imagen queda centrada, contenida y con ancho máximo controlado.
+- Sin cambios de contenido documental.
+
 ## V5.45 — Portada corregida
 - Restaurado header principal “Las cinco bocinas de Gernika”.
 - Eliminado bloque textual duplicado antiguo del index.
@@ -72,3 +78,9 @@
 ## Pendientes documentales
 - Localización directa del documento de 1321.
 - Sustituir TU-DOMINIO-AQUI por el dominio real antes de publicar.
+
+## V5.47 — Hallazgo documental 1342 / vozineros
+- Incorporado estado crítico del Capitulado de 1342.
+- Incorporada referencia a “Çinco uozinas de Vizcaia / por las çinco merindades”.
+- Incorporado hallazgo del folio 35: “sayones e vozineros”.
+- Reforzado el límite: no enumera los cinco montes tradicionales.

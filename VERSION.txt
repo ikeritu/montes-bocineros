@@ -78,3 +78,14 @@ Actualización:
 - Versión: V5.45
 - Fecha: 2026-06-14
 - Cambio: portada corregida sin tocar contenido interno.
+
+
+Actualización:
+- Versión: V5.46
+- Fecha: 2026-06-14
+- Cambio: encaje centrado y controlado de la imagen estática de portada.
+
+Actualización:
+- Versión: V5.47
+- Fecha: 2026-06-16
+- Cambio: incorporación documental del estado de 1342 y hallazgo del folio 35 con vozineros.

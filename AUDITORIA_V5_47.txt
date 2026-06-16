@@ -1,0 +1,18 @@
+V5.47 — Auditoría documental
+
+Fecha: 2026-06-16
+Base usada: montes_bocineros_web_v5_46_portada_imagen_encajada.zip
+
+Resultado:
+- Enlaces internos rotos: 0
+- Tokens privados detectados: 0
+- Tokens públicos Mapbox detectados: 1
+
+Páginas actualizadas:
+- estado-investigacion.html
+- citas.html
+- fuentes.html
+- veredicto.html
+- resumen.html
+- cronologia.html
+- auditoria.html
