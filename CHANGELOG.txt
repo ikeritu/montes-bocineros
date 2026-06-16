@@ -84,3 +84,7 @@
 - Incorporada referencia a “Çinco uozinas de Vizcaia / por las çinco merindades”.
 - Incorporado hallazgo del folio 35: “sayones e vozineros”.
 - Reforzado el límite: no enumera los cinco montes tradicionales.
+
+## V5.48 — Imagen index centrada
+- Corregido centrado de la imagen estática del index.
+- Sin cambios de contenido documental.
