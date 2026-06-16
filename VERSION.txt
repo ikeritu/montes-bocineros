@@ -94,3 +94,8 @@ Actualización:
 - Versión: V5.48
 - Fecha: 2026-06-16
 - Cambio: centrado definitivo de la imagen del index.
+
+Actualización:
+- Versión: V5.49
+- Fecha: 2026-06-16
+- Cambio: index limpio con imagen centrada y ficha ampliada de la fuente de 1600.

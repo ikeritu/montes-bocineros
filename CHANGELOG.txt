@@ -88,3 +88,9 @@
 ## V5.48 — Imagen index centrada
 - Corregido centrado de la imagen estática del index.
 - Sin cambios de contenido documental.
+
+## V5.49 — Index limpio y fuente 1600
+- Sustituido el bloque de imagen del index por `.index-hero-image`, sin clases heredadas.
+- Corregido el centrado de imagen mediante CSS limpio.
+- Añadida ficha específica de la copia de Juan Ruiz de Anguiz de 1600.
+- Reforzada la advertencia: copia/traslado de 1600, no original físico de 1342.
