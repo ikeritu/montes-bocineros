@@ -164,3 +164,22 @@
 
 // V5.54 — resize after first paint
 setTimeout(function(){ try { if (window.__montesMapInstance) window.__montesMapInstance.resize(); } catch(e){} }, 800);
+
+
+// V5.61 — ocultar estado de carga aunque Mapbox pinte parcialmente
+(function(){
+  function clearMapStatus(){
+    var el = document.getElementById('mapbox-status');
+    if (el) {
+      el.textContent = '';
+      el.style.display = 'none';
+    }
+  }
+  window.addEventListener('load', function(){
+    setTimeout(clearMapStatus, 1200);
+    setTimeout(clearMapStatus, 2500);
+  });
+  document.addEventListener('DOMContentLoaded', function(){
+    setTimeout(clearMapStatus, 3000);
+  });
+})();

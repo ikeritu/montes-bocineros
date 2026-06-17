@@ -1863,3 +1863,34 @@ table{width:100%;border-collapse:collapse}th,td{padding:12px;border-bottom:1px s
     border-radius:22px;
   }
 }
+
+
+/* V5.61 — pulido visual release candidate */
+.public-release-notice{
+  width:min(1000px, calc(100% - 32px)) !important;
+  margin:34px auto !important;
+  box-sizing:border-box !important;
+}
+.public-release-notice .critical-note{
+  display:block;
+  border-radius:18px;
+  padding:14px 16px;
+  background:rgba(122,90,34,.08);
+  border-left:4px solid #7a5a22;
+}
+body.home-page .public-release-notice{
+  margin-top:28px !important;
+  margin-bottom:36px !important;
+}
+#mapbox-status:empty{
+  display:none !important;
+}
+.mapbox-status-v553:empty{
+  display:none !important;
+}
+.site-footer,
+footer{
+  max-width:1180px;
+  margin-left:auto;
+  margin-right:auto;
+}
