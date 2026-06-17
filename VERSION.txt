@@ -104,3 +104,53 @@ Actualización:
 - Versión: V5.50
 - Fecha: 2026-06-16
 - Cambio: home.css aislado, cache busting y centrado real de portada.
+
+Actualización:
+- Versión: V5.51
+- Fecha: 2026-06-16
+- Cambio: folio 35 confirmado y mapa 3D de montes restaurado.
+
+Actualización:
+- Versión: V5.52
+- Fecha: 2026-06-16
+- Cambio: eliminado mapa estático duplicado en pantalla de montes y reparado mapa interactivo 3D.
+
+Actualización:
+- Versión: V5.53
+- Fecha: 2026-06-16
+- Cambio: mapa Mapbox 3D con token correcto y contenedor único.
+
+Actualización:
+- Versión: V5.54
+- Fecha: 2026-06-16
+- Cambio: eliminado recuadro viejo vacío y colocado el único Mapbox real debajo de Puntos incluidos.
+
+Actualización:
+- Versión: V5.55
+- Fecha: 2026-06-16
+- Cambio: tabla crítica definitiva de fuentes incorporada.
+
+Actualización:
+- Versión: V5.56
+- Fecha: 2026-06-17
+- Cambio: cronología de recepción y Trueba 1872 como primera lista localizada.
+
+Actualización:
+- Versión: V5.57
+- Fecha: 2026-06-17
+- Cambio: cronología general completa del estudio.
+
+Actualización:
+- Versión: V5.58
+- Fecha: 2026-06-17
+- Cambio: pendientes críticos y estado final provisional.
+
+Actualización:
+- Versión: V5.59
+- Fecha: 2026-06-17
+- Cambio: token público Mapbox reducido a una única aparición real en JS.
+
+Actualización:
+- Versión: V5.60
+- Fecha: 2026-06-17
+- Cambio: release candidate pública, limpieza de notas internas y navegación simplificada.

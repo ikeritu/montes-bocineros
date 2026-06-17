@@ -101,3 +101,63 @@
 - Añadido cache busting a `assets/styles.css?v=5.50`.
 - Eliminado `max-height` efectivo de la imagen de portada.
 - Layout del index forzado a una columna centrada.
+
+## V5.51 — Folio 35 confirmado + mapa 3D restaurado
+- Folio 35 confirmado por transcripciones externas.
+- Añadida ficha de fuente confirmada.
+- Restaurado mapa visual 3D en mapa/montes.
+- Sin cambios en la portada.
+
+## V5.52 — Mapa 3D único reparado
+- Eliminada la imagen estática de portada de `mapa.html`.
+- Eliminado bloque duplicado del mapa 3D.
+- Restaurado un único contenedor `#mapbox-montes` con altura real.
+- Asegurada carga de Mapbox GL.
+- Portada sin cambios.
+
+## V5.53 — Mapbox token + contenedor único
+- Reescrito `assets/mapbox-montes.js` con el token público indicado.
+- Eliminados contenedores duplicados del mapa.
+- Un único contenedor funcional: `#mapbox-map`.
+- Imagen estática ausente de `mapa.html`.
+
+## V5.54 — Mapa 3D en posición correcta
+- Eliminado recuadro antiguo vacío `mapa-simple-map`.
+- Movido el único Mapbox real justo debajo de `Puntos incluidos`.
+- Cache busting `mapbox-montes.js?v=5.54`.
+- Portada sin cambios.
+
+## V5.55 — Tabla crítica de fuentes
+- Añadida tabla crítica central en `fuentes.html`.
+- Añadidos resúmenes en estado, citas y resumen.
+- Reforzado veredicto crítico.
+- Sin cambios en portada ni mapa.
+
+## V5.56 — Recepción posterior / Trueba 1872
+- Añadida cronología de recepción.
+- Incorporado Trueba 1872 como primera lista localizada.
+- Añadida cautela: primera localizada, no origen absoluto demostrado.
+- Sin cambios en portada ni mapa.
+
+## V5.57 — Cronología general del estudio
+- Añadida cronología completa en `cronologia.html`.
+- Añadido resumen cronológico en resumen/estado/veredicto.
+- Sin cambios en portada ni mapa.
+
+## V5.58 — Pendientes críticos y estado final
+- Añadida tabla de preguntas abiertas en `estado-investigacion.html`.
+- Añadido veredicto en cuatro niveles.
+- Sin cambios en portada ni mapa.
+
+## V5.59 — Token Mapbox único
+- Eliminadas copias del token en notas/auditorías.
+- El token público queda solo en `assets/mapbox-montes.js`.
+- Sin cambios en portada, mapa ni contenido documental.
+
+## V5.60 — Release candidate pública
+- Eliminadas notas técnicas/documentales internas del ZIP público.
+- Añadido `README_PUBLICACION.md`.
+- Añadida nota de versión pública provisional en portada.
+- Simplificada navegación pública.
+- Auditoría mantenida como página auxiliar.
+- Sin cambios en mapa ni contenido crítico.

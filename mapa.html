@@ -8,11 +8,9 @@
   <meta name="robots" content="index,follow">
   <meta name="theme-color" content="#133f35">
   <link rel="icon" href="assets/montes-logo.svg" type="image/svg+xml">
-  <link href="https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.css" rel="stylesheet">
-  <script src="https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.js"></script>
-<script defer src="assets/menu.js"></script>
-  <script defer src="assets/mapbox-montes.js"></script>
-  <link rel="stylesheet" href="assets/styles.css">
+<script defer src="assets/menu.js?v=5.60"></script>
+<link rel="stylesheet" href="assets/styles.css?v=5.60">
+  <link href="https://api.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.css" rel="stylesheet">
 </head>
 <body class="mapbox-page">
 <header class="site-header">
@@ -69,7 +67,7 @@
   </div>
 </header>
 <main class="mapa-simple-main">
-  <section class="mapa-simple-wrap">
+<section class="mapa-simple-wrap">
     <header class="mapa-simple-head">
       <h1>Los 5 montes</h1>
     </header>
@@ -87,33 +85,16 @@
       </div>
     </section>
 
-    <section class="mapa-simple-map" aria-label="Los 5 montes">
-      <div class="mapbox-shell mapa-shell-simple">
-        <div id="mapbox-map" class="mapbox-map" aria-label="Los 5 montes de Bizkaia con los cinco montes bocineros tradicionales y Gernika"></div>
-        <div id="mapbox-fallback" class="mapbox-fallback">
-<p class="map-caption">Mapa interactivo 3D con Mapbox. Representación orientativa para lectura territorial.</p>
-        </div>
-        <div id="mapbox-status" class="mapbox-status" role="status" aria-hidden="true"></div>
-      </div>
-    </section>
-
-
-
-
-
-
-<section class="section mapbox-section" id="mapa-interactivo">
+<section class="mapbox-3d-section mapbox-3d-section-v553" id="mapbox-3d-section">
   <div class="section-title">
-    <span class="badge info">3D</span>
+    <span class="badge">3D</span>
     <div>
       <h2>Mapa interactivo 3D</h2>
-      <p class="lead">Mapa territorial orientativo con los cinco montes tradicionales y Gernika-Lumo. Usa un token público de Mapbox restringido al sitio de GitHub Pages.</p>
+      <p>Mapa territorial orientativo con los cinco montes tradicionales y Gernika-Lumo. No es prueba histórica ni cartografía exacta.</p>
     </div>
   </div>
-  <div class="mapbox-wrap">
-    <div id="mapbox-map" aria-label="Mapa interactivo de los montes bocineros"></div>
-  </div>
-  <p class="mapbox-status-note">Representación orientativa. No equivale a prueba histórica ni sustituye a cartografía oficial.</p>
+  <div id="mapbox-map" class="mapbox-map-v553" aria-label="Mapa interactivo 3D de los cinco montes tradicionales y Gernika-Lumo"></div>
+  <p id="mapbox-status" class="mapbox-status-v553">Cargando mapa 3D…</p>
 </section>
 
 <section class="mapa-geo-section" id="analisis-territorial-neutral">
@@ -389,5 +370,7 @@
   <div class="footer-links"><a href="metodologia.html">Metodología</a><a href="fuentes-sospechosas.html">Pendientes críticos</a><a href="sitemap.xml">Sitemap</a></div>
 </footer>
 <!-- V5.34 Release Candidate sin dominio -->
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.js"></script>
+  <script src="assets/mapbox-montes.js?v=5.54"></script>
 </body>
 </html>
