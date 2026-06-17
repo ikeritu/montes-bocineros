@@ -159,3 +159,8 @@ Actualización:
 - Versión: V5.61
 - Fecha: 2026-06-17
 - Cambio: pulido visual de release candidate pública.
+
+Actualización:
+- Versión: V5.62
+- Fecha: 2026-06-17
+- Cambio: micro-pulido de portada previo a V1.0.

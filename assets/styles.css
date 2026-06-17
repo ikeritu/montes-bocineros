@@ -1894,3 +1894,71 @@ footer{
   margin-left:auto;
   margin-right:auto;
 }
+
+
+/* V5.62 — micro-pulido de portada */
+body.home-page main,
+body.home-page .page-main,
+body.home-page .home-main{
+  padding-top:clamp(18px, 3vw, 42px);
+}
+body.home-page .hero,
+body.home-page .home-hero,
+body.home-page .hero-section,
+body.home-page header + main section:first-of-type{
+  scroll-margin-top:110px;
+}
+.public-release-strip{
+  width:min(1000px, calc(100% - 32px));
+  margin:26px auto 34px;
+  padding:14px 18px;
+  border-radius:18px;
+  background:rgba(255,250,241,.92);
+  border:1px solid rgba(122,90,34,.22);
+  box-shadow:0 10px 26px rgba(19,63,53,.06);
+  display:flex;
+  align-items:center;
+  gap:14px;
+  box-sizing:border-box;
+}
+.public-release-strip .strip-badge{
+  flex:0 0 auto;
+  display:inline-flex;
+  align-items:center;
+  padding:7px 10px;
+  border-radius:999px;
+  background:rgba(255,242,218,.95);
+  border:1px solid rgba(122,90,34,.22);
+  color:#7a5a22;
+  font-weight:900;
+  font-size:.82rem;
+  white-space:nowrap;
+}
+.public-release-strip p{
+  margin:0;
+  line-height:1.45;
+  color:#123b32;
+  font-size:.96rem;
+}
+.public-release-strip em{
+  font-style:normal;
+  font-weight:800;
+  color:#7a5a22;
+}
+body.home-page .public-release-notice{
+  display:none !important;
+}
+@media(max-width:760px){
+  body.home-page main,
+  body.home-page .page-main,
+  body.home-page .home-main{
+    padding-top:22px;
+  }
+  .public-release-strip{
+    align-items:flex-start;
+    flex-direction:column;
+    margin:22px 14px 28px;
+    width:auto;
+    padding:14px;
+  }
+}

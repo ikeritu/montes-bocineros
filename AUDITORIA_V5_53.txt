@@ -1,0 +1,47 @@
+V5.53 — Auditoría Mapbox
+
+Fecha: 2026-06-16
+Base usada: montes_bocineros_web_v5_52_mapa3d_unico_reparado.zip
+
+Antes:
+{
+  "mapbox_map": 2,
+  "mapbox_montes": 1,
+  "mapa_interactivo": 1,
+  "mapbox_3d_section": 1,
+  "placeholder_text": true,
+  "scripts": [
+    "https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.js",
+    "assets/menu.js",
+    "assets/mapbox-montes.js"
+  ],
+  "links": [
+    "assets/montes-logo.svg",
+    "https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.css",
+    "assets/styles.css"
+  ]
+}
+
+Después:
+{
+  "mapbox_map": 1,
+  "mapbox_montes": 0,
+  "mapa_interactivo": 0,
+  "mapbox_3d_section": 1,
+  "placeholder_text": false,
+  "hero_static_in_mapa": false,
+  "token_in_js": true,
+  "script_mapbox_montes": true
+}
+
+Resultado:
+- Enlaces internos rotos: 0
+- Tokens privados detectados: 0
+- Tokens públicos Mapbox detectados: 2
+
+Comprobación:
+- Un único #mapbox-map: True
+- Cero #mapbox-montes: True
+- Cero #mapa-interactivo: True
+- Imagen estática ausente: True
+- Token nuevo en JS: True

@@ -1,0 +1,15 @@
+V5.58 — Auditoría pendientes críticos
+
+{
+  "estado_final_en_estado_investigacion": true,
+  "preguntas_tabla_estado": 9,
+  "updated_pages": [
+    "estado-investigacion.html",
+    "veredicto.html",
+    "resumen.html",
+    "auditoria.html"
+  ],
+  "link_errors": 0,
+  "secret_tokens": 0,
+  "public_tokens": 2
+}

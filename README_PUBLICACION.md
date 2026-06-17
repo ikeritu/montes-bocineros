@@ -1,4 +1,4 @@
-# Montes Bocineros — Release candidate pública V5.61
+# Montes Bocineros — Release candidate pública V5.62
 
 Fecha: 2026-06-17
 
@@ -36,7 +36,7 @@ Pero la lista concreta de cinco montes —Gorbeia, Oiz, Sollube, Kolitza y Ganek
 - `comparativa.html`
 - `informes.html`
 
-## Limpieza V5.61
+## Limpieza V5.62
 
 - Eliminadas notas internas `NOTA_TECNICA_V*.md`.
 - Eliminadas notas internas `NOTA_DOCUMENTAL_V*.md`.
@@ -45,9 +45,17 @@ Pero la lista concreta de cinco montes —Gorbeia, Oiz, Sollube, Kolitza y Ganek
 - Token Mapbox público queda solo en `assets/mapbox-montes.js`.
 
 
-## Pulido V5.61
+## Pulido V5.62
 
 - Recolocado el aviso de versión pública provisional en portada.
 - Actualizada versión visible antigua del pie.
 - Navegación pública estabilizada.
 - Ocultado el estado “Cargando mapa 3D…” cuando el mapa ya está visible.
+
+
+## Micro-pulido V5.62
+
+- Añadido margen superior seguro en portada para evitar que el título quede tapado por el menú.
+- Convertido el bloque de estado público en una banda compacta.
+- Sin cambios documentales.
+- Sin cambios en el mapa.

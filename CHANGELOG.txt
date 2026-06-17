@@ -168,3 +168,9 @@
 - Navegación pública estabilizada en HTML y JS.
 - Ocultado estado de carga persistente del mapa.
 - Sin cambios documentales.
+
+## V5.62 — Micro-pulido de portada
+- Añadido margen superior seguro al hero.
+- Convertido aviso público en banda compacta.
+- Cache busting `styles.css?v=5.62` y `menu.js?v=5.62`.
+- Sin cambios documentales ni de mapa.
