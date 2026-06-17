@@ -154,3 +154,8 @@ Actualización:
 - Versión: V5.60
 - Fecha: 2026-06-17
 - Cambio: release candidate pública, limpieza de notas internas y navegación simplificada.
+
+Actualización:
+- Versión: V5.61
+- Fecha: 2026-06-17
+- Cambio: pulido visual de release candidate pública.

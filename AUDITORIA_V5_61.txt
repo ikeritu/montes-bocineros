@@ -1,0 +1,17 @@
+V5.61 — Auditoría pulido visual
+
+{
+  "index_public_notice": true,
+  "index_notice_count": 1,
+  "old_v57_footer_present": false,
+  "mapbox_status_present": true,
+  "map_status_patch": true,
+  "html_files_version_replaced": 17,
+  "nav_rewrites": 17,
+  "link_errors": 0,
+  "secret_tokens": 0,
+  "public_mapbox_tokens": 1,
+  "public_token_locations": [
+    "assets/mapbox-montes.js"
+  ]
+}
