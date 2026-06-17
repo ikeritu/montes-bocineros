@@ -1,113 +1,166 @@
-/* V5.37 — Mapbox público restringido por URL
-   Token público pk.*. No contiene tokens secretos secret-token.
-   Dominio previsto: https://ikeritu.github.io/montes-bocineros/
-*/
-(function(){
-  const TOKEN = "pk.eyJ1IjoiaWtlcml0dSIsImEiOiJjbXFlYWJodWswOW02MnNza2p2czNkemI5In0.lccMYFA_3fNuNaMZZ1j-rA";
-  const MONTES = [
-    { name: "Gernika-Lumo", role: "Juntas", coords: [-2.6787, 43.3167], kind: "centro", color: "#133f35" },
-    { name: "Gorbeia / Gorbea", role: "Sur", coords: [-2.7795, 43.0342], alt: "1.482 m", ac: "1/5", visual: "4/5", color: "#c98c2e" },
-    { name: "Oiz", role: "Centro-oriente", coords: [-2.5941, 43.2367], alt: "1.026 m", ac: "4/5", visual: "5/5", color: "#c98c2e" },
-    { name: "Sollube", role: "Costa / Busturialdea", coords: [-2.7772, 43.3420], alt: "686 m", ac: "5/5", visual: "4/5", color: "#c98c2e" },
-    { name: "Kolitza / Colisa", role: "Enkarterri", coords: [-3.2074, 43.2073], alt: "897 m", ac: "1/5", visual: "3/5", color: "#c98c2e" },
-    { name: "Ganekogorta", role: "Bilbao-Nervión", coords: [-2.9498, 43.1911], alt: "998–999 m", ac: "1/5", visual: "4/5", color: "#c98c2e" }
+// V5.53 — Mapbox Montes Bocineros
+// Mapa interactivo 3D único para la pantalla de los 5 montes.
+// Token público Mapbox restringido al sitio de GitHub Pages.
+
+(function () {
+  const MAPBOX_TOKEN = 'pk.eyJ1IjoiaWtlcml0dSIsImEiOiJjbXFjdGNpMm8wbG1tMnFxd24xNmxxOW80In0.9_4k7dTyGJPcKKsVcHnBHA';
+
+  const puntos = [
+    { id: 'gernika', nombre: 'Gernika-Lumo', subtitulo: 'Juntas', coord: [-2.6727, 43.3167], altura: 10, color: '#c47a2c' },
+    { id: 'gorbeia', nombre: 'Gorbeia / Gorbea', subtitulo: 'Sur', coord: [-2.7816, 43.0350], altura: 1482, color: '#0f3d35' },
+    { id: 'oiz', nombre: 'Oiz', subtitulo: 'Centro-oriente', coord: [-2.5958, 43.2325], altura: 1026, color: '#0f3d35' },
+    { id: 'sollube', nombre: 'Sollube', subtitulo: 'Costa / Busturialdea', coord: [-2.7343, 43.3828], altura: 686, color: '#0f3d35' },
+    { id: 'kolitza', nombre: 'Kolitza / Colisa', subtitulo: 'Encartaciones', coord: [-3.2330, 43.2070], altura: 897, color: '#0f3d35' },
+    { id: 'ganekogorta', nombre: 'Ganekogorta', subtitulo: 'Bilbao', coord: [-2.9719, 43.1760], altura: 998, color: '#0f3d35' }
   ];
 
-  function initMapbox(){
-    const el = document.getElementById("mapbox-map") || document.getElementById("mapa-mapbox") || document.querySelector("[data-mapbox-map]");
-    if (!el || typeof mapboxgl === "undefined") return false;
+  function setStatus(msg, isError) {
+    const el = document.getElementById('mapbox-status');
+    if (!el) return;
+    el.textContent = msg || '';
+    el.style.display = msg ? 'block' : 'none';
+    if (isError) el.classList.add('is-error');
+  }
 
-    mapboxgl.accessToken = TOKEN;
+  function boot() {
+    const container = document.getElementById('mapbox-map');
+    if (!container) {
+      console.error('[Montes Bocineros] No existe #mapbox-map');
+      return;
+    }
+
+    if (!window.mapboxgl) {
+      setStatus('No se ha podido cargar Mapbox GL. Revisa conexión o bloqueo del navegador.', true);
+      console.error('[Montes Bocineros] mapboxgl no está disponible');
+      return;
+    }
+
+    mapboxgl.accessToken = MAPBOX_TOKEN;
 
     const map = new mapboxgl.Map({
-      container: el,
-      style: "mapbox://styles/mapbox/outdoors-v12",
-      center: [-2.82, 43.20],
-      zoom: 8.8,
-      pitch: 58,
-      bearing: -18,
+      container: 'mapbox-map',
+      style: 'mapbox://styles/mapbox/outdoors-v12',
+      center: [-2.83, 43.22],
+      zoom: 8.6,
+      pitch: 62,
+      bearing: -22,
       antialias: true
     });
 
-    map.addControl(new mapboxgl.NavigationControl({ visualizePitch: true }), "top-right");
+    window.__montesMapInstance = map;
+    map.addControl(new mapboxgl.NavigationControl({ visualizePitch: true }), 'top-right');
 
-    map.on("load", function(){
+    map.on('load', function () {
+      setStatus('', false);
+
       try {
-        map.addSource("mapbox-dem", {
-          type: "raster-dem",
-          url: "mapbox://mapbox.mapbox-terrain-dem-v1",
+        map.addSource('mapbox-dem', {
+          type: 'raster-dem',
+          url: 'mapbox://mapbox.mapbox-terrain-dem-v1',
           tileSize: 512,
           maxzoom: 14
         });
-        map.setTerrain({ source: "mapbox-dem", exaggeration: 1.45 });
-        map.addLayer({
-          id: "sky",
-          type: "sky",
-          paint: {
-            "sky-type": "atmosphere",
-            "sky-atmosphere-sun": [0.0, 0.0],
-            "sky-atmosphere-sun-intensity": 8
-          }
-        });
-      } catch(e) {
-        console.warn("Terrain optional layer not available", e);
+        map.setTerrain({ source: 'mapbox-dem', exaggeration: 1.7 });
+      } catch (err) {
+        console.warn('[Montes Bocineros] Terreno no disponible:', err);
       }
 
-      const bounds = new mapboxgl.LngLatBounds();
-
-      MONTES.forEach(function(m){
-        bounds.extend(m.coords);
-
-        const markerEl = document.createElement("div");
-        markerEl.className = m.kind === "centro" ? "mb-marker mb-marker-center" : "mb-marker";
-        markerEl.style.setProperty("--marker-color", m.color || "#c98c2e");
-        markerEl.setAttribute("title", m.name);
-
-        const popupHtml = m.kind === "centro"
-          ? `<strong>${m.name}</strong><br>${m.role}`
-          : `<strong>${m.name}</strong><br>${m.role}<br>Altitud: ${m.alt}<br>Acústica hacia Gernika: ${m.ac}<br>Visual / territorial: ${m.visual}`;
-
-        new mapboxgl.Marker(markerEl)
-          .setLngLat(m.coords)
-          .setPopup(new mapboxgl.Popup({ offset: 24 }).setHTML(popupHtml))
-          .addTo(map);
-      });
-
-      const gernika = MONTES[0].coords;
-      const lines = MONTES.slice(1).map(function(m){
-        return {
-          type: "Feature",
-          properties: { name: m.name },
-          geometry: { type: "LineString", coordinates: [m.coords, gernika] }
-        };
-      });
-
-      map.addSource("lineas-gernika", {
-        type: "geojson",
-        data: { type: "FeatureCollection", features: lines }
-      });
+      if (!map.getSource('montes-points')) {
+        map.addSource('montes-points', {
+          type: 'geojson',
+          data: {
+            type: 'FeatureCollection',
+            features: puntos.map(p => ({
+              type: 'Feature',
+              properties: { id: p.id, nombre: p.nombre, subtitulo: p.subtitulo, altura: p.altura, color: p.color },
+              geometry: { type: 'Point', coordinates: p.coord }
+            }))
+          }
+        });
+      }
 
       map.addLayer({
-        id: "lineas-gernika",
-        type: "line",
-        source: "lineas-gernika",
+        id: 'montes-circles',
+        type: 'circle',
+        source: 'montes-points',
         paint: {
-          "line-color": "#c98c2e",
-          "line-width": 2,
-          "line-opacity": 0.62,
-          "line-dasharray": [2, 2]
+          'circle-radius': ['case', ['==', ['get', 'id'], 'gernika'], 8, 7],
+          'circle-color': ['get', 'color'],
+          'circle-stroke-color': '#fff8e8',
+          'circle-stroke-width': 2
         }
       });
 
-      map.fitBounds(bounds, { padding: 64, duration: 900 });
+      map.addLayer({
+        id: 'montes-labels',
+        type: 'symbol',
+        source: 'montes-points',
+        layout: {
+          'text-field': ['get', 'nombre'],
+          'text-size': 13,
+          'text-offset': [0, 1.4],
+          'text-anchor': 'top'
+        },
+        paint: {
+          'text-color': '#0f3d35',
+          'text-halo-color': '#fff8e8',
+          'text-halo-width': 2
+        }
+      });
+
+      puntos.forEach(function (p) {
+        const popup = new mapboxgl.Popup({ offset: 18 }).setHTML(
+          '<strong>' + p.nombre + '</strong><br>' +
+          '<span>' + p.subtitulo + '</span><br>' +
+          '<small>Altitud aprox.: ' + p.altura + ' m</small>'
+        );
+        const el = document.createElement('button');
+        el.className = 'mapbox-marker-v553';
+        el.type = 'button';
+        el.setAttribute('aria-label', p.nombre);
+        el.style.setProperty('--marker-color', p.color);
+        new mapboxgl.Marker(el).setLngLat(p.coord).setPopup(popup).addTo(map);
+      });
+
+      // Líneas orientativas desde Gernika, no prueba histórica.
+      const gernika = puntos.find(p => p.id === 'gernika').coord;
+      const lineFeatures = puntos.filter(p => p.id !== 'gernika').map(p => ({
+        type: 'Feature',
+        properties: { nombre: p.nombre },
+        geometry: { type: 'LineString', coordinates: [gernika, p.coord] }
+      }));
+
+      map.addSource('lineas-gernika', {
+        type: 'geojson',
+        data: { type: 'FeatureCollection', features: lineFeatures }
+      });
+
+      map.addLayer({
+        id: 'lineas-gernika-layer',
+        type: 'line',
+        source: 'lineas-gernika',
+        paint: {
+          'line-color': '#c7a86a',
+          'line-width': 2,
+          'line-opacity': 0.65,
+          'line-dasharray': [2, 2]
+        }
+      });
     });
 
-    return true;
+    map.on('error', function (e) {
+      console.error('[Montes Bocineros] Error Mapbox:', e && e.error ? e.error : e);
+      setStatus('Error cargando el mapa 3D. Revisa que el token público Mapbox esté autorizado para este dominio.', true);
+    });
   }
 
-  window.addEventListener("DOMContentLoaded", function(){
-    const ok = initMapbox();
-    document.documentElement.classList.toggle("mapbox-active", ok);
-    document.documentElement.classList.toggle("mapbox-fallback", !ok);
-  });
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', boot);
+  } else {
+    boot();
+  }
 })();
+
+
+// V5.54 — resize after first paint
+setTimeout(function(){ try { if (window.__montesMapInstance) window.__montesMapInstance.resize(); } catch(e){} }, 800);

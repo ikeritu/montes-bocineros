@@ -1395,3 +1395,471 @@ table{width:100%;border-collapse:collapse}th,td{padding:12px;border-bottom:1px s
     border-radius:14px;
   }
 }
+
+
+/* V5.51 — folio 35 confirmado + mapa visual 3D restaurado */
+.montes-visual-3d{max-width:1180px;margin:32px auto;padding:0 18px}
+.montes-visual-3d-inner{display:grid;grid-template-columns:minmax(260px,380px) 1fr;gap:24px;align-items:center;padding:24px;border-radius:28px;background:rgba(255,250,241,.88);border:1px solid rgba(19,63,53,.14);box-shadow:0 16px 42px rgba(19,63,53,.08)}
+.montes-visual-3d-text h2{margin:0 0 12px}
+.montes-visual-3d-text p{margin:0}
+.montes-visual-3d img{display:block;width:100%;max-height:520px;object-fit:contain;border-radius:20px;background:rgba(232,244,238,.5);border:1px solid rgba(19,63,53,.12)}
+.montes-visual-3d-fallback{min-height:360px;border-radius:20px;background:linear-gradient(135deg,rgba(232,244,238,.9),rgba(211,229,219,.6));border:1px solid rgba(19,63,53,.12);position:relative;display:grid;place-items:center}
+.montes-visual-3d-fallback span,.montes-visual-3d-fallback strong{position:absolute;padding:8px 12px;border-radius:999px;background:#0f3d35;color:#fff;font-weight:800}
+.montes-visual-3d-fallback strong{top:50%;left:50%;transform:translate(-50%,-50%);background:#7a5a22}
+.montes-visual-3d-fallback span:nth-child(2){left:15%;bottom:18%}
+.montes-visual-3d-fallback span:nth-child(3){right:25%;top:18%}
+.montes-visual-3d-fallback span:nth-child(4){right:12%;top:42%}
+.montes-visual-3d-fallback span:nth-child(5){left:10%;top:42%}
+.montes-visual-3d-fallback span:nth-child(6){left:28%;top:22%}
+@media(max-width:860px){.montes-visual-3d-inner{grid-template-columns:1fr;padding:18px}.montes-visual-3d img{max-height:none}}
+
+
+/* V5.52 — mapa interactivo único y visible */
+.mapbox-3d-section{
+  max-width:1180px;
+  margin:34px auto;
+  padding:28px;
+  border-radius:28px;
+  background:rgba(255,250,241,.92);
+  border:1px solid rgba(19,63,53,.14);
+  box-shadow:0 16px 42px rgba(19,63,53,.08);
+}
+.mapbox-3d-section .section-title{
+  display:flex;
+  align-items:flex-start;
+  gap:16px;
+  margin-bottom:22px;
+}
+.mapbox-3d-section .section-title h2{
+  margin:0 0 10px;
+  font-size:clamp(2rem,4vw,3.2rem);
+  color:#0f3d35;
+}
+.mapbox-3d-section .section-title p{
+  margin:0;
+  max-width:850px;
+  color:#4a5f57;
+  font-size:1.08rem;
+  line-height:1.55;
+}
+.mapbox-montes{
+  position:relative;
+  width:100%;
+  min-height:560px;
+  border-radius:24px;
+  overflow:hidden;
+  border:1px solid rgba(19,63,53,.28);
+  background:#eaf3ee;
+}
+.mapbox-montes .mapboxgl-canvas,
+.mapbox-montes canvas{
+  outline:none;
+}
+.mapbox-loading{
+  position:absolute;
+  inset:0;
+  display:grid;
+  place-items:center;
+  color:#4a5f57;
+  font-weight:700;
+  background:linear-gradient(135deg,#eef7f1,#dfeee6);
+  z-index:1;
+}
+@media(max-width:760px){
+  .mapbox-3d-section{
+    margin:24px 14px;
+    padding:18px;
+    border-radius:22px;
+  }
+  .mapbox-montes{
+    min-height:440px;
+    border-radius:18px;
+  }
+}
+
+
+/* V5.53 — mapa Mapbox único funcional */
+.mapbox-3d-section-v553{
+  max-width:1180px;
+  margin:34px auto;
+  padding:28px;
+  border-radius:28px;
+  background:rgba(255,250,241,.92);
+  border:1px solid rgba(19,63,53,.14);
+  box-shadow:0 16px 42px rgba(19,63,53,.08);
+}
+.mapbox-3d-section-v553 .section-title{
+  display:flex;
+  align-items:flex-start;
+  gap:16px;
+  margin-bottom:22px;
+}
+.mapbox-3d-section-v553 .section-title h2{
+  margin:0 0 10px;
+  font-size:clamp(2rem,4vw,3.2rem);
+  color:#0f3d35;
+}
+.mapbox-3d-section-v553 .section-title p{
+  margin:0;
+  max-width:850px;
+  color:#4a5f57;
+  font-size:1.08rem;
+  line-height:1.55;
+}
+.mapbox-map-v553{
+  position:relative;
+  width:100%;
+  height:620px;
+  min-height:620px;
+  border-radius:24px;
+  overflow:hidden;
+  border:1px solid rgba(19,63,53,.28);
+  background:#eaf3ee;
+}
+.mapbox-status-v553{
+  margin:12px 0 0;
+  text-align:center;
+  color:#4a5f57;
+  font-weight:700;
+}
+.mapbox-status-v553.is-error{
+  color:#8a2f1a;
+}
+.mapbox-marker-v553{
+  width:20px;
+  height:20px;
+  border-radius:50%;
+  border:3px solid #fff8e8;
+  background:var(--marker-color,#0f3d35);
+  box-shadow:0 4px 12px rgba(0,0,0,.28);
+  cursor:pointer;
+}
+.mapbox-marker-v553:hover{
+  transform:scale(1.15);
+}
+@media(max-width:760px){
+  .mapbox-3d-section-v553{
+    margin:24px 14px;
+    padding:18px;
+    border-radius:22px;
+  }
+  .mapbox-map-v553{
+    height:480px;
+    min-height:480px;
+    border-radius:18px;
+  }
+}
+
+
+/* V5.54 — posición correcta del mapa 3D */
+.mapa-simple-map:empty,
+.mapa-simple-map .mapbox-shell:empty{
+  display:none !important;
+}
+.mapa-simple-wrap > .mapbox-3d-section-v553{
+  margin-top:24px !important;
+  margin-bottom:34px !important;
+}
+.mapbox-3d-section-v553{
+  max-width:1180px !important;
+}
+.mapbox-map-v553{
+  display:block !important;
+  visibility:visible !important;
+  opacity:1 !important;
+  background:#eaf3ee !important;
+}
+.mapbox-map-v553 .mapboxgl-canvas{
+  display:block !important;
+}
+
+
+/* V5.55 — tabla crítica de fuentes */
+.critical-sources-section,
+.critical-sources-summary{
+  max-width:1180px;
+  margin:34px auto;
+  padding:28px;
+  border-radius:28px;
+  background:rgba(255,250,241,.92);
+  border:1px solid rgba(19,63,53,.14);
+  box-shadow:0 16px 42px rgba(19,63,53,.08);
+}
+.critical-sources-section .lead{
+  max-width:920px;
+  color:#4a5f57;
+  line-height:1.6;
+}
+.critical-table-wrap{
+  width:100%;
+  overflow-x:auto;
+  margin-top:22px;
+  border-radius:20px;
+  border:1px solid rgba(19,63,53,.16);
+  background:#fffaf1;
+}
+.critical-sources-table{
+  width:100%;
+  min-width:1080px;
+  border-collapse:collapse;
+  font-size:.94rem;
+}
+.critical-sources-table th{
+  background:#0f3d35;
+  color:#fffaf1;
+  text-align:left;
+  padding:14px 16px;
+  vertical-align:top;
+  font-weight:900;
+}
+.critical-sources-table td{
+  padding:14px 16px;
+  border-top:1px solid rgba(19,63,53,.12);
+  vertical-align:top;
+  line-height:1.45;
+}
+.critical-sources-table tbody tr:nth-child(even){
+  background:rgba(232,244,238,.42);
+}
+.status-pill{
+  display:inline-block;
+  padding:6px 9px;
+  border-radius:999px;
+  font-size:.78rem;
+  font-weight:900;
+  white-space:nowrap;
+  border:1px solid rgba(19,63,53,.16);
+}
+.status-pill.ok{background:#e3f2ea;color:#0f3d35}
+.status-pill.warn{background:#fff2da;color:#745018}
+.status-pill.pending{background:#eef1f5;color:#39495a}
+.status-pill.no{background:#f5e1dc;color:#7d2d1b}
+.source-verdict-grid{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:18px;
+  margin-top:24px;
+}
+.source-verdict-grid article{
+  padding:18px;
+  border-radius:18px;
+  background:rgba(232,244,238,.55);
+  border:1px solid rgba(19,63,53,.12);
+}
+.source-verdict-grid h3{
+  margin:0 0 8px;
+  color:#0f3d35;
+}
+.source-verdict-grid p{
+  margin:0;
+}
+.clean-list{
+  margin:18px 0 0;
+  padding-left:1.2rem;
+}
+.clean-list li{
+  margin:.55rem 0;
+}
+@media(max-width:860px){
+  .critical-sources-section,
+  .critical-sources-summary{
+    margin:24px 14px;
+    padding:20px;
+    border-radius:22px;
+  }
+  .source-verdict-grid{
+    grid-template-columns:1fr;
+  }
+}
+
+
+/* V5.56 — cronología de recepción Trueba 1872 */
+.reception-chronology{max-width:1180px;margin:34px auto;padding:28px;border-radius:28px;background:rgba(255,250,241,.92);border:1px solid rgba(19,63,53,.14);box-shadow:0 16px 42px rgba(19,63,53,.08)}
+.reception-chronology .lead{max-width:960px;line-height:1.62;color:#4a5f57}
+.timeline-critical{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;margin:24px 0}
+.timeline-critical article{padding:18px;border-radius:20px;background:rgba(232,244,238,.48);border:1px solid rgba(19,63,53,.12)}
+.timeline-critical article.highlight{background:rgba(255,242,218,.82);border-color:rgba(122,90,34,.28)}
+.timeline-critical .date{display:inline-block;margin-bottom:10px;padding:6px 10px;border-radius:999px;background:#0f3d35;color:#fffaf1;font-weight:900;font-size:.82rem}
+.timeline-critical h3{margin:0 0 8px;color:#0f3d35}
+.timeline-critical p{margin:.5rem 0;line-height:1.48}
+.timeline-critical .limit{font-weight:800;color:#7a5a22}
+@media(max-width:980px){.timeline-critical{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.reception-chronology{margin:24px 14px;padding:20px;border-radius:22px}.timeline-critical{grid-template-columns:1fr}}
+
+
+/* V5.57 — cronología general del estudio */
+.general-timeline-section,
+.timeline-summary-block{
+  max-width:1180px;
+  margin:34px auto;
+  padding:28px;
+  border-radius:28px;
+  background:rgba(255,250,241,.92);
+  border:1px solid rgba(19,63,53,.14);
+  box-shadow:0 16px 42px rgba(19,63,53,.08);
+}
+.general-timeline-section .lead{
+  max-width:960px;
+  color:#4a5f57;
+  line-height:1.62;
+}
+.timeline-general{
+  position:relative;
+  margin:30px 0;
+  display:grid;
+  gap:20px;
+}
+.timeline-general::before{
+  content:"";
+  position:absolute;
+  left:92px;
+  top:0;
+  bottom:0;
+  width:3px;
+  background:linear-gradient(#0f3d35,#c7a86a);
+  border-radius:999px;
+  opacity:.45;
+}
+.timeline-item{
+  position:relative;
+  display:grid;
+  grid-template-columns:150px 1fr;
+  gap:22px;
+  align-items:start;
+  padding:22px;
+  border-radius:22px;
+  border:1px solid rgba(19,63,53,.12);
+  background:rgba(232,244,238,.44);
+}
+.timeline-item::before{
+  content:"";
+  position:absolute;
+  left:84px;
+  top:32px;
+  width:18px;
+  height:18px;
+  border-radius:50%;
+  background:#0f3d35;
+  border:4px solid #fffaf1;
+  box-shadow:0 0 0 2px rgba(19,63,53,.18);
+}
+.timeline-date{
+  display:inline-flex;
+  justify-content:center;
+  align-items:center;
+  min-height:40px;
+  padding:8px 12px;
+  border-radius:999px;
+  background:#0f3d35;
+  color:#fffaf1;
+  font-weight:900;
+  text-align:center;
+}
+.timeline-item h3{
+  margin:0 0 8px;
+  color:#0f3d35;
+}
+.timeline-item p{
+  margin:.5rem 0;
+  line-height:1.52;
+}
+.timeline-proof{
+  color:#123b32;
+}
+.timeline-limit{
+  color:#7a5a22;
+  font-weight:750;
+}
+.timeline-item.evidence-medium{
+  background:rgba(255,242,218,.62);
+}
+.timeline-item.evidence-modern{
+  background:rgba(239,244,246,.76);
+}
+.timeline-final-verdict{
+  padding:22px;
+  border-radius:22px;
+  background:rgba(122,90,34,.08);
+  border-left:5px solid #7a5a22;
+}
+.timeline-final-verdict h3{
+  margin-top:0;
+}
+.timeline-mini-list{
+  margin:18px 0 0;
+  padding-left:1.4rem;
+}
+.timeline-mini-list li{
+  margin:.7rem 0;
+}
+@media(max-width:760px){
+  .general-timeline-section,
+  .timeline-summary-block{
+    margin:24px 14px;
+    padding:20px;
+    border-radius:22px;
+  }
+  .timeline-general::before{
+    left:24px;
+  }
+  .timeline-item{
+    grid-template-columns:1fr;
+    padding-left:54px;
+  }
+  .timeline-item::before{
+    left:16px;
+  }
+  .timeline-date{
+    justify-content:flex-start;
+    width:max-content;
+  }
+}
+
+
+/* V5.58 — pendientes críticos y estado final */
+.research-status-final,.final-verdict-levels{max-width:1180px;margin:34px auto;padding:28px;border-radius:28px;background:rgba(255,250,241,.92);border:1px solid rgba(19,63,53,.14);box-shadow:0 16px 42px rgba(19,63,53,.08)}
+.research-status-final .lead{max-width:940px;color:#4a5f57;line-height:1.62}
+.critical-status-table{width:100%;min-width:980px;border-collapse:collapse;font-size:.95rem}
+.critical-status-table th{background:#0f3d35;color:#fffaf1;text-align:left;padding:14px 16px;vertical-align:top;font-weight:900}
+.critical-status-table td{padding:14px 16px;border-top:1px solid rgba(19,63,53,.12);vertical-align:top;line-height:1.48}
+.critical-status-table tbody tr:nth-child(even){background:rgba(232,244,238,.42)}
+.evidence-grid,.levels-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;margin:26px 0}
+.evidence-card,.levels-grid article{padding:18px;border-radius:20px;border:1px solid rgba(19,63,53,.12);background:rgba(232,244,238,.48)}
+.evidence-card h3,.levels-grid h3{margin:0 0 8px;color:#0f3d35}
+.evidence-card p,.levels-grid p{margin:0;line-height:1.5}
+.evidence-proven{background:rgba(227,242,234,.8)}
+.evidence-likely{background:rgba(255,242,218,.8)}
+.evidence-reception{background:rgba(239,244,246,.9)}
+.evidence-open{background:rgba(245,225,220,.65)}
+@media(max-width:980px){.evidence-grid,.levels-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.research-status-final,.final-verdict-levels{margin:24px 14px;padding:20px;border-radius:22px}.evidence-grid,.levels-grid{grid-template-columns:1fr}}
+
+
+/* V5.60 — release candidate pública */
+.public-release-notice,
+.internal-page-notice{
+  max-width:1000px;
+  margin:34px auto;
+  padding:28px;
+  border-radius:28px;
+  background:rgba(255,250,241,.92);
+  border:1px solid rgba(19,63,53,.14);
+  box-shadow:0 16px 42px rgba(19,63,53,.08);
+}
+.public-release-notice h2,
+.internal-page-notice h2{
+  margin-top:0;
+  color:#0f3d35;
+}
+.public-release-notice p,
+.internal-page-notice p{
+  line-height:1.62;
+}
+@media(max-width:760px){
+  .public-release-notice,
+  .internal-page-notice{
+    margin:24px 14px;
+    padding:20px;
+    border-radius:22px;
+  }
+}
