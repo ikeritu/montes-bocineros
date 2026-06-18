@@ -32,9 +32,9 @@
 
 
 
-/* V5.61 — navegación pública estable */
+/* V1.3 — navegación pública didáctica estable */
 (function(){
-  const publicNav = `<a href="index.html">Inicio</a><a href="resumen.html">Resumen</a><a href="cronologia.html">Cronología</a><a href="fuentes.html">Fuentes</a><a href="citas.html">Citas</a><a href="estado-investigacion.html">Estado</a><a href="mapa.html">Los 5 montes</a><a href="veredicto.html">Síntesis</a>`;
+  const publicNav = `<a href="index.html">Inicio</a><a href="historia.html">Historia</a><a href="cronologia.html">Cronología</a><a href="mapa.html">Mapa</a><a href="biblioteca.html">Fuentes</a><a href="veredicto.html">Veredicto</a>`;
   function simplifyNav(){
     document.querySelectorAll('nav, .nav-links, .site-nav, .menu-links').forEach(function(nav){
       if (nav && nav.querySelectorAll('a').length >= 5) {

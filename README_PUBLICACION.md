@@ -1,61 +1,33 @@
-# Montes Bocineros — Release candidate pública V5.62
+# Montes Bocineros — V1.5 Madoz Tomo IX incorporado
 
-Fecha: 2026-06-17
+Fecha: 2026-06-18
 
 ## Estado
 
-Versión pública provisional del estudio sobre los montes bocineros de Bizkaia.
+Versión seria de publicación didáctica. Reordena la web para que el lector entienda primero la historia y después pueda entrar en el aparato documental.
 
-## Tesis crítica
+## Criterio principal
 
-La tradición tiene base documental real en:
-- las cinco vozinas documentadas por transmisión del texto de 1342;
-- los vozineros documentados en el Fuero Viejo, capítulo 17.
+Si el lector no entiende el conflicto central en 30 segundos, abandona. Por eso esta versión prioriza:
 
-Pero la lista concreta de cinco montes —Gorbeia, Oiz, Sollube, Kolitza y Ganekogorta— no aparece documentada como lista medieval en las fuentes localizadas hasta ahora. La primera formulación localizada sigue siendo Trueba, 1872, con cautela textual.
+- portada clara;
+- explicación en 5 minutos;
+- timeline visual;
+- fuentes consultables;
+- veredicto sencillo antes de matriz crítica;
+- archivo técnico separado.
 
-## Páginas públicas recomendadas
+## Páginas principales
 
 - `index.html`
-- `resumen.html`
+- `historia.html`
 - `cronologia.html`
+- `biblioteca.html`
 - `fuentes.html`
-- `citas.html`
-- `estado-investigacion.html`
-- `recepcion.html`
 - `mapa.html`
 - `veredicto.html`
-- `metodologia.html`
-- `informes-acusticos.html`
+- `archivo-tecnico.html`
 
-## Páginas auxiliares
+## Nota
 
-- `auditoria.html`
-- `informe-nemotron.html`
-- `fuentes-sospechosas.html`
-- `comparativa.html`
-- `informes.html`
-
-## Limpieza V5.62
-
-- Eliminadas notas internas `NOTA_TECNICA_V*.md`.
-- Eliminadas notas internas `NOTA_DOCUMENTAL_V*.md`.
-- Añadida nota de versión pública provisional en portada.
-- Simplificada navegación pública mediante `assets/menu.js?v=5.60`.
-- Token Mapbox público queda solo en `assets/mapbox-montes.js`.
-
-
-## Pulido V5.62
-
-- Recolocado el aviso de versión pública provisional en portada.
-- Actualizada versión visible antigua del pie.
-- Navegación pública estabilizada.
-- Ocultado el estado “Cargando mapa 3D…” cuando el mapa ya está visible.
-
-
-## Micro-pulido V5.62
-
-- Añadido margen superior seguro en portada para evitar que el título quede tapado por el menú.
-- Convertido el bloque de estado público en una banda compacta.
-- Sin cambios documentales.
-- Sin cambios en el mapa.
+`mapa.html` se mantiene sin cambios funcionales relevantes.

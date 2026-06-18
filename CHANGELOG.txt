@@ -1,3 +1,35 @@
+# Changelog
+
+## V1.5 — Madoz Tomo IX incorporado
+- Incorporada fuente puente: Pascual Madoz, Tomo IX, entrada Guernica.
+- Añadido extracto local de la entrada Guernica: `fuentes/madoz_tomo_ix_guernica_extracto_pp68-74.pdf`.
+- Añadida página clave local: `fuentes/madoz_tomo_ix_guernica_p69_cinco_heraldos.pdf`.
+- Añadida nota documental: `NOTA_DOCUMENTAL_MADOZ_1847.md`.
+- Actualizadas Biblioteca, Fuentes, Citas, Cronología, Veredicto y Estado de investigación.
+- Matiz metodológico nuevo: Madoz confirma “alturas” antes de Trueba, pero no enumera Gorbea, Oiz, Sollube, Ganecogorta y Colisa.
+- Se mantiene la tesis: Trueba 1872 sigue siendo la primera lista completa localizada de cinco montes concretos, salvo hallazgo posterior.
+- Cache busting actualizado a v=1.5.
+
+
+## V1.4 — Versión seria didáctica / UI-UX
+- Consolidada la reordenación didáctica iniciada en V1.3.
+- Portada orientada a enganchar en los primeros 30 segundos.
+- Menú principal simplificado: Inicio, Historia, Cronología, Mapa, Fuentes y Veredicto.
+- Archivo técnico separado para no saturar la lectura principal.
+- Biblioteca documental corregida: fuentes consultables en cards uniformes.
+- Fuentes críticas reorganizadas: qué prueba / qué no prueba / estado.
+- Cronología convertida en timeline visual.
+- Veredicto reestructurado con bloque inicial “qué sabemos y qué no”.
+- Se mantiene mapa.html sin cambios funcionales relevantes.
+- Actualizado cache busting a v=1.4.
+
+## V1.2 — Fuentes incorporadas y auditoría didáctica
+- Añadida biblioteca documental consultable (`biblioteca.html`).
+- Añadido PDF de El Correo Vascongado, 11/06/1873, como fuente de recepción decimonónica.
+- Añadidos recortes/páginas clave de la copia de 1600/Fuero Viejo para folio 35, vozineros y sayones.
+- Añadida auditoría didáctica de la web desde el punto de vista de un lector principiante.
+- Añadida ruta inicial en portada para reducir pérdida entre referencias.
+
 # CHANGELOG
 
 ## V5.46 — Imagen de portada encajada
@@ -174,3 +206,53 @@
 - Convertido aviso público en banda compacta.
 - Cache busting `styles.css?v=5.62` y `menu.js?v=5.62`.
 - Sin cambios documentales ni de mapa.
+
+
+## V1.0 pública provisional — 2026-06-17
+
+- Congelada primera versión pública.
+- Añadido `README.md`.
+- Añadido `CITAR.md`.
+- Añadido `LICENCIA_USO.md`.
+- Añadida cita recomendada en portada.
+- Actualizado pie visible a “Versión 1.0 pública provisional”.
+- Sin cambios documentales de fondo.
+- Sin cambios visuales mayores.
+
+
+## v1.1_iturriza_revisado
+- Añadida nota documental sobre Juan Ramón de Iturriza, *Historia General de Vizcaya*, manuscrito 1785.
+- Incorporada revisión de folios 66–70, 76–79 y 104–108.
+- Clasificado Iturriza como fuente útil para el marco institucional de bocinas/merindades/Junta, pero no como prueba localizada de la lista de cinco montes.
+- Actualizado estado de investigación: la pista de Iturriza queda pendiente y debilitada, no apta como hecho probado.
+
+
+## V1.3 didáctica/UI-UX
+- Portada reordenada para enganchar en 30 segundos.
+- Nueva página `historia.html` para lectura guiada.
+- Nueva página `archivo-tecnico.html` para separar informes IA, metodología y auditorías.
+- Menú principal simplificado.
+- CSS `assets/uiux-v13.css` para cards, grids y lectura mobile-friendly.
+- Biblioteca documental reforzada como acceso a fuentes.
+
+
+## v1.3.1 — biblioteca corregida UI/UX
+- Corregido layout roto de biblioteca.html por herencia de .page de dos columnas.
+- Rehecha Biblioteca documental con hero compacto y cards uniformes.
+- Añadidas reglas CSS específicas para páginas internas V1.3.
+
+
+## v1.3.2 — Fuentes críticas pulidas
+
+- Rehecha `fuentes.html` para eliminar tabla densa inicial y convertirla en una página didáctica de certeza documental.
+- Sustituida acumulación de secciones por cards críticas: qué prueba / qué no prueba / estado.
+- Añadida estructura visual para separar: cinco vozinas, vozineros, primera lista de cinco montes, recepción posterior e Iturriza como contexto.
+- Añadido CSS específico para `.critical-source-grid` y `.critical-source-card`.
+- Auditoría básica de enlaces internos: 0 enlaces rotos detectados.
+
+
+## v1.3.3 — Timeline y veredicto visual
+- Cronología convertida en línea temporal visual con lectura crítica por fecha.
+- Veredicto reorganizado con bloque inicial de “qué sabemos / qué no sabemos”.
+- Matriz densa sustituida por cards de síntesis antes del detalle técnico.
+- Añadido CSS UI/UX específico para timeline, badges y verdict cards.

@@ -1962,3 +1962,18 @@ body.home-page .public-release-notice{
     padding:14px;
   }
 }
+
+
+/* V1.0 — cita y cierre público */
+.citation-strip{
+  width:min(1000px, calc(100% - 32px));
+  margin:28px auto;
+  padding:16px 18px;
+  border-radius:18px;
+  background:rgba(255,250,241,.92);
+  border:1px solid rgba(19,63,53,.14);
+  box-shadow:0 10px 26px rgba(19,63,53,.06);
+  box-sizing:border-box;
+}
+.citation-strip p{margin:.25rem 0;line-height:1.5}
+@media(max-width:760px){.citation-strip{width:auto;margin:22px 14px}}
