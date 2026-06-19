@@ -1,6 +1,40 @@
+
+
+## V1.8.2 — Lope García de Salazar e Ibargüen-Cachopín como contexto
+
+- Añadida revisión de Lope García de Salazar: cinco vozinas en cinco merindades dentro del relato de Don Çuria/Jaun Zuria.
+- Añadida revisión de Ibargüen-Cachopín: adarrak/cuernos a manera de bocinas, comunicación sonora y prestigio linajístico.
+- Actualizadas cronología, fuentes, biblioteca, recepción, veredicto, personajes, glosario y archivo técnico.
+- Añadida NOTA_DOCUMENTAL_LOPE_IBARGUEN.md.
+- Se mantiene la tesis: estas fuentes aportan contexto de bocinas, merindades y cultura sonora, pero no enumeran Gorbea, Oiz, Sollube, Ganecogorta y Colisa como lista medieval.
+- No se toca mapa.html.
+## V1.7.1 — Trueba 1873 y Delmas ligero — 2026-06-19
+
+- Versión ligera: se retira del ZIP el PDF completo de Delmas para reducir peso; queda enlazado externamente desde Biblioteca/Fuentes y se conserva la nota documental y el informe OCR.
+- Añadida `NOTA_DOCUMENTAL_DELMAS_1864.md`: Delmas queda clasificado como contexto territorial/institucional, sin bocinas/vozinas ni lista de cinco montes localizada en el cribado.
+- Añadido informe de cribado OCR en `fuentes/informe_delmas_ocr_montes_bocineros.md`.
+- Añadido recorte local de `El Correo Vascongado`, 11/06/1873, con la lista ampliada de nueve montañas/rocas: Oiz, Gorbea, Jata, Sollube, Ereñozar, Bizcárgui, Colisa, Amboto y Ganecogorta.
+- Actualizadas `cronologia.html`, `fuentes.html`, `biblioteca.html`, `veredicto.html`, `recepcion.html`, `estado-investigacion.html`, `personajes.html` y `archivo-tecnico.html`.
+- Corregida la pista de “La Ilustración Católica” como prioridad: el facsímil de 1873 habla de la `Juventud Católica vizcaína`.
+- Sin cambios en `mapa.html`.
+
+V1.6.2 — Quién es quién con recreación IA señalizada
+- Añadida imagen local: assets/personajes/juan-nunez-de-lara-recreacion-ia.png.
+- La ficha de Juan Núñez de Lara indica explícitamente: “Recreación visual generada con IA”.
+- Añadido aviso metodológico: no es retrato histórico verificado ni fuente documental.
+- Actualizado criterio de imágenes en personajes.html.
+- Sin cambios documentales respecto a V1.6.1.
+
+
+V1.6 — Quién es quién / contexto de autores
+- Añadida página personajes.html con biografías breves y valor crítico de cada autor/personaje citado.
+- Añadidos enlaces desde Biblioteca, Fuentes, Historia y Archivo técnico.
+- Se mantiene V1.5.1 como base documental: Madoz fuente puente, Trueba primera lista localizada de cinco montes.
+- No se añaden retratos por falta de procedencia/uso claro de derechos.
+
 # Changelog
 
-## V1.5 — Madoz Tomo IX incorporado
+## V1.5.1 — Madoz Tomo IX incorporado
 - Incorporada fuente puente: Pascual Madoz, Tomo IX, entrada Guernica.
 - Añadido extracto local de la entrada Guernica: `fuentes/madoz_tomo_ix_guernica_extracto_pp68-74.pdf`.
 - Añadida página clave local: `fuentes/madoz_tomo_ix_guernica_p69_cinco_heraldos.pdf`.
@@ -8,7 +42,7 @@
 - Actualizadas Biblioteca, Fuentes, Citas, Cronología, Veredicto y Estado de investigación.
 - Matiz metodológico nuevo: Madoz confirma “alturas” antes de Trueba, pero no enumera Gorbea, Oiz, Sollube, Ganecogorta y Colisa.
 - Se mantiene la tesis: Trueba 1872 sigue siendo la primera lista completa localizada de cinco montes concretos, salvo hallazgo posterior.
-- Cache busting actualizado a v=1.5.
+- Cache busting actualizado a v=1.5.1.
 
 
 ## V1.4 — Versión seria didáctica / UI-UX
@@ -256,3 +290,75 @@
 - Veredicto reorganizado con bloque inicial de “qué sabemos / qué no sabemos”.
 - Matriz densa sustituida por cards de síntesis antes del detalle técnico.
 - Añadido CSS UI/UX específico para timeline, badges y verdict cards.
+
+## V1.5.1 — QA visual header/hero
+- Añadido margen superior a páginas internas con main.container.
+- Añadido scroll-padding-top y scroll-margin-top para evitar que la cabecera sticky tape títulos o anchors.
+- Ajustado tamaño del título principal en veredicto para reducir riesgo de corte visual.
+- Sin cambios documentales de fondo respecto a V1.5.
+
+
+## V1.6.1 — Retratos verificados
+- Añadidos retratos de Antonio de Trueba y Pascual Madoz en `personajes.html`.
+- Creados assets locales en `assets/personajes/`.
+- Añadido criterio de imágenes: no incorporar retratos sin fuente reutilizable clara.
+- Delmas queda pendiente de verificación de condiciones de reutilización antes de usar retrato local.
+- Sin cambios documentales de fondo.
+
+
+V1.7.2 — Auditoría técnica, SEO y UX aplicada
+================================================
+- Corrige CSP para permitir Mapbox en Netlify y mantiene fallback estático si falla el mapa 3D.
+- Añade mapa estático SVG para consulta sin cobertura o sin WebGL.
+- Añade canonical, Open Graph, Twitter cards y JSON-LD en páginas públicas.
+- Limpia sitemap: solo páginas divulgativas principales; archivo técnico e informes pasan a noindex.
+- Convierte imágenes pesadas a WebP y actualiza referencias.
+- Añade lazy loading, dimensiones de imagen y enlace “Saltar al contenido”.
+- Sustituye menu.js por versión accesible que no reescribe la navegación.
+- Refuerza H1 y títulos SEO de portada, historia, mapa, cronología, fuentes, biblioteca y veredicto.
+- Añade bloque “Para montañeros” en portada.
+- Renombra visible “Pendientes críticos/fuentes sospechosas” a “Pendientes documentales”.
+- Reduce jerga de versiones en páginas públicas; la trazabilidad queda en VERSION/CHANGELOG.
+
+
+## V1.8.0 — Los cinco montes + glosario divulgativo
+
+- Añadida página pública `montes.html` con fichas ligeras de Gorbeia, Oiz, Sollube, Kolitza y Ganekogorta.
+- Añadida página `glosario.html` con términos clave: bocina/vozina, vozinero, sayón, Junta General, merindad, anteiglesia, facsímil, recepción posterior y no probado.
+- Reforzada la portada con tres caminos: Historia, Montes y Fuentes.
+- Añadidas anclas SEO por monte y schema `Place` básico, sin convertir las fichas en rutas GPX ni guía de emergencia.
+- Mejoradas zonas táctiles mínimas de botones y enlaces principales.
+- Actualizado menú global, sitemap y enlaces internos.
+- Decisión crítica: no se incorporan GPX, audio ni modo offline completo en esta versión para no prometer información práctica no verificada.
+
+
+## V1.8.1 — Recreación IA de Juan Ruiz de Anguiz señalizada
+
+- Añadida recreación visual generada con IA de Juan Ruiz de Anguiz en `personajes.html`.
+- La imagen se etiqueta explícitamente como recreación didáctica, no como retrato histórico verificado.
+- Añadida regla editorial pública sobre recreaciones IA en `personajes.html`.
+- Añadida nota metodológica en `archivo-tecnico.html` sobre uso de recreaciones visuales IA.
+- Añadido término `recreación visual generada con IA` al glosario.
+- No se toca `mapa.html` ni se introducen cambios documentales de fondo.
+
+
+## V1.8.3 — Recreación IA de Juan Ramón de Iturriza y Zabala señalizada
+
+- Añadida recreación visual generada con IA de Juan Ramón de Iturriza y Zabala en `personajes.html`.
+- La imagen se etiqueta explícitamente como recreación didáctica, no como retrato histórico verificado.
+- Añadido texto de cautela específico para Iturriza con la formulación editorial aprobada.
+- Actualizado el criterio general de imágenes en `personajes.html` para incluir también a Iturriza.
+- Añadida nota metodológica breve en `archivo-tecnico.html`.
+- No se toca `mapa.html` ni se introducen cambios documentales de fondo.
+
+
+## V1.9.0 — Ruta clara para todos los públicos
+
+- Menú principal reducido a cinco entradas: Inicio, Historia, Montes, Mapa y Conclusión.
+- El botón superior pasa a ser `Profundizar`, con fuentes, personajes, glosario y archivo documental como segundo nivel.
+- Portada simplificada con tres decisiones principales y ruta guiada de cuatro pasos.
+- Añadidas cajas `En pocas palabras` en Historia, Montes, Mapa y Conclusión.
+- `Veredicto` se presenta visualmente como `Conclusión`, manteniendo la URL existente para no romper enlaces.
+- Añadido bloque común `Para profundizar` en páginas principales.
+- Actualizado sitemap para priorizar la ruta principal.
+- No se toca el contenido documental de fondo ni `mapa.html` más allá de navegación/enlaces y caja introductoria.

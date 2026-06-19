@@ -320,3 +320,60 @@ body.v13-page main.page > .hero h1{
   .v133-timecard{grid-column:2;}
   .v133-proof-grid,.v133-verdict-grid{grid-template-columns:1fr;}
 }
+
+/* V1.5.1 — microajuste QA visual tras publicación
+   Evita que la cabecera sticky tape los heroes internos y reduce el riesgo de títulos cortados. */
+html{scroll-padding-top:120px;}
+body.v13-page > main.container{padding-top:clamp(24px,4vw,46px);}
+body.v13-page > main.container > .section:first-child{margin-top:0;}
+body.v13-page .section,
+body.v13-page .v13-panel,
+body.v13-page .v133-hero-card{scroll-margin-top:120px;}
+.v133-hero-card{padding-top:clamp(36px,4vw,56px);}
+.v133-hero-card .page-title{font-size:clamp(2.75rem,7vw,5.25rem);line-height:.96;letter-spacing:-.058em;}
+@media(max-width:760px){
+  html{scroll-padding-top:92px;}
+  body.v13-page > main.container{padding-top:22px;}
+  .v133-hero-card .page-title{font-size:clamp(2.45rem,12vw,4.2rem);}
+}
+
+
+/* V1.6 · Quién es quién */
+.personajes-page .v13-hero { align-items: stretch; }
+.person-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.1rem;
+}
+.person-card {
+  display: flex;
+  flex-direction: column;
+  gap: .55rem;
+  min-height: 330px;
+  padding: 1.25rem;
+  border: 1px solid var(--line, #d9d5c7);
+  border-radius: 22px;
+  background: #fffdf8;
+  box-shadow: 0 12px 30px rgba(19, 48, 42, .06);
+}
+.person-card h3 { margin: .25rem 0 0; font-size: 1.15rem; line-height: 1.15; }
+.person-dates { margin: 0; font-weight: 800; color: #7d4f13; }
+.person-card p { margin: 0; line-height: 1.55; }
+.person-caution { margin-top: auto !important; padding-top: .65rem; border-top: 1px solid rgba(20, 60, 50, .12); font-size: .95rem; }
+@media (max-width: 1100px) { .person-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 680px) { .person-grid { grid-template-columns: 1fr; } .person-card { min-height: auto; } }
+
+
+/* V1.9.0 ruta clara */
+.universal-box,.universal-summary{background:linear-gradient(180deg,#fffaf0,#f8f1e2);border:1px solid rgba(125,92,45,.22);border-radius:24px;padding:clamp(1.1rem,2vw,1.8rem);box-shadow:0 14px 35px rgba(27,43,35,.07);}
+.universal-box.compact{padding:1.2rem 1.4rem;}
+.universal-summary h2,.universal-box h2{margin:.25rem 0 .65rem;}
+.reading-route{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.8rem;margin-top:1rem;}
+.reading-route a{display:flex;align-items:center;gap:.65rem;text-decoration:none;color:#123f35;background:#fff;border:1px solid rgba(19,63,53,.18);border-radius:18px;padding:.85rem;min-height:58px;}
+.reading-route strong{display:grid;place-items:center;width:2rem;height:2rem;border-radius:999px;background:#123f35;color:#fff;}
+.reading-route span{font-weight:800;}
+.menu-grid-simplified{grid-template-columns:repeat(4,minmax(0,1fr));}
+.footer-links span{font-weight:800;color:#123f35;}
+.v190-deeper-links .v13-actions,.universal-summary .v13-actions{margin-top:1rem;}
+@media (max-width: 760px){.reading-route{grid-template-columns:1fr 1fr}.menu-grid-simplified{grid-template-columns:1fr}.nav-simple a{min-height:44px}.menu-toggle{min-height:48px}}
+@media (max-width: 480px){.reading-route{grid-template-columns:1fr}.universal-box,.universal-summary{border-radius:18px}}

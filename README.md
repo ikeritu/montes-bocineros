@@ -1,12 +1,13 @@
 # Montes Bocineros de Bizkaia
 
+> V1.7 añade una recreación visual generada con IA de Juan Núñez de Lara, señalizada como imagen ilustrativa no documental.
 Investigación crítica y didáctica sobre la tradición de las cinco bocinas, los vozineros y la aparición posterior de los cinco montes bocineros vinculados a Gernika.
 
 Web publicada prevista: https://ikeritu.github.io/montes-bocineros/
 
 ## Estado de la versión
 
-**V1.5 — Madoz Tomo IX incorporado**  
+**V1.7 — Madoz Tomo IX incorporado**  
 Fecha: 2026-06-18
 
 Esta versión incorpora Madoz, Tomo IX, entrada Guernica, como fuente puente anterior a Trueba, y mantiene la reorganización didáctica que hace que la web para que un lector sin contexto entienda el conflicto central en menos de 30 segundos:
@@ -37,3 +38,12 @@ Pero la lista concreta de cinco cumbres —Gorbeia/Gorbea, Oiz, Sollube, Kolitza
 ## Regla documental
 
 Los informes IA se tratan como auxiliares de investigación, no como fuentes históricas. Ningún dato entra como hecho sin facsímil, PDF, catálogo fiable o fuente crítica verificable.
+
+
+## V1.7
+
+Añadida página `personajes.html` con una guía breve de autores, cronistas, transmisores documentales e investigadores citados. El objetivo es ayudar al lector a saber quién habla y qué valor documental tiene cada nombre.
+
+
+### V1.7
+Incorpora Delmas 1864 como pista revisada sin lista de cinco montes, con PDF completo enlazado externamente y El Correo Vascongado 1873 como facsímil de recepción ampliada. Mantiene retratos verificados de Trueba y Madoz y la recreación IA señalizada de Juan Núñez de Lara.
