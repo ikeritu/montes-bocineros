@@ -47,3 +47,11 @@ Añadida página `personajes.html` con una guía breve de autores, cronistas, tr
 
 ### V1.7
 Incorpora Delmas 1864 como pista revisada sin lista de cinco montes, con PDF completo enlazado externamente y El Correo Vascongado 1873 como facsímil de recepción ampliada. Mantiene retratos verificados de Trueba y Madoz y la recreación IA señalizada de Juan Núñez de Lara.
+
+
+## V2.0b — navegación y estructura pública
+
+- Ruta principal: `index.html` → `historia.html` → `montes.html` → `veredicto.html`.
+- `montes.html` integra fichas y mapa para evitar duplicidad.
+- `mapa.html` queda como puente de compatibilidad.
+- El index explica qué son los montes bocineros, la versión tradicional, la duda documental, el objetivo del estudio y el uso de IA como herramienta de investigación.

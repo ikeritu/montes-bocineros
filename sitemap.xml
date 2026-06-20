@@ -3,9 +3,9 @@
   <url><loc>https://ikeritu.github.io/montes-bocineros/</loc><priority>1.0</priority></url>
   <url><loc>https://ikeritu.github.io/montes-bocineros/historia.html</loc><priority>0.9</priority></url>
   <url><loc>https://ikeritu.github.io/montes-bocineros/montes.html</loc><priority>0.9</priority></url>
-  <url><loc>https://ikeritu.github.io/montes-bocineros/mapa.html</loc><priority>0.8</priority></url>
-  <url><loc>https://ikeritu.github.io/montes-bocineros/veredicto.html</loc><priority>0.8</priority></url>
-  <url><loc>https://ikeritu.github.io/montes-bocineros/biblioteca.html</loc><priority>0.5</priority></url>
-  <url><loc>https://ikeritu.github.io/montes-bocineros/personajes.html</loc><priority>0.5</priority></url>
+  <url><loc>https://ikeritu.github.io/montes-bocineros/veredicto.html</loc><priority>0.9</priority></url>
+  <url><loc>https://ikeritu.github.io/montes-bocineros/fuentes.html</loc><priority>0.7</priority></url>
+  <url><loc>https://ikeritu.github.io/montes-bocineros/personajes.html</loc><priority>0.6</priority></url>
   <url><loc>https://ikeritu.github.io/montes-bocineros/glosario.html</loc><priority>0.5</priority></url>
+  <url><loc>https://ikeritu.github.io/montes-bocineros/archivo-tecnico.html</loc><priority>0.4</priority></url>
 </urlset>

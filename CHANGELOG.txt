@@ -1,5 +1,16 @@
 
 
+V2.0b — Inicio claro, personajes ordenados y montes con mapa integrado
+- Index ampliado con explicación básica: qué son los montes bocineros, versión tradicional, duda documental, objetivo del estudio y uso de IA como herramienta de investigación.
+- Menú principal reducido a Inicio · Historia · Montes y mapa · Conclusión.
+- Personajes ordenados cronológicamente por nacimiento o periodo de actividad.
+- Montes y mapa fusionados en montes.html para evitar duplicidad.
+- mapa.html queda como página puente de compatibilidad.
+- Mapa estático plegado en desplegable dentro de la página integrada.
+- Títulos globales reducidos y jerarquía visual suavizada.
+- Sin cambios documentales de fondo. Labayru e Iturriza continúan abiertos para fase posterior.
+
+
 ## V1.8.2 — Lope García de Salazar e Ibargüen-Cachopín como contexto
 
 - Añadida revisión de Lope García de Salazar: cinco vozinas en cinco merindades dentro del relato de Don Çuria/Jaun Zuria.
@@ -362,3 +373,46 @@ V1.7.2 — Auditoría técnica, SEO y UX aplicada
 - Añadido bloque común `Para profundizar` en páginas principales.
 - Actualizado sitemap para priorizar la ruta principal.
 - No se toca el contenido documental de fondo ni `mapa.html` más allá de navegación/enlaces y caja introductoria.
+
+
+## V1.9.1 — Recreación IA de Lope García de Salazar señalizada
+
+- Añadida recreación visual generada con IA de Lope García de Salazar en `personajes.html`.
+- La imagen se etiqueta explícitamente como recreación didáctica, no como retrato histórico verificado.
+- Añadido texto de cautela específico aprobado por el usuario.
+- Eliminada una ficha duplicada antigua de Lope para simplificar `personajes.html`.
+- Actualizado el criterio general de imágenes en `personajes.html` para incluir también a Lope.
+- Añadida nota metodológica breve en `archivo-tecnico.html`.
+- No se toca `mapa.html` ni se introducen cambios documentales de fondo.
+
+
+## V1.9.2 — Pulido final de claridad
+
+- Simplificada aún más la portada: menos bloques secundarios y una ruta de lectura más evidente.
+- Reducido el menú de “Profundizar” a dos grupos: Ruta principal y Comprobar.
+- Páginas principales con acciones más claras y menos botones simultáneos.
+- Añadidas cajas de siguiente paso más directas en Historia, Montes, Mapa y Conclusión.
+- Las fuentes y archivo documental siguen accesibles, pero ya no compiten con la ruta principal.
+- Sin cambios documentales de fondo y sin cambios funcionales en el mapa.
+
+
+## V1.9.3 — Portada equilibrada + recreación IA sobria de Lope García de Salazar
+
+- Reducido el tamaño del título principal en `index.html` mediante CSS específico para la portada.
+- Ampliada la presencia visual de la imagen principal de portada para equilibrarla con la ficha de texto.
+- Igualadas visualmente las dos fichas principales de la portada en escritorio.
+- Sustituida la recreación IA de Lope García de Salazar por una versión más sobria y menos narrativa.
+- Actualizado el texto de cautela de Lope: recreación inspirada en un noble, guerrero y cronista vizcaíno del siglo XV.
+- Actualizado cache busting de assets a `v=1.9.3`.
+- No se toca `mapa.html` ni se introducen cambios documentales de fondo.
+
+
+## V2.0a — Tabla maestra de fuentes
+
+- Añadida tabla maestra documental en `fuentes.html` para comparar fuente por fuente.
+- La tabla distingue bocinas/vozinas, vozineros, menciones a cinco, enumeración de montes y enumeración concreta de Gorbea, Oiz, Sollube, Ganekogorta y Colisa.
+- Labayru queda marcado como pendiente abierto por falta de tomos completos/facsímiles.
+- Iturriza 1884/página crítica queda marcado como pendiente abierto hasta localizar facsímil y página exacta.
+- Actualizado `pendientes-documentales.html` para eliminar estados ya superados y priorizar Labayru, Iturriza y Trueba/Euskal-Erria.
+- Añadido `TABLA_MAESTRA_FUENTES.md` como documento interno descargable.
+- No se toca `mapa.html` ni se introducen cambios documentales de fondo más allá de ordenar el estado de verificación.
