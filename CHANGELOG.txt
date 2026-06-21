@@ -515,3 +515,14 @@ V2.2b — Iturriza 1884/1885 revisado
 - El Correo Vascongado 1873 queda marcado como cerrado con recorte local de la lista ampliada de nueve montañas/rocas.
 - 1858 y 1862 quedan explícitamente pendientes de imagen directa propia.
 - Actualizados `cadena-trueba.html`, `fuentes.html`, `veredicto.html`, `pendientes-documentales.html`, `biblioteca.html` y `archivo-tecnico.html`.
+
+## V2.4b — Portada refinada y ruta pública clara
+
+- Hero de portada ajustado al ancho estructural del resto del contenido.
+- Título de portada optimizado para aparecer en una línea en escritorio sin forzarlo en móvil.
+- Rehecho el bloque “Antes de empezar” como ficha de ancho completo con cuatro tarjetas.
+- La versión tradicional se formula como tradición: “La tradición lo presenta así”.
+- La sección de IA queda más precisa: “La IA es una herramienta de trabajo, no una fuente histórica”.
+- Añadida sección de correcciones/puntualizaciones con formulario pendiente.
+- Añadida llamada a apoyar el proyecto enlazada a la caja de apoyo.
+- Sin cambios documentales de fondo respecto a V2.4a.

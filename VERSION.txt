@@ -1,3 +1,12 @@
-V2.4a — Trueba facsímil directo: cierre parcial
+V2.4b — Portada refinada y ruta pública clara
 
-Estado: 1872 y 1873 cerrados con recortes locales; 1858 y 1862 pendientes de imagen directa propia.
+Estado: ajuste visual y editorial de portada sobre V2.4a.
+- Hero principal alineado con el ancho estructural del resto de la portada.
+- Título “Montes Bocineros de Bizkaia” en una línea en escritorio, con salto natural en móvil.
+- Sustituido el bloque introductorio anterior por una ficha de ancho completo “Antes de empezar”.
+- Añadidas cuatro fichas: versión tradicional, duda documental, objetivo del estudio e investigación con IA.
+- Texto de la versión tradicional formulado con cautela: “La tradición lo presenta así”.
+- Texto de IA ajustado: “La IA es una herramienta de trabajo, no una fuente histórica”.
+- Añadida sección secundaria para correcciones/puntualizaciones con formulario marcado como próximamente.
+- Añadida llamada interna a “Apoyar el proyecto”.
+- Sin cambios documentales de fondo respecto a V2.4a.
