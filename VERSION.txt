@@ -1,6 +1,6 @@
-V2.2b — Iturriza 1884/1885 revisado
+V2.2c — Corrección responsive móvil
 Estado: versión de trabajo generada
-Base: V2.2a — Goicolea y las cinco vozinas
+Base: V2.2b — Iturriza 1884/1885 revisado
 Fecha: 2026-06-21
 
-Cambio principal: integración crítica de Iturriza 1884/1885 como revisión negativa para la lista moderna de cinco montes. Iturriza refuerza bocinas y contexto institucional, pero no desplaza a Trueba 1872.
+Cambio principal: corrección del header y del hero en móvil para eliminar el scroll horizontal. En móvil se oculta la navegación de botones y queda solo logo/nombre + botón circular Profundizar.

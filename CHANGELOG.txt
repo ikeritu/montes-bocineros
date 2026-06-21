@@ -486,3 +486,12 @@ V2.2b — Iturriza 1884/1885 revisado
 - La pista de 1884, tomo I, p. 158 queda descartada: trata de Mendexa.
 - Se añade INFORME_ITURRIZA_1884.md.
 - Se actualizan fuentes, biblioteca, personajes, veredicto, historia y pendientes documentales.
+
+
+## V2.2c — Corrección responsive móvil
+
+- Corregido scroll horizontal detectado en móvil.
+- En móvil se oculta la navegación superior de botones y queda solo logo/nombre + botón circular Profundizar.
+- Ajustado el panel Profundizar para abrir dentro del viewport.
+- Añadidos límites de ancho a hero, secciones, tarjetas, imágenes y elementos embebidos.
+- Actualizadas referencias a assets con `v=2.2c` para evitar caché en GitHub Pages.
