@@ -1,6 +1,7 @@
-V2.2c — Corrección responsive móvil
-Estado: versión de trabajo generada
-Base: V2.2b — Iturriza 1884/1885 revisado
-Fecha: 2026-06-21
+V2.3a — Búsqueda ciega primera tanda
 
-Cambio principal: corrección del header y del hero en móvil para eliminar el scroll horizontal. En móvil se oculta la navegación de botones y queda solo logo/nombre + botón circular Profundizar.
+Base anterior: V2.2c responsive móvil.
+
+Cambio principal: se documenta la primera búsqueda ciega de fuentes no usadas y se incorpora un matiz clave: Trueba 1872 sigue como primera lista canónica completa localizada, pero antes circula una imaginería montañera flexible en la propia cadena truebiana.
+
+Estado: pendiente de QA visual y publicación.

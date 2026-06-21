@@ -1,3 +1,13 @@
+
+## V2.3a — Búsqueda ciega primera tanda
+
+- Añadido `BUSQUEDA_CIEGA_FUENTES_NO_USADAS.md`.
+- Integrado en `cadena-trueba.html` el concepto de pre-canonización flexible: siete montes, cinco genéricos, nueve montes y lista canónica de 1872.
+- Actualizado `veredicto.html` para distinguir primera imaginación montañera de primera lista canónica completa.
+- Actualizado `fuentes.html` y `pendientes-documentales.html` con el estado de la búsqueda ciega.
+- Actualizado `archivo-tecnico.html` con acceso al informe.
+- Actualizadas referencias de assets con `v=2.3a`.
+
 V2.2a — Goicolea y las cinco vozinas
 - Localizado e integrado Tomás de Goicolea como pieza de la cadena documental.
 - Añadido análisis en cadena-trueba.html: Sancho el Sabio control 15201, BVPB id 413212 y fórmula de cinco vozinas.
