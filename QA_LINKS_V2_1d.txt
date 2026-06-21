@@ -1,0 +1,3 @@
+Revisión automática de enlaces internos V2.2a
+Resultado: 0 errores
+Incluye comprobación básica de ficheros internos, imágenes locales, scripts, hojas CSS y anclas internas añadidas en V2.2a.

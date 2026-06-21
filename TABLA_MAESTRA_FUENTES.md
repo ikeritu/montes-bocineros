@@ -1,4 +1,8 @@
-# Tabla maestra de fuentes — Montes Bocineros
+# Tabla maestra de fuentes · Montes Bocineros
+
+> Regla crítica: una fuente puede probar bocinas, vozinas, vozineros, Gernika o merindades sin probar la lista concreta de Gorbeia, Oiz, Sollube, Kolitza/Colisa y Ganekogorta como lista medieval oficial.
+>
+> “Pendiente” no significa falso: significa que falta facsímil, página exacta o comparación documental suficiente.
 
 Versión: V2.0a — Estado documental consolidado parcial
 
@@ -10,7 +14,7 @@ Regla: una fuente puede probar bocinas, vozineros, Gernika o merindades sin prob
 | Fuero Viejo de Vizcaya · copia de Anguiz | 1452 / copia de 1600 | Fuente foral transmitida | Indirecto | Sí | No | No | No | Documenta sayones y vozineros como cargos o agentes de llamamiento; no convierte esos vozineros en cinco montes concretos. | Verificada |
 | Lope García de Salazar · Bienandanzas e fortunas | siglo XV | Crónica/tradición legendaria | Sí | No | Sí | No | No | Sitúa cinco vozinas en relato de Don Çuria/Jaun Zuria, merindades y Gernika; no enumera Gorbea, Oiz, Sollube, Ganekogorta y Colisa. | Contexto verificado |
 | Ibargüen-Cachopín | c. 1580–1620 | Crónica/manuscrito | Sí, como cultura sonora | No localizado | No | No | No | Aporta adarrak/cuernos y bocinas como lenguaje sonoro y señal de prestigio; no documenta la lista de montes. | Contexto verificado |
-| Iturriza · Historia General de Vizcaya | 1785 / eds. 1884–1885 | Historia manuscrita e impresa | Contexto revisado | No cerrado | Pendiente | Pendiente | Pendiente | Pasajes revisados aportan contexto institucional, pero la pista de la edición 1884/página crítica queda abierta hasta localizar facsímil y página exacta. | Pendiente crítico |
+| Iturriza · Historia General de Vizcaya | 1785 / eds. 1884–1885 | Historia manuscrita e impresa | Sí, contexto institucional | Sí: bocinero/sayón | Sí: cinco bocinas | Sí, como geografía | No localizado | Revisión 1884/1885: aporta bocinas, merindades y montes como geografía, pero no la lista Gorbea-Oiz-Sollube-Colisa-Ganekogorta. La p. 158 de 1884 trata de Mendexa. | Revisado / negativo |
 | Pascual Madoz · entrada Guernica | 1847 | Diccionario geográfico | Sí | No | Sí: cinco heraldos | No | No | Fuente puente: cinco heraldos suben a las alturas y tañen bocinas, pero no enumera los cinco montes tradicionales. | Verificada |
 | Juan Eustaquio Delmas | 1864 | Guía histórico-descriptiva | No localizado | No localizado | No | Montes como contexto | No | Aporta contexto territorial e institucional; el cribado del facsímil no localiza bocinas/vozinas ni lista de cinco montes. | Revisión negativa/contexto |
 | Antonio de Trueba · Resumen descriptivo é histórico | 1872 | Literatura histórico-foral | Sí | No | Sí | Sí | Sí | Primera lista completa localizada hasta ahora: Gorbea, Oiz, Sollube, Ganecogorta y Colisa, formulada con cautela: «se cree fuesen». | Verificada |
@@ -22,6 +26,6 @@ Regla: una fuente puede probar bocinas, vozineros, Gernika o merindades sin prob
 
 - Labayru: obra localizada bibliográficamente; faltan tomos completos/facsímiles.
 
-- Iturriza 1884/página crítica: abierta hasta localizar facsímil y página exacta.
+- Iturriza 1884/p. 158: revisada y negativa; no contiene lista de montes bocineros. Queda solo contraste secundario con manuscritos autógrafos.
 
 - Euskal-Erria 1880: pendiente de comparación completa con El Correo Vascongado 1873.

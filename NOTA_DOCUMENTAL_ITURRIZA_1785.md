@@ -28,3 +28,17 @@ La cita atribuida por informes IA a Iturriza como posible lista anterior a Trueb
 | Merinos / merindades / Junta | Sí |
 | Lista Gorbea, Oiz, Sollube, Ganecogorta y Colisa | No localizada en las páginas revisadas |
 | Valor para la tesis | Alto como contexto; no concluyente para los cinco montes |
+
+
+## Actualización V2.2b — revisión de ediciones impresas 1884/1885
+
+La revisión dirigida de la edición de Barcelona de 1884 y de la edición bilbaína de 1885 no localiza la lista moderna de Gorbea, Oiz, Sollube, Colisa/Kolitza y Ganekogorta.
+
+Conclusión operativa:
+
+- Iturriza refuerza la tradición institucional de las bocinas, bocineros, merindades y Junta.
+- La pista de 1884, tomo I, p. 158 queda descartada: esa página trata de Mendexa.
+- La edición de 1885 debe manejarse con cautela porque está ampliada por Manuel de Azcárraga y Régil.
+- Iturriza no desplaza a Trueba 1872 como primera lista completa localizada hasta ahora de los cinco montes tradicionales.
+
+Ver informe específico: `INFORME_ITURRIZA_1884.md`.

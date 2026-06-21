@@ -1,3 +1,6 @@
-V2.0b — Inicio claro, personajes ordenados y montes con mapa integrado
-Base: V2.0a tabla maestra de fuentes
-Cambios: index explicativo, navegación de cuatro pasos, montes.html fusionado con mapa, mapa estático plegado, personajes ordenados cronológicamente, títulos visualmente más contenidos.
+V2.2b — Iturriza 1884/1885 revisado
+Estado: versión de trabajo generada
+Base: V2.2a — Goicolea y las cinco vozinas
+Fecha: 2026-06-21
+
+Cambio principal: integración crítica de Iturriza 1884/1885 como revisión negativa para la lista moderna de cinco montes. Iturriza refuerza bocinas y contexto institucional, pero no desplaza a Trueba 1872.

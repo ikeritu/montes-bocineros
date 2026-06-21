@@ -1,0 +1,12 @@
+QA_LINKS_V2_0c
+
+Páginas a revisar:
+- index.html
+- fuentes.html
+- TABLA_MAESTRA_FUENTES.md
+- pendientes-documentales.html
+
+Revisión manual recomendada:
+- fuentes.html en móvil: verificar fichas resumidas.
+- fuentes.html en escritorio: verificar tabla completa.
+- comprobar que no hay aumento de certeza documental en fuentes pendientes.

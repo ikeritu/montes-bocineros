@@ -1,3 +1,37 @@
+V2.2a — Goicolea y las cinco vozinas
+- Localizado e integrado Tomás de Goicolea como pieza de la cadena documental.
+- Añadido análisis en cadena-trueba.html: Sancho el Sabio control 15201, BVPB id 413212 y fórmula de cinco vozinas.
+- Añadido Goicolea a fuentes.html, biblioteca.html, personajes.html, historia.html, veredicto.html y pendientes-documentales.html.
+- Reforzado límite: Goicolea no enumera Gorbeia, Oiz, Sollube, Kolitza/Colisa ni Ganekogorta.
+- Actualizados documentos internos de informe, roadmap y QA.
+
+## V2.1a — Hero visual más claro
+
+- Reformulada la portada con el texto aprobado: “Cinco montes tradicionales / Cinco bocinas documentadas”.
+- Añadida la pregunta guía: “La pregunta clave es cuándo y cómo se unieron esas dos ideas”.
+- Sustituida la imagen estática principal de portada por un esquema interpretativo de Gernika y los cinco montes tradicionales.
+- Los cinco montes del esquema enlazan a sus fichas en `montes.html`.
+- El esquema se etiqueta explícitamente como interpretativo y no como prueba de una lista medieval de montes.
+- No se introducen cambios documentales de fondo respecto a V2.1.
+
+
+## V2.1 — Integración Barrio/Bañales y cadena Trueba
+
+- Añadida página `barrio-banales.html`.
+- Añadida página `cadena-trueba.html`.
+- `fuentes.html` incorpora bloque destacado y fila para Barrio/Bañales como fuente secundaria central.
+- `biblioteca.html`, `index.html`, `historia.html`, `veredicto.html` actualizados.
+- Menú Profundizar actualizado.
+- Imagen de Javier Barrio Marro registrada como candidata pero no incorporada por licencia pendiente.
+- Añadidos `NOTA_DOCUMENTAL_BARRIO_BANALES_2020.md`, `ROADMAP_V2_1.md`, `ACTIVO_VISUAL_JAVIER_BARRIO_MARRO.md` y `QA_V2_1.md`.
+
+V2.0c — Pulido de tabla maestra y fuentes
+- Mejora de fuentes.html para lectura divulgativa.
+- Añadida guía rápida de lectura antes de la tabla maestra.
+- Añadidas fichas resumidas para móvil derivadas de la tabla maestra.
+- Refuerzo de la regla crítica: una fuente puede probar bocinas sin probar la lista concreta de cinco montes.
+- Sin abrir Labayru, Iturriza ni nuevos frentes documentales.
+
 
 
 V2.0b — Inicio claro, personajes ordenados y montes con mapa integrado
@@ -416,3 +450,39 @@ V1.7.2 — Auditoría técnica, SEO y UX aplicada
 - Actualizado `pendientes-documentales.html` para eliminar estados ya superados y priorizar Labayru, Iturriza y Trueba/Euskal-Erria.
 - Añadido `TABLA_MAESTRA_FUENTES.md` como documento interno descargable.
 - No se toca `mapa.html` ni se introducen cambios documentales de fondo más allá de ordenar el estado de verificación.
+
+
+## V2.1b — Corrección UX portada, Montes y mapa, menú Profundizar
+- Eliminado el esquema/mapa de la portada porque cargaba visualmente el index y podía distraer del mensaje principal.
+- Conservado el texto aprobado del hero: cinco montes tradicionales / cinco bocinas documentadas / pregunta clave.
+- Sustituido el bloque “Fichas y mapa en el mismo sitio” por llamada directa a “Mapa en 3D”.
+- El botón de ese bloque hace scroll a `#mapbox-3d-section`.
+- Verificadas y conservadas las fichas de los cinco montes, incluyendo información territorial y acústica.
+- Eliminados `Barrio/Bañales` y `Cadena Trueba` del menú Profundizar.
+- Renombrado el enlace de `Personajes` a `Personajes relevantes`.
+- Barrio/Bañales y Trueba quedan tratados desde la página de personajes relevantes y desde sus fichas documentales internas, no como entradas principales del menú.
+
+## V2.1c — Retrato de Delmas incorporado como referencia visual externa
+
+- En `personajes.html`, sustituido el placeholder de Juan Eustaquio Delmas por retrato externo aportado por el usuario.
+- Añadido botón `Ver ficha en Museotik`.
+- Pie de foto actualizado con cautela documental: imagen externa pendiente de sustitución por archivo local de mayor calidad si se confirma licencia o permiso.
+- Corregida frase incompleta en la ficha de Delmas sobre la revisión del facsímil de 1864.
+- No se ha incorporado archivo local a `/assets/personajes/` porque la URL aportada es una miniatura/cache externa de Google, no un archivo de Museotik descargado en alta calidad.
+
+
+## V2.2a — Blindaje crítico y documental visible
+
+- Se añade en `veredicto.html` una sección “Lo que esta web no afirma”.
+- Se añade en `veredicto.html` una sección “Pruebas documentales visibles: qué sabemos y qué no prueba cada fuente”.
+- Se incorporan tarjetas para 1321, 1342, 1394, 1452, Madoz 1847, Trueba 1872 y Barrio/Bañales 2020.
+- Se matiza el lenguaje de `historia.html` para evitar certeza excesiva.
+- Se añade una cadena documental resumida en `historia.html`.
+- Se añade una nota de lectura para auditores escépticos en `fuentes.html`.
+- Se registra el uso de auditorías Gemini/DeepSeek como informes auxiliares, no como fuentes.
+
+V2.2b — Iturriza 1884/1885 revisado
+- Iturriza pasa de pendiente crítico a revisado / negativo para la lista moderna de cinco montes.
+- La pista de 1884, tomo I, p. 158 queda descartada: trata de Mendexa.
+- Se añade INFORME_ITURRIZA_1884.md.
+- Se actualizan fuentes, biblioteca, personajes, veredicto, historia y pendientes documentales.

@@ -1,0 +1,13 @@
+QA links V2.1a
+
+Revisados manualmente en el cambio:
+- index.html -> historia.html
+- index.html -> montes.html
+- index.html -> montes.html#gorbeia
+- index.html -> montes.html#oiz
+- index.html -> montes.html#sollube
+- index.html -> montes.html#kolitza
+- index.html -> montes.html#ganekogorta
+- index.html -> historia.html#juntas-gernika
+
+Resultado: sin enlaces internos rotos a nivel de archivo.
