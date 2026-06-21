@@ -1,0 +1,2 @@
+0 enlaces internos rotos detectados en páginas HTML principales de raíz.
+Nota: se excluyen subpáginas históricas en /informes por tener navegación relativa heredada de versiones anteriores.

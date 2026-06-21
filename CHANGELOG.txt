@@ -6,7 +6,7 @@
 - Actualizado `veredicto.html` para distinguir primera imaginación montañera de primera lista canónica completa.
 - Actualizado `fuentes.html` y `pendientes-documentales.html` con el estado de la búsqueda ciega.
 - Actualizado `archivo-tecnico.html` con acceso al informe.
-- Actualizadas referencias de assets con `v=2.3a`.
+- Actualizadas referencias de assets con `v=2.4a`.
 
 V2.2a — Goicolea y las cinco vozinas
 - Localizado e integrado Tomás de Goicolea como pieza de la cadena documental.
@@ -505,3 +505,13 @@ V2.2b — Iturriza 1884/1885 revisado
 - Ajustado el panel Profundizar para abrir dentro del viewport.
 - Añadidos límites de ancho a hero, secciones, tarjetas, imágenes y elementos embebidos.
 - Actualizadas referencias a assets con `v=2.2c` para evitar caché en GitHub Pages.
+
+
+## V2.4a — Trueba facsímil directo: cierre parcial
+
+- Añadido `INFORME_TRUEBA_FACSIMIL_DIRECTO.md`.
+- Añadida página técnica `trueba-facsimil.html`.
+- Trueba 1872 queda marcado como cerrado con recorte local de la lista canónica.
+- El Correo Vascongado 1873 queda marcado como cerrado con recorte local de la lista ampliada de nueve montañas/rocas.
+- 1858 y 1862 quedan explícitamente pendientes de imagen directa propia.
+- Actualizados `cadena-trueba.html`, `fuentes.html`, `veredicto.html`, `pendientes-documentales.html`, `biblioteca.html` y `archivo-tecnico.html`.

@@ -1,7 +1,3 @@
-V2.3a — Búsqueda ciega primera tanda
+V2.4a — Trueba facsímil directo: cierre parcial
 
-Base anterior: V2.2c responsive móvil.
-
-Cambio principal: se documenta la primera búsqueda ciega de fuentes no usadas y se incorpora un matiz clave: Trueba 1872 sigue como primera lista canónica completa localizada, pero antes circula una imaginería montañera flexible en la propia cadena truebiana.
-
-Estado: pendiente de QA visual y publicación.
+Estado: 1872 y 1873 cerrados con recortes locales; 1858 y 1862 pendientes de imagen directa propia.

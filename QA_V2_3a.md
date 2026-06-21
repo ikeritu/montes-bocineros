@@ -7,7 +7,7 @@
 - Actualizado veredicto para distinguir entre primera lectura montañera y primera lista canónica completa.
 - Actualizados pendientes documentales.
 - Actualizado archivo técnico.
-- Actualizadas referencias de assets a `v=2.3a`.
+- Actualizadas referencias de assets a `v=2.4a`.
 
 ## Comprobaciones
 
