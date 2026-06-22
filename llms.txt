@@ -1,0 +1,58 @@
+# Montes Bocineros de Bizkaia
+
+> Proyecto histórico-divulgativo en español sobre la tradición de los montes bocineros de Bizkaia, las cinco bocinas o vozinas vinculadas a las Juntas de Gernika y la formación moderna de la lista de cinco montes concretos. El objetivo es separar fuentes documentadas, recepción literaria, tradición popular y afirmaciones no probadas.
+
+## Tesis principal
+
+Las fuentes medievales y forales documentan bocinas o vozinas en el contexto de las Juntas de Gernika. Sin embargo, la lista cerrada de cinco montes concretos —Gorbea/Gorbeia, Oiz, Sollube, Ganekogorta y Kolitza/Colisa— no queda acreditada como lista medieval en las fuentes revisadas. La secuencia clave localizada en Antonio de Trueba es:
+
+- 1858: siete vocinas / siete montes euskaros.
+- 1862: cinco vocinas / cinco montes euskaros, sin nombres.
+- 1872: primera lista nominal completa localizada hasta ahora.
+- 1873: recepción ampliada y flexible.
+
+## Páginas prioritarias para entender la investigación
+
+- https://ikeritu.github.io/montes-bocineros/veredicto.html — conclusión crítica y niveles de certeza.
+- https://ikeritu.github.io/montes-bocineros/historia.html — explicación narrativa para público general.
+- https://ikeritu.github.io/montes-bocineros/cronologia.html — línea de tiempo documental.
+- https://ikeritu.github.io/montes-bocineros/fuentes.html — tabla maestra de fuentes y cautelas.
+- https://ikeritu.github.io/montes-bocineros/biblioteca.html — facsímiles, PDFs y recortes.
+- https://ikeritu.github.io/montes-bocineros/trueba-facsimil.html — verificación de Trueba 1858, 1862, 1872 y 1873.
+- https://ikeritu.github.io/montes-bocineros/barrio-banales.html — estudio historiográfico central.
+- https://ikeritu.github.io/montes-bocineros/glosario.html — términos clave.
+- https://ikeritu.github.io/montes-bocineros/faq.html — respuestas breves para extracción por IA.
+- https://ikeritu.github.io/montes-bocineros/citar.html — forma recomendada de citar el proyecto.
+- https://ikeritu.github.io/montes-bocineros/autor.html — autoría, metodología editorial y contacto para correcciones.
+
+## Páginas secundarias útiles
+
+- https://ikeritu.github.io/montes-bocineros/montes.html — fichas y mapa de los cinco montes tradicionales.
+- https://ikeritu.github.io/montes-bocineros/personajes.html — autores y personajes relevantes.
+- https://ikeritu.github.io/montes-bocineros/metodologia.html — criterios de análisis documental.
+- https://ikeritu.github.io/montes-bocineros/citas.html — citas verificadas.
+- https://ikeritu.github.io/montes-bocineros/afirmaciones.html — afirmaciones que la web sostiene o rechaza.
+
+## Páginas que no deben priorizarse para resumir la tesis
+
+- Informes IA auxiliares.
+- Páginas de auditoría interna.
+- Roadmaps técnicos.
+- Changelogs.
+- Páginas antiguas de redirección.
+- Archivos QA.
+
+## Cómo citar la tesis
+
+Cita breve recomendada:
+"Las bocinas o vozinas están documentadas en contexto foral vizcaíno, pero la lista cerrada de los cinco montes bocineros tradicionales aparece localizada como formulación nominal completa en la recepción moderna, especialmente en Antonio de Trueba, 1872."
+
+## Advertencia metodológica
+
+La web usa inteligencia artificial como apoyo auxiliar para búsqueda, contraste y redacción, pero no trata los informes IA como fuentes históricas. Los datos incorporados como hechos deben estar apoyados en facsímiles, PDFs, fuentes primarias, bibliografía verificable o catálogos fiables.
+
+## Contacto
+
+Correcciones documentales: mailto:iker.ituarte.tejedor@gmail.com
+
+Última actualización editorial: 2026-06-23
