@@ -19,3 +19,8 @@ $Recycle.Bin/
 *.tmp
 *.mp4
 
+
+# Carpetas accidentales de Windows
+$GetCurrent/
+$Windows.~WS/
+
