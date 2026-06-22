@@ -1,12 +1,10 @@
-V2.4b — Portada refinada y ruta pública clara
+V2.4c — Trueba 1858 cerrado por facsímil
 
-Estado: ajuste visual y editorial de portada sobre V2.4a.
-- Hero principal alineado con el ancho estructural del resto de la portada.
-- Título “Montes Bocineros de Bizkaia” en una línea en escritorio, con salto natural en móvil.
-- Sustituido el bloque introductorio anterior por una ficha de ancho completo “Antes de empezar”.
-- Añadidas cuatro fichas: versión tradicional, duda documental, objetivo del estudio e investigación con IA.
-- Texto de la versión tradicional formulado con cautela: “La tradición lo presenta así”.
-- Texto de IA ajustado: “La IA es una herramienta de trabajo, no una fuente histórica”.
-- Añadida sección secundaria para correcciones/puntualizaciones con formulario marcado como próximamente.
-- Añadida llamada interna a “Apoyar el proyecto”.
-- Sin cambios documentales de fondo respecto a V2.4a.
+Estado: avance documental sobre V2.4b.
+- Incorporado facsímil local de El Mundo Pintoresco, nº 17, 1 de agosto de 1858.
+- Cerrada la prueba de 1858: “siete vocinas” en “siete montes euskaros”.
+- Añadidos recortes locales de la página 135.
+- Actualizado informe Trueba facsímil directo.
+- Actualizadas páginas trueba-facsimil.html, cadena-trueba.html, fuentes.html, veredicto.html, biblioteca.html, archivo-tecnico.html y pendientes-documentales.html.
+- La tesis se matiza: 1858 prueba imaginación montañera previa, pero 1872 sigue siendo la primera lista canónica completa localizada.
+- Sigue pendiente 1862 con imagen directa propia.

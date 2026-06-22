@@ -1,4 +1,13 @@
 
+## V2.4c — Trueba 1858 cerrado por facsímil
+
+- Incorporado PDF local de `El Mundo Pintoresco`, nº 17, 1 de agosto de 1858.
+- Añadido recorte local con la fórmula “Suenen las siete vocinas en los siete montes euskaros”.
+- Actualizado `INFORME_TRUEBA_FACSIMIL_DIRECTO.md`.
+- Actualizadas páginas públicas y técnicas para marcar 1858 como cerrado y 1862 como pendiente.
+- Se mantiene 1872 como primera lista canónica completa localizada hasta ahora.
+
+
 ## V2.3a — Búsqueda ciega primera tanda
 
 - Añadido `BUSQUEDA_CIEGA_FUENTES_NO_USADAS.md`.
@@ -525,4 +534,4 @@ V2.2b — Iturriza 1884/1885 revisado
 - La sección de IA queda más precisa: “La IA es una herramienta de trabajo, no una fuente histórica”.
 - Añadida sección de correcciones/puntualizaciones con formulario pendiente.
 - Añadida llamada a apoyar el proyecto enlazada a la caja de apoyo.
-- Sin cambios documentales de fondo respecto a V2.4a.
+- Cambios documentales sobre V2.4a: 1858 queda cerrado por facsímil local.

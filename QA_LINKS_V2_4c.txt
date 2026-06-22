@@ -1,0 +1,11 @@
+trueba-facsimil.html
+cadena-trueba.html
+fuentes.html
+veredicto.html
+biblioteca.html
+archivo-tecnico.html
+pendientes-documentales.html
+fuentes/el-mundo-pintoresco-1858-08-01-n17-jaun-zuria.pdf
+fuentes/trueba_1858_page135_siete_vocinas_crop.png
+fuentes/trueba_1872_pagina_13_cita_montes.png
+fuentes/el-correo-vascongado-1873-06-11_recorte_nueve_montanas.webp
