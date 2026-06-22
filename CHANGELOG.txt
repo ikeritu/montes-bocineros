@@ -1,3 +1,11 @@
+V2.5 — Trueba 1862 cerrado por facsímil
+- Incorporado PDF local de Cuentos populares, Antonio de Trueba, segunda edición, Madrid, Imprenta de D. Luis Palacios, 1862.
+- Añadidos recortes locales de portada, p. 54 y p. 56.
+- Confirmado que en 1862 Trueba ya formula “cinco vocinas” en “cinco montes euskaros”.
+- Confirmado que 1862 no enumera Gorbea, Oiz, Sollube, Ganecogorta ni Colisa/Kolitza.
+- Actualizada la tesis: 1862 es eslabón fuerte de cinco montes genéricos; 1872 sigue como primera lista canónica nominal localizada.
+- Actualizadas páginas públicas y técnicas de la cadena Trueba.
+
 
 ## V2.4c — Trueba 1858 cerrado por facsímil
 
