@@ -1,0 +1,21 @@
+
+# Basura del sistema / copias accidentales
+$Recycle.Bin/
+*.part
+*.tmp
+*.mp4
+
+# Basura del sistema / archivos accidentales
+$Recycle.Bin/
+*.part
+*.tmp
+*.mp4
+
+
+# Basura del sistema / archivos accidentales
+$Recycle.Bin/
+**/$Recycle.Bin/
+*.part
+*.tmp
+*.mp4
+

@@ -1,3 +1,33 @@
+
+
+## V2.7 — Timeline visual de certezas documentales
+
+- Convertida `cronologia.html` en una línea de tiempo filtrable y más didáctica.
+- Añadidos filtros por tipo de evidencia: documentado, recepción literaria, historiografía actual y pendiente/no afirmable.
+- Reforzada la secuencia 1858 → 1862 → 1872 como eje de la tesis Trueba.
+- Añadido hito 1858 de Trueba y hito 2020 Barrio/Bañales.
+- La posible cadena Llorente → Madoz → Trueba queda como línea pendiente de verificación directa, no como afirmación cerrada.
+- Añadidos assets propios `timeline-certezas.css` y `timeline-certezas.js`; no se incrusta CSS/JS en la página.
+- Añadido enlace a Cronología en el menú “Para lectores” y CTA desde portada.
+- Sin cambios documentales de fondo ni fuentes nuevas no verificadas.
+## V2.5.7 — correcciones rápidas y limpieza pública
+
+- Corregida la altitud divulgativa de Kolitza/Colisa a 879 m aprox.
+- Añadida nota sobre la confusión externa entre Juan Núñez de Lara y la forma errónea “Balboa”.
+- Sustituido el aviso de formulario pendiente por un enlace `mailto:` provisional para enviar correcciones.
+- Centralizado el aviso de cautela documental en `montes.html` para evitar repetirlo en las cinco fichas.
+- Reducida jerga de versiones en páginas públicas; el lenguaje de versiones queda reservado para changelog, roadmap y archivo técnico.
+- Añadido `ROADMAP_V2_5_7.md` con V2.6 recomendado para verificar Llorente antes de incorporarlo como eslabón documental.
+
+
+## V2.5.6 — Antonio de Trueba con fotografía histórica restaurada
+
+- Sustituida la imagen anterior de Antonio de Trueba por una fotografía histórica aportada al proyecto, restaurada y coloreada con ayuda de IA.
+- Añadido pie de imagen específico: fotografía histórica restaurada/colorizada, no recreación IA.
+- Añadida nota metodológica en `personajes.html` sobre restauración, colorización y procedencia pendiente de consignar.
+- Actualizado el criterio editorial de imágenes para distinguir entre retratos históricos, fotografías restauradas/colorizadas y recreaciones IA.
+- Sin cambios en la tesis documental: 1858/1862/1872 se mantiene intacta.
+
 ## V2.5.5 — recreación IA de Tomás de Goicolea
 - Añadida recreación visual generada con IA de Tomás de Goicolea en `personajes.html`.
 - Añadido texto de cautela específico: la imagen es didáctica, no retrato histórico verificado ni fuente documental.

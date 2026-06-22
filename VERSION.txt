@@ -1,10 +1,15 @@
-V2.5.5 — recreación IA de Tomás de Goicolea
+V2.7 — timeline visual de certezas documentales
 
-Base anterior: V2.5.4 — UX divulgativa y cautela historiográfica.
+Base: V2.5.7 — correcciones rápidas y limpieza pública.
 
 Cambios:
-- Añadida recreación visual generada con IA de Tomás de Goicolea en `personajes.html`.
-- Añadido aviso explícito: no existe retrato histórico verificado localizado para el proyecto.
-- Añadido estado de fuente: Goicolea queda localizado parcialmente y pendiente de cotejo directo completo.
-- Actualizado criterio general de recreaciones IA para incluir a Goicolea.
-- Sin cambios en la tesis documental: 1858/1862/1872 se mantiene intacta.
+- Convertida `cronologia.html` en una línea de tiempo filtrable por tipo de evidencia.
+- Añadidos filtros accesibles: Todos, Documentado, Recepción literaria, Historiografía actual y Pendiente / no afirmable.
+- Reforzada la tesis central 1858 → 1862 → 1872 dentro de la cronología.
+- Añadido hito 1858 de Trueba, ausente en la timeline previa.
+- Añadido hito 2020 Barrio/Bañales como marco historiográfico moderno.
+- La posible cadena Llorente → Madoz → Trueba queda marcada como pendiente, no incorporada como hecho cerrado.
+- Añadidos `assets/timeline-certezas.css` y `assets/timeline-certezas.js` para evitar CSS/JS incrustado en página.
+- Añadido enlace a Cronología en el menú “Para lectores”.
+- Añadida llamada desde portada a la cronología visual.
+- No se modifica la tesis documental ni se añade una fuente nueva no verificada.
