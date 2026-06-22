@@ -1,3 +1,10 @@
+V2.5.1 — limpieza visual de portada tras Trueba 1862
+- Portada/index: eliminado bloque duplicado “Apoyar el proyecto” dentro de acciones secundarias.
+- Portada/index: eliminadas las cuatro fichas resumen redundantes.
+- Portada/index: eliminado bloque “¿Quieres comprobarlo?” para reducir ruido visual.
+- Portada/index: ajustado ancho de textos del hero para ocupar el ancho útil de la ficha.
+- Sin cambios documentales ni de fuentes respecto a V2.5.
+
 V2.5 — Trueba 1862 cerrado por facsímil
 - Incorporado PDF local de Cuentos populares, Antonio de Trueba, segunda edición, Madrid, Imprenta de D. Luis Palacios, 1862.
 - Añadidos recortes locales de portada, p. 54 y p. 56.

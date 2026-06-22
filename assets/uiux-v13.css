@@ -1244,3 +1244,20 @@ body.home-page .v24b-home-hero h1{
     border-radius:20px;
   }
 }
+
+/* V2.5.1 — portada más limpia: hero a ancho completo y eliminación de bloques duplicados */
+body.home-page .v24b-home-hero .v13-hero-copy,
+body.home-page .v24b-home-hero .v21a-hero-copy{
+  max-width:none;
+  width:100%;
+}
+body.home-page .v24b-home-hero .v21a-question,
+body.home-page .v24b-home-hero .v21a-hero-text{
+  max-width:100%;
+}
+body.home-page .v24b-secondary-actions .v25-single-action-grid{
+  grid-template-columns:minmax(0,1fr);
+}
+body.home-page .v24b-secondary-actions .v25-single-action-grid .v24b-action-card{
+  width:100%;
+}

@@ -1,10 +1,14 @@
-V2.5 — Trueba 1862 cerrado por facsímil
+V2.5.1 — limpieza visual de portada tras Trueba 1862
 
-Estado: avance documental sobre V2.4c.
-- Incorporado facsímil local de Antonio de Trueba, Cuentos populares, segunda edición, Madrid, Imprenta de D. Luis Palacios, 1862.
-- Cerrada la prueba de 1862: “Suenen las cinco vocinas en los cinco montes euskaros” (p. 54).
-- Cerrada la segunda prueba de 1862: “En los cinco montes mas altos de la tierra libre, resuenan las vocinas” (p. 56).
-- Añadidos recortes locales de las páginas 54 y 56 y portada de 1862.
-- Actualizadas páginas trueba-facsimil.html, cadena-trueba.html, fuentes.html, veredicto.html, biblioteca.html, archivo-tecnico.html y pendientes-documentales.html.
-- La tesis se matiza: 1862 adelanta la fórmula de cinco vocinas/cinco montes genéricos, pero 1872 sigue siendo la primera lista canónica completa localizada con nombres concretos.
-- No se ha localizado en 1862 la lista Gorbea, Oiz, Sollube, Ganecogorta y Colisa/Kolitza.
+Base: V2.5 — Trueba 1862 cerrado por facsímil.
+Cambios:
+- index.html: eliminación de la ficha duplicada de apoyo al proyecto.
+- index.html: eliminación de las cuatro fichas resumen redundantes.
+- index.html: eliminación del bloque “¿Quieres comprobarlo?” de portada.
+- CSS: el texto del hero “La idea en 30 segundos” ocupa el ancho útil de la ficha.
+- CSS: la ficha de correcciones queda preparada para ocupar una sola columna.
+
+No cambia la tesis documental:
+- 1858: siete vocinas / siete montes euskaros.
+- 1862: cinco vocinas / cinco montes euskaros sin nombres concretos.
+- 1872: primera lista canónica completa localizada con nombres de montes.
