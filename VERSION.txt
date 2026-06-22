@@ -1,12 +1,10 @@
-V2.5.4 — UX divulgativa y cautela historiográfica
+V2.5.5 — recreación IA de Tomás de Goicolea
 
-Base anterior: V2.5.3a — Roadmap de auditorías críticas.
+Base anterior: V2.5.4 — UX divulgativa y cautela historiográfica.
 
 Cambios:
-- Añadido microglosario “Antes de seguir: palabras clave”.
-- Añadidas microaclaraciones didácticas sobre fuente, facsímil, fuero y Señorío de Vizcaya.
-- Rebajada la cadena de señales como logística perfecta: se presenta como tradición simbólica/institucional con cautela.
-- Agrupado el menú técnico bajo “Archivo documental”.
-- Mejoras básicas de accesibilidad: foco visible, contraste de textos pequeños y comprobación de salto a #contenido.
-- Añadida alerta metodológica sobre el número “cinco” en fuentes medievales: cinco bocinas no equivalen automáticamente a cinco montes concretos.
-- Tesis 1858/1862/1872 mantenida sin cambios de fondo.
+- Añadida recreación visual generada con IA de Tomás de Goicolea en `personajes.html`.
+- Añadido aviso explícito: no existe retrato histórico verificado localizado para el proyecto.
+- Añadido estado de fuente: Goicolea queda localizado parcialmente y pendiente de cotejo directo completo.
+- Actualizado criterio general de recreaciones IA para incluir a Goicolea.
+- Sin cambios en la tesis documental: 1858/1862/1872 se mantiene intacta.

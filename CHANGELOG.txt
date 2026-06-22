@@ -1,3 +1,10 @@
+## V2.5.5 — recreación IA de Tomás de Goicolea
+- Añadida recreación visual generada con IA de Tomás de Goicolea en `personajes.html`.
+- Añadido texto de cautela específico: la imagen es didáctica, no retrato histórico verificado ni fuente documental.
+- Añadido bloque de estado de la fuente: Goicolea localizado parcialmente, pendiente de cotejo directo completo.
+- Actualizado criterio editorial de recreaciones IA para incluir a Goicolea junto a las recreaciones ya señalizadas.
+- Sin cambios de tesis: 1858 = siete vocinas/siete montes; 1862 = cinco vocinas/cinco montes sin nombres; 1872 = primera lista nominal completa localizada hasta ahora.
+
 
 
 ## V2.5.4 — UX divulgativa y cautela historiográfica
