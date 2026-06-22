@@ -1,3 +1,23 @@
+
+
+## V2.5.4 — UX divulgativa y cautela historiográfica
+- Añadido microglosario inicial para lectores no expertos.
+- Añadidas aclaraciones didácticas inline en portada e historia.
+- Reformulada la tradición de la cadena de señales para no presentarla como logística perfecta probada.
+- Reorganizado el menú “Profundizar”: ruta principal, lectores y archivo documental avanzado.
+- Añadida alerta metodológica sobre el número “cinco” y la diferencia entre bocinas, formulaciones numéricas y lista nominal de montes.
+- Aplicadas mejoras básicas de accesibilidad: contraste, foco visible y validación del salto a contenido.
+- Sin cambio de tesis: 1858 siete vocinas/siete montes; 1862 cinco vocinas/cinco montes sin nombres; 1872 primera lista nominal completa localizada.
+V2.5.3 — ajuste crítico metodológico tras auditoría externa
+- Se aplica una auditoría crítica externa centrada en coherencia interna, tono de cierre y solidez argumental.
+- Se añade nota metodológica visible: no localizar una fuente en el corpus revisado no equivale a demostrar que nunca existió.
+- Se rebajan expresiones fuertes en Iturriza, Goicolea y búsqueda ciega V2.3a.
+- Se mantiene Barrio/Bañales como fuente secundaria central, pero se exige ficha bibliográfica completa y se evita presentarlo como autoridad definitiva.
+- Se aclaran grafías equivalentes: Gorbea/Gorbeia, Colisa/Kolitza y Ganecogorta/Ganekogorta.
+- Se aclara el rango 1321–1454 como corpus citado por Barrio/Bañales, no como bloque documental uniforme.
+- Se actualizan `metodologia.html`, `afirmaciones.html`, `historia.html`, `fuentes.html`, `veredicto.html`, `cadena-trueba.html`, `pendientes-documentales.html`, `archivo-tecnico.html` y documentos técnicos.
+- Sin cambios de tesis: 1862 = cinco vocinas/cinco montes genéricos; 1872 = primera lista nominal completa localizada hasta ahora.
+
 V2.5.2 — QA visual aplicada tras auditoría
 - Portada/index: eliminado CTA muerto con href="#" en el bloque de correcciones; se deja nota informativa no clicable.
 - Portada/index: ajustado responsive del hero en móviles estrechos para que la acción principal aparezca antes.
@@ -527,7 +547,7 @@ V1.7.2 — Auditoría técnica, SEO y UX aplicada
 
 V2.2b — Iturriza 1884/1885 revisado
 - Iturriza pasa de pendiente crítico a revisado / negativo para la lista moderna de cinco montes.
-- La pista de 1884, tomo I, p. 158 queda descartada: trata de Mendexa.
+- La pista de 1884, tomo I, p. 158 no se confirma en esa edición: trata de Mendexa.
 - Se añade INFORME_ITURRIZA_1884.md.
 - Se actualizan fuentes, biblioteca, personajes, veredicto, historia y pendientes documentales.
 
@@ -560,3 +580,10 @@ V2.2b — Iturriza 1884/1885 revisado
 - Añadida sección de correcciones/puntualizaciones con formulario pendiente.
 - Añadida llamada a apoyar el proyecto enlazada a la caja de apoyo.
 - Cambios documentales sobre V2.4a: 1858 queda cerrado por facsímil local.
+
+
+## V2.5.3a — Roadmap de auditorías críticas
+
+- Actualizado `ROADMAP_V2_5_3.md` para añadir como pendiente explícito realizar nuevas auditorías críticas antes de cerrar una versión pública mayor.
+- Se detallan cinco tipos de auditoría futura: documental externa, escéptica de búsquedas negativas, UX/divulgativa, enlaces/facsímiles y lenguaje de cautela.
+- No se modifica la tesis documental ni las páginas públicas.

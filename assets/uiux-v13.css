@@ -1364,3 +1364,27 @@ body.home-page .v24b-secondary-actions .v25-single-action-grid .v24b-action-card
   }
 }
 
+
+
+/* V2.5.4 — UX divulgativa, microglosario, cautela y accesibilidad básica */
+.v254-microglossary .lead,
+.v254-fast p,
+.v254-caution p,
+.v254-inline-help{color:#243f38;}
+.v254-glossary-box{background:rgba(255,250,241,.94);border:1px solid rgba(19,63,53,.14);border-radius:30px;padding:clamp(22px,3vw,34px);box-shadow:0 10px 30px rgba(31,42,35,.07)}
+.v254-glossary-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-top:18px;align-items:stretch}
+.v254-glossary-grid article{background:#fff;border:1px solid rgba(19,63,53,.13);border-radius:20px;padding:16px;box-shadow:0 8px 20px rgba(31,42,35,.05)}
+.v254-glossary-grid h3{margin:0 0 7px;color:#0f3f35;font-size:1.02rem;line-height:1.18}
+.v254-glossary-grid p{margin:0;color:#243f38;font-size:.96rem;line-height:1.5}
+.v254-inline-help{margin-top:16px;padding:14px 16px;border-radius:16px;background:#fff7e8;border-left:5px solid #c58b42;font-size:1rem;line-height:1.55}
+.v254-caution{background:#fff8e8!important;border-left:6px solid #c58b42!important}
+.v254-caution h2{color:#0f3f35}
+.v254-fast{background:#fffaf1;border:1px solid rgba(19,63,53,.13);border-radius:24px;padding:24px;margin-bottom:20px}
+.v254-fast ol{margin:12px 0 0;padding-left:1.3rem;display:grid;gap:8px;color:#243f38}
+.v13-hook{color:#5d3f18;background:rgba(197,139,66,.18);border-color:rgba(137,88,28,.35)}
+small,.small,.muted,.source-card p:not(.source-date),.v13-card p{color:#405a52}
+a:focus-visible,button:focus-visible,.btn:focus-visible,.support-card:focus-visible{outline:3px solid #1f6f55;outline-offset:3px;border-radius:12px}
+.btn:hover,.btn:focus-visible{filter:brightness(.98);box-shadow:0 0 0 3px rgba(31,111,85,.14)}
+.menu-panel a:focus-visible,.nav-simple a:focus-visible{outline:3px solid #1f6f55;outline-offset:3px;border-radius:10px}
+@media(max-width:1020px){.v254-glossary-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:680px){.v254-glossary-grid{grid-template-columns:1fr}.v254-glossary-grid article{padding:15px}.v254-inline-help{font-size:1rem}.v13-panel,.universal-box,.v254-glossary-box{border-radius:22px}}

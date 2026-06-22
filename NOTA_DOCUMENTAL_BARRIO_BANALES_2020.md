@@ -28,3 +28,8 @@ La web debe presentarse como síntesis divulgativa y verificable apoyada en este
 - Localizar/confirmar metadatos completos: año, ISBN/depósito legal si existe.
 - Revisar cadena Goicolea/Loizaga/Dastys citada por Trueba.
 - Comparar las referencias de Trueba 1858, 1862, 1872, 1873 y 1880.
+
+
+## Ajuste V2.5.3
+
+La fuente se mantiene como apoyo historiográfico central, pero no debe presentarse como cierre definitivo ni como fuente primaria medieval. Para uso académico queda pendiente completar ficha bibliográfica con año exacto, entidad editora, colección, ISBN/ISSN o depósito legal si constan en catálogo.

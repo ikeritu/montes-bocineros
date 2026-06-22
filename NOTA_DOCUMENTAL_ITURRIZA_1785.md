@@ -18,7 +18,7 @@ Sin embargo, en las páginas revisadas no se ha localizado una enumeración expl
 
 ## Impacto crítico
 
-La cita atribuida por informes IA a Iturriza como posible lista anterior a Trueba queda pendiente y debilitada. Con lo revisado, Iturriza debe usarse como fuente de contexto institucional, no como prueba de una lista pre-Trueba de cinco montes.
+La cita atribuida por informes IA a Iturriza como posible lista anterior a Trueba queda pendiente y debilitada. Con lo revisado en las ediciones impresas consultadas, Iturriza debe usarse como fuente de contexto institucional, no como prueba de una lista pre-Trueba de cinco montes.
 
 ## Clasificación
 
@@ -37,8 +37,8 @@ La revisión dirigida de la edición de Barcelona de 1884 y de la edición bilba
 Conclusión operativa:
 
 - Iturriza refuerza la tradición institucional de las bocinas, bocineros, merindades y Junta.
-- La pista de 1884, tomo I, p. 158 queda descartada: esa página trata de Mendexa.
+- La pista de 1884, tomo I, p. 158 no se confirma: esa página trata de Mendexa.
 - La edición de 1885 debe manejarse con cautela porque está ampliada por Manuel de Azcárraga y Régil.
-- Iturriza no desplaza a Trueba 1872 como primera lista completa localizada hasta ahora de los cinco montes tradicionales.
+- Iturriza no desplaza a Trueba 1872 con lo revisado hasta ahora como primera lista completa localizada de los cinco montes tradicionales.
 
 Ver informe específico: `INFORME_ITURRIZA_1884.md`.

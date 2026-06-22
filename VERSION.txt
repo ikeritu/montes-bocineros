@@ -1,13 +1,12 @@
-V2.5.2 — QA visual aplicada tras auditoría
+V2.5.4 — UX divulgativa y cautela historiográfica
 
-Base: V2.5.1 — limpieza visual de portada tras Trueba 1862.
+Base anterior: V2.5.3a — Roadmap de auditorías críticas.
+
 Cambios:
-- index.html: eliminado el CTA muerto “Formulario próximamente” como enlace a #; sustituido por nota informativa no clicable.
-- CSS: ajuste responsive del hero de portada para adelantar la visibilidad de la CTA principal en móvil estrecho.
-- fuentes.html y veredicto.html: añadida navegación rápida contextual para reducir fatiga de scroll en páginas largas.
-- archivo-tecnico.html: añadidos anclajes para informes/notas técnicas y entrada Madoz 1847.
-- Páginas divulgativas: sustituidos CTAs primarios a Markdown crudo por enlaces al archivo técnico con anclas.
-- estado-investigacion.html: redirigida auditoría didáctica al archivo técnico.
-- Assets HTML: normalizado cache-busting a ?v=2.5.2.
-
-No cambia la tesis documental: 1862 confirma cinco vocinas/cinco montes genéricos sin nombres; 1872 sigue como primera lista canónica nominal localizada.
+- Añadido microglosario “Antes de seguir: palabras clave”.
+- Añadidas microaclaraciones didácticas sobre fuente, facsímil, fuero y Señorío de Vizcaya.
+- Rebajada la cadena de señales como logística perfecta: se presenta como tradición simbólica/institucional con cautela.
+- Agrupado el menú técnico bajo “Archivo documental”.
+- Mejoras básicas de accesibilidad: foco visible, contraste de textos pequeños y comprobación de salto a #contenido.
+- Añadida alerta metodológica sobre el número “cinco” en fuentes medievales: cinco bocinas no equivalen automáticamente a cinco montes concretos.
+- Tesis 1858/1862/1872 mantenida sin cambios de fondo.
