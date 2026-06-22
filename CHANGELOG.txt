@@ -1,3 +1,13 @@
+V2.5.2 — QA visual aplicada tras auditoría
+- Portada/index: eliminado CTA muerto con href="#" en el bloque de correcciones; se deja nota informativa no clicable.
+- Portada/index: ajustado responsive del hero en móviles estrechos para que la acción principal aparezca antes.
+- Fuentes/veredicto: añadida navegación rápida contextual para orientar al lector en páginas largas.
+- Archivo técnico: añadidos anclajes directos a informes y notas; incorporada entrada de Madoz 1847.
+- Páginas divulgativas: CTAs primarios que abrían Markdown crudo pasan a enlazar al archivo técnico.
+- Estado de investigación: la auditoría didáctica pasa a enlazar al archivo técnico.
+- HTML: normalizado cache-busting de assets a ?v=2.5.2.
+- Sin cambios documentales ni de fuentes respecto a V2.5.1.
+
 V2.5.1 — limpieza visual de portada tras Trueba 1862
 - Portada/index: eliminado bloque duplicado “Apoyar el proyecto” dentro de acciones secundarias.
 - Portada/index: eliminadas las cuatro fichas resumen redundantes.

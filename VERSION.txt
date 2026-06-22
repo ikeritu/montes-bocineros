@@ -1,14 +1,13 @@
-V2.5.1 — limpieza visual de portada tras Trueba 1862
+V2.5.2 — QA visual aplicada tras auditoría
 
-Base: V2.5 — Trueba 1862 cerrado por facsímil.
+Base: V2.5.1 — limpieza visual de portada tras Trueba 1862.
 Cambios:
-- index.html: eliminación de la ficha duplicada de apoyo al proyecto.
-- index.html: eliminación de las cuatro fichas resumen redundantes.
-- index.html: eliminación del bloque “¿Quieres comprobarlo?” de portada.
-- CSS: el texto del hero “La idea en 30 segundos” ocupa el ancho útil de la ficha.
-- CSS: la ficha de correcciones queda preparada para ocupar una sola columna.
+- index.html: eliminado el CTA muerto “Formulario próximamente” como enlace a #; sustituido por nota informativa no clicable.
+- CSS: ajuste responsive del hero de portada para adelantar la visibilidad de la CTA principal en móvil estrecho.
+- fuentes.html y veredicto.html: añadida navegación rápida contextual para reducir fatiga de scroll en páginas largas.
+- archivo-tecnico.html: añadidos anclajes para informes/notas técnicas y entrada Madoz 1847.
+- Páginas divulgativas: sustituidos CTAs primarios a Markdown crudo por enlaces al archivo técnico con anclas.
+- estado-investigacion.html: redirigida auditoría didáctica al archivo técnico.
+- Assets HTML: normalizado cache-busting a ?v=2.5.2.
 
-No cambia la tesis documental:
-- 1858: siete vocinas / siete montes euskaros.
-- 1862: cinco vocinas / cinco montes euskaros sin nombres concretos.
-- 1872: primera lista canónica completa localizada con nombres de montes.
+No cambia la tesis documental: 1862 confirma cinco vocinas/cinco montes genéricos sin nombres; 1872 sigue como primera lista canónica nominal localizada.
