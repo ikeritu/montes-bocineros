@@ -688,3 +688,14 @@ V2.2b — Iturriza 1884/1885 revisado
 - Añadidos `INFORME_V3_1B_MADOZ_1847_FACSIMIL.md` y `ROADMAP_V3_1B_MADOZ_1847_FACSIMIL.md`.
 - Se mantiene `noindex,follow` en la página de la cadena Llorente/Madoz/Trueba.
 - Tesis documental principal sin cambios: Madoz no enumera Gorbea, Oiz, Sollube, Ganekogorta ni Kolitza/Colisa.
+
+## V3.2 — Navegación por capas y portales
+
+- Añadidas dos páginas nuevas: `guia-lector.html` y `archivo.html`.
+- El menú principal pasa a seis puertas: Inicio, Historia, Cronología, Síntesis crítica, Guía del lector y Archivo.
+- Se conservan las páginas profundas como destinos citables: fuentes, biblioteca, Trueba, Barrio/Bañales, metodología, glosario, FAQ, personajes, autoría y cómo citar.
+- `archivo.html` funciona como portal de investigación, no como sustitución destructiva de las páginas documentales.
+- `guia-lector.html` funciona como puerta de entrada divulgativa para público general.
+- Se añade `assets/portal-v32.css` y una sección de acceso a los portales en portada.
+- Tesis documental sin cambios: Madoz 1847 queda confirmado como fuente puente; Llorente continúa pendiente; Trueba 1872 sigue como primera lista nominal completa localizada por ahora.
+

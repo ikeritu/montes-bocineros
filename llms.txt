@@ -13,6 +13,9 @@ Las fuentes medievales y forales documentan bocinas o vozinas en el contexto de 
 
 ## Páginas prioritarias para entender la investigación
 
+- https://ikeritu.github.io/montes-bocineros/guia-lector.html — puerta de entrada divulgativa por capas.
+- https://ikeritu.github.io/montes-bocineros/archivo.html — portal documental hacia fuentes, metodología, facsímiles y citas.
+
 - https://ikeritu.github.io/montes-bocineros/veredicto.html — conclusión crítica y niveles de certeza.
 - https://ikeritu.github.io/montes-bocineros/historia.html — explicación narrativa para público general.
 - https://ikeritu.github.io/montes-bocineros/cronologia.html — línea de tiempo documental.

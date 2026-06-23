@@ -1,0 +1,19 @@
+
+/* V3.2 — Navegación por capas y portales */
+.portal-hero { padding-top: clamp(2rem, 4vw, 4rem); }
+.portal-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap:1rem; margin-top:1.25rem; }
+.portal-card { display:flex; flex-direction:column; gap:.65rem; padding:1.05rem; border:1px solid rgba(19,63,53,.16); border-radius:22px; background:rgba(255,255,255,.82); box-shadow:0 18px 45px rgba(13,37,32,.08); text-decoration:none; color:inherit; }
+.portal-card:hover { transform: translateY(-2px); box-shadow:0 22px 55px rgba(13,37,32,.12); }
+.portal-card small, .portal-muted { color: #5f6f69; line-height:1.45; }
+.portal-card strong { font-size:1.08rem; }
+.portal-pill-row { display:flex; flex-wrap:wrap; gap:.5rem; margin:1rem 0 0; }
+.portal-pill { display:inline-flex; align-items:center; gap:.35rem; border:1px solid rgba(19,63,53,.18); border-radius:999px; padding:.45rem .7rem; background:#fff; text-decoration:none; color:#153f35; font-weight:700; font-size:.92rem; }
+.portal-section { scroll-margin-top: 110px; }
+.portal-warning { border-left: 4px solid #d28c23; padding:1rem; border-radius:18px; background:#fff7e8; margin:1rem 0; }
+.portal-two-col { display:grid; grid-template-columns: minmax(0,1fr) minmax(280px,.45fr); gap:1rem; align-items:start; }
+.portal-mini-timeline { list-style:none; padding:0; margin:0; display:grid; gap:.65rem; }
+.portal-mini-timeline li { padding:.8rem 1rem; border-radius:16px; background:#f5f8f5; border:1px solid rgba(19,63,53,.12); }
+.portal-anchor-note { font-size:.92rem; color:#51635d; margin-top:.75rem; }
+.portal-detail { border:1px solid rgba(19,63,53,.16); border-radius:18px; padding:.85rem 1rem; background:#fff; margin:.75rem 0; }
+.portal-detail > summary { cursor:pointer; font-weight:800; color:#123f35; }
+@media (max-width: 760px) { .portal-two-col { grid-template-columns: 1fr; } .portal-card { border-radius:18px; } }

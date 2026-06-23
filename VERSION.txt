@@ -1,11 +1,3 @@
-V3.1B — Madoz 1847 confirmado por facsímil
-
-Base: V3.1A.2 limpieza técnica.
-
-Cambios:
-- Madoz tomo IX, entrada Guernica, queda verificado por facsímil directo.
-- Se actualiza `llorente-madoz-trueba.html` con estado Madoz confirmado / Llorente pendiente.
-- Se actualiza `NOTA_DOCUMENTAL_MADOZ_1847.md`.
-- Se añaden `INFORME_V3_1B_MADOZ_1847_FACSIMIL.md` y `ROADMAP_V3_1B_MADOZ_1847_FACSIMIL.md`.
-- La página sigue en noindex,follow: no se convierte la cadena Llorente → Madoz → Trueba en tesis pública cerrada.
-- No se cambia la tesis principal: Madoz no enumera los cinco montes tradicionales; Trueba 1872 sigue como primera lista nominal completa localizada hasta ahora.
+V3.2 — Navegación por capas y portales
+Base: V3.1B — Madoz 1847 confirmado por facsímil
+Fecha: 2026-06-23
