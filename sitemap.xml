@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://ikeritu.github.io/montes-bocineros/</loc><priority>1.0</priority></url>
-  <url><loc>https://ikeritu.github.io/montes-bocineros/historia.html</loc><priority>0.9</priority></url>
-  <url><loc>https://ikeritu.github.io/montes-bocineros/montes.html</loc><priority>0.9</priority></url>
-  <url><loc>https://ikeritu.github.io/montes-bocineros/veredicto.html</loc><priority>0.9</priority></url>
-  <url><loc>https://ikeritu.github.io/montes-bocineros/fuentes.html</loc><priority>0.7</priority></url>
-  <url><loc>https://ikeritu.github.io/montes-bocineros/personajes.html</loc><priority>0.6</priority></url>
-  <url><loc>https://ikeritu.github.io/montes-bocineros/glosario.html</loc><priority>0.5</priority></url>
-  <url><loc>https://ikeritu.github.io/montes-bocineros/archivo-tecnico.html</loc><priority>0.4</priority></url>
-<url><loc>https://ikeritu.github.io/montes-bocineros/barrio-banales.html</loc></url>
-<url><loc>https://ikeritu.github.io/montes-bocineros/cadena-trueba.html</loc></url>
+  <url><loc>https://ikeritu.github.io/montes-bocineros/</loc><lastmod>2026-06-23</lastmod><priority>1.0</priority></url>
+  <url><loc>https://ikeritu.github.io/montes-bocineros/afirmaciones.html</loc><lastmod>2026-06-23</lastmod><priority>0.6</priority></url>
+  <url><loc>https://ikeritu.github.io/montes-bocineros/autor.html</loc><lastmod>2026-06-23</lastmod><priority>0.75</priority></url>
+  <url><loc>https://ikeritu.github.io/montes-bocineros/barrio-banales.html</loc><lastmod>2026-06-23</lastmod><priority>0.8</priority></url>
+  <url><loc>https://ikeritu.github.io/montes-bocineros/biblioteca.html</loc><lastmod>2026-06-23</lastmod><priority>0.85</priority></url>
+  <url><loc>https://ikeritu.github.io/montes-bocineros/cadena-trueba.html</loc><lastmod>2026-06-23</lastmod><priority>0.7</priority></url>
+  <url><loc>https://ikeritu.github.io/montes-bocineros/citar.html</loc><lastmod>2026-06-23</lastmod><priority>0.75</priority></url>
+  <url><loc>https://ikeritu.github.io/montes-bocineros/citas.html</loc><lastmod>2026-06-23</lastmod><priority>0.6</priority></url>
+  <url><loc>https://ikeritu.github.io/montes-bocineros/cronologia.html</loc><lastmod>2026-06-23</lastmod><priority>0.9</priority></url>
+  <url><loc>https://ikeritu.github.io/montes-bocineros/faq.html</loc><lastmod>2026-06-23</lastmod><priority>0.75</priority></url>
+  <url><loc>https://ikeritu.github.io/montes-bocineros/fuentes.html</loc><lastmod>2026-06-23</lastmod><priority>0.9</priority></url>
+  <url><loc>https://ikeritu.github.io/montes-bocineros/glosario.html</loc><lastmod>2026-06-23</lastmod><priority>0.7</priority></url>
+  <url><loc>https://ikeritu.github.io/montes-bocineros/historia.html</loc><lastmod>2026-06-23</lastmod><priority>0.9</priority></url>
+  <url><loc>https://ikeritu.github.io/montes-bocineros/metodologia.html</loc><lastmod>2026-06-23</lastmod><priority>0.7</priority></url>
+  <url><loc>https://ikeritu.github.io/montes-bocineros/montes.html</loc><lastmod>2026-06-23</lastmod><priority>0.7</priority></url>
+  <url><loc>https://ikeritu.github.io/montes-bocineros/personajes.html</loc><lastmod>2026-06-23</lastmod><priority>0.6</priority></url>
+  <url><loc>https://ikeritu.github.io/montes-bocineros/recepcion.html</loc><lastmod>2026-06-23</lastmod><priority>0.6</priority></url>
+  <url><loc>https://ikeritu.github.io/montes-bocineros/resumen.html</loc><lastmod>2026-06-23</lastmod><priority>0.9</priority></url>
+  <url><loc>https://ikeritu.github.io/montes-bocineros/trueba-facsimil.html</loc><lastmod>2026-06-23</lastmod><priority>0.9</priority></url>
+  <url><loc>https://ikeritu.github.io/montes-bocineros/veredicto.html</loc><lastmod>2026-06-23</lastmod><priority>0.95</priority></url>
 </urlset>

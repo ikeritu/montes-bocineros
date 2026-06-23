@@ -657,3 +657,13 @@ V2.2b — Iturriza 1884/1885 revisado
 - Se mantiene intacta la tesis documental: 1858, 1862 y 1872 en Antonio de Trueba.
 - Añadidos `assets/timeline-interactiva.css` y `assets/timeline-interactiva.js`.
 - No se incorporan nuevos hechos documentales ni se cambia el estado de Llorente.
+
+## V3.1A.1 — Parche técnico post-auditoría
+
+- Fix de navegación: `assets/menu.js` cargado en `biblioteca.html`, `fuentes.html` e `informes-acusticos.html`.
+- Añadida `404.html` para GitHub Pages.
+- Limpieza SEO/GEO: se eliminan JSON-LD duplicados en páginas afectadas.
+- `sitemap.xml` regenerado solo con URLs indexables.
+- Limpieza de peso muerto: eliminadas imágenes PNG no referenciadas.
+- Naming editorial: `veredicto.html` mantiene URL, pero la etiqueta pública pasa a “Síntesis crítica”.
+- Tesis documental sin cambios.
