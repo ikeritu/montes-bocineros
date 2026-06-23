@@ -1,15 +1,11 @@
-V2.7 — timeline visual de certezas documentales
+V2.9 — cronología interactiva de certezas documentales
 
-Base: V2.5.7 — correcciones rápidas y limpieza pública.
+Base: V2.8 — GEO/SEO y citabilidad IA.
 
 Cambios:
-- Convertida `cronologia.html` en una línea de tiempo filtrable por tipo de evidencia.
-- Añadidos filtros accesibles: Todos, Documentado, Recepción literaria, Historiografía actual y Pendiente / no afirmable.
-- Reforzada la tesis central 1858 → 1862 → 1872 dentro de la cronología.
-- Añadido hito 1858 de Trueba, ausente en la timeline previa.
-- Añadido hito 2020 Barrio/Bañales como marco historiográfico moderno.
-- La posible cadena Llorente → Madoz → Trueba queda marcada como pendiente, no incorporada como hecho cerrado.
-- Añadidos `assets/timeline-certezas.css` y `assets/timeline-certezas.js` para evitar CSS/JS incrustado en página.
-- Añadido enlace a Cronología en el menú “Para lectores”.
-- Añadida llamada desde portada a la cronología visual.
-- No se modifica la tesis documental ni se añade una fuente nueva no verificada.
+- `cronologia.html` pasa de línea vertical filtrable a explorador interactivo horizontal.
+- Añadidos puntos clicables por hito, ficha dinámica inferior, navegación anterior/siguiente y leyenda por tipo de evidencia.
+- Se mantiene lista completa como fallback accesible y contenido rastreable.
+- Se conserva la tesis central 1858/1862/1872 sin cambios documentales de fondo.
+- Nuevos assets: `assets/timeline-interactiva.css` y `assets/timeline-interactiva.js`.
+- El enlace pendiente a roadmap técnico desde la cronología se sustituye por una página pública de pendientes documentales.

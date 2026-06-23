@@ -1,4 +1,16 @@
 
+## V2.8 — GEO/SEO y citabilidad IA
+
+- Añadido `llms.txt` para orientar a modelos de IA hacia la tesis, páginas prioritarias y límites metodológicos.
+- Completado `sitemap.xml` con páginas indexables y fecha `lastmod`.
+- Creadas páginas `autor.html`, `citar.html` y `faq.html`.
+- Añadidos bloques de respuesta breve y de citación en páginas clave.
+- `trueba-facsimil.html` pasa a ser página pública indexable por su alto valor documental.
+- Añadido Schema.org básico para sitio, autor, artículos, colecciones, glosario y FAQ.
+- Reordenada navegación para reforzar lectura, fuentes, metodología, autoría y citabilidad.
+- Sin cambios en la tesis documental: 1858/1862/1872 se mantiene intacta.
+
+
 
 ## V2.7 — Timeline visual de certezas documentales
 
@@ -624,3 +636,13 @@ V2.2b — Iturriza 1884/1885 revisado
 - Actualizado `ROADMAP_V2_5_3.md` para añadir como pendiente explícito realizar nuevas auditorías críticas antes de cerrar una versión pública mayor.
 - Se detallan cinco tipos de auditoría futura: documental externa, escéptica de búsquedas negativas, UX/divulgativa, enlaces/facsímiles y lenguaje de cautela.
 - No se modifica la tesis documental ni las páginas públicas.
+
+
+## V2.9 — Cronología interactiva de certezas documentales
+
+- Transformada `cronologia.html` en un explorador interactivo horizontal.
+- Añadidos puntos clicables por hito, ficha dinámica, navegación anterior/siguiente y leyenda por tipo de evidencia.
+- Conservada la lista completa de hitos como fallback accesible y contenido rastreable para SEO/GEO.
+- Se mantiene intacta la tesis documental: 1858, 1862 y 1872 en Antonio de Trueba.
+- Añadidos `assets/timeline-interactiva.css` y `assets/timeline-interactiva.js`.
+- No se incorporan nuevos hechos documentales ni se cambia el estado de Llorente.

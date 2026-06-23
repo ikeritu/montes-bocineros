@@ -1,0 +1,63 @@
+/* V2.9 — cronología interactiva de certezas documentales */
+.timeline-interactive-section{margin-top:30px;}
+.timeline-interactive-panel{
+  background:linear-gradient(180deg,#fffaf1,#f7efe1);
+  border:1px solid rgba(19,63,53,.13);
+  border-radius:30px;
+  padding:clamp(22px,3vw,36px);
+  box-shadow:0 14px 38px rgba(31,42,35,.075);
+}
+.timeline-interactive-intro{max-width:82ch;color:#294840;font-size:1.05rem;line-height:1.58;}
+.timeline-filter-bar{display:flex;flex-wrap:wrap;gap:10px;margin:24px 0 14px;}
+.timeline-filter-btn,.timeline-step-btn{
+  appearance:none;border:1px solid rgba(19,63,53,.18);border-radius:999px;background:#fff;color:#244840;
+  cursor:pointer;font-weight:900;font-size:.92rem;line-height:1;padding:11px 15px;
+  transition:transform .16s ease, box-shadow .16s ease, border-color .16s ease, background .16s ease, color .16s ease;
+}
+.timeline-filter-btn:hover,.timeline-step-btn:hover{transform:translateY(-1px);border-color:rgba(15,75,63,.46);box-shadow:0 8px 20px rgba(31,42,35,.08);}
+.timeline-filter-btn[aria-pressed="true"]{background:#0f4b3f;border-color:#0f4b3f;color:#fffaf1;}
+.timeline-filter-btn:focus-visible,.timeline-step-btn:focus-visible,.timeline-dot-btn:focus-visible,.timeline-detail-link:focus-visible,.timeline-certainty-link:focus-visible{outline:3px solid #1f6f55;outline-offset:3px;}
+.timeline-filter-status{min-height:1.4em;margin:0 0 22px;color:#405a52;font-size:.96rem;font-weight:750;}
+.timeline-explorer{background:#fff;border:1px solid rgba(19,63,53,.13);border-radius:28px;padding:clamp(18px,2.5vw,28px);box-shadow:0 10px 30px rgba(31,42,35,.06);}
+.timeline-explorer-toolbar{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:14px;align-items:center;margin-bottom:22px;}
+.timeline-step-btn{white-space:nowrap;background:#fdf8ee;}
+.timeline-mini-legend{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;}
+.legend-chip{display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:6px 9px;font-size:.74rem;font-weight:950;text-transform:uppercase;letter-spacing:.045em;}
+.legend-chip::before{content:"";width:8px;height:8px;border-radius:999px;background:currentColor;}
+.legend-documentado{background:#e8f5e9;color:#226b36;}.legend-recepcion{background:#fff3df;color:#915719;}.legend-historiografia{background:#e9f0fb;color:#29496f;}.legend-pendiente{background:#f6e8e6;color:#8f3e2f;}
+.timeline-rail-shell{position:relative;margin:8px 0 26px;padding:22px 8px 16px;overflow-x:auto;scrollbar-width:thin;}
+.timeline-rail{position:relative;display:flex;gap:18px;align-items:flex-start;min-width:max-content;padding:18px 10px 6px;}
+.timeline-rail::before{content:"";position:absolute;left:16px;right:16px;top:31px;height:4px;border-radius:999px;background:linear-gradient(90deg,#d9c8a8,#0f4b3f 48%,#d9c8a8);}
+.timeline-dot-btn{position:relative;z-index:1;display:grid;gap:8px;justify-items:center;min-width:92px;border:0;background:transparent;color:#244840;cursor:pointer;padding:0 2px 8px;text-align:center;}
+.timeline-dot-marker{width:22px;height:22px;border-radius:999px;border:5px solid #0f4b3f;background:#fffaf1;box-shadow:0 0 0 7px #fff;transition:transform .16s ease, box-shadow .16s ease;}
+.timeline-dot-year{font-weight:950;font-size:.92rem;line-height:1.15;}
+.timeline-dot-title{max-width:110px;font-size:.78rem;font-weight:800;line-height:1.15;color:#53645f;}
+.timeline-dot-btn:hover .timeline-dot-marker,.timeline-dot-btn[aria-selected="true"] .timeline-dot-marker{transform:scale(1.18);box-shadow:0 0 0 7px #fff,0 10px 24px rgba(31,42,35,.18);}
+.timeline-dot-btn[aria-selected="true"] .timeline-dot-year{color:#0f4b3f;}
+.timeline-dot-btn[data-certainty="documentado"] .timeline-dot-marker{border-color:#226b36;}.timeline-dot-btn[data-certainty="recepcion"] .timeline-dot-marker{border-color:#c58b42;}.timeline-dot-btn[data-certainty="historiografia"] .timeline-dot-marker{border-color:#29496f;}.timeline-dot-btn[data-certainty="pendiente"] .timeline-dot-marker{border-color:#8f3e2f;}
+.timeline-detail-card{border-radius:24px;border:1px solid rgba(19,63,53,.13);background:linear-gradient(180deg,#fff,#fffaf1);padding:clamp(18px,2.5vw,26px);box-shadow:0 12px 30px rgba(31,42,35,.07);}
+.timeline-detail-card.is-changing{animation:timelineCardIn .18s ease-out;}
+@keyframes timelineCardIn{from{opacity:.55;transform:translateY(5px);}to{opacity:1;transform:translateY(0);}}
+.timeline-detail-top{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:8px;}
+.timeline-detail-date{font-size:1.55rem;font-weight:1000;color:#0f3f35;line-height:1;}
+.timeline-detail-badge{display:inline-flex;align-items:center;gap:7px;width:max-content;max-width:100%;border-radius:999px;padding:7px 11px;font-size:.74rem;font-weight:950;letter-spacing:.055em;text-transform:uppercase;background:#e8f5e9;color:#226b36;}
+.timeline-detail-badge::before{content:"";width:8px;height:8px;border-radius:999px;background:currentColor;}
+.timeline-detail-card[data-certainty="documentado"] .timeline-detail-badge{background:#e8f5e9;color:#226b36;}.timeline-detail-card[data-certainty="recepcion"] .timeline-detail-badge{background:#fff3df;color:#915719;}.timeline-detail-card[data-certainty="historiografia"] .timeline-detail-badge{background:#e9f0fb;color:#29496f;}.timeline-detail-card[data-certainty="pendiente"] .timeline-detail-badge{background:#f6e8e6;color:#8f3e2f;}
+.timeline-detail-card h3{margin:.45rem 0 .5rem;color:#0f3f35;font-size:clamp(1.3rem,2.4vw,1.85rem);}
+.timeline-detail-summary,.timeline-detail-limit{color:#2f4a43;line-height:1.62;margin:.55rem 0;}
+.timeline-detail-limit{background:#faf3e6;border-left:5px solid #c58b42;border-radius:14px;color:#5b4a31;padding:12px 14px;font-size:.96rem;}
+.timeline-detail-link{display:inline-flex;margin-top:10px;color:#0f4b3f;font-weight:950;text-decoration:none;}.timeline-detail-link:hover{text-decoration:underline;}
+.timeline-source-list{margin-top:18px;border:1px solid rgba(19,63,53,.12);background:#fffaf1;border-radius:22px;padding:12px 16px;}
+.timeline-source-list summary{cursor:pointer;color:#0f3f35;font-weight:950;}.timeline-source-list summary:focus-visible{outline:3px solid #1f6f55;outline-offset:3px;}
+.timeline-interactive-section.is-enhanced .timeline-source-list:not([open]){padding-bottom:12px;}
+.timeline-certainty-spine{position:relative;display:grid;gap:18px;margin-top:18px;}
+.timeline-certainty-spine::before{content:"";position:absolute;left:126px;top:10px;bottom:10px;width:3px;background:linear-gradient(180deg,#d9c8a8,#0f4b3f 48%,#d9c8a8);border-radius:999px;}
+.timeline-certainty-item{display:grid;grid-template-columns:104px 28px minmax(0,1fr);gap:12px;align-items:start;position:relative;}.timeline-certainty-item.is-hidden{display:none;}
+.timeline-certainty-date{color:#0f3f35;font-size:1rem;font-weight:950;padding-top:22px;text-align:right;}.timeline-certainty-dot{width:19px;height:19px;border-radius:999px;margin-top:22px;background:#fffaf1;border:4px solid #0f4b3f;z-index:1;box-shadow:0 0 0 7px #f7efe1;}
+.timeline-certainty-card{background:#fff;border:1px solid rgba(19,63,53,.13);border-radius:24px;padding:20px;box-shadow:0 8px 24px rgba(31,42,35,.06);}.timeline-certainty-card h3{margin:.55rem 0 .4rem;color:#0f3f35;font-size:1.18rem;}.timeline-certainty-card p{margin:.45rem 0;color:#2f4a43;line-height:1.56;}
+.timeline-certainty-limit{margin-top:12px!important;background:#faf3e6;border-left:5px solid #c58b42;border-radius:14px;color:#5b4a31!important;padding:11px 13px;font-size:.95rem;}.timeline-certainty-badge{display:inline-flex;align-items:center;gap:7px;width:max-content;max-width:100%;border-radius:999px;padding:6px 10px;font-size:.74rem;font-weight:950;letter-spacing:.055em;text-transform:uppercase;}.timeline-certainty-badge::before{content:"";width:8px;height:8px;border-radius:999px;background:currentColor;}
+.timeline-certainty-item[data-certainty="documentado"] .timeline-certainty-badge{background:#e8f5e9;color:#226b36;}.timeline-certainty-item[data-certainty="documentado"] .timeline-certainty-dot{border-color:#226b36;}.timeline-certainty-item[data-certainty="recepcion"] .timeline-certainty-badge{background:#fff3df;color:#915719;}.timeline-certainty-item[data-certainty="recepcion"] .timeline-certainty-dot{border-color:#c58b42;}.timeline-certainty-item[data-certainty="historiografia"] .timeline-certainty-badge{background:#e9f0fb;color:#29496f;}.timeline-certainty-item[data-certainty="historiografia"] .timeline-certainty-dot{border-color:#29496f;}.timeline-certainty-item[data-certainty="pendiente"] .timeline-certainty-badge{background:#f6e8e6;color:#8f3e2f;}.timeline-certainty-item[data-certainty="pendiente"] .timeline-certainty-dot{border-color:#8f3e2f;}
+.timeline-certainty-link{display:inline-flex;margin-top:8px;color:#0f4b3f;font-weight:900;text-decoration:none;}.timeline-certainty-link:hover,.timeline-certainty-link:focus-visible{text-decoration:underline;}
+.timeline-certainty-note{margin-top:24px;background:#fff;border:1px solid rgba(19,63,53,.12);border-radius:22px;padding:18px;color:#294840;}.timeline-certainty-note p{margin:.4rem 0;line-height:1.55;}
+@media(max-width:760px){.timeline-interactive-panel{border-radius:24px;padding:20px;}.timeline-filter-bar{gap:8px;}.timeline-filter-btn{width:100%;text-align:left;justify-content:flex-start;padding:12px 14px;}.timeline-explorer-toolbar{grid-template-columns:1fr;}.timeline-mini-legend{justify-content:flex-start;}.timeline-step-btn{width:100%;}.timeline-rail-shell{margin-left:-4px;margin-right:-4px;}.timeline-dot-btn{min-width:82px;}.timeline-detail-date{font-size:1.35rem;}.timeline-certainty-spine::before{left:10px;}.timeline-certainty-item{grid-template-columns:24px minmax(0,1fr);gap:10px;}.timeline-certainty-date{grid-column:2;text-align:left;padding:0;font-size:.96rem;margin-bottom:-6px;}.timeline-certainty-dot{grid-column:1;grid-row:1 / span 2;margin-top:28px;box-shadow:0 0 0 6px #f7efe1;}.timeline-certainty-card{grid-column:2;border-radius:20px;padding:17px;}}
+@media(prefers-reduced-motion:reduce){.timeline-filter-btn,.timeline-step-btn{transition:none;}.timeline-filter-btn:hover,.timeline-step-btn:hover{transform:none;}.timeline-detail-card.is-changing{animation:none;}}
