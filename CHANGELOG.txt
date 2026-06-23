@@ -1,3 +1,12 @@
+## V3.3 — Capas de certeza y visual acústica hipotética
+
+- Añadida lectura interactiva por capas de certeza en `guia-lector.html`.
+- Añadida visualización didáctica de distancia y plausibilidad sonora hacia Gernika en `guia-lector.html` y `montes.html`.
+- Nuevos assets `assets/capas-certeza-v33.css` y `assets/capas-certeza-v33.js`.
+- La visual acústica se presenta explícitamente como hipótesis didáctica, no como simulación científica ni prueba histórica.
+- Se mantiene la lista tradicional correcta: Gorbeia, Oiz, Sollube, Ganekogorta y Kolitza/Colisa. Amboto no se introduce como quinto monte tradicional.
+- Sin cambios en la tesis documental: Madoz confirmado, Llorente pendiente, Trueba 1872 primera lista nominal completa localizada.
+
 ## V3.1A.2 — Limpieza técnica pendiente
 
 - Añadida `404.html` para GitHub Pages.

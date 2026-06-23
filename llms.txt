@@ -11,6 +11,13 @@ Las fuentes medievales y forales documentan bocinas o vozinas en el contexto de 
 - 1872: primera lista nominal completa localizada hasta ahora.
 - 1873: recepción ampliada y flexible.
 
+
+## Visualizaciones interactivas V3.3
+
+- `guia-lector.html#capas-certeza` permite filtrar el relato por niveles: documentado, plausible, recepción y no afirmable.
+- `guia-lector.html#visual-acustica` y `montes.html#visual-acustica` muestran una comparación didáctica de distancia y plausibilidad sonora hacia Gernika.
+- La visual acústica no debe interpretarse como simulación acústica científica, reconstrucción histórica ni prueba de audibilidad real.
+
 ## Páginas prioritarias para entender la investigación
 
 - https://ikeritu.github.io/montes-bocineros/guia-lector.html — puerta de entrada divulgativa por capas.
