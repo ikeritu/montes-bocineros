@@ -66,3 +66,7 @@ La web usa inteligencia artificial como apoyo auxiliar para búsqueda, contraste
 Correcciones documentales: mailto:iker.ituarte.tejedor@gmail.com
 
 Última actualización editorial: 2026-06-23
+
+
+## V3.4 visual integral
+La portada incorpora lectura por capas de certeza, visual acústica hipotética y ruta de lectura con acceso claro al archivo documental. `personajes.html` se convierte en un quién es quién interactivo. La visual acústica es didáctica: no es simulación científica ni prueba de audibilidad histórica.

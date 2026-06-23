@@ -1,3 +1,11 @@
+## V3.4 — Rediseño visual integral aplicado
+
+- Portada rediseñada con hero oscuro, ecos visuales, contadores, filtros de certeza, línea de transmisión compacta y visual acústica.
+- `personajes.html` convertido en “Quién es quién” interactivo con filtros por rol, tarjetas compactas y panel de ficha seleccionada.
+- Reforzada la visualización didáctica de distancia/plausibilidad sonora con cautela metodológica explícita.
+- Añadidos `assets/visual-integral-v34.css` y `assets/visual-integral-v34.js`.
+- Se mantienen vivas las páginas profundas y citables.
+- No se altera la tesis: Madoz confirmado, Llorente pendiente, Trueba 1872 como primera lista nominal completa localizada.
 ## V3.3 — Capas de certeza y visual acústica hipotética
 
 - Añadida lectura interactiva por capas de certeza en `guia-lector.html`.
