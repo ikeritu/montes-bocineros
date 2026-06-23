@@ -1,13 +1,11 @@
-V3.1A.1 — Parche técnico post-auditoría
+V3.1B — Madoz 1847 confirmado por facsímil
 
-Base: V3.1A — Verificación Llorente / Madoz / Trueba.
+Base: V3.1A.2 limpieza técnica.
 
 Cambios:
-- Corregida carga de assets/menu.js en biblioteca.html, fuentes.html e informes-acusticos.html.
-- Añadida página 404.html para GitHub Pages.
-- Eliminados JSON-LD duplicados en páginas con bloques antiguos y v28-geo simultáneos.
-- Regenerado sitemap.xml solo con páginas indexables; no se incluyen páginas noindex,follow.
-- Eliminadas imágenes PNG pesadas no referenciadas cuando ya se usan versiones WebP.
-- Cambiada la etiqueta pública de veredicto.html a "Síntesis crítica" sin renombrar el archivo ni romper enlaces.
-- Normalizados query strings de assets a v=3.1.1.
-- No se cambia la tesis documental pública.
+- Madoz tomo IX, entrada Guernica, queda verificado por facsímil directo.
+- Se actualiza `llorente-madoz-trueba.html` con estado Madoz confirmado / Llorente pendiente.
+- Se actualiza `NOTA_DOCUMENTAL_MADOZ_1847.md`.
+- Se añaden `INFORME_V3_1B_MADOZ_1847_FACSIMIL.md` y `ROADMAP_V3_1B_MADOZ_1847_FACSIMIL.md`.
+- La página sigue en noindex,follow: no se convierte la cadena Llorente → Madoz → Trueba en tesis pública cerrada.
+- No se cambia la tesis principal: Madoz no enumera los cinco montes tradicionales; Trueba 1872 sigue como primera lista nominal completa localizada hasta ahora.

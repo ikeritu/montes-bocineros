@@ -1,10 +1,20 @@
 # Nota documental — Pascual Madoz, Tomo IX, entrada Guernica
 
+## Estado V3.1B
+
+**Verificado por facsímil directo.**
+
 ## Fuente
 
 **Pascual Madoz Ibáñez**, *Diccionario geográfico-estadístico-histórico de España y sus posesiones de Ultramar*, **Tomo IX**, Madrid, 1847.
 
-Entrada revisada: **Guernica**.
+Entrada revisada: **Guernica / Juntas de Guernica**.
+
+Archivos incorporados al proyecto:
+
+- `fuentes/madoz_tomo_ix_guernica_extracto_pp68-74.pdf`
+- `fuentes/madoz_tomo_ix_guernica_p69_cinco_heraldos.pdf`
+- `fuentes/madoz_tomo_ix_guernica_p69_cinco_heraldos.webp`
 
 ## Pasaje clave localizado
 
@@ -23,9 +33,10 @@ Cita breve de trabajo:
 
 ## Qué no permite afirmar
 
-- No enumera Gorbea, Oiz, Sollube, Ganecogorta y Colisa.
+- No enumera Gorbea, Oiz, Sollube, Ganecogorta y Colisa/Kolitza.
 - No prueba una lista medieval cerrada de cinco montes.
 - No demuestra que esas alturas fueran las cinco cumbres tradicionales modernas.
+- No demuestra dependencia directa entre Madoz y Trueba.
 
 ## Impacto en la tesis
 
@@ -41,3 +52,4 @@ Madoz obliga a matizar la cronología: antes de Trueba ya aparece la idea de cin
 | Relaciona con Junta General / Catzarra | Sí |
 | Enumera los cinco montes tradicionales | No |
 | Valor para el estudio | Alto como fuente puente |
+| Estado de verificación | Verificado por facsímil directo |

@@ -1,3 +1,14 @@
+## V3.1A.2 — Limpieza técnica pendiente
+
+- Añadida `404.html` para GitHub Pages.
+- Consolidada la corrección del menú “Profundizar” en páginas documentales.
+- Eliminados JSON-LD duplicados/conflictivos detectados tras iteraciones SEO previas.
+- Regenerado `sitemap.xml` solo con páginas indexables; las páginas `noindex,follow` quedan fuera.
+- Eliminadas imágenes PNG pesadas no referenciadas cuando ya existen versiones WebP usadas por la web.
+- Cambiada la etiqueta pública de `veredicto.html` a “Síntesis crítica”, manteniendo el nombre del archivo para no romper enlaces.
+- Normalizados query strings de assets a `v=3.1.2`.
+- Sin cambios en la tesis documental.
+
 
 ## V3.1A — Verificación Llorente / Madoz / Trueba
 
@@ -667,3 +678,13 @@ V2.2b — Iturriza 1884/1885 revisado
 - Limpieza de peso muerto: eliminadas imágenes PNG no referenciadas.
 - Naming editorial: `veredicto.html` mantiene URL, pero la etiqueta pública pasa a “Síntesis crítica”.
 - Tesis documental sin cambios.
+
+
+## V3.1B — Madoz 1847 confirmado por facsímil
+
+- Confirmado por facsímil directo el pasaje de Madoz, tomo IX, entrada Guernica: cinco heraldos suben a las alturas y tañen bocinas para llamar a Junta General o Catzarra.
+- Actualizada `llorente-madoz-trueba.html`: Madoz queda documentado; Llorente sigue pendiente de facsímil directo.
+- Actualizada `NOTA_DOCUMENTAL_MADOZ_1847.md`.
+- Añadidos `INFORME_V3_1B_MADOZ_1847_FACSIMIL.md` y `ROADMAP_V3_1B_MADOZ_1847_FACSIMIL.md`.
+- Se mantiene `noindex,follow` en la página de la cadena Llorente/Madoz/Trueba.
+- Tesis documental principal sin cambios: Madoz no enumera Gorbea, Oiz, Sollube, Ganekogorta ni Kolitza/Colisa.
