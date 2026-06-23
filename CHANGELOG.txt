@@ -1,4 +1,15 @@
 
+## V3.1A — Verificación Llorente / Madoz / Trueba
+
+- Añadido informe técnico `INFORME_V3_1A_LLORENTE_MADOZ_TRUEBA.md`.
+- Añadido roadmap `ROADMAP_V3_1A_LLORENTE_MADOZ_TRUEBA.md`.
+- Añadida página técnica noindex `llorente-madoz-trueba.html`.
+- Actualizado `archivo-tecnico.html` para enlazar la nueva línea de investigación.
+- Actualizado `pendientes-documentales.html` con el estado de la pista.
+- La cadena Llorente → Madoz → Trueba se clasifica como hipótesis historiográfica fuerte, no como dependencia textual cerrada.
+- No se modifica la tesis central: la lista nominal completa sigue localizada en Trueba 1872 hasta nueva prueba.
+
+
 ## V2.8 — GEO/SEO y citabilidad IA
 
 - Añadido `llms.txt` para orientar a modelos de IA hacia la tesis, páginas prioritarias y límites metodológicos.
