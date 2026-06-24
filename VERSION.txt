@@ -1,3 +1,3 @@
-V3.6 — Quién es quién interactivo
-Base: V3.5.1 header sin Cronología y cronología integrada en Historia
-Estado: listo para QA visual y publicación
+V3.6.4 — Header global unificado y encuadre de Goicolea
+Base: V3.6 personajes interactivo + ajustes posteriores
+Estado: parche visual y de navegación

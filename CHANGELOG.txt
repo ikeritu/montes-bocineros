@@ -1,3 +1,13 @@
+
+## V3.6.4 — Header global unificado y encuadre de Goicolea
+
+- Normalizado el header en páginas raíz y subpáginas de informes.
+- Menú principal: Inicio · Historia · Montes · Síntesis crítica · Guía del lector · Archivo.
+- Eliminada Cronología del header y de la ruta principal del panel Profundizar.
+- La cronología queda integrada en historia.html y cronologia.html se mantiene solo como puente/noindex si existe.
+- Corregido el encuadre de Tomás de Goicolea: la imagen ocupa todo el alto del panel y prioriza el rostro.
+- Incluido menu.js con carga superior al navegar entre páginas sin ancla.
+
 ## V3.6 — Quién es quién interactivo
 
 - Sustituido `personajes.html` por una versión interactiva más limpia y alineada con el estilo visual del index actual.
