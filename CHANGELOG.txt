@@ -1,3 +1,11 @@
+## V3.4.1 — Limpieza visual de portada
+
+- Simplificado `index.html` para dejar solo la portada hero, el bloque de rutas principales y el footer oscuro.
+- Retirados de la portada los bloques largos de capas de certeza, visual acústica, cita intermedia y apoyo, manteniéndolos en páginas internas donde corresponde.
+- Añadido `assets/index-clean-v341.css` con ajustes específicos para la portada limpia.
+- Se conserva el rediseño de `personajes.html` y las visualizaciones interactivas en páginas internas.
+- Sin cambios en la tesis documental.
+
 ## V3.4 — Rediseño visual integral aplicado
 
 - Portada rediseñada con hero oscuro, ecos visuales, contadores, filtros de certeza, línea de transmisión compacta y visual acústica.

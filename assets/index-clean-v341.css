@@ -1,0 +1,98 @@
+/* V3.4.1 — limpieza de portada: hero + ruta + footer */
+body.v341-index-clean{
+  background: radial-gradient(circle at 92% 8%, rgba(31,93,74,.12), transparent 30rem), var(--v34-bone, #f4f0e6);
+}
+.v341-index-clean .v34-hero{
+  min-height: 430px;
+  padding: 92px 0 70px;
+  display:flex;
+  align-items:center;
+  border-bottom:0;
+}
+.v341-index-clean .v34-hero .v34-wrap{
+  width:100%;
+}
+.v341-index-clean .v34-hero h1{
+  margin-top:.5rem;
+  margin-bottom:1.15rem;
+  max-width: 11.4ch;
+}
+.v341-index-clean .v34-hero .lead{
+  max-width: 54ch;
+  margin-bottom:0;
+}
+.v341-index-clean #ruta.v34-section{
+  padding: 30px 0 60px;
+  background: var(--v34-bone, #f4f0e6);
+}
+.v341-index-clean #ruta .v34-wrap{
+  max-width: 1040px;
+}
+.v341-index-clean #ruta h2{
+  max-width: 14ch;
+  margin-top:.35rem;
+}
+.v341-index-clean #ruta .v34-lead{
+  max-width: 62ch;
+  font-size:1rem;
+}
+.v341-index-clean .v34-route-grid{
+  margin-top:28px;
+}
+.v341-index-clean .v34-route-card{
+  min-height: 140px;
+}
+.v341-index-clean .v34-route-card h3{
+  color: var(--v34-pine, #133f35);
+}
+.v341-footer{
+  background: var(--v34-pine-2, #0b2d25);
+  color:#d7e0da;
+  padding:58px 0 64px;
+  margin:0;
+}
+.v341-footer-wrap{
+  max-width:1040px;
+  margin:0 auto;
+  padding:0 24px;
+  display:grid;
+  grid-template-columns: 1.35fr .9fr .9fr;
+  gap:72px;
+}
+.v341-footer h4{
+  font-family: var(--disp, system-ui, sans-serif);
+  color:#fff7e8;
+  font-size:1.05rem;
+  margin:0 0 12px;
+}
+.v341-footer p{
+  max-width:34ch;
+  margin:0;
+  line-height:1.65;
+  color:#d7e0da;
+}
+.v341-footer-links{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+  font-family: var(--mono, ui-monospace, monospace);
+  font-size:.76rem;
+}
+.v341-footer a{
+  color: var(--v34-brass-2, #e4aa4b);
+  text-decoration:none;
+}
+.v341-footer a:hover{
+  text-decoration:underline;
+  text-underline-offset:3px;
+}
+@media(max-width:900px){
+  .v341-index-clean .v34-hero{min-height:auto;padding:70px 0 58px;}
+  .v341-index-clean #ruta.v34-section{padding-top:36px;}
+  .v341-footer-wrap{grid-template-columns:1fr;gap:30px;}
+}
+@media(max-width:680px){
+  .v341-index-clean .v34-hero h1{font-size:3.1rem;}
+  .v341-index-clean .v34-route-grid{grid-template-columns:1fr;}
+  .v341-footer{padding:42px 0;}
+}
