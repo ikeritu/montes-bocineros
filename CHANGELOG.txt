@@ -1,4 +1,13 @@
 
+## V3.6.5 — Guía del lector simplificada
+
+- Simplificada `guia-lector.html` para que contenga solo dos bloques: microglosario de palabras clave y FAQ.
+- Eliminado de la Guía del lector el contenido de rutas, portales, visual acústica, capas de certeza y recepción.
+- Añadido `assets/guia-lector-v365.css` para un diseño limpio de acordeones.
+- Se mantiene intacta la arquitectura documental: las páginas profundas siguen vivas y citables.
+- Sin cambios en la tesis histórica: Madoz confirmado, Llorente pendiente, Trueba 1872 como primera lista nominal completa localizada.
+
+
 ## V3.6.4 — Header global unificado y encuadre de Goicolea
 
 - Normalizado el header en páginas raíz y subpáginas de informes.
@@ -774,9 +783,11 @@ V2.2b — Iturriza 1884/1885 revisado
 - Se añade `assets/portal-v32.css` y una sección de acceso a los portales en portada.
 - Tesis documental sin cambios: Madoz 1847 queda confirmado como fuente puente; Llorente continúa pendiente; Trueba 1872 sigue como primera lista nominal completa localizada por ahora.
 
-## V3.6.7 — imagen restaurada/colorizada de Delmas
+## V3.6.8 — Guía del lector con síntesis y Trueba
 
-- Añadida imagen local de Juan Eustaquio Delmas en `personajes.html`.
-- La imagen queda etiquetada como restaurada y coloreada digitalmente con ayuda de IA.
-- Sustituido el estado de “imagen pendiente” por una nota metodológica de cautela.
-- No se modifica la tesis documental: Delmas sigue funcionando como contexto decimonónico, no como fuente de la lista canónica de cinco montes.
+- Reestructurada `guia-lector.html` con una entrada didáctica más completa.
+- Añadido bloque “En 20 segundos: qué está probado y qué no”.
+- Añadido bloque interactivo sobre Trueba: 1858, 1862 y 1872.
+- Conservados microglosario y FAQ como núcleo práctico de la guía.
+- Añadidos `assets/guia-lector-v368.css` y `assets/guia-lector-v368.js`.
+- No se modifica la tesis documental ni las páginas profundas.
