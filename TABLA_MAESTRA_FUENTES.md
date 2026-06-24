@@ -29,3 +29,10 @@ Regla: una fuente puede probar bocinas, vozineros, Gernika o merindades sin prob
 - Iturriza 1884/p. 158: revisada y negativa; no contiene lista de montes bocineros. Queda solo contraste secundario con manuscritos autógrafos.
 
 - Euskal-Erria 1880: pendiente de comparación completa con El Correo Vascongado 1873.
+
+
+## V4.0 — Llorente 1807
+
+| Fuente | Fecha | Estado | Qué prueba | Qué no prueba |
+|---|---:|---|---|---|
+| Juan Antonio Llorente, *Noticias históricas de las tres provincias vascongadas*, Tomo II, p. 464 | 1807 | Confirmado por facsímil directo | Junta general llamada por medio de las cinco bocinas | No enumera Gorbea, Oiz, Sollube, Ganekogorta ni Kolitza/Colisa; no prueba una lista medieval cerrada de montes |
