@@ -1,0 +1,97 @@
+/* V3.4.2 — ajuste final de portada limpia */
+body.v342-index-polish{
+  min-height:100vh;
+}
+.v342-index-polish .v34-hero{
+  min-height:430px;
+  padding:88px 0 68px;
+}
+.v342-index-polish .v34-hero .v34-wrap,
+.v342-index-polish #ruta .v34-wrap{
+  max-width:1180px;
+}
+.v342-index-polish .v34-hero h1{
+  max-width:none;
+  width:max-content;
+  margin-top:.42rem;
+  margin-bottom:1.1rem;
+}
+.v342-index-polish .v34-hero h1 span,
+.v342-index-polish .v34-hero h1 em{
+  display:block;
+}
+.v342-index-polish .v34-hero h1 em{
+  white-space:nowrap;
+}
+.v342-index-polish .v34-hero .lead{
+  max-width:none;
+  width:max-content;
+  font-size:clamp(1.02rem,1.25vw,1.22rem);
+  line-height:1.55;
+}
+.v342-index-polish .v34-hero .lead span{
+  display:block;
+  white-space:nowrap;
+}
+.v342-index-polish #ruta.v34-section{
+  padding:34px 0 58px;
+}
+.v342-index-polish #ruta h2{
+  max-width:none;
+  white-space:nowrap;
+  font-size:clamp(2.15rem,3.15vw,3.05rem);
+  margin-bottom:.55rem;
+}
+.v342-index-polish #ruta .v34-lead{
+  max-width:1040px;
+  font-size:1rem;
+  line-height:1.65;
+}
+.v342-index-polish .v34-route-grid{
+  margin-top:28px;
+}
+.v342-index-polish .v34-route-card{
+  min-height:150px;
+}
+.v342-index-polish .v341-footer{
+  max-width:none !important;
+  width:100% !important;
+  margin-left:0 !important;
+  margin-right:0 !important;
+  padding:58px 0 62px;
+}
+.v342-index-polish .v341-footer-wrap{
+  max-width:1180px;
+}
+@media(max-width:1180px){
+  .v342-index-polish .v34-hero .lead,
+  .v342-index-polish .v34-hero h1{
+    width:auto;
+  }
+  .v342-index-polish .v34-hero .lead span{
+    white-space:normal;
+  }
+}
+@media(max-width:900px){
+  .v342-index-polish #ruta h2{
+    white-space:normal;
+  }
+}
+@media(max-width:680px){
+  .v342-index-polish .v34-hero{
+    padding:62px 0 52px;
+  }
+  .v342-index-polish .v34-hero h1{
+    width:auto;
+    font-size:3rem;
+  }
+  .v342-index-polish .v34-hero h1 em{
+    white-space:normal;
+  }
+  .v342-index-polish #ruta.v34-section{
+    padding:38px 0 48px;
+  }
+  .v342-index-polish #ruta h2{
+    font-size:2.15rem;
+  }
+}

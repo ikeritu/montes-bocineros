@@ -1,3 +1,14 @@
+## V3.4.2 — Ajuste final de portada limpia
+
+- Ajustado `index.html` para mantener el hero limpio y la ruta inferior como en la maqueta aprobada.
+- Forzado en escritorio que “¿Cuándo se unieron?” quede en una sola línea.
+- Separadas las tres frases introductorias de la portada en líneas independientes.
+- Sustituido el texto del bloque de rutas por una explicación coherente con los cuatro botones de entrada.
+- Forzado que “Tres caminos para leer y uno para comprobar” quede en una sola línea en escritorio.
+- Corregido el footer para ocupar todo el ancho útil y no quedar como bloque estrecho en la parte baja.
+- Añadido `assets/index-clean-v342.css` con overrides específicos de portada.
+- Sin cambios en la tesis documental ni en páginas profundas.
+
 ## V3.4.1 — Limpieza visual de portada
 
 - Simplificado `index.html` para dejar solo la portada hero, el bloque de rutas principales y el footer oscuro.
