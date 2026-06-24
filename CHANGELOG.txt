@@ -1,4 +1,13 @@
 
+## V3.6.5 — Guía del lector simplificada
+
+- Simplificada `guia-lector.html` para que contenga solo dos bloques: microglosario de palabras clave y FAQ.
+- Eliminado de la Guía del lector el contenido de rutas, portales, visual acústica, capas de certeza y recepción.
+- Añadido `assets/guia-lector-v365.css` para un diseño limpio de acordeones.
+- Se mantiene intacta la arquitectura documental: las páginas profundas siguen vivas y citables.
+- Sin cambios en la tesis histórica: Madoz confirmado, Llorente pendiente, Trueba 1872 como primera lista nominal completa localizada.
+
+
 ## V3.6.4 — Header global unificado y encuadre de Goicolea
 
 - Normalizado el header en páginas raíz y subpáginas de informes.

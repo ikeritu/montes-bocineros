@@ -1,3 +1,9 @@
-V3.6.4 — Header global unificado y encuadre de Goicolea
-Base: V3.6 personajes interactivo + ajustes posteriores
-Estado: parche visual y de navegación
+V3.6.5 — Guía del lector simplificada
+Base: V3.6.4 header global + personajes interactivo
+Estado: parche editorial/UX
+
+Cambios:
+- guia-lector.html queda reducida a dos bloques: palabras clave y FAQ.
+- Eliminadas rutas, portales, visual acústica y capas de certeza de la Guía del lector.
+- Se conserva el header global unificado.
+- Sin cambios documentales ni de tesis.
