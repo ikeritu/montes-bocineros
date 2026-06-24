@@ -14,3 +14,14 @@
 - Añadido activo local `assets/guia-lector-monte-icon-v3610.png`.
 - Añadida hoja `assets/guia-lector-v3610.css` para evitar problemas de caché.
 - No se modifica el texto, las pestañas, el microglosario, el FAQ ni la tesis documental.
+
+## V3.6.11 — Icono adjunto coloreado en bloque Trueba
+
+- Sustituido el icono del bloque “El dato clave” por el nuevo icono adjunto por el usuario.
+- El mismo icono se colorea por CSS:
+  - 1858: beige / bronce.
+  - 1862: beige / bronce.
+  - 1872: verde.
+- Añadido `assets/guia-lector-monte-icon-v3611-mask.png`.
+- Añadida hoja `assets/guia-lector-v3611.css` para evitar caché.
+- No se modifica el texto, las pestañas, el microglosario, el FAQ ni otras páginas.
