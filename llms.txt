@@ -73,3 +73,7 @@ La portada incorpora lectura por capas de certeza, visual acústica hipotética 
 
 ## V3.5.1 navegación principal sin página Cronología
 La cronología interactiva queda integrada en `historia.html#linea-tiempo-certezas`. `cronologia.html` se conserva solo como página-puente no indexable para no romper enlaces existentes. La navegación principal pasa a: Inicio, Historia, Montes, Síntesis crítica, Guía del lector y Archivo.
+## Actualización V3.6
+
+`personajes.html` se convierte en un quién es quién interactivo con línea temporal, filtros por capa documental y cautelas desplegables. Las imágenes generadas o restauradas con IA se identifican explícitamente como apoyo visual no documental. No se añade ninguna nueva afirmación histórica ni se altera la tesis central.
+

@@ -1,3 +1,14 @@
+## V3.6 — Quién es quién interactivo
+
+- Sustituido `personajes.html` por una versión interactiva más limpia y alineada con el estilo visual del index actual.
+- Añadida línea temporal vertical de personajes ordenados por periodo.
+- Añadidos filtros por capa documental: Documento/transmisión, Historiografía y Recepción.
+- Las cautelas documentales y notas sobre imágenes quedan plegadas en desplegables accesibles.
+- Extraídos estilos y comportamiento a `assets/personajes-interactivo-v36.css` y `assets/personajes-interactivo-v36.js`.
+- Eliminada la imagen externa/hotlink de Delmas; queda como imagen pendiente con enlace a Museotik.
+- Sustituidos enlaces provisionales por destinos reales.
+- Sin cambios en la tesis documental: Madoz confirmado, Llorente pendiente y Trueba 1872 sigue como primera lista nominal completa localizada.
+
 ## V3.5.1 — Header sin Cronología y Montes como puerta principal
 
 - Actualizado el header de todas las páginas: Inicio, Historia, Montes, Síntesis crítica, Guía del lector y Archivo.
