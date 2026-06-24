@@ -1,3 +1,19 @@
+// V3.6.2 — Evitar que el navegador restaure scroll al navegar entre páginas.
+// Si la URL trae ancla (#...), se respeta el salto a esa sección.
+(() => {
+  try {
+    if ('scrollRestoration' in window.history) {
+      window.history.scrollRestoration = 'manual';
+    }
+  } catch (err) {}
+
+  window.addEventListener('pageshow', () => {
+    if (!window.location.hash) {
+      window.requestAnimationFrame(() => window.scrollTo(0, 0));
+    }
+  });
+})();
+
 (() => {
   const header = document.querySelector('.site-header');
   if (!header) return;

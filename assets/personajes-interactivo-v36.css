@@ -260,3 +260,13 @@
 @media(prefers-reduced-motion:reduce){
   .p36-chip,.p36-actions .btn,.p36-toggle span{transition:none;}
 }
+
+/* V3.6.2 — ajuste visual: Tomás de Goicolea
+   La recreación original es horizontal; en la tarjeta vertical se recortaba parte del rostro.
+   En esta ficha se prioriza mostrar la imagen completa antes que llenar el marco a toda costa. */
+#tomas-goicolea .p36-media img{
+  object-fit:contain;
+  object-position:center center;
+  padding:10px;
+  background:var(--forest-deep);
+}
