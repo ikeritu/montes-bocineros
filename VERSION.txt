@@ -1,1 +1,1 @@
-V3.6.8 — Guía del lector con síntesis y Trueba
+V3.6.9 — Corrección tabs Trueba en guía del lector
