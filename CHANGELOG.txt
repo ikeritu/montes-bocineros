@@ -7,3 +7,10 @@
 - Sustituidos los iconos tipográficos por marcadores de monte dibujados por CSS.
 - 1858 muestra siete señales activas; 1862 y 1872 muestran cinco activas y dos atenuadas.
 - No se modifica la tesis documental ni el contenido de las respuestas.
+
+## V3.6.10 — Icono adjunto en bloque Trueba de guía del lector
+
+- Sustituido el marcador de monte generado por CSS en el bloque “El dato clave” por el icono adjunto por el usuario.
+- Añadido activo local `assets/guia-lector-monte-icon-v3610.png`.
+- Añadida hoja `assets/guia-lector-v3610.css` para evitar problemas de caché.
+- No se modifica el texto, las pestañas, el microglosario, el FAQ ni la tesis documental.
