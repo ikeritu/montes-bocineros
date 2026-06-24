@@ -1,3 +1,13 @@
+## V3.5.1 — Header sin Cronología y Montes como puerta principal
+
+- Actualizado el header de todas las páginas: Inicio, Historia, Montes, Síntesis crítica, Guía del lector y Archivo.
+- Eliminada Cronología de la navegación principal al quedar integrada dentro de `historia.html#linea-tiempo-certezas`.
+- Convertida `cronologia.html` en página-puente `noindex,follow` hacia la cronología integrada para no romper enlaces externos o marcadores antiguos.
+- Actualizado el menú Profundizar en la ruta principal.
+- Actualizado `sitemap.xml` para priorizar `historia.html` y `montes.html` y dejar fuera la página-puente de cronología.
+- Actualizado `llms.txt` para reflejar la nueva arquitectura.
+- Sin cambios en la tesis documental.
+
 ## V3.5 — Cronología interactiva integrada en Historia
 
 - Integrada la cronología interactiva dentro de `historia.html`, reutilizando `assets/timeline-interactiva.css` y `assets/timeline-interactiva.js`.

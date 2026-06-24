@@ -24,8 +24,8 @@ Las fuentes medievales y forales documentan bocinas o vozinas en el contexto de 
 - https://ikeritu.github.io/montes-bocineros/archivo.html — portal documental hacia fuentes, metodología, facsímiles y citas.
 
 - https://ikeritu.github.io/montes-bocineros/veredicto.html — conclusión crítica y niveles de certeza.
-- https://ikeritu.github.io/montes-bocineros/historia.html — explicación narrativa para público general.
-- https://ikeritu.github.io/montes-bocineros/cronologia.html — línea de tiempo documental.
+- https://ikeritu.github.io/montes-bocineros/historia.html#linea-tiempo-certezas — explicación narrativa y cronología interactiva integrada.
+- https://ikeritu.github.io/montes-bocineros/montes.html — fichas, mapa y visual acústica hipotética de los cinco montes tradicionales.
 - https://ikeritu.github.io/montes-bocineros/fuentes.html — tabla maestra de fuentes y cautelas.
 - https://ikeritu.github.io/montes-bocineros/biblioteca.html — facsímiles, PDFs y recortes.
 - https://ikeritu.github.io/montes-bocineros/trueba-facsimil.html — verificación de Trueba 1858, 1862, 1872 y 1873.
@@ -37,7 +37,6 @@ Las fuentes medievales y forales documentan bocinas o vozinas en el contexto de 
 
 ## Páginas secundarias útiles
 
-- https://ikeritu.github.io/montes-bocineros/montes.html — fichas y mapa de los cinco montes tradicionales.
 - https://ikeritu.github.io/montes-bocineros/personajes.html — autores y personajes relevantes.
 - https://ikeritu.github.io/montes-bocineros/metodologia.html — criterios de análisis documental.
 - https://ikeritu.github.io/montes-bocineros/citas.html — citas verificadas.
@@ -65,8 +64,12 @@ La web usa inteligencia artificial como apoyo auxiliar para búsqueda, contraste
 
 Correcciones documentales: mailto:iker.ituarte.tejedor@gmail.com
 
-Última actualización editorial: 2026-06-23
+Última actualización editorial: 2026-06-24
 
 
 ## V3.4 visual integral
 La portada incorpora lectura por capas de certeza, visual acústica hipotética y ruta de lectura con acceso claro al archivo documental. `personajes.html` se convierte en un quién es quién interactivo. La visual acústica es didáctica: no es simulación científica ni prueba de audibilidad histórica.
+
+
+## V3.5.1 navegación principal sin página Cronología
+La cronología interactiva queda integrada en `historia.html#linea-tiempo-certezas`. `cronologia.html` se conserva solo como página-puente no indexable para no romper enlaces existentes. La navegación principal pasa a: Inicio, Historia, Montes, Síntesis crítica, Guía del lector y Archivo.
