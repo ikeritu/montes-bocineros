@@ -265,20 +265,73 @@
   </section>
 </main>
 <footer class="footer"><div><strong>Montes Bocineros de Bizkaia</strong> · Investigación histórico-divulgativa crítica: tradición viva, fuentes verificables, cronología y cautela documental.</div><div class="footer-links"><span>Proyecto:</span><a href="autor.html">Autoría</a><a href="citar.html">Cómo citar</a><a href="metodologia.html">Metodología</a><a href="biblioteca.html">Fuentes</a><a href="llms.txt">llms.txt</a><a href="sitemap.xml">Sitemap</a></div></footer>
-<!-- V4_6B_2_PERSONAJES_PRUEBAS_DIRECTAS_START -->
-<style id="v46b2-personajes-pruebas-style">
-  .v46b2-pruebas-target {
+
+<!-- V4_6B_3_PERSONAJES_IR_A_SUS_ESCRITOS_START -->
+<style id="v46b3-personajes-escritos-style">
+  .v46b3-escritos-target {
     scroll-margin-top: 7rem;
   }
-  .v46b2-pruebas-target:target {
+  .v46b3-escritos-target:target {
     outline: 3px solid rgba(31, 107, 85, .35);
     outline-offset: .35rem;
     border-radius: 16px;
   }
+  [data-v46b3-escritos-link="true"] {
+    cursor: pointer;
+  }
 </style>
-<script id="v46b2-personajes-pruebas-script">
+<script id="v46b3-personajes-escritos-script">
 (function () {
   "use strict";
+
+  var TARGET_LABEL = "Ir a sus escritos";
+
+  var DOC_TERMS = [
+    "pruebas documentales",
+    "prueba documental",
+    "documentales",
+    "documental",
+    "documentos",
+    "documento",
+    "escritos",
+    "escrito",
+    "obras",
+    "obra",
+    "textos",
+    "texto",
+    "fuentes",
+    "fuente",
+    "facsimil",
+    "facsímil",
+    "archivo"
+  ];
+
+  var CARD_SELECTORS = [
+    "article",
+    "section",
+    ".personaje-card",
+    ".character-card",
+    ".person-card",
+    ".bio-card",
+    ".card",
+    ".ficha",
+    ".profile-card",
+    ".personaje"
+  ];
+
+  var TITLE_SELECTORS = [
+    "[data-personaje]",
+    "[data-character]",
+    ".personaje-nombre",
+    ".character-name",
+    ".personaje-title",
+    ".person-card-title",
+    ".card-title",
+    "h1",
+    "h2",
+    "h3",
+    "h4"
+  ];
 
   function normalizeText(value) {
     return (value || "")
@@ -297,38 +350,59 @@
       .slice(0, 80) || "personaje";
   }
 
-  function elementText(el) {
+  function textOf(el) {
     return normalizeText(el ? (el.innerText || el.textContent || "") : "");
   }
 
-  function isProofContainer(el) {
-    if (!el) return false;
-    var txt = elementText(el);
-    return txt.includes("pruebas documentales") && !txt.startsWith("ver pruebas documentales");
+  function hasDocTerm(value) {
+    value = normalizeText(value);
+    for (var i = 0; i < DOC_TERMS.length; i++) {
+      if (value.indexOf(normalizeText(DOC_TERMS[i])) !== -1) return true;
+    }
+    return false;
   }
 
-  function findPersonName(container, trigger) {
-    var scope = container || document;
-    var selectors = [
-      "[data-personaje]",
-      "[data-character]",
-      ".personaje-nombre",
-      ".character-name",
-      ".personaje-title",
-      ".person-card-title",
-      ".card-title",
-      "h1",
-      "h2",
-      "h3",
-      "h4"
-    ];
+  function hasActionTerm(el) {
+    var txt = textOf(el);
+    var href = normalizeText(el && el.getAttribute ? (el.getAttribute("href") || "") : "");
+    var cls = normalizeText(el && el.className ? String(el.className) : "");
+    var aria = normalizeText(el && el.getAttribute ? (el.getAttribute("aria-label") || "") : "");
 
-    for (var i = 0; i < selectors.length; i++) {
-      var node = scope.querySelector(selectors[i]);
+    if (txt === normalizeText(TARGET_LABEL)) return true;
+    if (txt.indexOf("ver pruebas") !== -1) return true;
+    if (txt.indexOf("ir a sus escritos") !== -1) return true;
+    if (txt.indexOf("pruebas documentales") !== -1) return true;
+
+    return hasDocTerm(txt) || hasDocTerm(href) || hasDocTerm(cls) || hasDocTerm(aria);
+  }
+
+  function setButtonLabel(el) {
+    if (!el) return;
+    el.setAttribute("aria-label", TARGET_LABEL);
+    while (el.firstChild) el.removeChild(el.firstChild);
+    el.appendChild(document.createTextNode(TARGET_LABEL));
+  }
+
+  function closestCard(el) {
+    var current = el;
+    while (current && current !== document.body) {
+      for (var i = 0; i < CARD_SELECTORS.length; i++) {
+        if (current.matches && current.matches(CARD_SELECTORS[i])) return current;
+      }
+      current = current.parentElement;
+    }
+    return el.closest ? el.closest(CARD_SELECTORS.join(",")) : null;
+  }
+
+  function findPersonName(card, trigger) {
+    if (!card) return "personaje";
+
+    for (var i = 0; i < TITLE_SELECTORS.length; i++) {
+      var node = card.querySelector(TITLE_SELECTORS[i]);
       if (!node) continue;
       var val = node.getAttribute("data-personaje") || node.getAttribute("data-character") || node.textContent || "";
-      val = val.replace(/ver pruebas documentales/ig, "").trim();
-      if (val && normalizeText(val).length > 2) return val;
+      val = val.replace(/ir a sus escritos/ig, "").replace(/ver pruebas documentales/ig, "").trim();
+      if (normalizeText(val).length > 2) return val;
     }
 
     var previous = trigger ? trigger.previousElementSibling : null;
@@ -342,149 +416,167 @@
     return "personaje";
   }
 
-  function findCandidateCard(trigger) {
-    var selectors = [
-      "article",
-      "section",
-      ".personaje-card",
-      ".character-card",
-      ".person-card",
-      ".bio-card",
-      ".card",
-      ".ficha",
-      ".profile-card",
-      ".personaje"
-    ];
-
-    var el = trigger;
-    while (el && el !== document.body) {
-      var matches = false;
-      for (var i = 0; i < selectors.length; i++) {
-        if (el.matches && el.matches(selectors[i])) {
-          matches = true;
-          break;
-        }
-      }
-      if (matches && elementText(el).includes("pruebas documentales")) return el;
-      el = el.parentElement;
-    }
-
-    return trigger.closest(selectors.join(",")) || trigger.parentElement || document.body;
+  function isBefore(a, b) {
+    if (!a || !b || a === b) return false;
+    return !!(a.compareDocumentPosition(b) & Node.DOCUMENT_POSITION_FOLLOWING);
   }
 
-  function existingHrefTarget(trigger) {
-    if (!trigger || !trigger.getAttribute) return null;
-    var href = trigger.getAttribute("href");
-    if (!href || href.charAt(0) !== "#") return null;
-    try {
-      return document.getElementById(href.slice(1));
-    } catch (e) {
-      return null;
-    }
-  }
+  function scoreTarget(el, personName, trigger, card) {
+    if (!el || el === trigger) return -9999;
 
-  function findProofTargetIn(container, personName) {
-    var direct = container.querySelectorAll("details, section, article, div, aside");
-    for (var i = 0; i < direct.length; i++) {
-      if (isProofContainer(direct[i])) return direct[i];
-    }
+    var txt = textOf(el);
+    if (!hasDocTerm(txt)) return -9999;
 
-    var headings = container.querySelectorAll("h2, h3, h4, h5, summary, strong");
-    for (var h = 0; h < headings.length; h++) {
-      if (!elementText(headings[h]).includes("pruebas documentales")) continue;
-      return headings[h].closest("details, section, article, div, aside") || headings[h];
-    }
-
-    var slug = slugify(personName);
-    var candidates = document.querySelectorAll(
-      "#pruebas-documentales-" + slug +
-      ", #pruebas-" + slug +
-      ", [data-pruebas-personaje='" + slug + "']"
-    );
-    if (candidates.length) return candidates[0];
-
-    var global = document.querySelectorAll("details, section, article, div, aside");
+    var score = 0;
     var normalizedName = normalizeText(personName);
-    for (var g = 0; g < global.length; g++) {
-      var txt = elementText(global[g]);
-      if (txt.includes("pruebas documentales") && normalizedName !== "personaje" && txt.includes(normalizedName)) {
-        return global[g];
+    var idcls = normalizeText((el.id || "") + " " + (el.className || ""));
+
+    if (txt.indexOf("pruebas documentales") !== -1) score += 50;
+    if (txt.indexOf("escritos") !== -1) score += 45;
+    if (txt.indexOf("fuentes") !== -1) score += 35;
+    if (txt.indexOf("obras") !== -1) score += 30;
+    if (idcls.indexOf("prueba") !== -1 || idcls.indexOf("document") !== -1 || idcls.indexOf("escrito") !== -1 || idcls.indexOf("fuente") !== -1) score += 35;
+
+    if (normalizedName !== "personaje" && txt.indexOf(normalizedName) !== -1) score += 30;
+    if (card && card.contains(el)) score += 25;
+    if (trigger && isBefore(trigger, el)) score += 15;
+
+    var tag = (el.tagName || "").toLowerCase();
+    if (tag === "details") score += 20;
+    if (/^h[2-5]$/.test(tag)) score -= 10;
+
+    var len = txt.length;
+    if (len > 6000) score -= 60;
+    else if (len > 3000) score -= 35;
+    else if (len > 1400) score -= 15;
+    else if (len < 40) score -= 10;
+
+    return score;
+  }
+
+  function findBestTarget(trigger, card, personName) {
+    var href = trigger && trigger.getAttribute ? trigger.getAttribute("href") : "";
+    if (href && href.charAt(0) === "#") {
+      var existing = document.getElementById(href.slice(1));
+      if (existing) return existing;
+    }
+
+    var candidates = [];
+    var selector = "details, section, article, aside, div, h2, h3, h4, h5";
+
+    if (card) {
+      var local = card.querySelectorAll(selector);
+      for (var i = 0; i < local.length; i++) candidates.push(local[i]);
+    }
+
+    var global = document.querySelectorAll(selector);
+    for (var g = 0; g < global.length; g++) candidates.push(global[g]);
+
+    var best = null;
+    var bestScore = -9999;
+
+    for (var c = 0; c < candidates.length; c++) {
+      var el = candidates[c];
+      if (!el || el === card || el === document.body) continue;
+      var score = scoreTarget(el, personName, trigger, card);
+      if (score > bestScore) {
+        bestScore = score;
+        best = el;
       }
     }
 
+    if (best && bestScore > 0) return best;
     return null;
   }
 
   function ensureTarget(target, personName) {
     if (!target) return null;
     var slug = slugify(personName);
-    if (!target.id) target.id = "pruebas-documentales-" + slug;
-    target.classList.add("v46b2-pruebas-target");
+    if (!target.id) target.id = "escritos-" + slug;
+    target.classList.add("v46b3-escritos-target");
     target.setAttribute("tabindex", "-1");
-    target.setAttribute("data-pruebas-personaje", slug);
+    target.setAttribute("data-escritos-personaje", slug);
     return target;
   }
 
-  function revealTarget(target) {
-    if (!target) return;
+  function reveal(target) {
     var current = target;
     while (current && current !== document.body) {
       if (current.tagName && current.tagName.toLowerCase() === "details") current.open = true;
       if (current.hasAttribute && current.hasAttribute("hidden")) current.removeAttribute("hidden");
       if (current.getAttribute && current.getAttribute("aria-hidden") === "true") current.setAttribute("aria-hidden", "false");
       if (current.classList) {
-        current.classList.add("show");
         current.classList.remove("collapsed");
+        current.classList.add("show");
       }
       current = current.parentElement;
     }
   }
 
-  function wireTrigger(trigger) {
-    var label = elementText(trigger);
-    if (!label.includes("ver pruebas documentales")) return;
+  function wireAction(action) {
+    if (!hasActionTerm(action)) return false;
 
-    var card = findCandidateCard(trigger);
-    var personName = findPersonName(card, trigger);
-    var target = existingHrefTarget(trigger) || findProofTargetIn(card, personName);
-    target = ensureTarget(target, personName);
+    var card = closestCard(action);
+    var personName = findPersonName(card, action);
+    var target = findBestTarget(action, card, personName);
 
-    if (!target) return;
+    setButtonLabel(action);
 
-    var href = "#" + target.id;
-    if (trigger.tagName && trigger.tagName.toLowerCase() === "a") {
-      trigger.setAttribute("href", href);
-    } else {
-      trigger.setAttribute("type", "button");
-      trigger.setAttribute("data-v46b2-href", href);
+    action.setAttribute("data-v46b3-escritos-link", "true");
+
+    if (!target) {
+      action.setAttribute("data-v46b3-target", "unresolved");
+      action.setAttribute("title", "No se ha localizado automáticamente el bloque de escritos de este personaje.");
+      return false;
     }
 
-    trigger.setAttribute("aria-controls", target.id);
-    trigger.setAttribute("data-v46b2-pruebas-directas", "true");
+    target = ensureTarget(target, personName);
+    var href = "#" + target.id;
 
-    trigger.addEventListener("click", function (event) {
+    if ((action.tagName || "").toLowerCase() === "a") {
+      action.setAttribute("href", href);
+    } else {
+      action.setAttribute("type", "button");
+      action.setAttribute("data-v46b3-href", href);
+    }
+
+    action.setAttribute("aria-controls", target.id);
+    action.setAttribute("data-v46b3-target", target.id);
+
+    action.addEventListener("click", function (event) {
       event.preventDefault();
-      revealTarget(target);
-      if (history && history.pushState) {
-        history.pushState(null, "", href);
-      } else {
-        window.location.hash = target.id;
-      }
+      reveal(target);
+      if (history && history.pushState) history.pushState(null, "", href);
+      else window.location.hash = target.id;
       target.scrollIntoView({ behavior: "smooth", block: "start" });
       window.setTimeout(function () {
         try { target.focus({ preventScroll: true }); } catch (e) { target.focus(); }
-      }, 350);
+      }, 300);
     });
+
+    return true;
   }
 
   function init() {
-    var triggers = document.querySelectorAll("a, button");
-    for (var i = 0; i < triggers.length; i++) wireTrigger(triggers[i]);
+    var actions = document.querySelectorAll("a, button");
+    var wired = 0;
+    var unresolved = 0;
+
+    for (var i = 0; i < actions.length; i++) {
+      var before = actions[i].getAttribute("data-v46b3-target");
+      var result = wireAction(actions[i]);
+      var after = actions[i].getAttribute("data-v46b3-target");
+      if (result) wired++;
+      else if (after === "unresolved" && before !== "unresolved") unresolved++;
+    }
+
+    document.documentElement.setAttribute("data-v46b3-escritos-wired", String(wired));
+    document.documentElement.setAttribute("data-v46b3-escritos-unresolved", String(unresolved));
 
     if (window.location.hash) {
       var target = document.getElementById(window.location.hash.slice(1));
-      if (target && target.classList && target.classList.contains("v46b2-pruebas-target")) {
-        revealTarget(target);
+      if (target && target.classList && target.classList.contains("v46b3-escritos-target")) {
+        reveal(target);
       }
     }
   }
@@ -496,6 +588,6 @@
   }
 })();
 </script>
-<!-- V4_6B_2_PERSONAJES_PRUEBAS_DIRECTAS_END -->
+<!-- V4_6B_3_PERSONAJES_IR_A_SUS_ESCRITOS_END -->
 </body>
 </html>
