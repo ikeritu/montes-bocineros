@@ -1,0 +1,64 @@
+/* === Tooltips de glosario en todo el sitio (Mejora 2) === */
+
+.glos-term {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: var(--gold, #c58b42);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 2px;
+  cursor: help;
+  border-radius: 3px;
+}
+.glos-term:hover,
+.glos-term:focus-visible {
+  background: rgba(197, 139, 66, 0.12);
+  outline: none;
+}
+.glos-term:focus-visible {
+  box-shadow: 0 0 0 2px rgba(197, 139, 66, 0.45);
+}
+
+#glos-tip {
+  position: fixed;
+  z-index: 9999;
+  max-width: 280px;
+  background: var(--paper, #fffaf1);
+  border: 1px solid var(--line, #e1d3bd);
+  border-radius: 16px;
+  box-shadow: var(--shadow, 0 18px 60px rgba(31, 42, 35, .16));
+  padding: 0.85rem 1rem;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--ink, #18231f);
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity .15s ease, transform .15s ease;
+  pointer-events: none;
+}
+#glos-tip.is-open {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+#glos-tip strong {
+  display: block;
+  color: var(--green, #133f35);
+  margin-bottom: .3rem;
+  font-size: 0.95rem;
+}
+#glos-tip p {
+  margin: 0;
+  color: var(--ink, #18231f);
+}
+
+@media (max-width: 640px) {
+  #glos-tip {
+    max-width: calc(100vw - 32px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #glos-tip {
+    transition: none !important;
+  }
+}

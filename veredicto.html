@@ -206,12 +206,116 @@
   background:rgba(255,255,255,.55);
 }
 </style>
+<style id="v49-estado-documental-minimo-style">
+  .v49-estado-documental {
+    margin: clamp(1.5rem, 4vw, 3rem) 0;
+    padding: clamp(1rem, 2.5vw, 1.5rem);
+    border: 1px solid rgba(31,107,85,.22);
+    border-radius: 22px;
+    background: linear-gradient(135deg, rgba(246,252,248,.98), rgba(246,241,231,.88));
+    box-shadow: 0 16px 34px rgba(28,45,38,.07);
+    scroll-margin-top: 7rem;
+  }
+  .v49-estado-documental .v49-kicker {
+    display: inline-flex;
+    margin-bottom: .45rem;
+    font-size: .76rem;
+    font-weight: 800;
+    letter-spacing: .055em;
+    text-transform: uppercase;
+    color: #1f6b55;
+  }
+  .v49-estado-documental h2,
+  .v49-estado-documental h3 {
+    margin-top: 0;
+  }
+  .v49-estado-documental .v49-lead {
+    max-width: 76ch;
+  }
+  .v49-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(235px, 1fr));
+    gap: .8rem;
+    margin: 1rem 0;
+  }
+  .v49-card {
+    border: 1px solid rgba(31,107,85,.16);
+    border-radius: 16px;
+    padding: .9rem;
+    background: rgba(255,255,255,.82);
+  }
+  .v49-card strong {
+    display:block;
+    margin-bottom:.35rem;
+    color:#133f35;
+  }
+  .v49-badge {
+    display:inline-flex;
+    align-items:center;
+    width:max-content;
+    margin-bottom:.45rem;
+    border-radius:999px;
+    padding:.2rem .55rem;
+    font-size:.68rem;
+    font-weight:800;
+    letter-spacing:.04em;
+    text-transform:uppercase;
+    background:rgba(31,107,85,.12);
+    color:#133f35;
+  }
+  .v49-badge.no { background:rgba(190,125,35,.14); color:#7a4e12; }
+  .v49-badge.yes { background:rgba(31,107,85,.17); color:#0c473a; }
+  .v49-badge.variant { background:rgba(97,61,124,.13); color:#613d7c; }
+  .v49-table-wrap {
+    overflow-x:auto;
+    margin:1rem 0;
+    border-radius:16px;
+    border:1px solid rgba(31,107,85,.16);
+    background:white;
+  }
+  .v49-table {
+    width:100%;
+    min-width:780px;
+    border-collapse:collapse;
+    font-size:.94rem;
+  }
+  .v49-table th,
+  .v49-table td {
+    padding:.75rem .8rem;
+    border-bottom:1px solid rgba(31,107,85,.12);
+    vertical-align:top;
+    text-align:left;
+  }
+  .v49-table th {
+    color:#133f35;
+    background:rgba(31,107,85,.08);
+  }
+  .v49-table tr:last-child td {
+    border-bottom:0;
+  }
+  .v49-callout {
+    margin-top:1rem;
+    padding:.85rem 1rem;
+    border-left:4px solid rgba(31,107,85,.50);
+    border-radius:14px;
+    background:rgba(255,255,255,.72);
+  }
+  .v49-pending {
+    margin:.5rem 0 0;
+    padding-left:1.2rem;
+  }
+  .v49-pending li {
+    margin:.35rem 0;
+  }
+</style>
+<link rel="stylesheet" href="assets/glosario-tooltips.css?v=1.0.0"/>
+<link rel="stylesheet" href="assets/progreso-lectura.css?v=1.0.0"/>
 </head><body class="v13-page"><a class="skip-link" href="#contenido">Saltar al contenido</a><header class="site-header">
 <div class="header-inner">
 <a class="brand" href="index.html"><img alt="" decoding="async" height="42" loading="lazy" src="assets/montes-logo.svg" width="42"/> <span>Montes Bocineros</span></a>
 <nav aria-label="Navegación principal" class="nav-simple"><a href="index.html">Inicio</a><a href="historia.html">Historia</a><a href="montes.html">Montes</a><a href="veredicto.html">Síntesis crítica</a><a href="guia-lector.html">Guía del lector</a><a href="archivo.html">Archivo</a></nav>
 <button aria-controls="menu-global" aria-expanded="false" class="menu-toggle" data-menu-toggle="" type="button"><span>Profundizar</span><span aria-hidden="true" class="menu-icon"></span></button>
-<div class="menu-panel" data-menu-panel="" id="menu-global"><div class="menu-panel-head"><strong>Profundizar</strong><span>Ruta pública, fuentes y archivo avanzado para comprobar la investigación.</span></div><div class="menu-grid menu-grid-v13 menu-grid-simplified v20b-menu"><section><p class="menu-section-title">Ruta principal</p><a href="index.html">Inicio</a><a href="historia.html">Historia</a><a href="montes.html">Montes</a><a href="veredicto.html">Síntesis crítica</a><a href="guia-lector.html">Guía del lector</a><a href="archivo.html">Archivo documental</a></section><section><p class="menu-section-title">Para lectores</p><a href="montes.html">Montes y mapa</a><a href="biblioteca.html">Biblioteca documental</a><a href="guia-lector.html">Guía del lector</a><a href="personajes.html">Personajes relevantes</a><a href="recepcion.html">Recepción cultural</a></section><section><p class="menu-section-title">Archivo documental</p><a href="fuentes.html">Tabla maestra</a><a href="trueba-facsimil.html">Trueba facsímil</a><a href="barrio-banales.html">Barrio/Bañales</a><a href="metodologia.html">Metodología</a><a href="afirmaciones.html">Afirmaciones verificables</a><a href="citas.html">Citas verificadas</a><a href="citar.html">Cómo citar</a><a href="autor.html">Autoría y correcciones</a><a href="archivo-tecnico.html">Archivo técnico</a></section></div></div></div>
+<div class="menu-panel" data-menu-panel="" id="menu-global"><div class="menu-panel-head"><strong>Profundizar</strong><span>Ruta pública, fuentes y archivo avanzado para comprobar la investigación.</span></div><div class="menu-grid menu-grid-v13 menu-grid-simplified v20b-menu"><section><p class="menu-section-title">Ruta principal</p><a href="index.html">Inicio</a><a href="historia.html">Historia</a><a href="montes.html">Montes</a><a href="veredicto.html">Síntesis crítica</a><a href="guia-lector.html">Guía del lector</a><a href="archivo.html">Archivo documental</a></section><section><p class="menu-section-title">Para lectores</p><a href="montes.html">Montes y mapa</a><a href="biblioteca.html">Biblioteca documental</a><a href="guia-lector.html">Guía del lector</a><a href="personajes.html">Personajes relevantes</a><a href="cadena-trueba.html#recepcion">Recepción cultural</a></section><section><p class="menu-section-title">Archivo documental</p><a href="fuentes.html">Tabla maestra</a><a href="cadena-trueba.html#trueba-facsimil">Trueba facsímil</a><a href="barrio-banales.html">Barrio/Bañales</a><a href="metodologia.html">Metodología</a><a href="afirmaciones.html">Afirmaciones verificables</a><a href="citas.html">Citas verificadas</a><a href="citar.html">Cómo citar</a><a href="autor.html">Autoría y correcciones</a><a href="archivo-tecnico.html">Archivo técnico</a></section></div></div></div>
 </header>
 <!-- V4.2A_MERINDADES_MONTES_START -->
 <section class="v42a-merindades-box" aria-labelledby="v42a-veredicto-merindades-title">
@@ -233,6 +337,104 @@
 <p>Las bocinas o vozinas están documentadas en el contexto institucional de las Juntas de Gernika. Lo que no queda probado en las fuentes medievales revisadas es una lista cerrada de cinco montes concretos. La primera lista nominal completa localizada hasta ahora aparece en el siglo XIX, con Antonio de Trueba en 1872.</p>
 <ul class="geo-mini-list"><li><strong>Documentado:</strong> bocinas/vozinas y ritual de convocatoria.</li><li><strong>Recepción posterior:</strong> fijación literaria y simbólica de los montes.</li><li><strong>No afirmable como medieval:</strong> una red perfecta desde Gorbea, Oiz, Sollube, Ganekogorta y Kolitza.</li></ul>
 </section>
+<!-- V4_9_ESTADO_DOCUMENTAL_MINIMO_START -->
+<section class="v49-estado-documental" id="estado-documental-provisional">
+  <span class="v49-kicker">V4.9 · Estado documental provisional</span>
+  <h2>De las cinco vozinas a los cinco montes: qué está verificado</h2>
+  <p class="v49-lead">Esta sección concentra el veredicto documental sin crear páginas nuevas. La clave es mantener separadas tres capas: las vozinas medievales, la convocatoria foral y la lista nominal moderna de montes.</p>
+
+  <div class="v49-grid" aria-label="Resumen del estado documental">
+    <article class="v49-card">
+      <span class="v49-badge yes">Verificado</span>
+      <strong>Vozinas y convocatoria</strong>
+      <p>1342, 1394 y 1452 documentan vozinas, merindades, Junta, vozineros y sayones.</p>
+    </article>
+    <article class="v49-card">
+      <span class="v49-badge no">No verificado</span>
+      <strong>Lista medieval de montes</strong>
+      <p>No se ha localizado una fuente medieval que enumere Gorbea, Oiz, Sollube, Ganekogorta y Colisa/Kolitza.</p>
+    </article>
+    <article class="v49-card">
+      <span class="v49-badge yes">Ancla documental</span>
+      <strong>Trueba 1872</strong>
+      <p>Primer punto firme verificado para la lista nominal completa, con la cautela “que se cree fuesen”.</p>
+    </article>
+    <article class="v49-card">
+      <span class="v49-badge variant">Recepción</span>
+      <strong>Euskal-Erria 1880</strong>
+      <p>Incluye los cinco dentro de una lista ampliada. Sirve para estudiar variantes posteriores, no para adelantar el origen.</p>
+    </article>
+  </div>
+
+  <div class="v49-table-wrap">
+    <table class="v49-table">
+      <thead>
+        <tr>
+          <th>Fuente</th>
+          <th>Año</th>
+          <th>Qué documenta</th>
+          <th>¿Lista completa?</th>
+          <th>Impacto</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Capitulado de Juan Núñez de Lara</strong></td>
+          <td>1342</td>
+          <td>“Cinco vozinas de Vizcaia” vinculadas a las cinco merindades.</td>
+          <td>No</td>
+          <td>Refuerza la capa antigua de vozinas, no la lista de cumbres.</td>
+        </tr>
+        <tr>
+          <td><strong>Cuaderno de Hermandad de Gonzalo Moro</strong></td>
+          <td>1394</td>
+          <td>Convocatoria a Junta General de Guernica mediante cinco vozinas.</td>
+          <td>No</td>
+          <td>Refuerza el contexto institucional de llamada.</td>
+        </tr>
+        <tr>
+          <td><strong>Fuero Viejo de Vizcaya</strong></td>
+          <td>1452</td>
+          <td>Vozineros, vozinas y sayones: oficios y mecanismos de llamamiento.</td>
+          <td>No</td>
+          <td>Refuerza el marco foral, no identifica montes concretos.</td>
+        </tr>
+        <tr>
+          <td><strong>Antonio de Trueba, Resumen descriptivo e histórico</strong></td>
+          <td>1872</td>
+          <td>Enumera Gorbea, Oiz, Sollube, Ganecogorta y Colisa.</td>
+          <td>Sí</td>
+          <td>Primer punto firme verificado para la lista canónica completa.</td>
+        </tr>
+        <tr>
+          <td><strong>Antonio de Trueba, “Jaun-Zuria”, Euskal-Erria</strong></td>
+          <td>1880</td>
+          <td>Variante posterior con los cinco dentro de una lista ampliada.</td>
+          <td>Incluye los cinco, pero no como lista cerrada.</td>
+          <td>No cambia el ancla de 1872; muestra recepción variable.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="v49-callout">
+    <h3>Diagnóstico documental provisional</h3>
+    <p>La documentación verificada acredita una tradición antigua de vozinas y convocatorias, pero no acredita una lista medieval de cinco montes bocineros concretos. Con el corpus revisado, Trueba 1872 sigue siendo el primer punto firme para la lista nominal completa.</p>
+    <p><strong>Riesgo principal:</strong> convertir “cinco vozinas” o “cinco merindades” en “cinco montes”. Esa equivalencia no está demostrada por los documentos medievales verificados.</p>
+  </div>
+
+  <div class="v49-callout">
+    <h3>Pendientes antes de cerrar la investigación</h3>
+    <ul class="v49-pending">
+      <li><strong>Trueba 1858, El Mundo Pintoresco:</strong> verificar facsímil, página y posible fórmula de siete vocinas / siete montes.</li>
+      <li><strong>Trueba 1859 / 1862:</strong> comprobar si hay cinco vocinas en cinco montes sin lista nominal.</li>
+      <li><strong>Madoz:</strong> separar heraldos, alturas, bocinas y Junta de una posible lista de montes.</li>
+      <li><strong>Lope García de Salazar, Fuero Viejo, Ibargüen-Cachopín, Iturriza y Goicolea:</strong> incorporar solo con facsímil, página o edición directamente verificable.</li>
+    </ul>
+  </div>
+</section>
+<!-- V4_9_ESTADO_DOCUMENTAL_MINIMO_END -->
+
 <section class="v13-panel v254-caution" id="alerta-numero-cinco">
 <span class="v13-hook">Precisión metodológica</span>
 <h2>“Cinco bocinas” no significa automáticamente “cinco montes concretos”</h2>
@@ -253,7 +455,7 @@
 </div>
 </div>
 </section>
-<section class="section v21d-audit-box" id="trueba-v25"><span class="eyebrow">Cadena Trueba</span><h2>1862 confirma cinco montes genéricos; 1872 mantiene la primera lista nominal</h2><p class="lead">El archivo documental conserva ya recortes de 1858, 1862, 1872 y 1873. La novedad es importante: <em>Cuentos populares</em> confirma en 1862 “cinco vocinas” en “cinco montes euskaros”, pero no nombra todavía los montes.</p><div class="v21d-warning-grid"><article class="v21d-warning-card yes"><h3>Qué prueba 1858</h3><p>Antes de 1872 ya hay imaginación montañera en Trueba: siete vocinas y siete montes euskaros dentro del relato de Jaun-Zuria.</p></article><article class="v21d-warning-card yes"><h3>Qué prueba 1862</h3><p>Trueba ya formula cinco vocinas en cinco montes euskaros. Es un eslabón fuerte, no una simple pista.</p></article><article class="v21d-warning-card no"><h3>Qué no prueba 1862</h3><p>No enumera Gorbea, Oiz, Sollube, Ganecogorta y Colisa/Kolitza, ni prueba una red medieval de cumbres.</p></article><article class="v21d-warning-card yes"><h3>Qué prueba 1872</h3><p>1872 sigue siendo, por ahora, la primera lista canónica completa con nombres localizada y comprobable dentro del archivo documental.</p></article></div><p class="v13-actions"><a class="btn btn-primary" href="trueba-facsimil.html">Ver archivo Trueba</a></p></section><section class="section v21d-audit-box" id="lo-que-no-afirma">
+<section class="section v21d-audit-box" id="trueba-v25"><span class="eyebrow">Cadena Trueba</span><h2>1862 confirma cinco montes genéricos; 1872 mantiene la primera lista nominal</h2><p class="lead">El archivo documental conserva ya recortes de 1858, 1862, 1872 y 1873. La novedad es importante: <em>Cuentos populares</em> confirma en 1862 “cinco vocinas” en “cinco montes euskaros”, pero no nombra todavía los montes.</p><div class="v21d-warning-grid"><article class="v21d-warning-card yes"><h3>Qué prueba 1858</h3><p>Antes de 1872 ya hay imaginación montañera en Trueba: siete vocinas y siete montes euskaros dentro del relato de Jaun-Zuria.</p></article><article class="v21d-warning-card yes"><h3>Qué prueba 1862</h3><p>Trueba ya formula cinco vocinas en cinco montes euskaros. Es un eslabón fuerte, no una simple pista.</p></article><article class="v21d-warning-card no"><h3>Qué no prueba 1862</h3><p>No enumera Gorbea, Oiz, Sollube, Ganecogorta y Colisa/Kolitza, ni prueba una red medieval de cumbres.</p></article><article class="v21d-warning-card yes"><h3>Qué prueba 1872</h3><p>1872 sigue siendo, por ahora, la primera lista canónica completa con nombres localizada y comprobable dentro del archivo documental.</p></article></div><p class="v13-actions"><a class="btn btn-primary" href="cadena-trueba.html#trueba-facsimil">Ver archivo Trueba</a></p></section><section class="section v21d-audit-box" id="lo-que-no-afirma">
 <span class="eyebrow">Blindaje crítico</span>
 <h2>Lo que esta web no afirma</h2>
 <p class="lead">La tesis gana fuerza cuando marca sus propios límites. Estas son las afirmaciones que quedan fuera del veredicto.</p>
@@ -416,5 +618,31 @@
 </a>
 </div>
 </section>
-<footer class="footer"><div><strong>Montes Bocineros de Bizkaia</strong> · Investigación histórico-divulgativa crítica: tradición viva, fuentes verificables, cronología y cautela documental.</div><div class="footer-links"><span>Proyecto:</span><a href="autor.html">Autoría</a><a href="citar.html">Cómo citar</a><a href="metodologia.html">Metodología</a><a href="biblioteca.html">Fuentes</a><a href="llms.txt">llms.txt</a><a href="sitemap.xml">Sitemap</a></div></footer>
+<footer aria-label="Pie de página" class="v341-footer">
+<div class="v341-footer-wrap">
+<div class="v341-footer-brand">
+<h4>Montes Bocineros de Bizkaia</h4>
+<p>Investigación histórico-divulgativa: tradición viva, fuentes verificables y cautela documental.</p>
+</div>
+<div>
+<h4>Archivo</h4>
+<nav aria-label="Archivo documental" class="v341-footer-links">
+<a href="fuentes.html">Tabla maestra</a>
+<a href="biblioteca.html">Biblioteca documental</a>
+<a href="metodologia.html">Metodología</a>
+<a href="citar.html">Cómo citar</a>
+</nav>
+</div>
+<div>
+<h4>Apoyar</h4>
+<nav aria-label="Apoyar y corregir" class="v341-footer-links">
+<a href="https://ko-fi.com/ikeritu" rel="noopener noreferrer" target="_blank">☕ Ko-fi</a>
+<a href="https://www.paypal.com/paypalme/ikeritus" rel="noopener noreferrer" target="_blank">💙 PayPal</a>
+<a href="mailto:iker.ituarte.tejedor@gmail.com?subject=Correccion%20Montes%20Bocineros">✉ Enviar corrección</a>
+</nav>
+</div>
+</div>
+</footer>
+<script defer src="assets/glosario-tooltips.js?v=1.0.0"></script>
+<script defer src="assets/progreso-lectura.js?v=1.0.0"></script>
 </body></html>

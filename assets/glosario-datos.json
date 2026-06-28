@@ -1,0 +1,22 @@
+[
+  {"term":"Fuente medieval","def":"Documento antiguo conservado —ley, carta, crónica o manuscrito— que permite comprobar qué se decía en una época concreta."},
+  {"term":"Juntas de Gernika","def":"Asamblea política del Señorío de Bizkaia. En esta investigación importa porque las bocinas aparecen vinculadas a formas de convocatoria y ritual institucional."},
+  {"term":"Facsímil","def":"Reproducción visual directa de una página o documento. Es clave porque permite comprobar el texto sin depender solo de citas posteriores."},
+  {"term":"Vozina / bocina","def":"Instrumento o señal de llamada citado en las fuentes antiguas. Documentar bocinas no equivale automáticamente a documentar una lista cerrada de montes.","alt":["vozina","bocina","vozinas","bocinas"]},
+  {"term":"Fuero","def":"Conjunto de normas e instituciones propias del territorio. En el caso vizcaíno, ayuda a entender el marco jurídico e institucional de los llamamientos."},
+  {"term":"Vozinero","def":"Persona vinculada a los llamamientos o servicios de aviso en el contexto foral, según las fuentes revisadas.","alt":["vozinero","vozineros"]},
+  {"term":"Señorío de Vizcaya","def":"Marco histórico-político de Bizkaia antes del régimen provincial contemporáneo. La tradición de las bocinas se interpreta dentro de ese contexto."},
+  {"term":"Lista nominal de montes","def":"Enumeración concreta de nombres: Gorbeia, Oiz, Sollube, Ganekogorta y Kolitza/Colisa. La cuestión crítica es cuándo aparece documentada esa lista completa."},
+  {"term":"Sayón","def":"Oficial o agente que aparece junto a los vozineros en el bloque trabajado del Fuero Viejo. Ayuda a entender el marco institucional de los llamamientos."},
+  {"term":"Junta General","def":"Asamblea del Señorío de Bizkaia, asociada simbólicamente al Árbol de Gernika. La investigación distingue el marco real de Junta de las reelaboraciones posteriores sobre los montes."},
+  {"term":"Gernika / Guernica","def":"Centro simbólico e institucional de las Juntas. En la web se usa Gernika como forma actual y Guernica cuando se cita una fuente antigua.","alt":["Gernika","Guernica"]},
+  {"term":"Merindad","def":"Demarcación territorial histórica. Es útil para explicar el gobierno antiguo de Bizkaia, pero no debe convertirse automáticamente en prueba de cinco montes concretos.","alt":["merindad","merindades"]},
+  {"term":"Anteiglesia","def":"Entidad local histórica de Bizkaia. Ayuda a entender la organización territorial y la representación en Juntas.","alt":["anteiglesia","anteiglesias"]},
+  {"term":"Adarrak","def":"Forma vasca recogida en la Crónica de Ibargüen-Cachopín para cuernos grandes usados a manera de bocinas. Sirve para explicar avisos sonoros y costumbre cultural, no para probar una red oficial de cinco montes."},
+  {"term":"Jaun Zuria / Don Çuria","def":"Figura legendaria vinculada al relato fundacional del Señorío de Bizkaia. En Lope García de Salazar aparecen cinco vozinas en este contexto, pero no la lista moderna de cinco cumbres.","alt":["Jaun Zuria","Don Çuria"]},
+  {"term":"Recepción posterior","def":"Forma en que una tradición se reinterpreta, fija o amplía con el paso del tiempo. Trueba 1872 y 1873/1880 pertenecen a esta capa decimonónica."},
+  {"term":"No probado","def":"No significa falso; significa que, con las fuentes localizadas, no puede afirmarse como hecho documental."},
+  {"term":"Recreación visual generada con IA","def":"Imagen creada como apoyo didáctico cuando no existe retrato histórico verificado localizado. Ayuda a imaginar época, oficio o ambiente, pero no es fuente documental ni retrato auténtico."},
+  {"term":"Deiadar / deiadarra","def":"Término vasco relacionado con llamada o clamor. Es útil para explicar la tradición en euskera, pero no debe usarse por sí solo como prueba medieval de la lista moderna de cinco montes.","alt":["deiadar","deiadarra"]},
+  {"term":"Deiadar mendiak / mendi deiadarrak","def":"Formas divulgativas o modernas para referirse a los montes de llamada. Su valor histórico depende de la fuente concreta, la fecha y el contexto documental.","alt":["deiadar mendiak","mendi deiadarrak"]}
+]

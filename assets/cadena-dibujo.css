@@ -1,0 +1,46 @@
+/* === La cadena que se dibuja sola (Mejora 3) === */
+
+.timeline-critical {
+  position: relative;
+}
+
+.cadena-dibujo-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: visible;
+  z-index: 0;
+}
+
+.cadena-dibujo-svg path {
+  fill: none;
+  stroke: var(--gold, #c58b42);
+  stroke-width: 2.5;
+  stroke-linecap: round;
+}
+
+.cadena-dibujo-svg circle {
+  fill: var(--paper, #fffaf1);
+  stroke: var(--gold, #c58b42);
+  stroke-width: 2.5;
+}
+
+.cadena-dibujo-svg .cadena-nodo-highlight {
+  stroke: var(--green, #133f35);
+  fill: var(--green, #133f35);
+}
+
+/* Las tarjetas quedan por encima de la línea decorativa */
+.timeline-critical article {
+  position: relative;
+  z-index: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cadena-dibujo-svg path {
+    transition: none !important;
+  }
+}

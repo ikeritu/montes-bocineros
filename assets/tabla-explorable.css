@@ -1,0 +1,108 @@
+/* === Tabla de fuentes explorable (Mejora 5) === */
+
+.tabla-explorable-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .65rem;
+  margin: 0 0 .75rem;
+}
+
+.tabla-explorable-search {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  flex: 1 1 220px;
+  min-width: 180px;
+  padding: .55rem .85rem;
+  border: 1px solid var(--line, #e1d3bd);
+  border-radius: 999px;
+  background: var(--paper, #fffaf1);
+}
+.tabla-explorable-search input {
+  flex: 1;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  font: inherit;
+  color: var(--ink, #18231f);
+  min-width: 0;
+}
+.tabla-explorable-search input::placeholder {
+  color: var(--muted, #5f6b63);
+}
+
+.tabla-explorable-toolbar select {
+  flex: 0 1 220px;
+  padding: .55rem .85rem;
+  border: 1px solid var(--line, #e1d3bd);
+  border-radius: 999px;
+  background: var(--paper, #fffaf1);
+  color: var(--ink, #18231f);
+  font: inherit;
+}
+
+.tabla-explorable-count {
+  margin-left: auto;
+  color: var(--muted, #5f6b63);
+  font-size: .86rem;
+  white-space: nowrap;
+}
+
+.tabla-sortable-th {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 22px !important;
+}
+.tabla-sortable-th:hover {
+  background: rgba(19, 63, 53, .08);
+}
+.tabla-sortable-th:focus-visible {
+  outline: 2px solid var(--gold, #c58b42);
+  outline-offset: -2px;
+}
+.tabla-sortable-th::after {
+  content: '↕';
+  position: absolute;
+  right: 8px;
+  opacity: .35;
+  font-size: .85em;
+}
+.tabla-sortable-th.sorted-asc::after {
+  content: '↑';
+  opacity: 1;
+  color: var(--green, #133f35);
+}
+.tabla-sortable-th.sorted-desc::after {
+  content: '↓';
+  opacity: 1;
+  color: var(--green, #133f35);
+}
+
+.tabla-status-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+.tabla-status-dot.st-ok { background: var(--ok, #1f6f55); }
+.tabla-status-dot.st-warn { background: var(--warn, #9b651f); }
+.tabla-status-dot.st-risk { background: var(--red, #8f3e2f); }
+.tabla-status-dot.st-info { background: var(--blue, #29496f); }
+
+tr.tabla-row-hidden {
+  display: none !important;
+}
+
+@media (max-width: 640px) {
+  .tabla-explorable-toolbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .tabla-explorable-count {
+    margin-left: 0;
+  }
+}
