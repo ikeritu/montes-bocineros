@@ -324,7 +324,6 @@
 }
 </style>
 <link rel="stylesheet" href="assets/glosario-tooltips.css?v=1.0.0"/>
-<link href="assets/aviso-sonoro-montes.css?v=4.10.0" rel="stylesheet"/>
 </head>
 <body class="v13-page montes-page mapbox-page v20b-montes-mapa"><a class="skip-link" href="#contenido">Saltar al contenido</a>
 <header class="site-header">
@@ -706,22 +705,15 @@
           <div class="section-title"><span class="badge">3D</span><div><h3>Mapa interactivo 3D</h3><p>Vista territorial orientativa con los cinco montes tradicionales y Gernika-Lumo.</p></div></div>
           <div aria-label="Mapa interactivo 3D de los cinco montes tradicionales y Gernika-Lumo" class="mapbox-map-v553" id="mapbox-map"></div>
           <p class="mapbox-status-v553" id="mapbox-status">Cargando mapa 3D…</p>
-
-          <!-- V4.10 · Visualización del aviso sonoro: monte → Gernika -->
-          <div class="aviso-sonoro-panel" id="aviso-sonoro-panel">
-            <div class="aviso-sonoro-head">
-              <span class="aviso-sonoro-badge">Visualización del aviso sonoro</span>
-              <strong>Pulsa un monte para ver el eco hacia Gernika</strong>
-            </div>
-            <p class="aviso-sonoro-caption" id="aviso-sonoro-caption" aria-live="polite">
+<p class="aviso-sonoro-caption" id="aviso-sonoro-caption" aria-live="polite">
               Animación divulgativa: selecciona Gorbeia, Oiz, Sollube, Kolitza o Ganekogorta en el mapa para ver una onda estilizada desde el monte hasta Gernika-Lumo. No es una simulación acústica real ni una prueba documental medieval.
             </p>
             <div class="aviso-sonoro-actions" aria-label="Lanzar aviso desde un monte">
-              <button type="button" data-aviso-monte="gorbeia">Gorbeia</button>
-              <button type="button" data-aviso-monte="oiz">Oiz</button>
-              <button type="button" data-aviso-monte="sollube">Sollube</button>
-              <button type="button" data-aviso-monte="kolitza">Kolitza</button>
-              <button type="button" data-aviso-monte="ganekogorta">Ganekogorta</button>
+              <button type="button">Gorbeia</button>
+              <button type="button">Oiz</button>
+              <button type="button">Sollube</button>
+              <button type="button">Kolitza</button>
+              <button type="button">Ganekogorta</button>
             </div>
           </div>
 <details class="static-map-details" id="mapa-estatico-wrapper"><summary>Ver mapa estático / versión simple</summary><div class="map-fallback-panel" id="mapa-estatico"><div class="section-title"><span class="badge">Simple</span><div><h3>Mapa estático y consulta sin cobertura</h3><p>Si el mapa 3D no carga por conexión, navegador o bloqueo de scripts, esta versión conserva la información esencial.</p></div></div><figure class="static-map-figure"><img alt="Mapa estático orientativo de Gernika-Lumo y los cinco montes tradicionales" decoding="async" height="650" loading="lazy" src="assets/mapa-estatico-montes.svg" width="1000"/><figcaption>Esquema divulgativo: explica el territorio, no demuestra una lista medieval cerrada.</figcaption></figure><div class="map-fallback-links"><a class="btn" href="#gorbeia">Gorbeia</a><a class="btn" href="#oiz">Oiz</a><a class="btn" href="#sollube">Sollube</a><a class="btn" href="#kolitza">Kolitza</a><a class="btn" href="#ganekogorta">Ganekogorta</a></div></div></details>
@@ -817,5 +809,6 @@
 </div>
 </div>
 </footer>
-<script src="https://api.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.js"></script><script src="assets/mapbox-montes.js?v=3.1.3"></script><script defer src="assets/aviso-sonoro-montes.js?v=4.10.0"></script><script defer src="assets/glosario-tooltips.js?v=1.0.0"></script>
+<script src="https://api.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.js"></script><script src="assets/mapbox-montes.js?v=3.1.3"></script>
+<script defer src="assets/glosario-tooltips.js?v=1.0.0"></script>
 </body></html>
