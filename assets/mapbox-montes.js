@@ -10,10 +10,26 @@
   ];
   window.__montesPuntos = puntos;
   function setStatus(message,isError=false){ const el=document.getElementById('mapbox-status'); if(!el) return; el.textContent=message||''; el.style.display=message?'block':'none'; el.classList.toggle('is-error',isError); }
-  function showFallback(message){ setStatus(message||'El mapa 3D no está disponible. Usa el mapa estático y las fichas inferiores.', true); const fallback=document.getElementById('mapa-estatico'); if(fallback) fallback.classList.add('is-visible'); const wrap=document.getElementById('mapa-estatico-wrapper'); if(wrap) wrap.open=true; }
+  
+function hideMapboxPoiLayers(map){
+  try{
+    const patterns = ['poi','tourism','zoo','animal','natural-point'];
+    const layers = (map.getStyle() && map.getStyle().layers) || [];
+    layers.forEach(layer => {
+      const id = String(layer.id || '').toLowerCase();
+      if(layer.type === 'symbol' && patterns.some(token => id.includes(token))){
+        map.setLayoutProperty(layer.id, 'visibility', 'none');
+      }
+    });
+  }catch(err){
+    console.warn('[Montes Bocineros] No se han podido ocultar POI del mapa base:', err);
+  }
+}
+
+function showFallback(message){ setStatus(message||'El mapa 3D no está disponible. Usa el mapa estático y las fichas inferiores.', true); const fallback=document.getElementById('mapa-estatico'); if(fallback) fallback.classList.add('is-visible'); const wrap=document.getElementById('mapa-estatico-wrapper'); if(wrap) wrap.open=true; }
   function boot(){ const container=document.getElementById('mapbox-map'); if(!container) return; if(!window.mapboxgl){ showFallback('No se ha podido cargar Mapbox GL. Puede deberse a conexión, bloqueo del navegador o política CSP. Debajo tienes un mapa estático usable.'); return; }
     try{ mapboxgl.accessToken=MAPBOX_TOKEN; const map=new mapboxgl.Map({ container:'mapbox-map', style:'mapbox://styles/mapbox/outdoors-v12', center:[-2.83,43.22], zoom:8.6, pitch:62, bearing:-22, antialias:true }); window.__montesMapInstance=map; map.addControl(new mapboxgl.NavigationControl({visualizePitch:true}),'top-right');
-      map.on('load',()=>{ setStatus('',false); try{ map.addSource('mapbox-dem',{type:'raster-dem',url:'mapbox://mapbox.mapbox-terrain-dem-v1',tileSize:512,maxzoom:14}); map.setTerrain({source:'mapbox-dem',exaggeration:1.7}); }catch(err){ console.warn('[Montes Bocineros] Terreno no disponible:',err); }
+      map.on('load',()=>{ setStatus('',false); hideMapboxPoiLayers(map); try{ map.addSource('mapbox-dem',{type:'raster-dem',url:'mapbox://mapbox.mapbox-terrain-dem-v1',tileSize:512,maxzoom:14}); map.setTerrain({source:'mapbox-dem',exaggeration:1.7}); }catch(err){ console.warn('[Montes Bocineros] Terreno no disponible:',err); }
         map.addSource('montes-points',{type:'geojson',data:{type:'FeatureCollection',features:puntos.map(p=>({type:'Feature',properties:{id:p.id,nombre:p.nombre,subtitulo:p.subtitulo,altura:p.altura,color:p.color},geometry:{type:'Point',coordinates:p.coord}}))}});
         map.addLayer({id:'montes-circles',type:'circle',source:'montes-points',paint:{'circle-radius':['case',['==',['get','id'],'gernika'],8,7],'circle-color':['get','color'],'circle-stroke-color':'#fff8e8','circle-stroke-width':2}});
         map.addLayer({id:'montes-labels',type:'symbol',source:'montes-points',layout:{'text-field':['get','nombre'],'text-size':13,'text-offset':[0,1.4],'text-anchor':'top'},paint:{'text-color':'#0f3d35','text-halo-color':'#fff8e8','text-halo-width':2}});
@@ -28,7 +44,7 @@
           if(p.id!=='gernika'){
             el.title='Ver aviso sonoro desde '+p.nombre+' hacia Gernika';
             el.addEventListener('click',()=>{
-              window.dispatchEvent(new CustomEvent('aviso-sonoro:monte',{detail:{id:p.id}}));
+              window.dispatchEvent(new CustomEvent('montes-map:select',{detail:{id:p.id}}));
             });
           }
           new mapboxgl.Marker(el).setLngLat(p.coord).setPopup(popup).addTo(map);
@@ -37,7 +53,7 @@
         map.on('click','montes-circles',event=>{
           const feature=event.features&&event.features[0];
           const id=feature&&feature.properties&&feature.properties.id;
-          if(id&&id!=='gernika') window.dispatchEvent(new CustomEvent('aviso-sonoro:monte',{detail:{id}}));
+          if(id&&id!=='gernika') window.dispatchEvent(new CustomEvent('montes-map:select',{detail:{id}}));
         });
         map.on('mouseenter','montes-circles',()=>{ map.getCanvas().style.cursor='pointer'; });
         map.on('mouseleave','montes-circles',()=>{ map.getCanvas().style.cursor=''; });
