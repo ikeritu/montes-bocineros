@@ -1,0 +1,45 @@
+/* V4.11D · navegación global y ajuste visual final */
+:root{--v411d-safe-inline:100%;}
+.menu-panel .menu-grid a,
+.v341-footer-links a{
+  overflow-wrap:anywhere;
+  word-break:normal;
+}
+.page-personajes-v36 .p47c-escritos-card,
+.page-personajes-v36 .p36-card,
+.page-personajes-v36 article{
+  min-width:0;
+}
+.page-personajes-v36 .p47c-escritos-links{
+  min-width:0;
+  max-width:100%;
+  align-items:flex-start;
+}
+.page-personajes-v36 .p47c-escritos-links a,
+.page-personajes-v36 .p36-escritos-link,
+.page-personajes-v36 .card a,
+.page-personajes-v36 article a[href*="assets/personajes/"],
+.personajes-page .p47c-escritos-links a{
+  display:inline-block !important;
+  max-width:100% !important;
+  min-width:0 !important;
+  white-space:normal !important;
+  overflow-wrap:anywhere !important;
+  word-break:break-word !important;
+  line-height:1.35;
+  text-align:left;
+  border-radius:18px !important;
+}
+.page-personajes-v36 .p47c-escritos-grid{
+  overflow:visible;
+}
+@media (max-width:760px){
+  .menu-panel .menu-grid,
+  .menu-grid.menu-grid-v13{
+    grid-template-columns:1fr;
+  }
+  .page-personajes-v36 .p47c-escritos-links a,
+  .page-personajes-v36 .p36-escritos-link{
+    width:100%;
+  }
+}
