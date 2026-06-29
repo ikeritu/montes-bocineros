@@ -65,11 +65,11 @@
   </style>
 <link rel="stylesheet" href="assets/v411d-nav-footer.css?v=4.11d"/>
 <link rel="stylesheet" href="assets/v411e-footer-support.css?v=4.11e"/>
+<link rel="stylesheet" href="assets/v411i-production-polish.css?v=4.11i"/>
 </head>
 <body class="bib-page v13-page">
   <a class="skip-link" href="#contenido">Saltar al contenido</a>
-
-  <header class="site-header">
+<header class="site-header">
 <div class="header-inner">
 <a class="brand" href="index.html"><img alt="" decoding="async" height="42" loading="lazy" src="assets/montes-logo.svg" width="42"/> <span>Montes Bocineros</span></a>
 <nav aria-label="Navegación principal" class="nav-simple"><a href="index.html">Inicio</a><a href="historia.html">Historia</a><a href="montes.html">Montes</a><a href="veredicto.html">Síntesis crítica</a><a href="guia-lector.html">Guía del lector</a><a href="archivo.html">Archivo</a></nav>
@@ -109,8 +109,7 @@
 </div>
 </div>
 </header>
-
-  <main id="contenido">
+<main id="contenido">
     <section class="bib-hero" aria-labelledby="biblioteca-title">
       <div class="bib-wrap">
         <span class="bib-eyebrow">Biblioteca documental unificada</span>
@@ -141,7 +140,7 @@
         <div class="bib-head">
           <span class="bib-eyebrow">Línea de tiempo interactiva</span>
           <h2 id="linea-tiempo-title">De las vozinas documentadas a la lista moderna</h2>
-          <p>[Propuesta interactiva: Línea de tiempo] Cada hito resume qué aporta la fuente y, sobre todo, qué no permite afirmar.</p>
+          <p>Cada hito resume qué aporta la fuente y, sobre todo, qué no permite afirmar.</p>
         </div>
         <div class="bib-timeline">
           <article class="bib-era" data-bib-item data-tags="medieval 1342 juan nuñez lara cinco vozinas junta gernika">
@@ -195,7 +194,7 @@
             <p>La tradición circula con variantes literarias y listas ampliadas. Esto refuerza la necesidad de hablar de recepción, no de norma medieval cerrada.</p>
           </article>
         </div>
-        <p class="bib-empty" id="bibliotecaEmpty">No hay resultados para esa búsqueda o filtro.</p>
+        <p class="bib-empty" id="bibliotecaEmpty" hidden aria-live="polite">No hay resultados para esa búsqueda o filtro.</p>
       </div>
     </section>
 
@@ -204,7 +203,7 @@
         <div class="bib-head">
           <span class="bib-eyebrow">Mito vs. realidad</span>
           <h2 id="mito-realidad-title">Lo que puede afirmarse sin forzar las fuentes</h2>
-          <p>[Propuesta interactiva: Acordeón] Tres distinciones evitan la sobreinterpretación.</p>
+          <p>Tres distinciones evitan la sobreinterpretación.</p>
         </div>
         <details class="bib-detail" open data-bib-item data-tags="citas metodologia bocinas montes mito realidad">
           <summary>¿Cinco vozinas medievales prueban cinco montes concretos?</summary>
@@ -233,7 +232,7 @@
         <div class="bib-head">
           <span class="bib-eyebrow">Tabla maestra de fuentes</span>
           <h2 id="tabla-maestra-fuentes-title">Qué prueba cada fuente y qué no prueba</h2>
-          <p>Esta sección absorbe la antigua página <code>biblioteca.html#tabla-maestra-fuentes</code>. La regla de lectura se mantiene: una fuente puede documentar <strong>vozinas, bocinas, Gernika, Junta General, merindades u oficios</strong> sin documentar por ello la lista cerrada de Gorbeia, Oiz, Sollube, Ganekogorta y Kolitza/Colisa.</p>
+          <p>La regla de lectura se mantiene: una fuente puede documentar <strong>vozinas, bocinas, Gernika, Junta General, merindades u oficios</strong> sin documentar por ello la lista cerrada de Gorbeia, Oiz, Sollube, Ganekogorta y Kolitza/Colisa.</p>
         </div>
 
         <div class="bib-columns">
@@ -272,7 +271,7 @@
         <div class="bib-head">
           <span class="bib-eyebrow">Fuentes y facsímiles</span>
           <h2 id="fuentes-facsimiles-title">Mapa documental por bloques</h2>
-          <p>[Propuesta interactiva: Tarjetas desplegables] Cada bloque separa aportación, límite y estado de comprobación.</p>
+          <p>Cada bloque separa aportación, límite y estado de comprobación.</p>
         </div>
         <div class="bib-grid">
           <article class="bib-card" data-bib-item data-tags="medieval 1342 1394 1452 lope fuero viejo">
@@ -403,7 +402,7 @@
         <div class="bib-head">
           <span class="bib-eyebrow">Quiz documental</span>
           <h2 id="quiz-title">Comprueba si has captado el matiz</h2>
-          <p>[Propuesta interactiva: Quiz de 3 preguntas] El objetivo no es memorizar fechas, sino evitar saltos interpretativos.</p>
+          <p>El objetivo no es memorizar fechas, sino evitar saltos interpretativos.</p>
         </div>
         <div class="bib-quiz" id="bibQuiz">
           <div class="bib-question" data-answer="b">
@@ -442,7 +441,7 @@
           item.style.display = show ? '' : 'none';
           if(show) visible += 1;
         });
-        if(empty) empty.classList.toggle('is-visible', visible === 0);
+        if(empty){ const noResults = visible === 0; empty.classList.toggle('is-visible', noResults); empty.hidden = !noResults; }
       }
       if(search) search.addEventListener('input', apply);
       filters.forEach(btn => btn.addEventListener('click', () => {

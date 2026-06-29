@@ -1,0 +1,8 @@
+/* V4.11I · Ajuste suave de contraste para etiquetas pequeñas.
+   Reservamos el dorado para bordes/iconos y usamos verde oscuro en microcopy de lectura. */
+:where(.bib-eyebrow,.mc-eyebrow,.vrd-eyebrow,.arch-eyebrow,.autor-eyebrow,.v34-eyebrow,.section-eyebrow,.kicker,.eyebrow){
+  color:#123f35;
+}
+:where(.bib-label,.support-kicker){
+  color:#123f35;
+}
