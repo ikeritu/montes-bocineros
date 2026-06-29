@@ -1,0 +1,65 @@
+/* V4.11J.1 · Corrección visual del hero de montes.html
+   Problema: el ajuste V4.11I.1 bajaba la opacidad del relieve y aplicaba
+   una máscara verde inferior; en montes.html los trazos de montes y Gernika
+   quedaban demasiado parecidos al fondo. */
+
+.mb2-hero{
+  background:
+    radial-gradient(90% 80% at 68% 18%, rgba(226,170,76,.16), transparent 42%),
+    radial-gradient(90% 95% at 18% 78%, rgba(111,155,125,.20), transparent 50%),
+    var(--v34-pine, #0b2d25);
+}
+
+.mb2-hero .v34-relief{
+  opacity:.98;
+  z-index:1;
+  height:clamp(118px, 19vw, 178px);
+}
+
+.mb2-hero .v34-relief::before{
+  height:36%;
+  background:linear-gradient(to top, rgba(11,45,37,.38), rgba(11,45,37,0));
+  z-index:0;
+}
+
+.mb2-hero .v34-relief-glyph{
+  stroke-width:3.8;
+  filter:
+    drop-shadow(0 0 7px rgba(244,240,230,.28))
+    drop-shadow(0 3px 7px rgba(0,0,0,.38));
+}
+
+.mb2-hero .v34-relief-front .v34-relief-glyph{
+  stroke:#f2c66f;
+}
+
+.mb2-hero .v34-relief-back .v34-relief-glyph{
+  stroke:#88aa93;
+  opacity:.78;
+}
+
+.mb2-hero .v34-relief-mid .v34-relief-glyph{
+  stroke:#b7bd73;
+  opacity:.86;
+}
+
+.mb2-hero .v34-relief-gernika{
+  background:#fff1b6;
+  box-shadow:
+    0 0 0 2px rgba(11,45,37,.70),
+    0 0 18px 5px rgba(255,226,145,.78),
+    0 4px 12px rgba(0,0,0,.32);
+}
+
+.mb2-hero .v34-relief-front .v34-relief-peak b,
+.mb2-hero .v34-relief-gernika::after{
+  color:#fff3cf;
+  text-shadow:0 2px 5px rgba(0,0,0,.55);
+}
+
+@media (max-width:680px){
+  .mb2-hero .v34-relief{
+    opacity:.78;
+    height:96px;
+  }
+}
