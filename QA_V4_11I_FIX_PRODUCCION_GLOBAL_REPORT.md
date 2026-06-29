@@ -8,6 +8,20 @@ OK 404.html: header presente
 OK 404.html: nav usa Síntesis crítica
 OK 404.html: bloque Apoyar único
 OK 404.html: footer Información/Contacto
+OK afirmaciones.html: CSS V4.11D enlazado
+OK afirmaciones.html: CSS V4.11E enlazado
+OK afirmaciones.html: CSS V4.11I enlazado
+OK afirmaciones.html: header presente
+OK afirmaciones.html: nav usa Síntesis crítica
+OK afirmaciones.html: bloque Apoyar único
+OK afirmaciones.html: footer Información/Contacto
+OK archivo-tecnico.html: CSS V4.11D enlazado
+OK archivo-tecnico.html: CSS V4.11E enlazado
+OK archivo-tecnico.html: CSS V4.11I enlazado
+OK archivo-tecnico.html: header presente
+OK archivo-tecnico.html: nav usa Síntesis crítica
+OK archivo-tecnico.html: bloque Apoyar único
+OK archivo-tecnico.html: footer Información/Contacto
 OK archivo.html: CSS V4.11D enlazado
 OK archivo.html: CSS V4.11E enlazado
 OK archivo.html: CSS V4.11I enlazado
@@ -29,6 +43,13 @@ OK autor.html: header presente
 OK autor.html: nav usa Síntesis crítica
 OK autor.html: bloque Apoyar único
 OK autor.html: footer Información/Contacto
+OK barrio-banales.html: CSS V4.11D enlazado
+OK barrio-banales.html: CSS V4.11E enlazado
+OK barrio-banales.html: CSS V4.11I enlazado
+OK barrio-banales.html: header presente
+OK barrio-banales.html: nav usa Síntesis crítica
+OK barrio-banales.html: bloque Apoyar único
+OK barrio-banales.html: footer Información/Contacto
 OK biblioteca.html: CSS V4.11D enlazado
 OK biblioteca.html: CSS V4.11E enlazado
 OK biblioteca.html: CSS V4.11I enlazado
@@ -36,6 +57,27 @@ OK biblioteca.html: header presente
 OK biblioteca.html: nav usa Síntesis crítica
 OK biblioteca.html: bloque Apoyar único
 OK biblioteca.html: footer Información/Contacto
+OK cadena-trueba.html: CSS V4.11D enlazado
+OK cadena-trueba.html: CSS V4.11E enlazado
+OK cadena-trueba.html: CSS V4.11I enlazado
+OK cadena-trueba.html: header presente
+OK cadena-trueba.html: nav usa Síntesis crítica
+OK cadena-trueba.html: bloque Apoyar único
+OK cadena-trueba.html: footer Información/Contacto
+OK citar.html: CSS V4.11D enlazado
+OK citar.html: CSS V4.11E enlazado
+OK citar.html: CSS V4.11I enlazado
+OK citar.html: header presente
+OK citar.html: nav usa Síntesis crítica
+OK citar.html: bloque Apoyar único
+OK citar.html: footer Información/Contacto
+OK citas.html: CSS V4.11D enlazado
+OK citas.html: CSS V4.11E enlazado
+OK citas.html: CSS V4.11I enlazado
+OK citas.html: header presente
+OK citas.html: nav usa Síntesis crítica
+OK citas.html: bloque Apoyar único
+OK citas.html: footer Información/Contacto
 OK comparativa.html: CSS V4.11D enlazado
 OK comparativa.html: CSS V4.11E enlazado
 OK comparativa.html: CSS V4.11I enlazado
@@ -57,6 +99,13 @@ OK estado-investigacion.html: header presente
 OK estado-investigacion.html: nav usa Síntesis crítica
 OK estado-investigacion.html: bloque Apoyar único
 OK estado-investigacion.html: footer Información/Contacto
+OK faq.html: CSS V4.11D enlazado
+OK faq.html: CSS V4.11E enlazado
+OK faq.html: CSS V4.11I enlazado
+OK faq.html: header presente
+OK faq.html: nav usa Síntesis crítica
+OK faq.html: bloque Apoyar único
+OK faq.html: footer Información/Contacto
 OK fuentes-sospechosas.html: CSS V4.11D enlazado
 OK fuentes-sospechosas.html: CSS V4.11E enlazado
 OK fuentes-sospechosas.html: CSS V4.11I enlazado
@@ -64,6 +113,20 @@ OK fuentes-sospechosas.html: header presente
 OK fuentes-sospechosas.html: nav usa Síntesis crítica
 OK fuentes-sospechosas.html: bloque Apoyar único
 OK fuentes-sospechosas.html: footer Información/Contacto
+OK fuentes.html: CSS V4.11D enlazado
+OK fuentes.html: CSS V4.11E enlazado
+OK fuentes.html: CSS V4.11I enlazado
+OK fuentes.html: header presente
+OK fuentes.html: nav usa Síntesis crítica
+OK fuentes.html: bloque Apoyar único
+OK fuentes.html: footer Información/Contacto
+OK glosario.html: CSS V4.11D enlazado
+OK glosario.html: CSS V4.11E enlazado
+OK glosario.html: CSS V4.11I enlazado
+OK glosario.html: header presente
+OK glosario.html: nav usa Síntesis crítica
+OK glosario.html: bloque Apoyar único
+OK glosario.html: footer Información/Contacto
 OK guia-lector.BACKUP_TRUEBA_MARKERS.html: CSS V4.11D enlazado
 OK guia-lector.BACKUP_TRUEBA_MARKERS.html: CSS V4.11E enlazado
 OK guia-lector.BACKUP_TRUEBA_MARKERS.html: CSS V4.11I enlazado
@@ -106,6 +169,13 @@ OK informes-acusticos.html: header presente
 OK informes-acusticos.html: nav usa Síntesis crítica
 OK informes-acusticos.html: bloque Apoyar único
 OK informes-acusticos.html: footer Información/Contacto
+OK informes.html: CSS V4.11D enlazado
+OK informes.html: CSS V4.11E enlazado
+OK informes.html: CSS V4.11I enlazado
+OK informes.html: header presente
+OK informes.html: nav usa Síntesis crítica
+OK informes.html: bloque Apoyar único
+OK informes.html: footer Información/Contacto
 OK llorente-madoz-trueba.html: CSS V4.11D enlazado
 OK llorente-madoz-trueba.html: CSS V4.11E enlazado
 OK llorente-madoz-trueba.html: CSS V4.11I enlazado
@@ -127,6 +197,13 @@ OK metodo-citacion.html: header presente
 OK metodo-citacion.html: nav usa Síntesis crítica
 OK metodo-citacion.html: bloque Apoyar único
 OK metodo-citacion.html: footer Información/Contacto
+OK metodologia.html: CSS V4.11D enlazado
+OK metodologia.html: CSS V4.11E enlazado
+OK metodologia.html: CSS V4.11I enlazado
+OK metodologia.html: header presente
+OK metodologia.html: nav usa Síntesis crítica
+OK metodologia.html: bloque Apoyar único
+OK metodologia.html: footer Información/Contacto
 OK montes.html: CSS V4.11D enlazado
 OK montes.html: CSS V4.11E enlazado
 OK montes.html: CSS V4.11I enlazado
@@ -134,6 +211,13 @@ OK montes.html: header presente
 OK montes.html: nav usa Síntesis crítica
 OK montes.html: bloque Apoyar único
 OK montes.html: footer Información/Contacto
+OK pendientes-documentales.html: CSS V4.11D enlazado
+OK pendientes-documentales.html: CSS V4.11E enlazado
+OK pendientes-documentales.html: CSS V4.11I enlazado
+OK pendientes-documentales.html: header presente
+OK pendientes-documentales.html: nav usa Síntesis crítica
+OK pendientes-documentales.html: bloque Apoyar único
+OK pendientes-documentales.html: footer Información/Contacto
 OK personajes.html: CSS V4.11D enlazado
 OK personajes.html: CSS V4.11E enlazado
 OK personajes.html: CSS V4.11I enlazado

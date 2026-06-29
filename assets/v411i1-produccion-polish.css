@@ -1,0 +1,23 @@
+/* V4.11I.1 · Ajustes de producción: montes hero, veredicto y navegación */
+
+.mb2-hero{isolation:isolate;}
+.mb2-hero .mb2-wrap{position:relative;z-index:3;}
+.mb2-hero .v34-relief{opacity:.58;bottom:0;}
+.mb2-hero .v34-relief::before{
+  content:"";position:absolute;inset:auto 0 0 0;height:58%;
+  background:linear-gradient(to top,rgba(15,58,48,.92),rgba(15,58,48,0));
+  pointer-events:none;z-index:2;
+}
+
+.v42a-veredicto-card{
+  border:1px solid rgba(19,63,53,.14);
+  background:radial-gradient(120% 140% at 100% 0%,rgba(245,184,76,.14),transparent 44%),
+             linear-gradient(135deg,rgba(255,253,248,.98),rgba(239,247,242,.92));
+}
+.v42a-veredicto-card h2{margin-top:.35rem;}
+.v42a-veredicto-card p{max-width:78ch;}
+.v42a-veredicto-card strong{color:#133f35;}
+
+.static-map-details{display:none!important;}
+
+@media (max-width:680px){.mb2-hero .v34-relief{opacity:.34;}}

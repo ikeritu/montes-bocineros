@@ -46,8 +46,8 @@
   }
 
   function init() {
-    const hero = document.querySelector('.v34-hero');
     const host = document.getElementById('v34-relief');
+    const hero = host ? (host.closest('.v34-hero, .mb2-hero') || document.querySelector('.v34-hero, .mb2-hero')) : null;
     if (!hero || !host) return;
 
     const inner = document.createElement('div');
