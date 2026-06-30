@@ -7,18 +7,19 @@
 - [x] V4.11J.1 — Contraste del hero de `montes.html`.
 - [x] V4.12 — Autoría transparente y redes de contacto.
 - [x] V4.13 — Estado actual y limpieza editorial.
+- [x] V4.14 — Auditoría técnica de enlaces y anchors.
 
-## Plan mínimo desde V4.13
+## Plan mínimo desde V4.14
 
 ### V4.14 — Auditoría técnica de enlaces y anchors
 
-- [ ] Crear checker global de enlaces internos.
-- [ ] Validar páginas `.html` existentes.
-- [ ] Validar anchors `#...`.
-- [ ] Confirmar que el sitemap solo contiene páginas reales.
-- [ ] Detectar páginas huérfanas.
-- [ ] Revisar enlaces desde informes heredados.
-- [ ] Generar `QA_V4_14_LINKS_ANCHORS_REPORT.md`.
+- [x] Crear checker global de enlaces internos.
+- [x] Validar páginas `.html` existentes.
+- [x] Validar anchors `#...`.
+- [x] Confirmar que el sitemap solo contiene páginas reales.
+- [x] Revisar enlaces desde informes heredados.
+- [x] Generar `QA_V4_14_LINKS_ANCHORS_REPORT.md`.
+- [x] Resultado: PASS, sin archivos internos ni anchors rotos.
 
 ### V4.15 — Biblioteca viva y estado documental
 

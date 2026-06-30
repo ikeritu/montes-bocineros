@@ -1,9 +1,9 @@
 # Estado actual — Montes Bocineros de Bizkaia
 
-**Versión editorial vigente:** V4.13 — Estado actual y limpieza editorial  
+**Versión editorial vigente:** V4.14 — Auditoría global de enlaces internos y anchors  
 **Fecha:** 2026-06-30  
-**Estado técnico:** estable tras V4.12  
-**Estado documental:** tesis crítica provisional sin cambio respecto a V4.11/V4.12
+**Estado técnico:** estable tras V4.14  
+**Estado documental:** tesis crítica provisional sin cambio respecto a V4.11–V4.14
 
 ## 1. Estado técnico vigente
 
@@ -14,6 +14,7 @@ Fases cerradas:
 - [x] V4.11J.1 — Contraste del hero de `montes.html`.
 - [x] V4.12 — Autoría transparente y redes de contacto.
 - [x] V4.13 — Estado actual y limpieza editorial.
+- [x] V4.14 — Auditoría global de enlaces internos y anchors.
 
 Checkers vigentes:
 
@@ -24,6 +25,7 @@ py -3 scripts/check_v4_11j_legacy_sitemap.py
 py -3 scripts/check_v4_11j_1_montes_hero_contrast.py
 py -3 scripts/check_v4_12_author_social.py
 py -3 scripts/check_v4_13_estado_editorial.py
+py -3 scripts/check_v4_14_links_anchors.py
 ```
 
 ## 2. Estado documental vigente
@@ -94,6 +96,22 @@ Los archivos antiguos de tipo `INFORME_*.md`, `QA_*.md`, `ROADMAP_V*.md` y notas
 
 ## 7. Próxima fase recomendada
 
-**V4.14 — Auditoría técnica de enlaces y anchors.**
+**V4.15 — Biblioteca viva y estado documental.**
 
-Objetivo: crear un checker global para enlaces internos, anchors, sitemap y páginas huérfanas antes de seguir ampliando contenido documental.
+Objetivo: reforzar `biblioteca.html` y `estado-investigacion.html` como centro documental antes de abrir nuevas líneas fuertes de investigación.
+
+
+## 8. Resultado V4.14
+
+La auditoría global de enlaces internos queda cerrada con resultado PASS:
+
+- 41 páginas HTML revisadas.
+- 1847 enlaces internos comprobados.
+- 277 enlaces externos ignorados deliberadamente.
+- 22 URLs del sitemap validadas.
+- 0 archivos internos inexistentes enlazados.
+- 0 anchors internos rotos.
+- sitemap apuntando solo a archivos reales.
+- páginas canónicas raíz incluidas en sitemap.
+
+La fase no altera la tesis documental; solo corrige navegación heredada y añade control automático.

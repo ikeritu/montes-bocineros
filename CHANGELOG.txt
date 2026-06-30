@@ -1,5 +1,17 @@
 # Changelog — Montes Bocineros de Bizkaia
 
+## V4.14 — Auditoría global de enlaces internos y anchors
+
+Fecha: 2026-06-30
+
+- Añadido `scripts/check_v4_14_links_anchors.py` para validar enlaces internos, assets, anchors y sitemap.
+- Añadido `scripts/apply_v4_14_links_anchors.py` con sustituciones conservadoras de enlaces heredados.
+- Corregidos anchors heredados con doble `#` y enlaces absorbidos por `biblioteca.html`.
+- Revisadas 41 páginas HTML, incluidos informes auxiliares en `informes/`.
+- Resultado QA: 1847 enlaces internos comprobados, 0 archivos internos rotos, 0 anchors rotos y sitemap válido.
+- No se modifica la tesis documental.
+
+
 ## V4.13 — Estado actual y limpieza editorial
 
 Fecha: 2026-06-30
