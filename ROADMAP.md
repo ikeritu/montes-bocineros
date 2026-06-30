@@ -9,6 +9,7 @@
 - [x] V4.13 — Estado actual y limpieza editorial.
 - [x] V4.14 — Auditoría técnica de enlaces y anchors.
 - [x] V4.15 — Biblioteca viva y estado documental.
+- [x] V4.16A — Eje documental verificado.
 
 ## Plan mínimo desde V4.14
 
@@ -36,6 +37,15 @@
 - [x] Conectar `veredicto.html`, `biblioteca.html` y `estado-investigacion.html`.
 - [x] Añadir checker `scripts/check_v4_15_biblioteca_viva.py`.
 
+### V4.16A — Eje documental verificado
+
+- [x] Integrar Fuero Viejo 1452 como vozinas/vozineros/Junta de Guernica sin lista nominal.
+- [x] Integrar Madoz 1847, tomo IX p. 69, como cinco heraldos/alturas/bocinas/Junta o Catzarra sin lista nominal.
+- [x] Integrar Novia de Salcedo 1851 como cinco bocinas/Arechavalaga/Junta General/cinco merindades sin cumbres concretas.
+- [x] Integrar Trueba 1872, p. 13, como lista nominal completa verificada.
+- [x] Actualizar `biblioteca.html`, `estado-investigacion.html`, `veredicto.html` y `trueba-facsimil.html`.
+- [x] Crear checker `scripts/check_v4_16a_eje_documental.py`.
+
 ### V4.16 — Investigación documental prioritaria
 
 Investigar en dos tandas, no una microversión por fuente.
@@ -43,7 +53,7 @@ Investigar en dos tandas, no una microversión por fuente.
 #### Tanda A — Fuentes de impacto alto
 
 - [ ] Iturriza y Zabala.
-- [ ] Delmas.
+- [ ] Delmas completo, dejando constancia de que el extracto de Lequeitio no cierra la obra.
 - [ ] Labayru / Labairu.
 
 #### Tanda B — Hemerotecas y prensa anterior a 1872

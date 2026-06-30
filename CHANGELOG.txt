@@ -1,5 +1,15 @@
 # Changelog — Montes Bocineros de Bizkaia
 
+## V4.16A — Eje documental verificado
+
+Fecha: 2026-06-30
+
+- Integrados los hallazgos verificados de la tanda documental: Fuero Viejo 1452, Madoz 1847, Novia de Salcedo 1851 y Trueba 1872.
+- Actualizada la tabla viva de `biblioteca.html` con Novia de Salcedo y con páginas/folios más precisos para Fuero Viejo, Madoz y Trueba.
+- Añadidos bloques de eje documental en `biblioteca.html`, `estado-investigacion.html`, `veredicto.html` y `trueba-facsimil.html`.
+- Añadido `assets/v416a-eje-documental.css`.
+- La tesis se refuerza: las bocinas/vozinas son anteriores; la lista nominal completa queda verificada en Trueba 1872 como primer punto firme localizado.
+
 ## V4.15 — Biblioteca viva y estado documental
 
 Fecha: 2026-06-30

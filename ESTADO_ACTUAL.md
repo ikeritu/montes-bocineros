@@ -1,9 +1,9 @@
 # Estado actual — Montes Bocineros de Bizkaia
 
-**Versión editorial vigente:** V4.15 — Biblioteca viva y estado documental  
+**Versión editorial vigente:** V4.16A — Eje documental verificado  
 **Fecha:** 2026-06-30  
-**Estado técnico:** estable tras V4.15  
-**Estado documental:** tesis crítica provisional sin cambio, ahora centralizada en tabla viva de fuentes
+**Estado técnico:** estable tras V4.16A  
+**Estado documental:** tesis crítica provisional reforzada con eje documental verificado
 
 ## 1. Estado técnico vigente
 
@@ -16,6 +16,7 @@ Fases cerradas:
 - [x] V4.13 — Estado actual y limpieza editorial.
 - [x] V4.14 — Auditoría global de enlaces internos y anchors.
 - [x] V4.15 — Biblioteca viva y estado documental.
+- [x] V4.16A — Eje documental verificado.
 
 Checkers vigentes:
 
@@ -28,6 +29,7 @@ py -3 scripts/check_v4_12_author_social.py
 py -3 scripts/check_v4_13_estado_editorial.py
 py -3 scripts/check_v4_14_links_anchors.py
 py -3 scripts/check_v4_15_biblioteca_viva.py
+py -3 scripts/check_v4_16a_eje_documental.py
 ```
 
 ## 2. Estado documental vigente
@@ -47,12 +49,13 @@ La conclusión provisional es:
 | Fuente / línea | Estado | Qué prueba | Qué no prueba |
 |---|---|---|---|
 | Documentación de 1342 / transmisión de cinco vozinas | Trabajada | Tradición de cinco vozinas en contexto de Junta | Lista nominal de cinco montes |
-| Fuero Viejo de Vizcaya / vozineros | Trabajada | Existencia de agentes/oficios de convocatoria | Lista nominal de cumbres |
+| Fuero Viejo de Vizcaya, 1452 | Verificada | Cinco vozinas, vozineros y Junta de Guernica | Lista nominal de cumbres |
 | Llorente 1807 | Verificada | Cinco bocinas | Nombres de los cinco montes |
-| Madoz 1847 | Verificada | Cinco heraldos suben a “las alturas” | Lista nominal de montes |
+| Madoz 1847, tomo IX p. 69 | Verificada | Cinco heraldos suben a “las alturas” y tañen bocinas para llamar a Junta o Catzarra | Lista nominal de montes |
+| Novia de Salcedo 1851 | Verificada | Cinco bocinas, Arechavalaga, Junta General y cinco merindades | Lista nominal de montes |
 | Trueba 1858 | Verificada | Variante de siete vocinas / siete montes euskaros | Lista canónica de cinco |
 | Trueba 1862 | Verificada | Cinco vocinas / cinco montes euskaros | Nombres de los cinco montes |
-| Trueba 1872 | Punto firme | Lista nominal completa localizada | Origen medieval de la lista |
+| Trueba 1872, p. 13 | Punto firme verificado | Lista nominal completa: Gorbea, Oiz, Sollube, Ganecogorta y Colisa | Origen medieval de la lista |
 | El Correo Vascongado 1873 | Verificada | Recepción posterior ampliada | Fuente anterior a Trueba |
 | Euskal-Erria 1880 | Trabajada | Difusión posterior | Fuente anterior a Trueba |
 | Barrio / Bañales | Control moderno | Crítica y guía bibliográfica | Prueba primaria medieval |
@@ -127,3 +130,15 @@ La biblioteca documental queda reforzada como tabla viva:
 - `estado-investigacion.html#estado-vivo-v415` resume la tesis vigente.
 - `biblioteca.html#fuentes-pendientes-prioritarias` prepara V4.16.
 - La tesis documental no cambia: la lista nominal completa sigue teniendo como primer punto firme localizado a Trueba 1872.
+
+
+## 10. Resultado V4.16A
+
+El eje documental queda verificado y registrado en la web:
+
+- Fuero Viejo de Vizcaya, 1452: cinco vozinas, vozineros y Junta de Guernica; sin lista de montes.
+- Madoz, tomo IX, p. 69: cinco heraldos, alturas, bocinas y Junta general o Catzarra; sin lista nominal.
+- Novia de Salcedo, 1851: cinco bocinas, Arechavalaga, Junta General y cinco merindades; sin cumbres concretas.
+- Trueba, 1872, p. 13: lista nominal completa —Gorbea, Oiz, Sollube, Ganecogorta y Colisa— con la cautela “que se cree fuesen”.
+
+La tesis se refuerza sin cambiar: las bocinas/vozinas y la convocatoria institucional son anteriores; la primera lista nominal completa verificada sigue siendo Trueba 1872.
