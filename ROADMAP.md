@@ -8,6 +8,7 @@
 - [x] V4.12 — Autoría transparente y redes de contacto.
 - [x] V4.13 — Estado actual y limpieza editorial.
 - [x] V4.14 — Auditoría técnica de enlaces y anchors.
+- [x] V4.15 — Biblioteca viva y estado documental.
 
 ## Plan mínimo desde V4.14
 
@@ -23,16 +24,17 @@
 
 ### V4.15 — Biblioteca viva y estado documental
 
-- [ ] Reforzar `biblioteca.html` como centro documental.
-- [ ] Reforzar `estado-investigacion.html` como resumen vivo.
-- [ ] Crear tabla maestra única de fuentes.
-- [ ] Añadir para cada fuente:
-  - [ ] qué prueba;
-  - [ ] qué no prueba;
-  - [ ] página o folio;
-  - [ ] tipo de prueba;
-  - [ ] impacto sobre la tesis.
-- [ ] Conectar `veredicto.html`, `biblioteca.html` y `estado-investigacion.html`.
+- [x] Reforzar `biblioteca.html` como centro documental.
+- [x] Reforzar `estado-investigacion.html` como resumen vivo.
+- [x] Crear tabla maestra única de fuentes.
+- [x] Añadir para cada fuente:
+  - [x] qué prueba;
+  - [x] qué no prueba;
+  - [x] página o folio;
+  - [x] tipo de prueba;
+  - [x] impacto sobre la tesis.
+- [x] Conectar `veredicto.html`, `biblioteca.html` y `estado-investigacion.html`.
+- [x] Añadir checker `scripts/check_v4_15_biblioteca_viva.py`.
 
 ### V4.16 — Investigación documental prioritaria
 

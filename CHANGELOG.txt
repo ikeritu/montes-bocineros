@@ -1,5 +1,17 @@
 # Changelog — Montes Bocineros de Bizkaia
 
+## V4.15 — Biblioteca viva y estado documental
+
+Fecha: 2026-06-30
+
+- Reforzada `biblioteca.html` como centro documental con tabla viva de fuentes.
+- Añadidas columnas de fecha, tipo de prueba, página/folio, qué prueba, qué no prueba e impacto metodológico.
+- Reforzada `estado-investigacion.html` con bloque de estado vivo V4.15 y pendientes priorizados.
+- Conectados `veredicto.html`, `biblioteca.html` y `estado-investigacion.html` mediante enlaces a la tabla viva y fuentes pendientes.
+- Añadido `assets/v415-biblioteca-viva.css`.
+- Añadidos `scripts/apply_v4_15_biblioteca_viva.py` y `scripts/check_v4_15_biblioteca_viva.py`.
+- No se modifica la tesis documental: Trueba 1872 sigue siendo el primer punto firme localizado para la lista nominal completa.
+
 ## V4.14 — Auditoría global de enlaces internos y anchors
 
 Fecha: 2026-06-30

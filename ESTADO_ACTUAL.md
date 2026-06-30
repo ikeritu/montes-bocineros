@@ -1,9 +1,9 @@
 # Estado actual — Montes Bocineros de Bizkaia
 
-**Versión editorial vigente:** V4.14 — Auditoría global de enlaces internos y anchors  
+**Versión editorial vigente:** V4.15 — Biblioteca viva y estado documental  
 **Fecha:** 2026-06-30  
-**Estado técnico:** estable tras V4.14  
-**Estado documental:** tesis crítica provisional sin cambio respecto a V4.11–V4.14
+**Estado técnico:** estable tras V4.15  
+**Estado documental:** tesis crítica provisional sin cambio, ahora centralizada en tabla viva de fuentes
 
 ## 1. Estado técnico vigente
 
@@ -15,6 +15,7 @@ Fases cerradas:
 - [x] V4.12 — Autoría transparente y redes de contacto.
 - [x] V4.13 — Estado actual y limpieza editorial.
 - [x] V4.14 — Auditoría global de enlaces internos y anchors.
+- [x] V4.15 — Biblioteca viva y estado documental.
 
 Checkers vigentes:
 
@@ -26,6 +27,7 @@ py -3 scripts/check_v4_11j_1_montes_hero_contrast.py
 py -3 scripts/check_v4_12_author_social.py
 py -3 scripts/check_v4_13_estado_editorial.py
 py -3 scripts/check_v4_14_links_anchors.py
+py -3 scripts/check_v4_15_biblioteca_viva.py
 ```
 
 ## 2. Estado documental vigente
@@ -96,9 +98,9 @@ Los archivos antiguos de tipo `INFORME_*.md`, `QA_*.md`, `ROADMAP_V*.md` y notas
 
 ## 7. Próxima fase recomendada
 
-**V4.15 — Biblioteca viva y estado documental.**
+**V4.16 — Investigación documental prioritaria.**
 
-Objetivo: reforzar `biblioteca.html` y `estado-investigacion.html` como centro documental antes de abrir nuevas líneas fuertes de investigación.
+Objetivo: investigar en bloque Iturriza, Delmas, Labayru y prensa anterior a 1872, usando la tabla viva de `biblioteca.html` como centro de registro.
 
 
 ## 8. Resultado V4.14
@@ -115,3 +117,13 @@ La auditoría global de enlaces internos queda cerrada con resultado PASS:
 - páginas canónicas raíz incluidas en sitemap.
 
 La fase no altera la tesis documental; solo corrige navegación heredada y añade control automático.
+
+
+## 9. Resultado V4.15
+
+La biblioteca documental queda reforzada como tabla viva:
+
+- `biblioteca.html#tabla-viva-fuentes` centraliza fuentes, tipo de prueba, página/folio, qué prueba, qué no prueba e impacto.
+- `estado-investigacion.html#estado-vivo-v415` resume la tesis vigente.
+- `biblioteca.html#fuentes-pendientes-prioritarias` prepara V4.16.
+- La tesis documental no cambia: la lista nominal completa sigue teniendo como primer punto firme localizado a Trueba 1872.

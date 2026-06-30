@@ -1,0 +1,30 @@
+/* V4.15 — Biblioteca viva y estado documental */
+.v415-control-panel{
+  margin:1.4rem 0 1.8rem;
+  padding:1rem 1.15rem;
+  border:1px solid rgba(19,63,53,.16);
+  border-radius:18px;
+  background:linear-gradient(135deg,rgba(255,253,248,.96),rgba(246,241,231,.82));
+  box-shadow:0 18px 38px -30px rgba(31,42,38,.52);
+}
+.v415-control-panel h3{margin:.1rem 0 .45rem;color:#133f35;font-family:var(--serif, Georgia, serif)}
+.v415-control-panel p{line-height:1.6;color:#47564e}
+.v415-status-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:.85rem;margin-top:1rem}
+.v415-status-card{padding:.9rem 1rem;border:1px solid rgba(214,200,170,.85);border-radius:16px;background:#fffdf8}
+.v415-status-card strong{display:block;color:#133f35;margin-bottom:.28rem}.v415-status-card small{display:block;line-height:1.45;color:#5d6b62}
+.v415-pill{display:inline-flex;align-items:center;gap:.35rem;padding:.24rem .58rem;border-radius:999px;font-size:.74rem;font-weight:800;letter-spacing:.035em;text-transform:uppercase;border:1px solid transparent;white-space:nowrap}
+.v415-pill.probado{background:rgba(46,125,99,.12);color:#1d6a51;border-color:rgba(46,125,99,.28)}
+.v415-pill.punto-firme{background:rgba(19,63,53,.12);color:#133f35;border-color:rgba(19,63,53,.25)}
+.v415-pill.pendiente{background:rgba(185,119,47,.13);color:#87561f;border-color:rgba(185,119,47,.30)}
+.v415-pill.no-prueba{background:rgba(177,77,57,.11);color:#963d2d;border-color:rgba(177,77,57,.25)}
+.v415-pill.contexto{background:rgba(82,103,120,.10);color:#445766;border-color:rgba(82,103,120,.22)}
+.v415-table-wrap{overflow-x:auto;margin-top:1.25rem;border:1px solid rgba(214,200,170,.75);border-radius:18px;background:#fffdf8;box-shadow:0 18px 38px -32px rgba(31,42,38,.45)}
+.v415-source-table{width:100%;border-collapse:collapse;min-width:1120px;font-size:.92rem}
+.v415-source-table th{position:sticky;top:0;background:#133f35;color:#fffdf8;text-align:left;padding:.78rem .85rem;font-size:.76rem;letter-spacing:.045em;text-transform:uppercase;z-index:1}
+.v415-source-table td{vertical-align:top;padding:.82rem .85rem;border-top:1px solid rgba(214,200,170,.75);line-height:1.45;color:#26352f}
+.v415-source-table tbody tr:nth-child(even){background:rgba(246,241,231,.45)}
+.v415-source-table small{display:block;color:#5d6b62;margin-top:.2rem}.v415-source-table strong{color:#133f35}
+.v415-priority-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem;margin-top:1.1rem}
+.v415-priority-card{border:1px solid rgba(214,200,170,.82);border-radius:18px;background:#fffdf8;padding:1rem;box-shadow:0 16px 35px -30px rgba(31,42,38,.5)}
+.v415-priority-card h3{margin:0 0 .55rem;color:#133f35}.v415-priority-card ul{margin:.6rem 0 0 1.1rem;padding:0}.v415-priority-card li{margin:.35rem 0;line-height:1.45}
+.v415-link-row{display:flex;flex-wrap:wrap;gap:.65rem;margin-top:1rem}.v415-link-row a{display:inline-flex;align-items:center;justify-content:center;padding:.58rem .85rem;border-radius:999px;border:1px solid rgba(214,200,170,.9);background:#fffdf8;text-decoration:none;font-weight:700;color:#133f35}
