@@ -1,0 +1,58 @@
+/* V4.12 · Autoría transparente y redes de contacto */
+.v341-footer-links .footer-social-link{
+  display:inline-flex;
+  width:max-content;
+  max-width:100%;
+  align-items:center;
+  gap:.48rem;
+  padding:.18rem 0;
+}
+.v341-footer-links .footer-social-link svg{
+  width:1.05rem;
+  height:1.05rem;
+  flex:0 0 1.05rem;
+  fill:currentColor;
+  filter:drop-shadow(0 1px 0 rgba(0,0,0,.16));
+}
+.v341-footer-links .footer-social-link span{
+  overflow-wrap:anywhere;
+}
+.au-author-note{
+  margin-top:.75rem;
+  padding:.78rem .88rem;
+  border:1px solid rgba(185,119,47,.28);
+  border-left:4px solid var(--brass);
+  border-radius:14px;
+  background:#fbf3e3;
+  color:#534632;
+  font-size:.94rem;
+}
+.au-author-note strong{color:var(--brass)}
+.au-social-list{
+  display:flex;
+  flex-wrap:wrap;
+  gap:.5rem;
+  margin-top:.75rem;
+}
+.au-social-list a{
+  display:inline-flex;
+  align-items:center;
+  gap:.42rem;
+  padding:.38rem .68rem;
+  border:1px solid var(--line-strong);
+  border-radius:999px;
+  background:var(--card);
+  color:var(--forest);
+  font-weight:800;
+  text-decoration:none;
+  font-size:.85rem;
+}
+.au-social-list a:hover{
+  border-color:rgba(185,119,47,.55);
+  background:#fff8e9;
+}
+.au-social-list svg{
+  width:1rem;
+  height:1rem;
+  fill:currentColor;
+}
