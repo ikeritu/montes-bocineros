@@ -1,4 +1,63 @@
+# Changelog — Montes Bocineros de Bizkaia
 
+## V4.13 — Estado actual y limpieza editorial
+
+Fecha: 2026-06-30
+
+- Actualizado `README.md` para reflejar el estado vigente del proyecto.
+- Añadido `ESTADO_ACTUAL.md` como documento de control técnico y documental.
+- Añadido `ROADMAP.md` como hoja de ruta viva.
+- Reordenado `CHANGELOG.txt` para que las fases recientes aparezcan antes que el histórico antiguo.
+- Añadido `scripts/check_v4_13_estado_editorial.py`.
+- No se modifica la tesis documental ni el HTML público de contenido.
+
+## V4.12 — Autoría transparente y redes de contacto
+
+Fecha: 2026-06-30
+
+- Actualizado `autor.html` con LinkedIn, X y YouTube.
+- Añadida aclaración de autoría: el autor no es historiador de formación, sino ingeniero y aficionado a la historia.
+- Añadidos enlaces sociales en los pies de página.
+- Añadido CSS específico `assets/v412-author-social.css`.
+- Añadido checker `scripts/check_v4_12_author_social.py`.
+
+## V4.11J.1 — Contraste del hero de montes
+
+Fecha: 2026-06-30
+
+- Reforzado el contraste del relieve animado en `montes.html`.
+- Ajustada visibilidad de los montes y del punto de Gernika.
+- Añadido `assets/v411j1-montes-hero-contrast.css`.
+- Añadido checker `scripts/check_v4_11j_1_montes_hero_contrast.py`.
+
+## V4.11J — Redirecciones legacy y sitemap limpio
+
+Fecha: 2026-06-30
+
+- Creadas páginas puente para URLs antiguas absorbidas por páginas nuevas.
+- Actualizado `sitemap.xml` para evitar URLs eliminadas o heredadas.
+- Añadido checker `scripts/check_v4_11j_legacy_sitemap.py`.
+- Objetivo: evitar 404 públicos en GitHub Pages y mantener compatibilidad con enlaces antiguos.
+
+## V4.11I.1 — Ajustes de producción
+
+Fecha: 2026-06-30
+
+- Añadido relieve animado en el hero de `montes.html`.
+- Eliminado bloque “Ver mapa estático / versión simple”.
+- Normalizado “Matiz clave” en `veredicto.html`.
+- Añadido `assets/v411i1-produccion-polish.css`.
+- Añadidos informes y checker de producción V4.11I.1.
+
+## V4.11I — Corrección de producción global
+
+- Homogeneización global de navegación, footer y bloques de apoyo.
+- Revisión general de estructura pública.
+- Fase base sobre la que se construyen los ajustes V4.11I.1, V4.11J, V4.11J.1, V4.12 y V4.13.
+
+---
+
+# Histórico previo resumido
 
 ## V3.6.9 — Corrección tabs Trueba en guía del lector
 
