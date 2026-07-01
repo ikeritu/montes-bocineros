@@ -1,5 +1,15 @@
 # Changelog — Montes Bocineros de Bizkaia
 
+## V4.16B — Delmas 1864 revisado sin positivo
+
+Fecha: 2026-07-02
+
+- Localizada y revisada la obra completa de Juan E. Delmas, *Guía histórico-descriptiva del viajero en el Señorío de Vizcaya* (Bilbao, 1864).
+- Sustituido el estado anterior de “extracto parcial” por “obra completa revisada sin positivo”.
+- El control OCR no localiza “cinco bocinas”, “montes bocineros”, “cinco montes”, “bocinas de guerra” ni la serie Gorbea, Oiz, Sollube, Ganecogorta y Colisa.
+- Delmas queda cerrado como negativo crítico anterior a 1872 y no desplaza a Trueba 1872 como primer punto firme verificado.
+- Añadido `assets/v416b-delmas-sin-positivo.css` y checker `scripts/check_v4_16b_delmas_sin_positivo.py`.
+
 ## V4.16A — Eje documental verificado
 
 Fecha: 2026-06-30

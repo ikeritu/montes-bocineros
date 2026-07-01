@@ -1,0 +1,60 @@
+/* V4.16B — Delmas 1864 revisado sin positivo */
+.v416b-delmas-panel,
+.v416b-section{
+  margin: 1.75rem 0;
+  padding: clamp(1rem, 2vw, 1.5rem);
+  border: 1px solid rgba(255,255,255,.16);
+  border-radius: 1.25rem;
+  background: linear-gradient(135deg, rgba(38, 52, 41, .92), rgba(18, 24, 20, .96));
+  box-shadow: 0 18px 45px rgba(0,0,0,.22);
+}
+.v416b-kicker{
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
+  margin-bottom: .65rem;
+  padding: .25rem .6rem;
+  border-radius: 999px;
+  background: rgba(202, 180, 104, .16);
+  color: #f0d98a;
+  font-size: .78rem;
+  font-weight: 800;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+.v416b-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: .9rem;
+  margin: 1rem 0;
+}
+.v416b-grid article{
+  padding: .95rem;
+  border-radius: 1rem;
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.12);
+}
+.v416b-grid strong{display:block;margin-bottom:.35rem;color:#f5e7b3;}
+.v416b-grid span{display:block;color:rgba(255,255,255,.82);font-size:.94rem;line-height:1.45;}
+.v416b-verdict{
+  margin-top: 1rem;
+  padding: .85rem 1rem;
+  border-left: 4px solid #f0d98a;
+  border-radius: .75rem;
+  background: rgba(240,217,138,.10);
+}
+.v416b-check-table{
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+.v416b-check-table th,
+.v416b-check-table td{
+  padding: .8rem;
+  border: 1px solid rgba(255,255,255,.12);
+  vertical-align: top;
+}
+.v416b-check-table th{background: rgba(255,255,255,.09);color:#f5e7b3;text-align:left;}
+.v416b-closed{border-color: rgba(240,217,138,.42) !important;}

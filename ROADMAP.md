@@ -10,6 +10,7 @@
 - [x] V4.14 — Auditoría técnica de enlaces y anchors.
 - [x] V4.15 — Biblioteca viva y estado documental.
 - [x] V4.16A — Eje documental verificado.
+- [x] V4.16B — Delmas 1864 revisado sin positivo.
 
 ## Plan mínimo desde V4.14
 
@@ -46,6 +47,18 @@
 - [x] Actualizar `biblioteca.html`, `estado-investigacion.html`, `veredicto.html` y `trueba-facsimil.html`.
 - [x] Crear checker `scripts/check_v4_16a_eje_documental.py`.
 
+
+### V4.16B — Delmas 1864 revisado sin positivo
+
+- [x] Descargar/localizar PDF completo de la *Guía histórico-descriptiva del viajero en el Señorío de Vizcaya*.
+- [x] Confirmar portada: Juan E. Delmas, Bilbao, Imprenta y Litografía de Juan E. Delmas, 1864.
+- [x] Ejecutar control OCR de términos bocineros y montes nominales.
+- [x] Confirmar ausencia de “cinco bocinas”, “montes bocineros”, “cinco montes” y “bocinas de guerra”.
+- [x] Confirmar que Gorbea, Oiz y Colisa aparecen solo en contextos geográficos/nomenclátor, no como serie bocinera.
+- [x] Clasificar Delmas como obra completa revisada sin positivo.
+- [x] Mantener Trueba 1872 como primer punto firme localizado para la lista nominal completa.
+- [x] Añadir checker `scripts/check_v4_16b_delmas_sin_positivo.py`.
+
 ### V4.16 — Investigación documental prioritaria
 
 Investigar en dos tandas, no una microversión por fuente.
@@ -53,7 +66,7 @@ Investigar en dos tandas, no una microversión por fuente.
 #### Tanda A — Fuentes de impacto alto
 
 - [ ] Iturriza y Zabala.
-- [ ] Delmas completo, dejando constancia de que el extracto de Lequeitio no cierra la obra.
+- [x] Delmas completo revisado sin positivo para lista nominal.
 - [ ] Labayru / Labairu.
 
 #### Tanda B — Hemerotecas y prensa anterior a 1872
@@ -95,7 +108,7 @@ v4.17_public_research_closure
 ### Prioridad A — pueden cambiar el punto firme
 
 - [ ] Iturriza y Zabala.
-- [ ] Delmas anterior a 1872.
+- [x] Delmas anterior a 1872: revisado sin positivo.
 - [ ] Prensa anterior a 1872.
 
 ### Prioridad B — pueden explicar la transmisión

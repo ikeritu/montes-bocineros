@@ -1,8 +1,8 @@
 # Estado actual — Montes Bocineros de Bizkaia
 
-**Versión editorial vigente:** V4.16A — Eje documental verificado  
+**Versión editorial vigente:** V4.16B — Delmas 1864 revisado sin positivo  
 **Fecha:** 2026-06-30  
-**Estado técnico:** estable tras V4.16A  
+**Estado técnico:** estable tras V4.16B  
 **Estado documental:** tesis crítica provisional reforzada con eje documental verificado
 
 ## 1. Estado técnico vigente
@@ -17,6 +17,7 @@ Fases cerradas:
 - [x] V4.14 — Auditoría global de enlaces internos y anchors.
 - [x] V4.15 — Biblioteca viva y estado documental.
 - [x] V4.16A — Eje documental verificado.
+- [x] V4.16B — Delmas 1864 revisado sin positivo.
 
 Checkers vigentes:
 
@@ -65,7 +66,7 @@ La conclusión provisional es:
 ### Prioridad alta
 
 - [ ] Iturriza y Zabala: manuscritos y ediciones de la _Historia General de Vizcaya_.
-- [ ] Juan Eustaquio Delmas: publicaciones, guías y entorno editorial anterior a 1872.
+- [x] Juan Eustaquio Delmas: obra completa de 1864 revisada por OCR; sin positivo para lista nominal completa.
 - [ ] Labayru / Labairu: rastreo bibliográfico hacia fuentes anteriores.
 - [ ] Prensa anterior a 1872: hemerotecas y variantes léxicas.
 
@@ -103,7 +104,7 @@ Los archivos antiguos de tipo `INFORME_*.md`, `QA_*.md`, `ROADMAP_V*.md` y notas
 
 **V4.16 — Investigación documental prioritaria.**
 
-Objetivo: investigar en bloque Iturriza, Delmas, Labayru y prensa anterior a 1872, usando la tabla viva de `biblioteca.html` como centro de registro.
+Objetivo vigente: continuar con Iturriza, Labayru como guía secundaria y prensa anterior a 1872. Delmas 1864 queda cerrado como negativo crítico.
 
 
 ## 8. Resultado V4.14
@@ -142,3 +143,14 @@ El eje documental queda verificado y registrado en la web:
 - Trueba, 1872, p. 13: lista nominal completa —Gorbea, Oiz, Sollube, Ganecogorta y Colisa— con la cautela “que se cree fuesen”.
 
 La tesis se refuerza sin cambiar: las bocinas/vozinas y la convocatoria institucional son anteriores; la primera lista nominal completa verificada sigue siendo Trueba 1872.
+
+
+## 11. Resultado V4.16B
+
+Delmas 1864 queda revisado en obra completa:
+
+- Obra: Juan E. Delmas, *Guía histórico-descriptiva del viajero en el Señorío de Vizcaya*, Bilbao, 1864.
+- Acceso: PDF completo de Google Books / Biblioteca de Catalunya.
+- Control: búsqueda OCR de bocina, bocinas, bozina, bozinas, vozina, vozinas, vocina, vocinas, bocinero, bocineros, montes bocineros, cinco bocinas, cinco montes, bocinas de guerra, Gorbea, Oiz, Sollube, Ganecogorta, Ganekogorta, Colisa, Kolitza, Colitza, Guernica, Gernika, Garnica, Arechabalaga, Arechabalagána, Catzarra y Calzarra.
+- Resultado: aparecen Gorbea, Oiz, Colisa, Guernica y Arechabalaga/Arechabalagána en contextos geográficos o forales, pero no la lista nominal completa ni el léxico bocinero principal.
+- Decisión: Delmas 1864 queda cerrado como obra completa revisada sin positivo; no adelanta a Trueba 1872.
