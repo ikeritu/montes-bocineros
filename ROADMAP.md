@@ -11,6 +11,7 @@
 - [x] V4.15 — Biblioteca viva y estado documental.
 - [x] V4.16A — Eje documental verificado.
 - [x] V4.16B — Delmas 1864 revisado sin positivo.
+- [x] V4.16C — Iturriza 1790 positivo institucional sin lista nominal.
 
 ## Plan mínimo desde V4.14
 
@@ -59,13 +60,26 @@
 - [x] Mantener Trueba 1872 como primer punto firme localizado para la lista nominal completa.
 - [x] Añadir checker `scripts/check_v4_16b_delmas_sin_positivo.py`.
 
+
+### V4.16C — Iturriza 1790 positivo institucional sin lista nominal
+
+- [x] Localizar y revisar el manuscrito de 1790 de la _Historia General de Vizcaya_.
+- [x] Confirmar positivo fuerte en cap. 25: cinco merindades, bocina, Junta general, merinos, sayones, Arechavalaga y Guernica.
+- [x] Revisar caps. 31-33 sobre Jaun Zuria / Arrigorriaga.
+- [x] Revisar cap. 62 sobre escudo, árbol de Guernica y Arechavalaga.
+- [x] Revisar Libro III, Larrabezua / Rigoitia.
+- [x] Revisar apéndice documental con hermandad / Guernica.
+- [x] Confirmar ausencia de lista nominal Gorbea, Oiz, Sollube, Ganecogorta y Colisa en los bloques revisados.
+- [x] Clasificar Iturriza como positivo institucional fuerte sin adelantar a Trueba 1872.
+- [x] Añadir checker `scripts/check_v4_16c_iturriza_1790.py`.
+
 ### V4.16 — Investigación documental prioritaria
 
 Investigar en dos tandas, no una microversión por fuente.
 
 #### Tanda A — Fuentes de impacto alto
 
-- [ ] Iturriza y Zabala.
+- [x] Iturriza y Zabala revisado: positivo institucional sin lista nominal.
 - [x] Delmas completo revisado sin positivo para lista nominal.
 - [ ] Labayru / Labairu.
 
@@ -107,7 +121,7 @@ v4.17_public_research_closure
 
 ### Prioridad A — pueden cambiar el punto firme
 
-- [ ] Iturriza y Zabala.
+- [x] Iturriza y Zabala: revisado sin positivo para lista nominal.
 - [x] Delmas anterior a 1872: revisado sin positivo.
 - [ ] Prensa anterior a 1872.
 

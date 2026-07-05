@@ -1,5 +1,14 @@
 # Changelog — Montes Bocineros de Bizkaia
 
+
+## V4.16C — Iturriza 1790 positivo institucional sin lista nominal
+
+- Revisado el manuscrito de Juan Ramón de Iturriza y Zabala, *Historia General de Vizcaya* (1790), mediante búsqueda dirigida por índice y bloques de alta probabilidad.
+- Integrado el positivo fuerte del capítulo 25: cinco merindades, bocina, Junta general, merinos, sayones, Arechavalaga y Guernica.
+- Revisados como descarte los bloques de Jaun Zuria / Arrigorriaga, escudo y árbol de Guernica, Larrabezua / Rigoitia y apéndice documental.
+- No se localiza la lista nominal Gorbea, Oiz, Sollube, Ganecogorta y Colisa.
+- Iturriza queda cerrado como fuente anterior que refuerza el sustrato institucional de bocinas, pero no desplaza a Trueba 1872.
+
 ## V4.16B — Delmas 1864 revisado sin positivo
 
 Fecha: 2026-07-02

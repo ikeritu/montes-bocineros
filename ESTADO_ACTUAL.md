@@ -1,8 +1,8 @@
 # Estado actual — Montes Bocineros de Bizkaia
 
-**Versión editorial vigente:** V4.16B — Delmas 1864 revisado sin positivo  
+**Versión editorial vigente:** V4.16C — Iturriza 1790 positivo institucional sin lista nominal  
 **Fecha:** 2026-06-30  
-**Estado técnico:** estable tras V4.16B  
+**Estado técnico:** estable tras V4.16C  
 **Estado documental:** tesis crítica provisional reforzada con eje documental verificado
 
 ## 1. Estado técnico vigente
@@ -18,6 +18,7 @@ Fases cerradas:
 - [x] V4.15 — Biblioteca viva y estado documental.
 - [x] V4.16A — Eje documental verificado.
 - [x] V4.16B — Delmas 1864 revisado sin positivo.
+- [x] V4.16C — Iturriza 1790 positivo institucional sin lista nominal.
 
 Checkers vigentes:
 
@@ -65,7 +66,7 @@ La conclusión provisional es:
 
 ### Prioridad alta
 
-- [ ] Iturriza y Zabala: manuscritos y ediciones de la _Historia General de Vizcaya_.
+- [x] Iturriza y Zabala: manuscrito 1790 revisado de forma dirigida; positivo institucional sin lista nominal de montes.
 - [x] Juan Eustaquio Delmas: obra completa de 1864 revisada por OCR; sin positivo para lista nominal completa.
 - [ ] Labayru / Labairu: rastreo bibliográfico hacia fuentes anteriores.
 - [ ] Prensa anterior a 1872: hemerotecas y variantes léxicas.
@@ -104,7 +105,7 @@ Los archivos antiguos de tipo `INFORME_*.md`, `QA_*.md`, `ROADMAP_V*.md` y notas
 
 **V4.16 — Investigación documental prioritaria.**
 
-Objetivo vigente: continuar con Iturriza, Labayru como guía secundaria y prensa anterior a 1872. Delmas 1864 queda cerrado como negativo crítico.
+Objetivo vigente: continuar con Labayru como guía secundaria y prensa anterior a 1872. Delmas 1864 queda cerrado como negativo crítico e Iturriza 1790 queda cerrado como positivo institucional sin lista nominal.
 
 
 ## 8. Resultado V4.14
@@ -154,3 +155,14 @@ Delmas 1864 queda revisado en obra completa:
 - Control: búsqueda OCR de bocina, bocinas, bozina, bozinas, vozina, vozinas, vocina, vocinas, bocinero, bocineros, montes bocineros, cinco bocinas, cinco montes, bocinas de guerra, Gorbea, Oiz, Sollube, Ganecogorta, Ganekogorta, Colisa, Kolitza, Colitza, Guernica, Gernika, Garnica, Arechabalaga, Arechabalagána, Catzarra y Calzarra.
 - Resultado: aparecen Gorbea, Oiz, Colisa, Guernica y Arechabalaga/Arechabalagána en contextos geográficos o forales, pero no la lista nominal completa ni el léxico bocinero principal.
 - Decisión: Delmas 1864 queda cerrado como obra completa revisada sin positivo; no adelanta a Trueba 1872.
+
+## 12. Resultado V4.16C
+
+Iturriza 1790 queda revisado de forma dirigida:
+
+- Obra: Juan Ramón de Iturriza y Zabala, _Historia General de Vizcaya_, manuscrito de 1790.
+- Positivo fuerte: capítulo 25, pp. manuscritas 124-126, con cinco merindades, bocina, Junta general, merinos, sayones, Arechavalaga y Guernica.
+- Descartes dirigidos: capítulos 31-33 sobre Jaun Zuria / Arrigorriaga; capítulo 62 sobre escudo y árbol de Guernica; Libro III sobre Larrabezua / Rigoitia; apéndice documental.
+- Resultado: no se localiza Gorbea, Oiz, Sollube, Ganecogorta y Colisa como lista nominal completa.
+- Decisión: Iturriza refuerza el sustrato institucional anterior a Trueba, pero no adelanta el primer punto firme de la lista nominal completa.
+
