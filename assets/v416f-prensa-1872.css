@@ -1,0 +1,67 @@
+/* V4.16F — Prensa anterior a 1872: cierre hemerográfico dirigido */
+.v416f-section,
+.v416f-prensa-panel {
+  margin: clamp(1.25rem, 3vw, 2.25rem) 0;
+  padding: clamp(1rem, 2.5vw, 1.35rem);
+  border: 1px solid rgba(106, 93, 59, .28);
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(255,253,248,.96), rgba(242,237,220,.86));
+  box-shadow: 0 12px 30px rgba(28,45,38,.08);
+  scroll-margin-top: 7rem;
+}
+.v416f-section h2,
+.v416f-section h3,
+.v416f-prensa-panel h2,
+.v416f-prensa-panel h3 { margin-top: 0; }
+.v416f-kicker {
+  display: inline-flex;
+  margin-bottom: .55rem;
+  font-size: .78rem;
+  font-weight: 800;
+  letter-spacing: .055em;
+  text-transform: uppercase;
+  color: #6f4d21;
+}
+.v416f-grid,
+.v416f-review-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: .75rem;
+  margin-top: 1rem;
+}
+.v416f-grid article,
+.v416f-review-grid article {
+  padding: .85rem .95rem;
+  border-radius: 14px;
+  background: rgba(255,255,255,.74);
+  border: 1px solid rgba(106, 93, 59, .16);
+}
+.v416f-grid strong,
+.v416f-review-grid strong { display:block; margin-bottom:.25rem; color:#173f34; }
+.v416f-grid span,
+.v416f-review-grid span,
+.v416f-section p,
+.v416f-prensa-panel p { color:#4b5a53; }
+.v416f-verdict {
+  margin-top: 1rem !important;
+  padding: .85rem 1rem;
+  border-left: 4px solid #6f4d21;
+  background: rgba(255,255,255,.72);
+  border-radius: 12px;
+  color: #31453e !important;
+}
+.v416f-query-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .45rem;
+  margin-top: .75rem;
+}
+.v416f-query-list code {
+  display: inline-flex;
+  padding: .28rem .5rem;
+  border-radius: 999px;
+  background: rgba(19,63,53,.08);
+  border: 1px solid rgba(19,63,53,.15);
+  color: #173f34;
+  font-size: .84rem;
+}

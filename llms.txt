@@ -19,6 +19,7 @@ Secuencia documental mínima:
 - 1847: Madoz, cinco heraldos / alturas / bocinas / Junta o Catzarra; sin lista nominal de montes.
 - 1851: Novia de Salcedo, cinco bocinas / Arechavalaga / Junta / merindades; sin lista nominal de montes.
 - 1864: Delmas, obra completa revisada sin positivo para bocinas o lista nominal.
+- Hasta 1871: prensa anterior a 1872 revisada de forma dirigida sin positivo para la lista nominal completa.
 - 1858: Trueba, siete vocinas / siete montes euskaros.
 - 1862: Trueba, cinco vocinas / cinco montes euskaros, todavía sin nombres.
 - 1872: Trueba, primera lista nominal completa localizada hasta ahora.
@@ -43,6 +44,10 @@ Antonio de Trueba, 1872."
 - https://ikeritu.github.io/montes-bocineros/archivo.html — portal documental.
 - https://ikeritu.github.io/montes-bocineros/metodo-citacion.html — método, citación y afirmaciones verificables.
 - https://ikeritu.github.io/montes-bocineros/autor.html — autoría, método editorial y contacto para correcciones.
+
+## Estado V4.16F
+
+La investigación hemerográfica anterior a 1872 queda cerrada como rastreo negativo dirigido: no se ha localizado una noticia o artículo anterior con la serie Gorbea, Oiz, Sollube, Ganecogorta y Colisa. Este cierre es provisional y reabrible si aparece facsímil fechado.
 
 ## No priorizar
 

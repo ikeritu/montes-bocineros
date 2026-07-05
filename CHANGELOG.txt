@@ -1,3 +1,12 @@
+
+## V4.16F — Prensa anterior a 1872 sin positivo (2026-07-05)
+
+- Cerrado el frente de prensa/hemerografía anterior a 1872 como rastreo negativo dirigido.
+- Añadidos bloques V4.16F en `biblioteca.html`, `estado-investigacion.html` y `veredicto.html`.
+- Añadida fila específica en la tabla maestra de fuentes para prensa/hemerografía anterior a 1872.
+- Actualizado `llms.txt` con el estado V4.16F.
+- La tesis no cambia: Trueba 1872 sigue como primer punto firme localizado para la lista nominal completa.
+
 # Changelog — Montes Bocineros de Bizkaia
 
 ## V4.16E — GEO/SEO Quick Wins (2026-07-05)

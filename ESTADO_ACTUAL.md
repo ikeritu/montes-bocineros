@@ -1,5 +1,13 @@
 
 
+## V4.16F — Prensa anterior a 1872 cerrada sin positivo (2026-07-05)
+
+La fase V4.16F cierra el frente de prensa/hemerografía anterior a 1872 como rastreo negativo dirigido. No se ha localizado un testigo anterior a Trueba 1872 con la lista Gorbea, Oiz, Sollube, Ganecogorta y Colisa. Este cierre no es una imposibilidad absoluta —por OCR defectuoso o fondos no digitalizados—, pero elimina el frente como pendiente crítico para el cierre público.
+
+Estado: Trueba 1872 sigue siendo el primer punto firme localizado para la lista nominal completa. Pendiente principal: Labayru/Labairu como control bibliográfico y cierre público/tag estable.
+
+
+
 ## V4.16E — GEO/SEO Quick Wins cerrado (2026-07-05)
 
 La fase V4.16E aplica los quick wins de la auditoría GEO/SEO: `FAQPage`, `Dataset`, `llms.txt` actualizado, TL;DR citables, sitemap con `lastmod` actualizado y exclusión estable de notas internas en `_config.yml`. No altera la tesis histórica: Trueba 1872 sigue como primer punto firme localizado para la lista nominal completa.
