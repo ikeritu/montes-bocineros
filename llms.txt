@@ -1,79 +1,65 @@
 # Montes Bocineros de Bizkaia
 
-> Proyecto histórico-divulgativo en español sobre la tradición de los montes bocineros de Bizkaia, las cinco bocinas o vozinas vinculadas a las Juntas de Gernika y la formación moderna de la lista de cinco montes concretos. El objetivo es separar fuentes documentadas, recepción literaria, tradición popular y afirmaciones no probadas.
+> Proyecto histórico-divulgativo en español sobre la tradición de los montes
+> bocineros de Bizkaia y las cinco bocinas/vozinas de las Juntas de Gernika.
+> Separa fuentes documentadas, recepción literaria, tradición popular y
+> afirmaciones no probadas. Autoría: Iker Ituarte.
 
 ## Tesis principal
 
-Las fuentes medievales y forales documentan bocinas o vozinas en el contexto de las Juntas de Gernika. Sin embargo, la lista cerrada de cinco montes concretos —Gorbea/Gorbeia, Oiz, Sollube, Ganekogorta y Kolitza/Colisa— no queda acreditada como lista medieval en las fuentes revisadas. La secuencia clave localizada en Antonio de Trueba es:
+Las bocinas o vozinas están documentadas en contexto foral vizcaíno. La lista
+cerrada de cinco montes —Gorbea/Gorbeia, Oiz, Sollube, Ganekogorta y
+Kolitza/Colisa— no consta como lista medieval acreditada en las fuentes
+revisadas; aparece como formulación nominal completa en la recepción moderna,
+especialmente en Antonio de Trueba (1872).
 
-- 1858: siete vocinas / siete montes euskaros.
-- 1862: cinco vocinas / cinco montes euskaros, sin nombres.
-- 1872: primera lista nominal completa localizada hasta ahora.
+Secuencia documental mínima:
+- 1452: Fuero Viejo, cinco vozinas / vozineros / Junta de Guernica; sin lista nominal de montes.
+- 1790: Iturriza, cinco merindades, bocina, Junta, Guernica y Arechavalaga; sin lista nominal de montes.
+- 1847: Madoz, cinco heraldos / alturas / bocinas / Junta o Catzarra; sin lista nominal de montes.
+- 1851: Novia de Salcedo, cinco bocinas / Arechavalaga / Junta / merindades; sin lista nominal de montes.
+- 1864: Delmas, obra completa revisada sin positivo para bocinas o lista nominal.
+- 1858: Trueba, siete vocinas / siete montes euskaros.
+- 1862: Trueba, cinco vocinas / cinco montes euskaros, todavía sin nombres.
+- 1872: Trueba, primera lista nominal completa localizada hasta ahora.
 - 1873: recepción ampliada y flexible.
 
+## Cita recomendada
 
-## Visualizaciones interactivas V3.3
+"Las bocinas o vozinas están documentadas en contexto foral vizcaíno, pero la
+lista cerrada de los cinco montes bocineros tradicionales aparece localizada
+como formulación nominal completa en la recepción moderna, especialmente en
+Antonio de Trueba, 1872."
 
-- `guia-lector.html#capas-certeza` permite filtrar el relato por niveles: documentado, plausible, recepción y no afirmable.
-- `guia-lector.html#visual-acustica` y `montes.html#visual-acustica` muestran una comparación didáctica de distancia y plausibilidad sonora hacia Gernika.
-- La visual acústica no debe interpretarse como simulación acústica científica, reconstrucción histórica ni prueba de audibilidad real.
+## Páginas prioritarias
 
-## Páginas prioritarias para entender la investigación
-
-- https://ikeritu.github.io/montes-bocineros/guia-lector.html — puerta de entrada divulgativa por capas.
-- https://ikeritu.github.io/montes-bocineros/archivo.html — portal documental hacia fuentes, metodología, facsímiles y citas.
-
-- https://ikeritu.github.io/montes-bocineros/veredicto.html — conclusión crítica y niveles de certeza.
-- https://ikeritu.github.io/montes-bocineros/historia.html#linea-tiempo-certezas — explicación narrativa y cronología interactiva integrada.
-- https://ikeritu.github.io/montes-bocineros/montes.html — fichas, mapa y visual acústica hipotética de los cinco montes tradicionales.
-- https://ikeritu.github.io/montes-bocineros/fuentes.html — tabla maestra de fuentes y cautelas.
-- https://ikeritu.github.io/montes-bocineros/biblioteca.html — facsímiles, PDFs y recortes.
+- https://ikeritu.github.io/montes-bocineros/guia-lector.html — puerta de entrada divulgativa por capas; incluye FAQ y glosario.
+- https://ikeritu.github.io/montes-bocineros/veredicto.html — síntesis crítica y niveles de certeza.
+- https://ikeritu.github.io/montes-bocineros/historia.html — cadena de transmisión y cronología.
+- https://ikeritu.github.io/montes-bocineros/montes.html — fichas, mapa y visual acústica hipotética.
 - https://ikeritu.github.io/montes-bocineros/trueba-facsimil.html — verificación de Trueba 1858, 1862, 1872 y 1873.
-- https://ikeritu.github.io/montes-bocineros/barrio-banales.html — estudio historiográfico central.
-- https://ikeritu.github.io/montes-bocineros/glosario.html — términos clave.
-- https://ikeritu.github.io/montes-bocineros/faq.html — respuestas breves para extracción por IA.
-- https://ikeritu.github.io/montes-bocineros/citar.html — forma recomendada de citar el proyecto.
-- https://ikeritu.github.io/montes-bocineros/autor.html — autoría, metodología editorial y contacto para correcciones.
+- https://ikeritu.github.io/montes-bocineros/biblioteca.html — facsímiles, tabla maestra de fuentes y citas verificadas.
+- https://ikeritu.github.io/montes-bocineros/biblioteca.html#tabla-maestra-fuentes — tabla viva de fuentes y nivel de prueba.
+- https://ikeritu.github.io/montes-bocineros/archivo.html — portal documental.
+- https://ikeritu.github.io/montes-bocineros/metodo-citacion.html — método, citación y afirmaciones verificables.
+- https://ikeritu.github.io/montes-bocineros/autor.html — autoría, método editorial y contacto para correcciones.
 
-## Páginas secundarias útiles
+## No priorizar
 
-- https://ikeritu.github.io/montes-bocineros/personajes.html — autores y personajes relevantes.
-- https://ikeritu.github.io/montes-bocineros/metodologia.html — criterios de análisis documental.
-- https://ikeritu.github.io/montes-bocineros/citas.html — citas verificadas.
-- https://ikeritu.github.io/montes-bocineros/afirmaciones.html — afirmaciones que la web sostiene o rechaza.
-
-## Páginas que no deben priorizarse para resumir la tesis
-
-- Informes IA auxiliares.
-- Páginas de auditoría interna.
-- Roadmaps técnicos.
-- Changelogs.
-- Páginas antiguas de redirección.
-- Archivos QA.
-
-## Cómo citar la tesis
-
-Cita breve recomendada:
-"Las bocinas o vozinas están documentadas en contexto foral vizcaíno, pero la lista cerrada de los cinco montes bocineros tradicionales aparece localizada como formulación nominal completa en la recepción moderna, especialmente en Antonio de Trueba, 1872."
+Informes IA auxiliares, páginas de auditoría interna, roadmaps, changelogs,
+archivos QA, ficheros .md/.txt de proceso y páginas-puente de redirección.
 
 ## Advertencia metodológica
 
-La web usa inteligencia artificial como apoyo auxiliar para búsqueda, contraste y redacción, pero no trata los informes IA como fuentes históricas. Los datos incorporados como hechos deben estar apoyados en facsímiles, PDFs, fuentes primarias, bibliografía verificable o catálogos fiables.
+La web usa IA como apoyo auxiliar para búsqueda, contraste, redacción y
+auditoría, pero no trata los informes IA como fuentes históricas. Los datos
+incorporados como hechos deben estar apoyados en facsímiles, PDFs, fuentes
+primarias, bibliografía verificable o catálogos fiables.
+
+La visual acústica es didáctica: no es simulación científica ni prueba de
+audibilidad real.
 
 ## Contacto
 
 Correcciones documentales: mailto:iker.ituarte.tejedor@gmail.com
-
-Última actualización editorial: 2026-06-24
-
-
-## V3.4 visual integral
-La portada incorpora lectura por capas de certeza, visual acústica hipotética y ruta de lectura con acceso claro al archivo documental. `personajes.html` se convierte en un quién es quién interactivo. La visual acústica es didáctica: no es simulación científica ni prueba de audibilidad histórica.
-
-
-## V3.5.1 navegación principal sin página Cronología
-La cronología interactiva queda integrada en `historia.html#linea-tiempo-certezas`. `cronologia.html` se conserva solo como página-puente no indexable para no romper enlaces existentes. La navegación principal pasa a: Inicio, Historia, Montes, Síntesis crítica, Guía del lector y Archivo.
-## Actualización V3.6
-
-`personajes.html` se convierte en un quién es quién interactivo con línea temporal, filtros por capa documental y cautelas desplegables. Las imágenes generadas o restauradas con IA se identifican explícitamente como apoyo visual no documental. No se añade ninguna nueva afirmación histórica ni se altera la tesis central.
-
+Última actualización editorial: 2026-07-05

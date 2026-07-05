@@ -106,8 +106,9 @@ def check_sitemap() -> None:
     if missing:
         fail("Faltan páginas canónicas en sitemap: " + ", ".join(missing))
 
-    if "2026-06-30" not in sitemap.read_text(encoding="utf-8", errors="ignore"):
-        fail("sitemap.xml no contiene lastmod 2026-06-30")
+    text = sitemap.read_text(encoding="utf-8", errors="ignore")
+    if not re.search(r"<lastmod>\d{4}-\d{2}-\d{2}</lastmod>", text):
+        fail("sitemap.xml no contiene valores lastmod ISO válidos")
 
 
 def check_local_links() -> None:

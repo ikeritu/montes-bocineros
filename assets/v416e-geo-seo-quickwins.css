@@ -1,0 +1,23 @@
+/* V4.16E — GEO/SEO quick wins: bloques TL;DR citables */
+.geo-tldr {
+  margin: 1.2rem 0 1.6rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid rgba(31, 107, 85, .24);
+  border-left: 5px solid #1f6b55;
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(255,255,255,.92), rgba(240,250,247,.84));
+  box-shadow: 0 12px 28px rgba(28,45,38,.07);
+}
+.geo-tldr .geo-kicker {
+  display: inline-flex;
+  margin-bottom: .45rem;
+  font-size: .74rem;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: #1f6b55;
+}
+.geo-tldr p { margin: .35rem 0; }
+.geo-tldr strong { color: #133f35; }
+.geo-tldr ul { margin: .45rem 0 0; padding-left: 1.15rem; }
+.geo-tldr li { margin: .25rem 0; }

@@ -1,3 +1,9 @@
+
+
+## V4.16E — GEO/SEO Quick Wins cerrado (2026-07-05)
+
+La fase V4.16E aplica los quick wins de la auditoría GEO/SEO: `FAQPage`, `Dataset`, `llms.txt` actualizado, TL;DR citables, sitemap con `lastmod` actualizado y exclusión estable de notas internas en `_config.yml`. No altera la tesis histórica: Trueba 1872 sigue como primer punto firme localizado para la lista nominal completa.
+
 # Estado actual — Montes Bocineros de Bizkaia
 
 **Versión editorial vigente:** V4.16D — Producción limpia según auditoría  

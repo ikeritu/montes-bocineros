@@ -1,3 +1,17 @@
+
+
+## Tras V4.16E — Roadmap vivo
+
+- [x] V4.16D — Limpieza de producción según auditoría.
+- [x] Hotfix — Sintaxis YAML de `_config.yml` y GitHub Pages OK.
+- [x] V4.16E — GEO/SEO Quick Wins: FAQPage, Dataset, llms.txt, TL;DR y sitemap.
+- [ ] V4.16F — Prensa anterior a 1872.
+- [ ] V4.16G — Labayru/Labairu como control secundario.
+- [ ] V4.17 — Cierre público y tag estable.
+- [ ] V4.18 — Dominio propio / 301 / señales externas de autoridad.
+
+Estado estimado: 92% completado, 8% pendiente para cierre público estable.
+
 # Roadmap vivo — Montes Bocineros de Bizkaia
 
 ## Estado de partida
