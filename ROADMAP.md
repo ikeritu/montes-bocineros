@@ -1,16 +1,18 @@
 
-
-## Tras V4.16E — Roadmap vivo
+## Tras V4.16G — Roadmap vivo
 
 - [x] V4.16D — Limpieza de producción según auditoría.
 - [x] Hotfix — Sintaxis YAML de `_config.yml` y GitHub Pages OK.
 - [x] V4.16E — GEO/SEO Quick Wins: FAQPage, Dataset, llms.txt, TL;DR y sitemap.
-- [ ] V4.16F — Prensa anterior a 1872.
-- [ ] V4.16G — Labayru/Labairu como control secundario.
+- [x] V4.16F — Prensa anterior a 1872: rastreo negativo dirigido.
+- [x] V4.16G — Labayru/Labairu como control secundario posterior.
 - [ ] V4.17 — Cierre público y tag estable.
 - [ ] V4.18 — Dominio propio / 301 / señales externas de autoridad.
 
-Estado estimado: 92% completado, 8% pendiente para cierre público estable.
+Estado estimado: 97% completado, 3% pendiente para cierre público estable.
+
+
+
 
 # Roadmap vivo — Montes Bocineros de Bizkaia
 
@@ -107,15 +109,15 @@ Investigar en dos tandas, no una microversión por fuente.
 
 - [x] Iturriza y Zabala revisado: positivo institucional sin lista nominal.
 - [x] Delmas completo revisado sin positivo para lista nominal.
-- [ ] Labayru / Labairu.
+- [x] Labayru / Labairu: cerrado como control secundario posterior.
 
 #### Tanda B — Hemerotecas y prensa anterior a 1872
 
-- [ ] Hemeroteca Digital BNE.
-- [ ] Liburuklik.
-- [ ] Euskariana.
-- [ ] Biblioteca Foral de Bizkaia.
-- [ ] Prensa vasca digitalizada.
+- [x] Hemeroteca/prensa anterior a 1872: rastreo dirigido cerrado sin positivo.
+- [x] Liburuklik / hemerotecas vascas: control dirigido sin positivo anterior.
+- [x] Euskariana / catálogos digitales: control dirigido sin positivo anterior.
+- [x] Biblioteca Foral / índices públicos: control dirigido sin positivo anterior.
+- [x] Prensa vasca digitalizada: sin lista nominal completa anterior localizada.
 
 Buscar variantes:
 
@@ -153,7 +155,7 @@ v4.17_public_research_closure
 
 ### Prioridad B — pueden explicar la transmisión
 
-- [ ] Labayru / Labairu.
+- [x] Labayru / Labairu: cerrado como control secundario posterior.
 - [ ] Trueba posterior y reediciones.
 - [ ] Euskal-Erria completa.
 - [ ] Prensa bilbaína posterior a 1872.

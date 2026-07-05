@@ -1,4 +1,11 @@
 
+## V4.16G — Labayru/Labairu cerrado como control secundario (2026-07-05)
+
+Labayru/Labairu queda cerrado como control bibliográfico posterior. Su `Historia General del Señorío de Bizcaya` pertenece a la fase 1895-1903 y por cronología no puede adelantar a Trueba 1872 como primer punto firme de la lista Gorbea, Oiz, Sollube, Ganecogorta y Colisa. Se conserva como guía historiográfica y bibliográfica; solo reabriría la investigación si remitiera a una fuente anterior con facsímil, página y pasaje explícito.
+
+Estado: la investigación documental prioritaria queda cerrada para Delmas, Iturriza, prensa anterior a 1872 y Labayru. Pendiente principal: V4.17 de cierre público/tag estable.
+
+
 
 ## V4.16F — Prensa anterior a 1872 cerrada sin positivo (2026-07-05)
 
@@ -14,10 +21,10 @@ La fase V4.16E aplica los quick wins de la auditoría GEO/SEO: `FAQPage`, `Datas
 
 # Estado actual — Montes Bocineros de Bizkaia
 
-**Versión editorial vigente:** V4.16D — Producción limpia según auditoría  
-**Fecha:** 2026-06-30  
-**Estado técnico:** estable tras V4.16D  
-**Estado documental:** tesis crítica provisional reforzada con eje documental verificado
+**Versión editorial vigente:** V4.16G — Labayru/Labairu como control secundario  
+**Fecha:** 2026-07-05  
+**Estado técnico:** estable tras V4.16D, hotfix YAML y V4.16E GEO/SEO  
+**Estado documental:** tesis crítica reforzada; frentes Delmas, Iturriza, prensa anterior a 1872 y Labayru cerrados sin adelantar Trueba
 
 ## 1. Estado técnico vigente
 

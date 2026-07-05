@@ -1,4 +1,13 @@
 
+## V4.16G — Labayru/Labairu como control secundario (2026-07-05)
+
+- Reclasificado Labayru/Labairu como control bibliográfico posterior, no como fuente primaria anterior a Trueba.
+- Añadidos bloques V4.16G en `biblioteca.html`, `estado-investigacion.html` y `veredicto.html`.
+- Actualizada la tabla viva de fuentes: Labayru deja de estar pendiente crítico y queda cerrado como control secundario.
+- Actualizado `llms.txt` con el estado V4.16G.
+- La tesis no cambia: Trueba 1872 sigue como primer punto firme localizado para la lista nominal completa.
+
+
 ## V4.16F — Prensa anterior a 1872 sin positivo (2026-07-05)
 
 - Cerrado el frente de prensa/hemerografía anterior a 1872 como rastreo negativo dirigido.

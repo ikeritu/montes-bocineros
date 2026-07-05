@@ -24,6 +24,7 @@ Secuencia documental mínima:
 - 1862: Trueba, cinco vocinas / cinco montes euskaros, todavía sin nombres.
 - 1872: Trueba, primera lista nominal completa localizada hasta ahora.
 - 1873: recepción ampliada y flexible.
+- 1895-1903: Labayru/Labairu, control bibliográfico posterior; no adelanta 1872.
 
 ## Cita recomendada
 
@@ -45,9 +46,9 @@ Antonio de Trueba, 1872."
 - https://ikeritu.github.io/montes-bocineros/metodo-citacion.html — método, citación y afirmaciones verificables.
 - https://ikeritu.github.io/montes-bocineros/autor.html — autoría, método editorial y contacto para correcciones.
 
-## Estado V4.16F
+## Estado V4.16F / Estado V4.16G
 
-La investigación hemerográfica anterior a 1872 queda cerrada como rastreo negativo dirigido: no se ha localizado una noticia o artículo anterior con la serie Gorbea, Oiz, Sollube, Ganecogorta y Colisa. Este cierre es provisional y reabrible si aparece facsímil fechado.
+La investigación hemerográfica anterior a 1872 queda cerrada como rastreo negativo dirigido: no se ha localizado una noticia o artículo anterior con la serie Gorbea, Oiz, Sollube, Ganecogorta y Colisa. Labayru/Labairu queda cerrado como control bibliográfico posterior: útil para transmisión y documentos citados, pero no anterior a Trueba 1872. Ambos frentes son reabribles solo si aparece facsímil anterior con pasaje explícito.
 
 ## No priorizar
 

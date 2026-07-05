@@ -1,0 +1,54 @@
+/* V4.16G — Labayru/Labairu como control secundario */
+.v416g-section,
+.v416g-labayru-panel {
+  margin: clamp(1.25rem, 3vw, 2.25rem) 0;
+  padding: clamp(1rem, 2.5vw, 1.35rem);
+  border: 1px solid rgba(51, 86, 74, .26);
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(250,253,249,.97), rgba(235,244,238,.88));
+  box-shadow: 0 12px 32px rgba(20, 53, 43, .08);
+  scroll-margin-top: 7rem;
+}
+.v416g-section h2,
+.v416g-section h3,
+.v416g-labayru-panel h2,
+.v416g-labayru-panel h3 { margin-top: 0; }
+.v416g-kicker {
+  display: inline-flex;
+  margin-bottom: .55rem;
+  font-size: .78rem;
+  font-weight: 800;
+  letter-spacing: .055em;
+  text-transform: uppercase;
+  color: #315f4f;
+}
+.v416g-grid,
+.v416g-review-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: .75rem;
+  margin-top: 1rem;
+}
+.v416g-grid article,
+.v416g-review-grid article {
+  padding: .85rem .95rem;
+  border-radius: 14px;
+  background: rgba(255,255,255,.76);
+  border: 1px solid rgba(51, 86, 74, .17);
+}
+.v416g-grid strong,
+.v416g-review-grid strong { display:block; margin-bottom:.25rem; color:#173f34; }
+.v416g-grid span,
+.v416g-review-grid span,
+.v416g-section p,
+.v416g-labayru-panel p { color:#405a51; }
+.v416g-verdict {
+  margin-top: 1rem !important;
+  padding: .85rem 1rem;
+  border-left: 4px solid #315f4f;
+  background: rgba(255,255,255,.74);
+  border-radius: 12px;
+  color: #31453e !important;
+}
+.v416g-closed .v415-pill,
+.v416g-closed .status-pill { white-space: nowrap; }
