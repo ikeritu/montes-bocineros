@@ -1,1 +1,1 @@
-V3.6.11 — Icono adjunto coloreado en bloque Trueba
+V4.17 — Cierre público y tag estable

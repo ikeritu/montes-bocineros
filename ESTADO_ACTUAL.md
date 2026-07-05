@@ -1,3 +1,9 @@
+## V4.17 — Cierre público estable (2026-07-05)
+
+La investigación documental prioritaria queda cerrada para publicación pública. Los frentes de Delmas, Iturriza, prensa anterior a 1872 y Labayru/Labairu han sido revisados o reclasificados sin adelantar la lista nominal completa anterior a Trueba. La tesis estable es: las bocinas/vozinas y la convocatoria foral están documentadas, pero la lista Gorbea, Oiz, Sollube, Ganecogorta y Colisa tiene como primer punto firme localizado a Antonio de Trueba, 1872.
+
+Estado: 100% para cierre público estable. Quedan como trabajo futuro no bloqueante el dominio propio, redirecciones 301, enlaces externos de autoridad y mejoras avanzadas de schema.
+
 
 ## V4.16G — Labayru/Labairu cerrado como control secundario (2026-07-05)
 
@@ -21,7 +27,7 @@ La fase V4.16E aplica los quick wins de la auditoría GEO/SEO: `FAQPage`, `Datas
 
 # Estado actual — Montes Bocineros de Bizkaia
 
-**Versión editorial vigente:** V4.16G — Labayru/Labairu como control secundario  
+**Versión editorial vigente:** V4.17 — Cierre público y tag estable  
 **Fecha:** 2026-07-05  
 **Estado técnico:** estable tras V4.16D, hotfix YAML y V4.16E GEO/SEO  
 **Estado documental:** tesis crítica reforzada; frentes Delmas, Iturriza, prensa anterior a 1872 y Labayru cerrados sin adelantar Trueba

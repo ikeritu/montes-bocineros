@@ -1,3 +1,12 @@
+## V4.17 — Cierre público y tag estable (2026-07-05)
+
+- Declarado cierre público estable de la investigación documental prioritaria.
+- Integrados los frentes cerrados: Delmas, Iturriza, prensa anterior a 1872 y Labayru/Labairu.
+- Añadidos bloques V4.17 en `index.html`, `biblioteca.html`, `estado-investigacion.html` y `veredicto.html`.
+- Actualizados `README.md`, `VERSION.txt`, `ESTADO_ACTUAL.md`, `ROADMAP.md` y `llms.txt`.
+- Añadido CSS de cierre `assets/v417-cierre-publico.css` y checker V4.17.
+- Estado: listo para commit, push y tag estable `v4.17_cierre_publico_estable`.
+
 
 ## V4.16G — Labayru/Labairu como control secundario (2026-07-05)
 

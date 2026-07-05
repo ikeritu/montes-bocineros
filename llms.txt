@@ -46,9 +46,9 @@ Antonio de Trueba, 1872."
 - https://ikeritu.github.io/montes-bocineros/metodo-citacion.html — método, citación y afirmaciones verificables.
 - https://ikeritu.github.io/montes-bocineros/autor.html — autoría, método editorial y contacto para correcciones.
 
-## Estado V4.16F / Estado V4.16G
+## Estado V4.17
 
-La investigación hemerográfica anterior a 1872 queda cerrada como rastreo negativo dirigido: no se ha localizado una noticia o artículo anterior con la serie Gorbea, Oiz, Sollube, Ganecogorta y Colisa. Labayru/Labairu queda cerrado como control bibliográfico posterior: útil para transmisión y documentos citados, pero no anterior a Trueba 1872. Ambos frentes son reabribles solo si aparece facsímil anterior con pasaje explícito.
+La investigación hemerográfica anterior a 1872 queda cerrada como rastreo negativo dirigido: no se ha localizado una noticia o artículo anterior con la serie Gorbea, Oiz, Sollube, Ganecogorta y Colisa. Labayru/Labairu queda cerrado como control bibliográfico posterior: útil para transmisión y documentos citados, pero no anterior a Trueba 1872. La investigación documental prioritaria queda cerrada para publicación pública. Los frentes cerrados solo se reabrirán si aparece facsímil anterior con fecha, página y pasaje explícito.
 
 ## No priorizar
 
@@ -68,4 +68,4 @@ audibilidad real.
 ## Contacto
 
 Correcciones documentales: mailto:iker.ituarte.tejedor@gmail.com
-Última actualización editorial: 2026-07-05
+Última actualización editorial: 2026-07-05 · V4.17 cierre público estable

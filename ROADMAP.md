@@ -6,10 +6,10 @@
 - [x] V4.16E — GEO/SEO Quick Wins: FAQPage, Dataset, llms.txt, TL;DR y sitemap.
 - [x] V4.16F — Prensa anterior a 1872: rastreo negativo dirigido.
 - [x] V4.16G — Labayru/Labairu como control secundario posterior.
-- [ ] V4.17 — Cierre público y tag estable.
+- [x] V4.17 — Cierre público y tag estable.
 - [ ] V4.18 — Dominio propio / 301 / señales externas de autoridad.
 
-Estado estimado: 97% completado, 3% pendiente para cierre público estable.
+Estado estimado: 100% completado para cierre público estable.
 
 
 
