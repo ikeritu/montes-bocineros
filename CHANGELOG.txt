@@ -1,5 +1,16 @@
 # Changelog — Montes Bocineros de Bizkaia
 
+## V4.16D — Producción limpia según auditoría
+
+- Añadido `_config.yml` para excluir de GitHub Pages/Jekyll las notas internas `.md` y `.txt`, manteniendo públicos `llms.txt` y `robots.txt`.
+- Eliminado el backup HTML público `guia-lector.BACKUP_TRUEBA_MARKERS.html` mediante script de aplicación.
+- Sustituidos enlaces públicos a notas internas por rutas HTML públicas.
+- Limpiado `.gitignore` duplicado.
+- Añadidos `scripts/apply_v4_16d_produccion_limpia.py` y `scripts/check_v4_16d_produccion_limpia.py`.
+- Sin cambios en la tesis documental: Trueba 1872 sigue siendo el primer punto firme de lista nominal completa.
+
+
+
 
 ## V4.16C — Iturriza 1790 positivo institucional sin lista nominal
 

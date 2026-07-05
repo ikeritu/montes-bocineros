@@ -12,6 +12,7 @@
 - [x] V4.16A — Eje documental verificado.
 - [x] V4.16B — Delmas 1864 revisado sin positivo.
 - [x] V4.16C — Iturriza 1790 positivo institucional sin lista nominal.
+- [x] V4.16D — Producción limpia según auditoría.
 
 ## Plan mínimo desde V4.14
 
@@ -72,6 +73,17 @@
 - [x] Confirmar ausencia de lista nominal Gorbea, Oiz, Sollube, Ganecogorta y Colisa en los bloques revisados.
 - [x] Clasificar Iturriza como positivo institucional fuerte sin adelantar a Trueba 1872.
 - [x] Añadir checker `scripts/check_v4_16c_iturriza_1790.py`.
+
+
+### V4.16D — Producción limpia según auditoría
+
+- [x] Proteger notas internas `.md`/`.txt` mediante `_config.yml`.
+- [x] Mantener `llms.txt` y `robots.txt` como archivos públicos deliberados.
+- [x] Eliminar backups HTML publicados.
+- [x] Sustituir enlaces públicos a notas internas por rutas HTML públicas.
+- [x] Limpiar `.gitignore` duplicado.
+- [x] Mantener checkers históricos compatibles.
+- [ ] Dejar CSS, `alt` de imágenes y hero HTML para fase posterior.
 
 ### V4.16 — Investigación documental prioritaria
 

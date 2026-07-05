@@ -1,8 +1,8 @@
 # Estado actual — Montes Bocineros de Bizkaia
 
-**Versión editorial vigente:** V4.16C — Iturriza 1790 positivo institucional sin lista nominal  
+**Versión editorial vigente:** V4.16D — Producción limpia según auditoría  
 **Fecha:** 2026-06-30  
-**Estado técnico:** estable tras V4.16C  
+**Estado técnico:** estable tras V4.16D  
 **Estado documental:** tesis crítica provisional reforzada con eje documental verificado
 
 ## 1. Estado técnico vigente
@@ -19,6 +19,7 @@ Fases cerradas:
 - [x] V4.16A — Eje documental verificado.
 - [x] V4.16B — Delmas 1864 revisado sin positivo.
 - [x] V4.16C — Iturriza 1790 positivo institucional sin lista nominal.
+- [x] V4.16D — Producción limpia según auditoría.
 
 Checkers vigentes:
 
@@ -165,4 +166,14 @@ Iturriza 1790 queda revisado de forma dirigida:
 - Descartes dirigidos: capítulos 31-33 sobre Jaun Zuria / Arrigorriaga; capítulo 62 sobre escudo y árbol de Guernica; Libro III sobre Larrabezua / Rigoitia; apéndice documental.
 - Resultado: no se localiza Gorbea, Oiz, Sollube, Ganecogorta y Colisa como lista nominal completa.
 - Decisión: Iturriza refuerza el sustrato institucional anterior a Trueba, pero no adelanta el primer punto firme de la lista nominal completa.
+
+## 13. Resultado V4.16D
+
+Se ejecuta una fase de saneamiento técnico derivada del informe de auditoría web:
+
+- `_config.yml` excluye las notas internas `.md`/`.txt` de la publicación de GitHub Pages/Jekyll.
+- Se conserva `llms.txt` y `robots.txt` como contenido público deliberado.
+- Se elimina el respaldo público `guia-lector.BACKUP_TRUEBA_MARKERS.html`.
+- Se sustituyen enlaces públicos a notas internas por páginas HTML públicas.
+- La tesis histórica no cambia: Delmas e Iturriza no adelantan la lista nominal completa y Trueba 1872 sigue como primer punto firme verificado.
 

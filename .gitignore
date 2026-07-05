@@ -1,26 +1,25 @@
-
-# Basura del sistema / copias accidentales
-$Recycle.Bin/
-*.part
-*.tmp
-*.mp4
-
-# Basura del sistema / archivos accidentales
-$Recycle.Bin/
-*.part
-*.tmp
-*.mp4
-
-
-# Basura del sistema / archivos accidentales
+# Sistema operativo / temporales
 $Recycle.Bin/
 **/$Recycle.Bin/
-*.part
-*.tmp
-*.mp4
-
-
-# Carpetas accidentales de Windows
 $GetCurrent/
 $Windows.~WS/
 
+# Descargas y temporales
+*.part
+*.tmp
+*.temp
+*.bak
+*.backup
+*.BACKUP
+*.mp4
+
+# Backups HTML accidentales en producción
+*.BACKUP_*.html
+*BACKUP*.html
+
+# Entornos locales
+.env
+.venv/
+venv/
+__pycache__/
+.pytest_cache/

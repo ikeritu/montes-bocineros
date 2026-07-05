@@ -14,4 +14,4 @@ OK montes no conserva mapa-estatico-wrapper
 OK veredicto contiene matiz clave sin versión
 OK veredicto matiz usa tarjeta hero
 OK veredicto conserva síntesis crítica
-OK cabecera/Profundizar homogéneo en 36 páginas
+OK cabecera/Profundizar homogéneo en 35 páginas

@@ -127,13 +127,6 @@ OK glosario.html: header presente
 OK glosario.html: nav usa Síntesis crítica
 OK glosario.html: bloque Apoyar único
 OK glosario.html: footer Información/Contacto
-OK guia-lector.BACKUP_TRUEBA_MARKERS.html: CSS V4.11D enlazado
-OK guia-lector.BACKUP_TRUEBA_MARKERS.html: CSS V4.11E enlazado
-OK guia-lector.BACKUP_TRUEBA_MARKERS.html: CSS V4.11I enlazado
-OK guia-lector.BACKUP_TRUEBA_MARKERS.html: header presente
-OK guia-lector.BACKUP_TRUEBA_MARKERS.html: nav usa Síntesis crítica
-OK guia-lector.BACKUP_TRUEBA_MARKERS.html: bloque Apoyar único
-OK guia-lector.BACKUP_TRUEBA_MARKERS.html: footer Información/Contacto
 OK guia-lector.html: CSS V4.11D enlazado
 OK guia-lector.html: CSS V4.11E enlazado
 OK guia-lector.html: CSS V4.11I enlazado
