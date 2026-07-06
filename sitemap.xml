@@ -41,11 +41,6 @@
     <priority>0.82</priority>
   </url>
   <url>
-    <loc>https://montesbocineros.eus/estado-investigacion.html</loc>
-    <lastmod>2026-07-06</lastmod>
-    <priority>0.82</priority>
-  </url>
-  <url>
     <loc>https://montesbocineros.eus/trueba-facsimil.html</loc>
     <lastmod>2026-07-06</lastmod>
     <priority>0.82</priority>
@@ -74,25 +69,5 @@
     <loc>https://montesbocineros.eus/autor.html</loc>
     <lastmod>2026-07-06</lastmod>
     <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://montesbocineros.eus/auditoria.html</loc>
-    <lastmod>2026-07-06</lastmod>
-    <priority>0.55</priority>
-  </url>
-  <url>
-    <loc>https://montesbocineros.eus/comparativa.html</loc>
-    <lastmod>2026-07-06</lastmod>
-    <priority>0.55</priority>
-  </url>
-  <url>
-    <loc>https://montesbocineros.eus/informes-acusticos.html</loc>
-    <lastmod>2026-07-06</lastmod>
-    <priority>0.50</priority>
-  </url>
-  <url>
-    <loc>https://montesbocineros.eus/llorente-madoz-trueba.html</loc>
-    <lastmod>2026-07-06</lastmod>
-    <priority>0.50</priority>
   </url>
 </urlset>

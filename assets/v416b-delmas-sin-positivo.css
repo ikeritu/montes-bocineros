@@ -22,6 +22,12 @@
   letter-spacing: .04em;
   text-transform: uppercase;
 }
+.v416b-delmas-panel h2,
+.v416b-section h2{color:#fff;}
+.v416b-delmas-panel p,
+.v416b-section p{color:rgba(255,255,255,.86);}
+.v416b-delmas-panel p a,
+.v416b-section p a{color:#f0d98a;}
 .v416b-grid{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
