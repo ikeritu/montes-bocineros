@@ -1,3 +1,11 @@
+# V4.18A — Dominio propio y Search Console (2026-07-06)
+
+El proyecto pasa a utilizar como dominio canónico público `https://montesbocineros.eus/`. Se actualizan `CNAME`, `robots.txt`, `sitemap.xml`, `llms.txt`, canonical, Open Graph, Twitter Card y JSON-LD para que la URL pública principal deje de ser `https://ikeritu.github.io/montes-bocineros/` y pase al dominio propio.
+
+**Decisión:** GitHub Pages sigue siendo el origen técnico, pero el dominio público y citable es `montesbocineros.eus`. Search Console queda preparado: verificar propiedad del dominio o prefijo URL y enviar `https://montesbocineros.eus/sitemap.xml`.
+
+**Tesis vigente:** sin cambios. Trueba 1872 sigue siendo el primer punto firme localizado para Gorbea, Oiz, Sollube, Ganecogorta y Colisa.
+
 # V4.17.2 — Goicolea facsímil localizado, sin positivo nominal (2026-07-06)
 
 Goicolea/Goycolea queda incorporado como control documental localizado gracias al facsímil manuscrito de la *Memoria y nómina de los primeros Señores de Vizcaya*. La revisión visual inicial permite identificar el testimonio y su materia señorial/genealógica/banderiza, pero no localiza una lista nominal completa de los cinco montes.

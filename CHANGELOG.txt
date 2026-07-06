@@ -1,3 +1,13 @@
+## V4.18A — Dominio propio y Search Console (2026-07-06)
+
+- Configurado `CNAME` con `montesbocineros.eus`.
+- Sustituidas URLs canónicas, Open Graph, Twitter Card y JSON-LD de `https://ikeritu.github.io/montes-bocineros/` a `https://montesbocineros.eus/`.
+- Actualizados `robots.txt` y `sitemap.xml` para el dominio propio.
+- Actualizado `llms.txt` para señalar como URLs prioritarias las rutas del dominio `.eus`.
+- Actualizados `README.md`, `VERSION.txt`, `ESTADO_ACTUAL.md` y `ROADMAP.md`.
+- Añadidos `scripts/apply_v4_18a_dominio_search_console.py` y `scripts/check_v4_18a_dominio_search_console.py`.
+- La tesis histórica no cambia: Trueba 1872 sigue siendo el primer punto firme localizado para la lista completa Gorbea, Oiz, Sollube, Ganecogorta y Colisa.
+
 ## V4.17.2 — Goicolea facsímil localizado, sin positivo nominal (2026-07-06)
 
 - Localizado e integrado como control documental el facsímil manuscrito de la `Memoria y nómina de los primeros Señores de Vizcaya` asociado al frente Goicolea/Goycolea.

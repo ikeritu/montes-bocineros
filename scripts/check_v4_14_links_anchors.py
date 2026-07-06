@@ -5,7 +5,7 @@
 Comprueba:
 - href/src internos que apuntan a archivos existentes;
 - anchors internos que apuntan a ids/names existentes;
-- sitemap con rutas reales bajo GitHub Pages (/montes-bocineros/);
+- sitemap con rutas reales bajo el dominio canónico (montesbocineros.eus);
 - páginas canónicas de raíz sin noindex incluidas en sitemap.
 
 No valida enlaces externos: esos se mantienen fuera de esta fase para evitar falsos
@@ -20,7 +20,7 @@ import re
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
-PUBLIC_BASE_PATH = "/montes-bocineros/"
+PUBLIC_BASE_PATH = "/"
 IGNORED_PREFIXES = ("mailto:", "tel:", "javascript:", "data:", "#")
 IGNORED_SCHEMES = {"http", "https"}
 LINK_ATTRS = {

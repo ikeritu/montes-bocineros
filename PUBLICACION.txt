@@ -79,10 +79,10 @@ Cloudflare Pages: conectar repositorio y desplegar.
 ## V5.37 — URL GitHub Pages configurada
 
 URL:
-https://ikeritu.github.io/montes-bocineros/
+https://montesbocineros.eus/
 
 Mapbox:
 - Se usa token público `pk.`.
 - El token debe mantenerse restringido en Mapbox a:
-  https://ikeritu.github.io/montes-bocineros/
+  https://montesbocineros.eus/
 - No publicar ni aceptar tokens `secret token`.

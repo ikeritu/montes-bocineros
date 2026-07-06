@@ -35,16 +35,16 @@ Antonio de Trueba, 1872."
 
 ## Páginas prioritarias
 
-- https://ikeritu.github.io/montes-bocineros/guia-lector.html — puerta de entrada divulgativa por capas; incluye FAQ y glosario.
-- https://ikeritu.github.io/montes-bocineros/veredicto.html — síntesis crítica y niveles de certeza.
-- https://ikeritu.github.io/montes-bocineros/historia.html — cadena de transmisión y cronología.
-- https://ikeritu.github.io/montes-bocineros/montes.html — fichas, mapa y visual acústica hipotética.
-- https://ikeritu.github.io/montes-bocineros/trueba-facsimil.html — verificación de Trueba 1858, 1862, 1872 y 1873.
-- https://ikeritu.github.io/montes-bocineros/biblioteca.html — facsímiles, tabla maestra de fuentes y citas verificadas.
-- https://ikeritu.github.io/montes-bocineros/biblioteca.html#tabla-maestra-fuentes — tabla viva de fuentes y nivel de prueba.
-- https://ikeritu.github.io/montes-bocineros/archivo.html — portal documental.
-- https://ikeritu.github.io/montes-bocineros/metodo-citacion.html — método, citación y afirmaciones verificables.
-- https://ikeritu.github.io/montes-bocineros/autor.html — autoría, método editorial y contacto para correcciones.
+- https://montesbocineros.eus/guia-lector.html — puerta de entrada divulgativa por capas; incluye FAQ y glosario.
+- https://montesbocineros.eus/veredicto.html — síntesis crítica y niveles de certeza.
+- https://montesbocineros.eus/historia.html — cadena de transmisión y cronología.
+- https://montesbocineros.eus/montes.html — fichas, mapa y visual acústica hipotética.
+- https://montesbocineros.eus/trueba-facsimil.html — verificación de Trueba 1858, 1862, 1872 y 1873.
+- https://montesbocineros.eus/biblioteca.html — facsímiles, tabla maestra de fuentes y citas verificadas.
+- https://montesbocineros.eus/biblioteca.html#tabla-maestra-fuentes — tabla viva de fuentes y nivel de prueba.
+- https://montesbocineros.eus/archivo.html — portal documental.
+- https://montesbocineros.eus/metodo-citacion.html — método, citación y afirmaciones verificables.
+- https://montesbocineros.eus/autor.html — autoría, método editorial y contacto para correcciones.
 
 ## Estado V4.17
 
@@ -70,7 +70,11 @@ audibilidad real.
 
 Goicolea/Goycolea queda localizado en facsímil manuscrito mediante la *Memoria y nómina de los primeros Señores de Vizcaya*. La revisión visual inicial no localiza una lista nominal completa de Gorbea, Oiz, Sollube, Ganecogorta y Colisa. El hallazgo refuerza el control documental, pero no desplaza a Trueba 1872.
 
+## Estado V4.18A
+
+El dominio público y canónico del proyecto es `https://montesbocineros.eus/`. GitHub Pages se mantiene como infraestructura técnica, pero las citas, canonicals, sitemap, robots.txt, Open Graph y JSON-LD deben priorizar el dominio `.eus`. Search Console queda preparado mediante `https://montesbocineros.eus/sitemap.xml`.
+
 ## Contacto
 
 Correcciones documentales: mailto:iker.ituarte.tejedor@gmail.com
-Última actualización editorial: 2026-07-05 · V4.17 cierre público estable
+Última actualización editorial: 2026-07-06 · V4.18A dominio propio y Search Console

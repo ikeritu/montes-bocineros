@@ -2,7 +2,7 @@
 
 Cita recomendada:
 
-> Ituarte, Iker. *Las cinco bocinas documentadas en torno a Gernika: análisis crítico de fuentes, recepción y territorio*. Versión 1.0 pública provisional, 2026. https://ikeritu.github.io/montes-bocineros/
+> Ituarte, Iker. *Las cinco bocinas documentadas en torno a Gernika: análisis crítico de fuentes, recepción y territorio*. Versión 1.0 pública provisional, 2026. https://montesbocineros.eus/
 
 ## Cita breve
 

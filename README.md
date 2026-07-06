@@ -2,15 +2,15 @@
 
 Investigación crítica y didáctica sobre la tradición de las **cinco bocinas**, los **vozineros** y la fijación posterior de la lista de los cinco montes bocineros vinculados a Gernika.
 
-Web publicada: <https://ikeritu.github.io/montes-bocineros/>
+Web publicada: <https://montesbocineros.eus/>
 
 ## Estado vigente
 
-**Versión editorial vigente:** V4.17.2 — Goicolea facsímil localizado, sin positivo nominal  
+**Versión editorial vigente:** V4.18A — Dominio propio y Search Console  
 **Fecha:** 2026-07-06  
-**Estado:** estable para publicación pública; Goicolea/Goycolea integrado como control documental localizado
+**Estado:** estable en dominio propio `montesbocineros.eus`; Search Console preparado
 
-Goicolea/Goycolea queda añadido como facsímil manuscrito localizado: refuerza el corpus, pero no adelanta la lista nominal completa anterior a Trueba 1872.
+Goicolea/Goycolea queda añadido como facsímil manuscrito localizado: refuerza el corpus, pero no adelanta la lista nominal completa anterior a Trueba 1872. V4.18A cambia el dominio canónico público a `https://montesbocineros.eus/` sin alterar la tesis histórica.
 
 Este repositorio acumula muchas fases de trabajo, informes auxiliares y QA técnicos. El estado vigente no debe deducirse de informes antiguos, sino de estos archivos de control:
 
@@ -57,4 +57,6 @@ Lista localizada: **Gorbea, Oiz, Sollube, Ganecogorta y Colisa**.
 - `FAQPage` y `Dataset` añadidos en V4.16E.
 - `llms.txt` actualizado para lectura por IA.
 - Sitemap y metadatos revisados.
-- Cierre público V4.17 listo para tag estable.
+- Dominio propio `montesbocineros.eus` configurado como URL canónica.
+- Search Console queda preparado para verificar propiedad y enviar sitemap.
+- Cierre público estable mantenido tras V4.17.2.

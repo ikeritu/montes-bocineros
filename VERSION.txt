@@ -1,1 +1,3 @@
-V4.17.2 — Goicolea facsímil localizado, sin positivo nominal
+V4.18A — Dominio propio y Search Console
+Base documental estable: V4.17.2 — Goicolea facsímil localizado, sin positivo nominal
+Cierre público estable: V4.17

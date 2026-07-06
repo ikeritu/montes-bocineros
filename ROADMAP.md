@@ -1,3 +1,15 @@
+# V4.18A — Roadmap vivo
+
+- [x] V4.17 — Cierre público y tag estable.
+- [x] V4.17.1 — Mejora visual de `historia.html` si fue etiquetada en local.
+- [x] V4.17.2 — Goicolea/Goycolea: facsímil localizado, revisión visual inicial sin positivo nominal.
+- [x] V4.18A — Dominio propio `montesbocineros.eus` + Search Console preparado.
+- [ ] V4.18B — Verificación Search Console, sitemap enviado y seguimiento de indexación.
+- [ ] V4.18C — Analítica respetuosa con consentimiento, solo si se decide activar medición.
+
+Estado estimado: 100% completado para cierre público estable y dominio propio. La búsqueda documental prioritaria queda cerrada; quedan mejoras de autoridad, indexación y difusión.
+
+
 # V4.17.2 — Roadmap vivo
 
 - [x] V4.17 — Cierre público y tag estable.

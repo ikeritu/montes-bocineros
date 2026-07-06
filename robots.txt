@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ikeritu.github.io/montes-bocineros/sitemap.xml
+Sitemap: https://montesbocineros.eus/sitemap.xml
