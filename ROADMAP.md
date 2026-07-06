@@ -1,3 +1,12 @@
+# V4.17.2 — Roadmap vivo
+
+- [x] V4.17 — Cierre público y tag estable.
+- [x] V4.17.1 — Mejora visual de `historia.html` si fue etiquetada en local.
+- [x] V4.17.2 — Goicolea/Goycolea: facsímil localizado, revisión visual inicial sin positivo nominal.
+- [ ] V4.18 — Dominio propio / 301 / señales externas de autoridad.
+
+Estado estimado: 100% completado para cierre público estable. La búsqueda documental prioritaria queda cerrada; Goicolea queda como control localizado no bloqueante.
+
 
 ## Tras V4.16G — Roadmap vivo
 

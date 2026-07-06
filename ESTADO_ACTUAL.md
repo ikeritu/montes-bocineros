@@ -1,3 +1,11 @@
+# V4.17.2 — Goicolea facsímil localizado, sin positivo nominal (2026-07-06)
+
+Goicolea/Goycolea queda incorporado como control documental localizado gracias al facsímil manuscrito de la *Memoria y nómina de los primeros Señores de Vizcaya*. La revisión visual inicial permite identificar el testimonio y su materia señorial/genealógica/banderiza, pero no localiza una lista nominal completa de los cinco montes.
+
+**Decisión:** el frente Goicolea deja de ser un pendiente menor abierto y pasa a estado `facsímil localizado / revisión visual inicial sin positivo nominal`. Solo una transcripción paleográfica futura con página o folio verificable y enumeración explícita anterior a 1872 podría reabrir el veredicto.
+
+**Tesis vigente:** Trueba 1872 sigue siendo el primer punto firme localizado para Gorbea, Oiz, Sollube, Ganecogorta y Colisa.
+
 ## V4.17 — Cierre público estable (2026-07-05)
 
 La investigación documental prioritaria queda cerrada para publicación pública. Los frentes de Delmas, Iturriza, prensa anterior a 1872 y Labayru/Labairu han sido revisados o reclasificados sin adelantar la lista nominal completa anterior a Trueba. La tesis estable es: las bocinas/vozinas y la convocatoria foral están documentadas, pero la lista Gorbea, Oiz, Sollube, Ganecogorta y Colisa tiene como primer punto firme localizado a Antonio de Trueba, 1872.

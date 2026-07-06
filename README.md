@@ -6,9 +6,11 @@ Web publicada: <https://ikeritu.github.io/montes-bocineros/>
 
 ## Estado vigente
 
-**Versión editorial vigente:** V4.17 — Cierre público y tag estable  
-**Fecha:** 2026-07-05  
-**Estado:** estable para publicación pública
+**Versión editorial vigente:** V4.17.2 — Goicolea facsímil localizado, sin positivo nominal  
+**Fecha:** 2026-07-06  
+**Estado:** estable para publicación pública; Goicolea/Goycolea integrado como control documental localizado
+
+Goicolea/Goycolea queda añadido como facsímil manuscrito localizado: refuerza el corpus, pero no adelanta la lista nominal completa anterior a Trueba 1872.
 
 Este repositorio acumula muchas fases de trabajo, informes auxiliares y QA técnicos. El estado vigente no debe deducirse de informes antiguos, sino de estos archivos de control:
 

@@ -1,3 +1,12 @@
+## V4.17.2 — Goicolea facsímil localizado, sin positivo nominal (2026-07-06)
+
+- Localizado e integrado como control documental el facsímil manuscrito de la `Memoria y nómina de los primeros Señores de Vizcaya` asociado al frente Goicolea/Goycolea.
+- Añadidos bloques V4.17.2 en `biblioteca.html`, `estado-investigacion.html` y `veredicto.html`.
+- Actualizada la tabla viva de fuentes: Goicolea/Goycolea pasa de pista pendiente a facsímil localizado con revisión visual inicial sin positivo nominal.
+- Actualizados `README.md`, `VERSION.txt`, `ESTADO_ACTUAL.md`, `ROADMAP.md` y `llms.txt`.
+- Añadidos `assets/v4172-goicolea-facsimil.css`, `scripts/apply_v4_17_2_goicolea_facsimil.py` y `scripts/check_v4_17_2_goicolea_facsimil.py`.
+- La tesis no cambia: Trueba 1872 sigue siendo el primer punto firme localizado para la lista completa Gorbea, Oiz, Sollube, Ganecogorta y Colisa.
+
 ## V4.17 — Cierre público y tag estable (2026-07-05)
 
 - Declarado cierre público estable de la investigación documental prioritaria.

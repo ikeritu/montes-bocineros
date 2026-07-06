@@ -65,6 +65,11 @@ primarias, bibliografía verificable o catálogos fiables.
 La visual acústica es didáctica: no es simulación científica ni prueba de
 audibilidad real.
 
+
+## Estado V4.17.2
+
+Goicolea/Goycolea queda localizado en facsímil manuscrito mediante la *Memoria y nómina de los primeros Señores de Vizcaya*. La revisión visual inicial no localiza una lista nominal completa de Gorbea, Oiz, Sollube, Ganecogorta y Colisa. El hallazgo refuerza el control documental, pero no desplaza a Trueba 1872.
+
 ## Contacto
 
 Correcciones documentales: mailto:iker.ituarte.tejedor@gmail.com

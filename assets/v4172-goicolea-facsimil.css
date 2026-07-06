@@ -1,0 +1,45 @@
+/* V4.17.2 — Goicolea/Goycolea facsímil localizado */
+.v4172-goicolea-panel,
+.v4172-goicolea-section {
+  margin: clamp(1.35rem, 3vw, 2.6rem) 0;
+  padding: clamp(1rem, 2.5vw, 1.55rem);
+  border: 1px solid rgba(154, 101, 38, .26);
+  border-radius: 20px;
+  background: linear-gradient(135deg, rgba(255,253,247,.98), rgba(249,240,222,.92));
+  box-shadow: 0 18px 42px rgba(78, 52, 20, .10);
+  scroll-margin-top: 7rem;
+}
+.v4172-kicker {
+  display:inline-flex;
+  margin-bottom:.55rem;
+  font-size:.78rem;
+  font-weight:900;
+  letter-spacing:.06em;
+  text-transform:uppercase;
+  color:#9a6526;
+}
+.v4172-goicolea-panel h3,
+.v4172-goicolea-section h2 { margin-top:0; color:#173f34; }
+.v4172-grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(210px,1fr));
+  gap:.8rem;
+  margin:1rem 0;
+}
+.v4172-grid article {
+  padding:.95rem 1rem;
+  border-radius:15px;
+  border:1px solid rgba(154,101,38,.20);
+  background:rgba(255,255,255,.80);
+}
+.v4172-grid strong { display:block; margin-bottom:.25rem; color:#173f34; }
+.v4172-grid span,
+.v4172-goicolea-panel p,
+.v4172-goicolea-section p { color:#405a51; }
+.v4172-verdict {
+  margin-top:1rem !important;
+  padding:.9rem 1rem;
+  border-left:4px solid #9a6526;
+  background:rgba(255,255,255,.84);
+  border-radius:12px;
+}
