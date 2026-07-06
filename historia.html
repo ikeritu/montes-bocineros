@@ -135,6 +135,110 @@
 <link rel="stylesheet" href="assets/v411i-production-polish.css?v=4.11i"/>
 <link rel="stylesheet" href="assets/v412-author-social.css?v=4.12"/>
 <link rel="stylesheet" href="assets/v416e-geo-seo-quickwins.css?v=4.16e"/>
+<style id="historia-fun-style">
+:root{--hh-green:#133f35;--hh-green2:#1f5d4a;--hh-gold:#c58b42;--hh-gold-soft:#e3a949;}
+.hh-hero{position:relative;overflow:hidden;color:#eef0e6;
+  background:radial-gradient(120% 120% at 88% -10%,rgba(227,169,73,.20),transparent 55%),
+  radial-gradient(90% 120% at 8% 110%,rgba(31,93,74,.55),transparent 60%),
+  linear-gradient(165deg,#0f3a30 0%,#133f35 55%,#16493c 100%);
+  padding:clamp(3rem,7vw,5.4rem) 22px clamp(2.4rem,5vw,3.4rem);}
+.hh-hero::after{content:"";position:absolute;inset:0;pointer-events:none;
+  background:repeating-linear-gradient(115deg,rgba(255,255,255,.03) 0 2px,transparent 2px 26px);opacity:.5;}
+.hh-wrap{max-width:1040px;margin:0 auto;position:relative;z-index:2;}
+.hh-eyebrow{display:inline-flex;align-items:center;gap:.5rem;padding:.4rem .85rem;border-radius:999px;
+  background:rgba(227,169,73,.16);border:1px solid rgba(227,169,73,.35);color:var(--hh-gold-soft);
+  font-weight:800;font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;}
+.hh-hero h1{color:#fff;font-size:clamp(2.1rem,5.6vw,3.6rem);line-height:1.03;font-weight:700;
+  letter-spacing:-.02em;margin:1.1rem 0 .4rem;}
+.hh-hero h1 em{color:var(--hh-gold-soft);font-style:normal;}
+.hh-hero .hh-lead{font-size:clamp(1.05rem,2.1vw,1.24rem);color:#d8e2da;max-width:64ch;margin:1rem 0 1.6rem;}
+.hh-waves{display:flex;align-items:flex-end;gap:.32rem;height:34px;margin:.2rem 0 1.4rem;}
+.hh-waves span{width:6px;border-radius:6px;background:linear-gradient(var(--hh-gold-soft),var(--hh-gold));
+  transform-origin:bottom;animation:hhwave 1.4s ease-in-out infinite;}
+.hh-waves span:nth-child(1){height:40%;animation-delay:0s}
+.hh-waves span:nth-child(2){height:70%;animation-delay:.1s}
+.hh-waves span:nth-child(3){height:100%;animation-delay:.2s}
+.hh-waves span:nth-child(4){height:65%;animation-delay:.3s}
+.hh-waves span:nth-child(5){height:85%;animation-delay:.4s}
+@keyframes hhwave{0%,100%{transform:scaleY(.55)}50%{transform:scaleY(1)}}
+@media (prefers-reduced-motion:reduce){.hh-waves span{animation:none}}
+.hh-cta{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:.4rem;}
+.hh-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.7rem 1.15rem;border-radius:999px;
+  font-weight:800;text-decoration:none;border:1px solid rgba(255,255,255,.24);
+  background:rgba(255,255,255,.08);color:#f1f3ea;transition:.15s;}
+.hh-btn:hover{background:rgba(255,255,255,.16);border-color:var(--hh-gold-soft);transform:translateY(-1px);}
+.hh-btn--primary{background:var(--hh-gold);border-color:var(--hh-gold);color:#1c1208;}
+.hh-btn--primary:hover{background:var(--hh-gold-soft);border-color:var(--hh-gold-soft);}
+.hh-tldr{margin:1.6rem 0 0;padding:1rem 1.15rem;border-radius:16px;
+  background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.16);}
+.hh-kick{display:block;font-size:.74rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--hh-gold-soft);margin-bottom:.35rem;}
+.hh-tldr p{margin:0;color:#e7ede7;font-size:.98rem;}
+.hh-truths{display:grid;grid-template-columns:repeat(3,1fr);gap:.85rem;margin-top:1.5rem;}
+.hh-truth{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.13);border-radius:14px;
+  padding:1rem;border-top:3px solid var(--c,#fff);}
+.hh-truth.ok{--c:#6fd6a8}.hh-truth.mid{--c:var(--hh-gold-soft)}.hh-truth.no{--c:#e98c6e}
+.hh-truth strong{display:flex;align-items:center;gap:.4rem;color:#fff;font-size:.95rem;margin-bottom:.3rem;}
+.hh-truth span{color:#cdd8cf;font-size:.85rem;line-height:1.5;}
+@media(max-width:720px){.hh-truths{grid-template-columns:1fr}}
+.hh-section{max-width:1040px;margin:0 auto;padding:clamp(1.6rem,4vw,2.6rem) 22px;}
+.hh-hook{display:inline-flex;align-items:center;gap:.45rem;font-size:.78rem;font-weight:800;
+  letter-spacing:.07em;text-transform:uppercase;color:var(--hh-gold);margin-bottom:.4rem;}
+.hh-h2{font-size:clamp(1.5rem,3.4vw,2.2rem);line-height:1.12;letter-spacing:-.02em;margin:.2rem 0 .8rem;color:var(--hh-green);}
+.hh-p{color:#3f4d45;font-size:1.03rem;max-width:70ch;}
+.hh-quest{background:linear-gradient(135deg,rgba(19,63,53,.06),rgba(197,139,66,.09));
+  border:1px solid rgba(19,63,53,.14);border-radius:22px;padding:clamp(1.4rem,3vw,2.2rem);margin-top:1rem;}
+.hh-quest .big{font-size:clamp(1.3rem,3.1vw,1.95rem);font-weight:700;color:var(--hh-green);line-height:1.2;letter-spacing:-.01em;margin:.3rem 0 .7rem;}
+.hh-quest .big em{color:var(--hh-gold);font-style:normal;}
+.hh-layers{display:grid;gap:.7rem;margin-top:1.2rem;}
+.hh-layer{display:grid;grid-template-columns:auto 1fr;gap:.9rem;align-items:start;
+  background:rgba(255,255,255,.7);border:1px solid rgba(19,63,53,.12);border-radius:16px;padding:.9rem 1rem;
+  border-left:5px solid var(--lc,#c58b42);}
+.hh-layer .n{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;font-weight:900;
+  background:var(--lc,#c58b42);color:#fff;font-size:.95rem;}
+.hh-layer h4{margin:.1rem 0 .2rem;color:var(--hh-green);font-size:1.02rem;}
+.hh-layer p{margin:0;color:#4b5a52;font-size:.92rem;}
+.hh-layer.l1{--lc:#1f6f55}.hh-layer.l2{--lc:#29496f}.hh-layer.l3{--lc:#c58b42}.hh-layer.l4{--lc:#8f3e2f}
+.hh-caution{margin-top:1.1rem;padding:.8rem 1rem;border-left:4px solid var(--hh-gold);background:rgba(197,139,66,.1);border-radius:0 12px 12px 0;color:#5d3c16;font-size:.98rem;max-width:none;}
+.hh-pistas{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:1.2rem}
+@media(max-width:820px){.hh-pistas{grid-template-columns:1fr}}
+.hh-pista{background:rgba(255,255,255,.75);border:1px solid rgba(19,63,53,.12);border-radius:18px;padding:1.2rem;border-top:4px solid var(--pc,#c58b42);display:flex;flex-direction:column;gap:.5rem}
+.hh-pista.ok{--pc:#1f6f55}.hh-pista.late{--pc:#c58b42}
+.hh-pista h3{margin:.2rem 0;color:var(--hh-green);font-size:1.12rem}
+.hh-pista p{margin:0;color:#4b5a52;font-size:.94rem}
+.hh-pista .micro{font-size:.85rem;color:#6a5a3e;background:rgba(197,139,66,.1);padding:.5rem .65rem;border-radius:10px}
+.hh-inline{color:var(--hh-green2);font-weight:800;text-decoration:none}
+.hh-inline:hover{text-decoration:underline}
+.hh-actions{margin-top:1rem;display:flex;flex-wrap:wrap;gap:.5rem;align-items:center}
+.hh-quote{margin:1rem 0;padding:1rem 1.2rem;border-left:5px solid var(--hh-gold);background:rgba(197,139,66,.12);border-radius:0 16px 16px 0;font-size:1.12rem;font-style:italic;color:#4a3a1e}
+.hh-badge{display:inline-flex;align-items:center;padding:.2rem .6rem;border-radius:999px;font-size:.72rem;font-weight:800;letter-spacing:.03em;text-transform:uppercase;}
+.hh-badge.ok{background:rgba(31,111,85,.13);color:#176247}
+.hh-badge.warn{background:rgba(155,101,31,.14);color:#8a5a17}
+.hh-det{margin:1rem auto;max-width:1040px;border:1px solid rgba(19,63,53,.14);border-radius:16px;
+  background:rgba(255,250,241,.9);overflow:hidden;}
+.hh-det>summary{cursor:pointer;list-style:none;padding:1rem 1.2rem;font-weight:800;color:var(--hh-green);display:flex;align-items:center;gap:.6rem;}
+.hh-det>summary::-webkit-details-marker{display:none}
+.hh-det>summary::after{content:"+";margin-left:auto;font-size:1.3rem;color:var(--hh-gold);transition:.2s}
+.hh-det[open]>summary::after{content:"\2013";}
+.hh-det .hh-det-body{padding:0 1.2rem 1.2rem;color:#43514a;}
+.hh-det .hh-det-body p{font-size:.96rem}
+.hh-levels{display:grid;grid-template-columns:repeat(4,1fr);gap:.8rem;margin-top:1.2rem}
+@media(max-width:820px){.hh-levels{grid-template-columns:1fr 1fr}}
+.hh-level{background:#fff;border:1px solid rgba(19,63,53,.12);border-radius:16px;padding:1rem;border-left:6px solid var(--lc,#c58b42)}
+.hh-level.ok{--lc:#1f6f55}.hh-level.mid{--lc:#c58b42}.hh-level.late{--lc:#29496f}.hh-level.no{--lc:#8f3e2f}
+.hh-level p{margin:.5rem 0 0;color:#4b5a52;font-size:.9rem}
+.hh-next{background:radial-gradient(120% 120% at 90% -10%,rgba(227,169,73,.18),transparent 55%),linear-gradient(160deg,#133f35,#0f3a30);border-radius:24px;padding:clamp(1.6rem,4vw,2.6rem)}
+.hh-note{margin-top:1.2rem;padding:.9rem 1.1rem;background:rgba(19,63,53,.05);border:1px solid rgba(19,63,53,.12);border-radius:14px;font-size:.92rem;color:#43514a}
+.hh-quiz{max-width:1040px;margin:0 auto;padding:.5rem 22px}
+.hh-quiz-card{background:var(--hh-green);color:#eef0e6;border-radius:22px;padding:clamp(1.4rem,3vw,2rem);}
+.hh-quiz-card h3{color:#fff;margin:.2rem 0 .3rem;font-size:1.3rem}
+.hh-quiz-card .q{color:#d8e2da;margin-bottom:1rem}
+.hh-quiz-opts{display:flex;flex-wrap:wrap;gap:.6rem}
+.hh-opt{padding:.6rem 1rem;border-radius:999px;border:1px solid rgba(255,255,255,.25);background:rgba(255,255,255,.08);color:#f1f3ea;font-weight:700;cursor:pointer;font-size:.95rem;transition:.15s}
+.hh-opt:hover{background:rgba(255,255,255,.16)}
+.hh-opt.right{background:#6fd6a8;color:#0f3a30;border-color:#6fd6a8}
+.hh-opt.wrong{background:#e98c6e;color:#3a140c;border-color:#e98c6e}
+.hh-quiz-feedback{margin-top:1rem;font-size:.95rem;color:#eaf3ec;min-height:1.2em}
+</style>
 </head><body class="v13-page"><a class="skip-link" href="#contenido">Saltar al contenido</a>
 <header class="site-header">
 <div class="header-inner">
@@ -176,56 +280,95 @@
 </div>
 </div>
 </header>
-<!-- V4.2A_MERINDADES_MONTES_START -->
-<section class="v42a-merindades-box" aria-labelledby="v42a-merindades-title">
-  <span class="v42a-merindades-kicker">Actualización V4.2A · lectura documental</span>
-  <h2 id="v42a-merindades-title">De las merindades a los montes</h2>
-  <p>La línea documental más fuerte no apunta primero a una red medieval de cinco cumbres concretas, sino a una fórmula institucional: <strong>cinco bocinas</strong>, <strong>Gernika/Garnica</strong>, <strong>Junta General</strong>, <strong>cinco merindades</strong> y oficios como <strong>vozineros/bocineros</strong> y <strong>sayones</strong>.</p>
-  <div class="v42a-merindades-grid">
-    <div class="v42a-merindades-pill"><strong>Capa antigua</strong><span>Bocinas, merindades, Gernika y convocatoria de Junta.</span></div>
-    <div class="v42a-merindades-pill"><strong>Capa intermedia</strong><span>Llorente y Madoz transmiten o reinterpretan la fórmula en clave erudita.</span></div>
-    <div class="v42a-merindades-pill"><strong>Capa literaria</strong><span>Trueba desplaza la tradición hacia un paisaje simbólico de montes.</span></div>
-    <div class="v42a-merindades-pill"><strong>Capa fijada</strong><span>La lista Gorbeia, Oiz, Sollube, Ganekogorta y Kolitza/Colisa se consolida tarde.</span></div>
-  </div>
-  <p class="v42a-merindades-caution"><strong>Cautela:</strong> cinco bocinas no equivale automáticamente a cinco montes. La lista nominal moderna no queda probada como medieval por las fuentes revisadas.</p>
-</section>
-<!-- V4.2A_MERINDADES_MONTES_END -->
-
-<main class="v13-section" id="contenido">
-<section class="v13-panel">
-<span class="v13-hook">Empieza aquí</span>
-<h1 class="page-title">Historia de los Montes Bocineros y las cinco bocinas de Gernika</h1>
-<section class="geo-tldr" aria-label="Resumen citable de la historia documental">
-  <span class="geo-kicker">Resumen citable</span>
-  <p><strong>La cadena documental</strong> muestra bocinas/vozinas y llamamientos en el marco foral vizcaíno antes del siglo XIX, pero no una lista cerrada de cinco cumbres concretas. La transición hacia los montes nombrados se localiza en la recepción moderna, con Trueba 1872 como primer punto firme para la lista completa.</p>
-</section>
-
-<p class="lead">La tradición de los montes bocineros mezcla una base documental real con una construcción simbólica posterior. El objetivo de esta web es separar ambas cosas sin destruir el valor cultural de la tradición.</p><p class="v254-inline-help"><strong>Para leer esta página:</strong> “fuente” significa documento antiguo conservado; “facsímil” significa imagen o copia digital del original; “fuero” significa norma histórica propia de un territorio.</p>
-</section><section class="v13-panel universal-summary v190-summary"><span class="v13-hook">En pocas palabras</span><h2>La idea clave</h2><p>Las fuentes y estudios revisados sitúan referencias a bocinas/vozinas y a vozineros en la tradición foral. El número cinco aparece en testimonios transmitidos y en capas posteriores, pero debe leerse con crítica documental: cinco bocinas no equivalen automáticamente a cinco montes medievales concretos.</p><p>Lo que no aparece en las fuentes medievales revisadas es la lista cerrada de Gorbea, Oiz, Sollube, Ganecogorta y Colisa/Kolitza.</p><p class="v13-actions"><a class="btn btn-primary" href="montes.html">Siguiente: ver los montes</a></p></section>
-<section class="v13-panel v254-caution" id="alerta-numero-cinco">
-<span class="v13-hook">Cautela clave</span>
-<h2>El número “cinco” no debe mezclarse con la lista de montes</h2>
-<p>En esta investigación se separan tres niveles: <strong>bocinas o vozinas documentadas</strong>, <strong>formulaciones numéricas como “cinco”</strong> y <strong>la lista nominal de cinco montes concretos</strong>.</p>
-<p>Cuando una fuente medieval llega por transmisión o copia posterior, el dato se publica con ese matiz. Y aunque se hable de cinco bocinas, eso no prueba por sí solo que Gorbea, Oiz, Sollube, Ganecogorta y Colisa/Kolitza formasen ya una lista medieval cerrada.</p>
-</section>
-<section class="v13-grid">
-<article class="v13-card"><div><span class="v13-label ok">1 · Documentado</span><h3>Referencias a cinco vozinas</h3><p>El texto transmitido del Capitulado de Juan Núñez de Lara habla de cinco vozinas en contexto de Junta General en Gernika, pero no da la lista de montes.</p><p class="micro-note"><strong>Nota de identificación:</strong> este documento aparece a veces citado erróneamente como vinculado a “Juan Núñez de Balboa”. En esta web se mantiene “Juan Núñez de Lara”, señor de Vizcaya en el contexto tratado.</p></div><a class="btn" href="veredicto.html#prueba-fuente-por-fuente">Ver prueba visible</a></article>
-<article class="v13-card"><div><span class="v13-label ok">2 · Probado</span><h3>Había vozineros</h3><p>El Fuero Viejo, conservado en copia de 1600, menciona vozineros y sayones. Eso confirma una figura institucional de llamamiento o servicio foral.</p></div><a class="btn" href="biblioteca.html">Ver recortes</a></article>
-<article class="v13-card"><div><span class="v13-label late">3 · Posterior</span><h3>Los montes aparecen tarde</h3><p>Trueba habla en 1862 de cinco vocinas/cinco montes genéricos, y en 1872 aparece la lista Gorbea, Oiz, Sollube, Ganecogorta y Colisa con una fórmula cautelosa.</p></div><a class="btn" href="veredicto.html">Leer conclusión</a></article>
-</section>
-<section class="v13-panel v21d-audit-box" id="cadena-documental-resumida">
-<span class="v13-hook">Cadena documental resumida</span>
-<h2>De las bocinas al relato de los montes</h2>
-<p>La explicación más prudente no salta directamente de la Edad Media a los cinco montes actuales. Pasa por una cadena de transmisión que debe leerse por capas.</p>
-<div class="v21d-chain-grid">
-<article class="v21d-chain-card"><span class="v21d-pill ok">1321–1454 · corpus citado</span><h3>Rito institucional</h3><p>Bocinas, vozinas, vozineros y sayones aparecen en contexto de Juntas, merindades y Gernika. El rango procede del corpus trabajado por Barrio/Bañales; no debe leerse como una única fuente homogénea.</p></article>
-<article class="v21d-chain-card"><span class="v21d-pill pending">Lope / Goicolea / Ibargüen</span><h3>Leyenda y cultura sonora</h3><p>Se mezclan relato, memoria, cuernos, prestigio y tradición. Goicolea aporta cinco vozinas en el ciclo de Jaun Zuria, pero no la lista de cinco montes modernos.</p></article>
-<article class="v21d-chain-card" id="v40-llorente-chain"><span class="v21d-pill ok">1807</span><h3>Llorente: cinco bocinas verificadas</h3><p>El Tomo II confirma junta general llamada por medio de las cinco bocinas. No enumera los cinco montes modernos.</p></article>
-<article class="v21d-chain-card"><span class="v21d-pill pending">1847</span><h3>Madoz como puente</h3><p>Aparecen cinco heraldos en “alturas”, todavía sin nombres concretos de montes.</p></article>
-<article class="v21d-chain-card"><span class="v21d-pill pending">1862</span><h3>Trueba formula cinco montes genéricos</h3><p><em>Cuentos populares</em> habla de cinco vocinas en cinco montes euskaros, sin nombres.</p></article><article class="v21d-chain-card"><span class="v21d-pill pending">1872</span><h3>Trueba fija la lista localizada</h3><p>La lista Gorbea, Oiz, Sollube, Ganecogorta y Colisa aparece formulada con cautela.</p></article>
+<main id="contenido">
+<section class="hh-hero" aria-label="Introducción">
+<div class="hh-wrap">
+<span class="hh-eyebrow">Investigación · fuentes · cautela documental</span>
+<div class="hh-waves" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+<h1>Cinco bocinas, cinco montes… <em>¿y un malentendido de siglos?</em></h1>
+<p class="hh-lead">Bienvenido a una pequeña investigación histórica. La tradición dice que cinco montes de Bizkaia se pasaban el aviso a golpe de bocina para convocar a las Juntas de Gernika. ¿Verdad? ¿Leyenda? Vamos a separar lo probado de lo bonito sin estropear la historia.</p>
+<div class="hh-cta">
+<a class="hh-btn hh-btn--primary" href="#el-misterio">Empezar la investigación</a>
+<a class="hh-btn" href="montes.html">Ver los cinco montes</a>
 </div>
-<div class="v21d-actions"><a class="btn btn-primary" href="veredicto.html#prueba-fuente-por-fuente">Ver pruebas documentales</a><a class="btn" href="biblioteca.html#tabla-maestra-fuentes">Abrir tabla maestra</a></div>
-</section><section class="section timeline-interactive-section historia-timeline-embedded" data-timeline-interactive="" id="linea-tiempo-certezas">
+<div class="hh-tldr geo-tldr" aria-label="Resumen citable de la historia documental">
+<span class="hh-kick">Resumen citable · para quien tiene prisa</span>
+<p><strong>La cadena documental</strong> muestra bocinas/vozinas y llamamientos en el marco foral vizcaíno antes del siglo XIX, pero no una lista cerrada de cinco cumbres concretas. La transición hacia los montes nombrados se localiza en la recepción moderna, con Trueba 1872 como primer punto firme para la lista completa.</p>
+</div>
+<div class="hh-truths">
+<div class="hh-truth ok"><strong>✓ Lo documentado</strong><span>Cinco vozinas, vozineros y sayones aparecen en el contexto foral de Gernika y las merindades.</span></div>
+<div class="hh-truth mid"><strong>◐ Lo plausible</strong><span>El uso simbólico y ritual de las bocinas como aviso encaja con la cultura de la época.</span></div>
+<div class="hh-truth no"><strong>✗ Lo no probado</strong><span>Que Gorbea, Oiz, Sollube, Ganecogorta y Colisa fueran ya una lista medieval cerrada.</span></div>
+</div>
+</div>
+</section>
+
+<section class="hh-section" id="el-misterio">
+<span class="hh-hook">Empieza aquí</span>
+<h2 class="hh-h2">El misterio en una frase</h2>
+<p class="hh-p">La tradición de los montes bocineros mezcla una base documental real con una construcción simbólica posterior. Nuestro objetivo es separar ambas cosas <strong>sin destruir el valor cultural de la tradición</strong>. La gran pregunta:</p>
+<div class="hh-quest">
+<p class="big">Que existan <em>cinco bocinas</em> documentadas… ¿demuestra que existiera una red medieval de <em>cinco cumbres</em> concretas?</p>
+<p class="hh-p" style="margin-bottom:0">Respuesta corta: no automáticamente. Las fuentes y estudios revisados sitúan referencias a bocinas/vozinas y a vozineros en la tradición foral. El número «cinco» aparece en testimonios transmitidos y en capas posteriores, pero cinco bocinas no equivalen a cinco montes medievales concretos. Lo que <strong>no</strong> aparece en las fuentes medievales revisadas es la lista cerrada de Gorbea, Oiz, Sollube, Ganecogorta y Colisa/Kolitza.</p>
+</div>
+<p class="v254-inline-help" style="margin-top:1rem"><strong>Diccionario exprés:</strong> «fuente» = documento antiguo conservado · «facsímil» = imagen o copia digital del original · «fuero» = norma histórica propia de un territorio.</p>
+</section>
+
+<section class="hh-section" id="capas">
+<span class="hh-hook">Cómo se construyó la historia</span>
+<h2 class="hh-h2">De las merindades a los montes: la historia por capas</h2>
+<p class="hh-p">La línea documental más fuerte no apunta primero a una red medieval de cinco cumbres, sino a una fórmula institucional: <strong>cinco bocinas</strong>, <strong>Gernika/Garnica</strong>, <strong>Junta General</strong>, <strong>cinco merindades</strong> y oficios como <strong>vozineros/bocineros</strong> y <strong>sayones</strong>. La lista de montes llega después, como quien añade decorado a un escenario que ya existía.</p>
+<div class="hh-layers">
+<div class="hh-layer l1"><div class="n">1</div><div><h4>Capa antigua</h4><p>Bocinas, merindades, Gernika y convocatoria de Junta.</p></div></div>
+<div class="hh-layer l2"><div class="n">2</div><div><h4>Capa intermedia</h4><p>Llorente y Madoz transmiten o reinterpretan la fórmula en clave erudita.</p></div></div>
+<div class="hh-layer l3"><div class="n">3</div><div><h4>Capa literaria</h4><p>Trueba desplaza la tradición hacia un paisaje simbólico de montes.</p></div></div>
+<div class="hh-layer l4"><div class="n">4</div><div><h4>Capa fijada</h4><p>La lista Gorbeia, Oiz, Sollube, Ganekogorta y Kolitza/Colisa se consolida tarde.</p></div></div>
+</div>
+<p class="hh-caution"><strong>⚠ Cautela:</strong> cinco bocinas no equivale automáticamente a cinco montes. La lista nominal moderna no queda probada como medieval por las fuentes revisadas.</p>
+</section>
+
+<section class="hh-section" id="tres-pistas">
+<span class="hh-hook">Tres pistas clave</span>
+<h2 class="hh-h2">Lo que dicen (y lo que callan) los documentos</h2>
+<div class="hh-pistas">
+<article class="hh-pista ok"><span class="hh-badge ok">1 · Documentado</span><h3>Cinco vozinas</h3><p>El texto transmitido del Capitulado de Juan Núñez de Lara habla de cinco vozinas en contexto de Junta General en Gernika… pero no da la lista de montes.</p><p class="micro"><strong>Ojo:</strong> a veces se cita erróneamente como «Juan Núñez de Balboa». Aquí mantenemos «Juan Núñez de Lara», señor de Vizcaya.</p><a class="hh-inline" href="veredicto.html#prueba-fuente-por-fuente">Ver prueba visible →</a></article>
+<article class="hh-pista ok"><span class="hh-badge ok">2 · Probado</span><h3>Había vozineros</h3><p>El Fuero Viejo, conservado en copia de 1600, menciona vozineros y sayones. Confirma una figura institucional de llamamiento o servicio foral.</p><a class="hh-inline" href="biblioteca.html">Ver recortes →</a></article>
+<article class="hh-pista late"><span class="hh-badge warn">3 · Posterior</span><h3>Los montes llegan tarde</h3><p>Trueba habla en 1862 de cinco vocinas/cinco montes genéricos, y en 1872 aparece la lista Gorbea, Oiz, Sollube, Ganecogorta y Colisa con una fórmula cautelosa.</p><a class="hh-inline" href="veredicto.html">Leer conclusión →</a></article>
+</div>
+</section>
+
+<section class="hh-quiz" aria-label="Pon a prueba tu instinto detective">
+<div class="hh-quiz-card">
+<span class="hh-hook" style="color:var(--hh-gold-soft)">Pon a prueba tu instinto</span>
+<h3>¿Documentado o recepción posterior?</h3>
+<p class="q">¿En qué año aparece por primera vez, ya localizada, la lista completa de los cinco montes con nombres (Gorbea, Oiz, Sollube, Ganecogorta y Colisa)?</p>
+<div class="hh-quiz-opts">
+<button class="hh-opt" data-correct="0" type="button">Siglo XIV (Edad Media)</button>
+<button class="hh-opt" data-correct="0" type="button">1807, con Llorente</button>
+<button class="hh-opt" data-correct="1" type="button">1872, con Trueba</button>
+</div>
+<p class="hh-quiz-feedback" data-feedback aria-live="polite"></p>
+</div>
+</section>
+
+<section class="hh-section" id="cadena-documental-resumida">
+<span class="hh-hook">La ruta de la evidencia</span>
+<h2 class="hh-h2">De las bocinas al relato de los montes</h2>
+<p class="hh-p">La explicación más prudente no salta directamente de la Edad Media a los cinco montes actuales. Pasa por una cadena de transmisión que conviene leer por capas. Explórala abajo en la <strong>línea de tiempo interactiva</strong>, o abre el resumen rápido:</p>
+<details class="hh-det">
+<summary>Resumen de la cadena, eslabón a eslabón</summary>
+<div class="hh-det-body">
+<p><strong>1321–1454 · Rito institucional.</strong> Bocinas, vozinas, vozineros y sayones aparecen en contexto de Juntas, merindades y Gernika. El rango procede del corpus trabajado por Barrio/Bañales; no debe leerse como una única fuente homogénea.</p>
+<p><strong>Lope / Goicolea / Ibargüen · Leyenda y cultura sonora.</strong> Se mezclan relato, memoria, cuernos, prestigio y tradición. Goicolea aporta cinco vozinas en el ciclo de Jaun Zuria, pero no la lista de cinco montes modernos.</p>
+<p><strong>1807 · Llorente: cinco bocinas verificadas.</strong> El Tomo II confirma junta general llamada por medio de las cinco bocinas. No enumera los cinco montes modernos.</p>
+<p><strong>1847 · Madoz como puente.</strong> Aparecen cinco heraldos en «alturas», todavía sin nombres concretos de montes.</p>
+<p><strong>1862 · Trueba formula cinco montes genéricos.</strong> <em>Cuentos populares</em> habla de cinco vocinas en cinco montes euskaros, sin nombres.</p>
+<p><strong>1872 · Trueba fija la lista localizada.</strong> La lista Gorbea, Oiz, Sollube, Ganecogorta y Colisa aparece formulada con cautela.</p>
+<p class="hh-actions"><a class="hh-btn hh-btn--primary" href="veredicto.html#prueba-fuente-por-fuente">Ver pruebas documentales</a> <a class="hh-btn" href="biblioteca.html#tabla-maestra-fuentes" style="background:rgba(19,63,53,.08);color:var(--hh-green);border-color:rgba(19,63,53,.2)">Abrir tabla maestra</a></p>
+</div>
+</details>
+</section>
+<section class="section timeline-interactive-section historia-timeline-embedded" data-timeline-interactive="" id="linea-tiempo-certezas">
 <div class="timeline-interactive-panel">
 <div class="timeline-interactive-head">
 <span class="eyebrow">Cronología interactiva integrada</span>
@@ -435,47 +578,93 @@
 </div>
 <p class="v13-actions historia-timeline-actions"><a class="btn" href="cronologia.html">Abrir cronología completa</a></p></div>
 </section>
-<section class="v13-panel v21d-audit-box" id="goicolea-cinco-vozinas"><span class="v13-hook">Pieza parcial revisada</span><h2>Goicolea: indicio parcial, no lista de montes</h2><p>La obra atribuida a Tomás de Goicolea aparece hoy bajo títulos como <em>Memoria y nómina de los primeros señores de Vizcaia...</em>, no como una <em>Crónica de Vizcaya</em> con título estable. Su interés para esta web está en la fórmula de las <strong>cinco vozinas</strong> dentro del relato de Jaun Zuria y Arrigorriaga.</p><p><strong>Límite documental:</strong> en la parte revisada no se nombran Gorbeia, Oiz, Sollube, Kolitza/Colisa ni Ganekogorta. Por tanto, Goicolea refuerza la cadena de las bocinas, pero no confirma una lista canónica de cinco montes. Falta revisión integral del facsímil y de los folios pendientes.</p><p class="v13-actions"><a class="btn" href="biblioteca.html#cadena-trueba">Ver ficha Goicolea</a><a class="btn btn-ghost" href="personajes.html#tomas-goicolea">Ver personaje</a></p></section>
-<section class="v13-panel v21d-audit-box" id="iturriza-1884"><span class="v13-hook">Pista revisada con cautela</span><h2>Iturriza no desplaza a Trueba en las ediciones revisadas</h2><p>La revisión de <em>Historia General de Vizcaya</em> confirma que Iturriza conoce el lenguaje institucional de las bocinas y muchos montes vizcaínos, pero en las ediciones impresas consultadas no une esas piezas en la lista moderna de Gorbea, Oiz, Sollube, Colisa/Kolitza y Ganekogorta.</p><p><strong>Resultado concreto:</strong> la pista de la edición de 1884, tomo I, p. 158, no se confirma: esa página trata de Mendexa. La edición de Bilbao de 1885 tampoco ofrece la lista moderna en la revisión realizada y, además, fue ampliada por Manuel de Azcárraga y Régil. Queda pendiente solo el contraste de manuscritos autógrafos si se localizan.</p><p class="v13-actions"><a class="btn" href="estado-investigacion.html#iturriza-estado">Leer informe Iturriza</a><a class="btn btn-ghost" href="biblioteca.html#tabla-maestra-fuentes">Ver tabla maestra</a></p></section>
-<section class="v13-panel">
-<h2>El malentendido habitual</h2>
-<blockquote>Que existan cinco bocinas documentadas no demuestra automáticamente que existiera una red medieval de cinco cumbres concretas.</blockquote>
-<p>La investigación no niega la tradición. Lo que hace es ordenar los niveles de certeza: documento antiguo, relato foral, literatura decimonónica, recepción cultural y paisaje actual.</p>
+<section class="hh-section" id="piezas-revisadas">
+<span class="hh-hook">Dos pistas que suenan… pero no cierran</span>
+<h2 class="hh-h2">Fuentes muy citadas que hay que leer con lupa</h2>
+<p class="hh-p">Dos nombres aparecen una y otra vez cuando se defiende el origen medieval de la lista. Al revisarlos de cerca, aportan contexto valioso pero <strong>no</strong> confirman los cinco montes. Ábrelos si quieres el detalle:</p>
+<details class="hh-det" id="goicolea-cinco-vozinas">
+<summary>Goicolea: indicio parcial, no lista de montes</summary>
+<div class="hh-det-body">
+<p>La obra atribuida a Tomás de Goicolea aparece hoy bajo títulos como <em>Memoria y nómina de los primeros señores de Vizcaia…</em>, no como una <em>Crónica de Vizcaya</em> con título estable. Su interés está en la fórmula de las <strong>cinco vozinas</strong> dentro del relato de Jaun Zuria y Arrigorriaga.</p>
+<p><span class="hh-badge warn">Límite</span> En la parte revisada no se nombran Gorbeia, Oiz, Sollube, Kolitza/Colisa ni Ganekogorta. Goicolea refuerza la cadena de las bocinas, pero no confirma una lista canónica de cinco montes. Falta revisión integral del facsímil y de los folios pendientes.</p>
+<p class="hh-actions"><a class="hh-inline" href="biblioteca.html#cadena-trueba">Ver ficha Goicolea →</a> <a class="hh-inline" href="personajes.html#tomas-goicolea">Ver personaje →</a></p>
+</div>
+</details>
+<details class="hh-det" id="iturriza-1884">
+<summary>Iturriza: no desplaza a Trueba en las ediciones revisadas</summary>
+<div class="hh-det-body">
+<p>La revisión de <em>Historia General de Vizcaya</em> confirma que Iturriza conoce el lenguaje institucional de las bocinas y muchos montes vizcaínos, pero en las ediciones impresas consultadas no une esas piezas en la lista moderna de Gorbea, Oiz, Sollube, Colisa/Kolitza y Ganekogorta.</p>
+<p><span class="hh-badge warn">Resultado</span> La pista de la edición de 1884, tomo I, p. 158, no se confirma: esa página trata de Mendexa. La edición de Bilbao de 1885 tampoco ofrece la lista moderna en la revisión realizada y, además, fue ampliada por Manuel de Azcárraga y Régil. Queda pendiente solo el contraste de manuscritos autógrafos si se localizan.</p>
+<p class="hh-actions"><a class="hh-inline" href="estado-investigacion.html#iturriza-estado">Leer informe Iturriza →</a> <a class="hh-inline" href="biblioteca.html#tabla-maestra-fuentes">Ver tabla maestra →</a></p>
+</div>
+</details>
 </section>
-<section class="v13-panel">
-<h2>Los cuatro niveles de lectura</h2>
-<div class="v13-mystery">
-<article class="v13-step"><span class="v13-label ok">Documentado</span><p>Cinco vozinas y vozineros en contexto foral.</p></article>
-<article class="v13-step"><span class="v13-label pending">Plausible</span><p>Uso simbólico, territorial y ritual de las bocinas.</p></article>
-<article class="v13-step"><span class="v13-label late">Recepción</span><p>Los cinco montes se consolidan en literatura y memoria posterior.</p></article>
-<article class="v13-step"><span class="v13-label no">No afirmable</span><p>Lista medieval cerrada de Gorbea, Oiz, Sollube, Ganecogorta y Colisa.</p></article>
+
+<section class="hh-section" id="el-malentendido">
+<span class="hh-hook">El malentendido habitual</span>
+<h2 class="hh-h2">Una frase para recordarlo todo</h2>
+<blockquote class="hh-quote">Que existan cinco bocinas documentadas no demuestra automáticamente que existiera una red medieval de cinco cumbres concretas.</blockquote>
+<p class="hh-p">La investigación no niega la tradición. Lo que hace es ordenar los niveles de certeza: documento antiguo, relato foral, literatura decimonónica, recepción cultural y paisaje actual.</p>
+</section>
+
+<section class="hh-section" id="cuatro-niveles">
+<span class="hh-hook">El semáforo de la certeza</span>
+<h2 class="hh-h2">Los cuatro niveles de lectura</h2>
+<div class="hh-levels">
+<div class="hh-level ok"><span class="hh-badge ok">Documentado</span><p>Cinco vozinas y vozineros en contexto foral.</p></div>
+<div class="hh-level mid"><span class="hh-badge warn">Plausible</span><p>Uso simbólico, territorial y ritual de las bocinas.</p></div>
+<div class="hh-level late"><span class="hh-badge" style="background:rgba(41,73,111,.12);color:#29496f">Recepción</span><p>Los cinco montes se consolidan en literatura y memoria posterior.</p></div>
+<div class="hh-level no"><span class="hh-badge" style="background:rgba(143,62,47,.13);color:#8f3e2f">No afirmable</span><p>Lista medieval cerrada de Gorbea, Oiz, Sollube, Ganecogorta y Colisa.</p></div>
 </div>
 </section>
-<section class="v13-panel next-step-box"><h2>Siguiente paso</h2><p>Ahora mira cuáles son los cinco montes tradicionales.</p><p class="v13-actions"><a class="btn btn-primary" href="montes.html">Ver los cinco montes</a></p></section>
-<section class="v13-section"><div class="v13-panel v13-note-panel"><p class="kicker">Antes de seguir</p><h2>Los nombres importan</h2><p>Juan Núñez de Lara, Madoz, Trueba o Delmas no cumplen la misma función: unos transmiten documentos, otros interpretan o popularizan la tradición.</p><a class="btn" href="personajes.html">Ver quién es quién</a></div></section>
-<section class="v13-section v190-deeper-links"><div class="universal-box compact"><span class="v13-hook">Para profundizar</span><p>Solo si quieres comprobar más: fuentes y archivo documental.</p><p class="v13-actions"><a class="btn" href="biblioteca.html">Ver fuentes</a><a class="btn" href="biblioteca.html#archivo-tecnico">Archivo documental</a></p></div></section><section class="v13-section v21-historia-barrio"><div class="v13-technical-note"><strong>Actualización V2.1:</strong> el estudio de Barrio Marro y Bañales García se incorpora como apoyo historiográfico central. Refuerza que el rito documentado de cinco bocinas pertenece al contexto de Gernika y que la lista de cinco montes se fija mucho más tarde. <a href="biblioteca.html#barrio-banales">Ver ficha crítica</a>.</div></section>
-<!-- V4_6B_1_TRUEBA_1872_PDF_START -->
-<section class="v46b1-pdf-box" aria-labelledby="v46b1-title">
-  <span class="v46b1-kicker">V4.6B.1 · registro del PDF facsimil</span>
-  <h2 id="v46b1-title">Trueba 1872: facsimil primario registrado</h2>
-  <p><span class="v46b1-status">PDF localizado y paginado</span></p>
-  <p>El facsimil primario de <strong>Antonio de Trueba, <em>Resumen descriptivo e historico del M.N. y M.L. Señorío de Vizcaya</em></strong>, Bilbao, Juan E. Delmas, 1872, queda registrado como evidencia interna de la fase V4.6B.</p>
-  <blockquote class="v46b1-quote">“tañeron las bocinas de guerra en los cinco montes mas altos de Vizcaya, que se cree fuesen Gorbea, Oiz, Sollube, Ganecogorta y Colisa”</blockquote>
-  <div class="v46b1-grid">
-    <div class="v46b1-card"><strong>Archivo</strong><span><code>991004848149703351.pdf</code></span></div>
-    <div class="v46b1-card"><strong>Portada interior</strong><span>Pagina 2 del PDF: titulo, autor, Bilbao y año 1872.</span></div>
-    <div class="v46b1-card"><strong>Fragmento clave</strong><span>Pagina 7 del PDF / pagina impresa 13.</span></div>
-    <div class="v46b1-card"><strong>Estado</strong><span>Trueba 1872 queda como primer punto firme localizado para la lista nominal completa.</span></div>
-  </div>
-  <p class="v46b1-caution"><strong>Matiz:</strong> la formula “se cree fuesen” confirma una identificacion documentada en 1872, pero mantiene la cautela sobre su antiguedad.</p>
-  <div class="v46b1-links">
-    <a href="trueba-facsimil.html#trueba-1872-recotejo-v416a">Ficha PDF</a>
-    <a href="trueba-facsimil.html#trueba-1872-recotejo-v416a">Paginacion</a>
-    <a href="trueba-facsimil.html#trueba-1872-recotejo-v416a">Informe V4.6B.1</a>
-  </div>
+
+<details class="hh-det" id="trueba-1872-pdf">
+<summary>Pieza estrella: el facsímil de Trueba (1872) registrado</summary>
+<div class="hh-det-body">
+<p><span class="hh-badge ok">PDF localizado y paginado</span></p>
+<p>El facsímil primario de <strong>Antonio de Trueba, <em>Resumen descriptivo e historico del M.N. y M.L. Señorío de Vizcaya</em></strong>, Bilbao, Juan E. Delmas, 1872, queda registrado como evidencia interna. Es el <strong>primer punto firme localizado</strong> para la lista nominal completa.</p>
+<blockquote class="hh-quote">«tañeron las bocinas de guerra en los cinco montes mas altos de Vizcaya, que se cree fuesen Gorbea, Oiz, Sollube, Ganecogorta y Colisa»</blockquote>
+<p><strong>Archivo:</strong> <code>991004848149703351.pdf</code> · <strong>Portada interior:</strong> página 2 del PDF · <strong>Fragmento clave:</strong> página 7 del PDF / página impresa 13.</p>
+<p><span class="hh-badge warn">Matiz</span> La fórmula «se cree fuesen» confirma una identificación documentada en 1872, pero mantiene la cautela sobre su antigüedad.</p>
+<p class="hh-actions"><a class="hh-inline" href="trueba-facsimil.html#trueba-1872-recotejo-v416a">Ficha PDF →</a> <a class="hh-inline" href="trueba-facsimil.html#trueba-1872-recotejo-v416a">Paginación →</a> <a class="hh-inline" href="trueba-facsimil.html#trueba-1872-recotejo-v416a">Informe V4.6B.1 →</a></p>
+</div>
+</details>
+
+<section class="hh-section" id="siguiente-paso">
+<div class="hh-next">
+<span class="hh-hook" style="color:var(--hh-gold-soft)">Siguiente paso</span>
+<h2 class="hh-h2" style="color:#fff">Ahora conoce a los protagonistas… y los montes</h2>
+<p style="color:#d8e2da;max-width:60ch">Ya tienes el mapa mental. Da igual por dónde sigas: mira las cinco cumbres o descubre quién es quién. Juan Núñez de Lara, Madoz, Trueba o Delmas no hacen lo mismo: unos transmiten documentos, otros interpretan o popularizan la tradición.</p>
+<div class="hh-cta">
+<a class="hh-btn hh-btn--primary" href="montes.html">Ver los cinco montes</a>
+<a class="hh-btn" href="personajes.html">Ver quién es quién</a>
+</div>
+</div>
 </section>
-<!-- V4_6B_1_TRUEBA_1872_PDF_END -->
+
+<section class="hh-section" id="profundizar">
+<span class="hh-hook">Para profundizar</span>
+<h2 class="hh-h2">¿Quieres comprobarlo tú mismo?</h2>
+<p class="hh-p">Solo si quieres ir más lejos: fuentes, facsímiles y archivo documental completo.</p>
+<p class="hh-actions"><a class="hh-inline" href="biblioteca.html">Ver fuentes →</a> <a class="hh-inline" href="biblioteca.html#archivo-tecnico">Archivo documental →</a></p>
+<p class="hh-note"><strong>Nota (V2.1):</strong> el estudio de Barrio Marro y Bañales García se incorpora como apoyo historiográfico central. Refuerza que el rito documentado de cinco bocinas pertenece al contexto de Gernika y que la lista de cinco montes se fija mucho más tarde. <a class="hh-inline" href="biblioteca.html#barrio-banales">Ver ficha crítica →</a></p>
+</section>
 </main>
+<script>
+(function(){
+  document.querySelectorAll('.hh-quiz-card').forEach(function(card){
+    var fb=card.querySelector('[data-feedback]');
+    card.querySelectorAll('.hh-opt').forEach(function(btn){
+      btn.addEventListener('click',function(){
+        var ok=btn.getAttribute('data-correct')==='1';
+        card.querySelectorAll('.hh-opt').forEach(function(b){b.classList.remove('right','wrong');});
+        btn.classList.add(ok?'right':'wrong');
+        if(fb){fb.textContent=ok?'¡Exacto! 1872 es el primer punto firme localizado para la lista completa con nombres. Antes hay bocinas documentadas y montes «genéricos», pero no esta lista.':'Casi. Antes de 1872 hay bocinas documentadas y montes «genéricos», pero la lista completa con nombres no aparece localizada hasta Trueba, 1872.';}
+      });
+    });
+  });
+})();
+</script>
 <script defer src="assets/glosario-tooltips.js?v=1.0.0"></script>
 <script defer src="assets/progreso-lectura.js?v=1.0.0"></script>
 
