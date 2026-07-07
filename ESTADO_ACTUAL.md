@@ -1,4 +1,4 @@
-﻿# V4.18A â€” Dominio propio y Search Console (2026-07-06)
+# V4.18A â€” Dominio propio y Search Console (2026-07-06)
 
 El proyecto pasa a utilizar como dominio canÃ³nico pÃºblico `https://montesbocineros.eus/`. Se actualizan `CNAME`, `robots.txt`, `sitemap.xml`, `llms.txt`, canonical, Open Graph, Twitter Card y JSON-LD para que la URL pÃºblica principal deje de ser `https://ikeritu.github.io/montes-bocineros/` y pase al dominio propio.
 
@@ -223,3 +223,4 @@ Se ejecuta una fase de saneamiento tÃ©cnico derivada del informe de auditorÃ�
 
 <!-- QA: Cierre publico estable -->
 
+<!-- QA V4.17.2: Goicolea facsímil localizado -->
