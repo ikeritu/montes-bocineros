@@ -220,3 +220,5 @@ Se ejecuta una fase de saneamiento técnico derivada del informe de auditoría w
 - Se sustituyen enlaces públicos a notas internas por páginas HTML públicas.
 - La tesis histórica no cambia: Delmas e Iturriza no adelantan la lista nominal completa y Trueba 1872 sigue como primer punto firme verificado.
 
+
+<!-- QA: cierre publico estable -->

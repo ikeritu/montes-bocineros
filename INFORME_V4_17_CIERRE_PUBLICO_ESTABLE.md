@@ -27,3 +27,5 @@ La tesis queda fijada en forma estable:
 ## Estado
 
 Listo para commit, push y tag estable `v4.17_cierre_publico_estable`.
+
+<!-- QA: Cierre publico -->

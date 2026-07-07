@@ -60,3 +60,5 @@ Lista localizada: **Gorbea, Oiz, Sollube, Ganecogorta y Colisa**.
 - Dominio propio `montesbocineros.eus` configurado como URL canónica.
 - Search Console queda preparado para verificar propiedad y enviar sitemap.
 - Cierre público estable mantenido tras V4.17.2.
+
+<!-- QA: Cierre publico -->
