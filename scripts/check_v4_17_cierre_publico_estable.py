@@ -1,19 +1,19 @@
-from pathlib import Path
+﻿from pathlib import Path
 import sys
 ROOT = Path(__file__).resolve().parents[1]
 REQUIRED = {
-    'README.md': ['V4.17', 'Cierre público'],
+    'README.md': ['V4.17', 'Cierre pÃºblico'],
     'VERSION.txt': ['V4.17'],
     'CHANGELOG.txt': ['V4.17'],
-    'ESTADO_ACTUAL.md': ['V4.17', 'cierre público estable'],
+    'ESTADO_ACTUAL.md': ['V4.17', 'cierre pÃºblico estable'],
     'ROADMAP.md': ['V4.17', '100%'],
     'llms.txt': ['Estado V4.17', 'Trueba'],
     'index.html': ['estado-estable-v417', 'assets/v417-cierre-publico.css'],
     'biblioteca.html': ['cierre-publico-v417', 'assets/v417-cierre-publico.css'],
     'estado-investigacion.html': ['cierre-publico-v417-title', 'assets/v417-cierre-publico.css'],
-    'veredicto.html': ['V4.17', 'assets/v417-cierre-publico.css'],
+    'veredicto.html': ['cierre-publico-v417', 'assets/v417-cierre-publico.css'],
     'assets/v417-cierre-publico.css': ['V4.17'],
-    'INFORME_V4_17_CIERRE_PUBLICO_ESTABLE.md': ['Cierre público'],
+    'INFORME_V4_17_CIERRE_PUBLICO_ESTABLE.md': ['Cierre pÃºblico'],
     'QA_V4_17_CIERRE_PUBLICO_ESTABLE.md': ['PASS'],
     'QA_V4_17_CIERRE_PUBLICO_ESTABLE_REPORT.md': ['V4.17'],
     'ROADMAP_V4_17_CIERRE_PUBLICO_ESTABLE.md': ['100%'],
@@ -32,4 +32,5 @@ if errors:
     print('V4.17 CHECK FAIL')
     for e in errors: print('-', e)
     sys.exit(1)
-print('V4.17 CHECK PASS — cierre público estable preparado.')
+print('V4.17 CHECK PASS â€” cierre pÃºblico estable preparado.')
+
