@@ -62,3 +62,9 @@ Lista localizada: **Gorbea, Oiz, Sollube, Ganecogorta y Colisa**.
 - Cierre público estable mantenido tras V4.17.2.
 
 <!-- QA: Cierre publico -->
+
+## Recepción contemporánea
+
+- Se incorporan fuentes modernas de contraste —DEIA, Harresi, Alberto Santana y Javier Barrio/Cadena SER— como apoyo secundario para explicar la vigencia cultural de la tradición y la lectura crítica actual.
+- No se usan como prueba primaria anterior a 1872.
+- No sustituyen a los facsímiles primarios ni desplazan a Trueba 1872 como primer punto firme localizado para la lista nominal completa.
